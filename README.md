@@ -1,5 +1,5 @@
-3270font: A font for the nostalgic in us
-========================================
+3270font: A font for the nostalgic
+==================================
 
 A little bit of history
 -----------------------
