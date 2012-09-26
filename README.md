@@ -11,7 +11,7 @@ The format
 
 This font was built with FontForge. You'll need it if you want to generate fonts for your platform. On most civilized operating systems, you can simply `apt-get install fontforge`, `yum install fontforge` or even `port install fontforge`. On others, you may need to grab your copy from http://fontforge.org/. I encourage you to drop by and read the tutorials.
 
-An .otf version is in the repository for those who would just like to use it.
+An .otf version is in the downloads section of the repo for those who would just like to use it.
 
 Contributing
 ------------
