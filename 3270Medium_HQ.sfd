@@ -14,14 +14,13 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 10090958]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1348692354
+ModificationTime: 1348695257
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +49,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65366 29 11
+WinInfo: 0 29 11
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65657 682
@@ -11156,8 +11155,8 @@ StartChar: commhi
 Encoding: 65588 -1 241
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 292.667 59.333<0 549.333>
+Flags: W
+HStem: 292.667 59.333<0 536>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -11171,6 +11170,7 @@ SplineSet
  0 292.667 l 1
  0 352 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: commjag
@@ -12789,9 +12789,9 @@ StartChar: dec_intersect
 Encoding: 65640 -1 295
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 293 61<0 244 305 549>
-VStem: 244 61<-195 293 354 781>
+Flags: W
+HStem: 293 61<0 244 305 536.002>
+VStem: 244 61<-199.998 293 354 799.999>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -12814,6 +12814,7 @@ SplineSet
  244 354 l 1
  244 799.999 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: dec_hbar1
@@ -12864,8 +12865,8 @@ StartChar: dec_hbar3
 Encoding: 65643 -1 298
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 293 61<0 549>
+Flags: W
+HStem: 293 61<0 535.995>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -12879,6 +12880,7 @@ SplineSet
  0 293 l 1
  0 354 l 1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: dec_hbar4
