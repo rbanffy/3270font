@@ -11,12 +11,17 @@ The format
 
 This font was built with FontForge. You'll need it if you want to generate fonts for your platform. On most civilized operating systems, you can simply `apt-get install fontforge`, `yum install fontforge` or even `port install fontforge`. On others, you may need to grab your copy from http://fontforge.org/. I encourage you to drop by and read the tutorials.
 
-TTF and OTF versions are in the downloads section of the repo for those who would just like to use it.
+TTF and OTF versions are in the downloads section of the repo for those who would just like to use them.
+
+Generating derived files
+---------------------
+
+The script `generate_derived.pe` calls FontForge and generates OTF and TTF versions of the base font, as well as a slightly more condensed .sfd file with the base font narrowed to 488 units, with no glyph rescaling and its corresponding TTF and OTF versions.
 
 Contributing
 ------------
 
-I don't think GitHub's pull-request mechanism is FontForge-friendly. If you want to contribute (there are a lot of missing glyphs, such as the APL set and most non-latin alphabets which most likely never built into 3270 terminals), get in touch and we may figure out how to do it correctly.
+I don't think GitHub's pull-request mechanism is FontForge-friendly. If you want to contribute (there are a lot of missing glyphs, such as the APL set and most non-latin alphabets which most likely never built into 3270 terminals), get in touch and we will figure out how to do it right.
 
 Preserving history
 ------------------

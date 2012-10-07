@@ -1,0 +1,10 @@
+#!/usr/bin/env fontforge
+Open("3270Medium_HQ.sfd")
+Generate("3270Medium.otf")
+Generate("3270Medium.ttf")
+SelectAll()
+SetWidth(488)
+SetFontNames("3270Narrow", "IBM 3270 Narrow", "3270 Narrow")
+Generate("3270Narrow.otf")
+Generate("3270Narrow.ttf")
+Save("3270Medium_HQ_Narrow.sfd")
