@@ -13,12 +13,12 @@ The format
 
 This font was built with FontForge. You'll need it if you want to generate fonts for your platform. On most civilized operating systems, you can simply `apt-get install fontforge`, `yum install fontforge` or even `port install fontforge`. On others, you may need to grab your copy from http://fontforge.org/. I encourage you to drop by and read the tutorials.
 
-TTF and OTF versions are in the downloads section of the repo for those who would just like to use them.
+Adobe Type 1, TTF and OTF versions are in the downloads section of the repo for those who would just like to use them.
 
 Generating derived files
 ---------------------
 
-The script `generate_derived.pe` calls FontForge and generates OTF and TTF versions of the base font, as well as a slightly more condensed .sfd file with the base font narrowed to 488 units, with no glyph rescaling and its corresponding TTF and OTF versions.
+The script `generate_derived.pe` calls FontForge and generates PostScript, OTF and TTF versions of the base font, as well as a slightly more condensed .sfd file with the base font narrowed to 488 units, with no glyph rescaling and its corresponding PostScript TTF and OTF versions.
 
 Contributing
 ------------
