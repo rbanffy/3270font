@@ -9,4 +9,4 @@ install: 3270Narrow.otf 3270Medium.otf
 	cp 3270Narrow.otf 3270Medium.otf ~/.fonts
 
 clean:
-	rm *.otf *.ttf
+	rm *.otf *.ttf *.afm *.pfm
