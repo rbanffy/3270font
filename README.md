@@ -29,3 +29,8 @@ Preserving history
 ------------------
 
 I regard the history of electronic computing a very important part of our civilization's history. Consider donating to entities that help preserve it, such as the Computer History Museum (http://www.computerhistory.org/), the IT History Society (http://ithistory.org/) and many others around the world. If you have a historically significant piece of technology in your closet or garage, consider contacting a local technology or industrial-design-oriented museum for advice.
+
+Known problems
+--------------
+
+I have received errors when installing the OTF, TTF, and PFM fonts on Windows 7 and 8 (didn't try others).
