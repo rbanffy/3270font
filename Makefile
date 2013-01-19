@@ -5,7 +5,7 @@ SHELL = /bin/sh
 all: 3270Medium_HQ.sfd
 	./generate_derived.pe
 
-install: 3270Narrow.otf 3270Medium.otf
+install: all
 	cp 3270Narrow.otf 3270Medium.otf ~/.fonts
 
 clean:
