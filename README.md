@@ -13,7 +13,7 @@ The format
 
 This font was built with FontForge. You'll need it if you want to generate fonts for your platform. On most civilized operating systems, you can simply `apt-get install fontforge`, `yum install fontforge` or even `port install fontforge`. On others, you may need to grab your copy from http://fontforge.org/. I encourage you to drop by and read the tutorials.
 
-Adobe Type 1, TTF and OTF versions are in the downloads section of the repo for those who would just like to use them.
+Adobe Type 1, TTF and OTF versions are available for download on http://s3.amazonaws.com/rbanffy/3270_fonts.zip for those who would just like to use them.
 
 Generating derived files
 ---------------------
