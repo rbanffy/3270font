@@ -9,4 +9,4 @@ install: all
 	cp 3270Narrow.otf 3270Medium.otf ~/.fonts
 
 clean:
-	rm *.otf *.ttf *.afm *.pfm 3270Medium_HQ_Narrow.sfd
+	@find . -iname '*.otf' -delete -o -iname '*.ttf' -delete -o -iname '*.afm' -delete -o -iname '*.pfm' -delete -o -iname '*.woff' -delete
