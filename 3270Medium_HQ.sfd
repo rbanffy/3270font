@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1358611733
+ModificationTime: 1358690928
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -13492,32 +13492,80 @@ StartChar: uniFFE9
 Encoding: 655 65513 659
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
+HStem: 293 61<230 535> 456 20G<206.34 230>
 LayerCount: 2
+Fore
+SplineSet
+230 476 m 1
+ 230 354 l 1
+ 435 354 l 5
+ 435 293 l 5
+ 230 293 l 1
+ 230 171 l 1
+ 49 323 l 1
+ 230 476 l 1
+EndSplineSet
 EndChar
 
 StartChar: uniFFEA
 Encoding: 656 65514 660
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
+HStem: 293 61<230 535> 456 20G<206.34 230>
 LayerCount: 2
+Fore
+SplineSet
+394.5 335.5 m 1
+ 272.5 335.5 l 1
+ 272.5 130.5 l 1
+ 211.5 130.5 l 1
+ 211.5 335.5 l 1
+ 89.5 335.5 l 1
+ 241.5 516.5 l 1
+ 394.5 335.5 l 1
+EndSplineSet
 EndChar
 
 StartChar: uniFFEB
 Encoding: 657 65515 661
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
+HStem: 293 61<230 535> 456 20G<206.34 230>
 LayerCount: 2
+Fore
+SplineSet
+354 476 m 1
+ 354 354 l 1
+ 149 354 l 5
+ 149 293 l 5
+ 354 293 l 1
+ 354 171 l 1
+ 535 323 l 1
+ 354 476 l 1
+EndSplineSet
 EndChar
 
 StartChar: uniFFEC
 Encoding: 658 65516 662
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
+HStem: 293 61<230 535> 456 20G<206.34 230>
 LayerCount: 2
+Fore
+SplineSet
+89.5 311.5 m 5
+ 211.5 311.5 l 5
+ 211.5 516.5 l 5
+ 272.5 516.5 l 5
+ 272.5 311.5 l 5
+ 394.5 311.5 l 5
+ 242.5 130.5 l 5
+ 89.5 311.5 l 5
+EndSplineSet
 EndChar
 
 StartChar: uniFFED
@@ -13893,7 +13941,7 @@ StartChar: uni2B80
 Encoding: 683 11136 687
 Width: 536
 VWidth: 2048
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
