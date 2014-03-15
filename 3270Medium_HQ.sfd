@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1375279967
+ModificationTime: 1394856946
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -48,10 +48,10 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 29 11
+WinInfo: 377 29 11
 BeginPrivate: 0
 EndPrivate
-BeginChars: 693 697
+BeginChars: 695 699
 
 StartChar: null
 Encoding: -1 9216 0
@@ -6397,7 +6397,7 @@ StartChar: q
 Encoding: 141 113 144
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -72 62<419 480> 109 59<216 359> 416 58<219 359>
 VStem: 54 59<272 312> 358 122<-72 -10> 359 60<-10 109 168 416>
 LayerCount: 2
@@ -11132,17 +11132,16 @@ p%A!.J:IX8!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!<9h7s1eWM!!'e7
 EndImage
 Fore
 SplineSet
-244 781 m 1
- 305 781 l 1
+244 800 m 1
+ 305 800 l 1
  305 354 l 1
- 549 354 l 1
- 549 293 l 1
+ 536 354 l 1
+ 536 293 l 1
  305 293 l 1
- 305 -195 l 1
- 244 -195 l 1
- 244 781 l 1
+ 305 -200 l 5
+ 244 -200 l 5
+ 244 800 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dec_rightjoin
@@ -11160,17 +11159,16 @@ p%A!.J:IX8!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7s1eX7^]4AM!!'e7
 EndImage
 Fore
 SplineSet
-244 781 m 1
- 305 781 l 1
- 305 -195 l 1
- 244 -195 l 1
+244 800 m 1
+ 305 800 l 1
+ 305 -200 l 5
+ 244 -200 l 5
  244 293 l 1
  0 293 l 1
  0 354 l 1
  244 354 l 1
- 244 781 l 1
+ 244 800 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dec_bottomjoin
@@ -11242,13 +11240,12 @@ p%A!.J:IX8!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7
 EndImage
 Fore
 SplineSet
-244 781 m 1
- 305 781 l 1
- 305 -195 l 1
- 244 -195 l 1
- 244 781 l 1
+244 800 m 1
+ 305 800 l 1
+ 305 -200 l 5
+ 244 -200 l 5
+ 244 800 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dec_notgreater
@@ -15098,6 +15095,14 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+162.5 510 m 5
+ 372.5 510 l 5
+ 372.5 294 l 5
+ 162.5 294 l 5
+ 162.5 510 l 5
+EndSplineSet
 EndChar
 
 StartChar: uniFFEE
@@ -15106,6 +15111,19 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+163.5 402 m 0
+ 163.5 339.163 213.258 289 273.5 289 c 0
+ 333.742 289 383.5 339.163 383.5 402 c 0
+ 383.5 464.837 333.742 515 273.5 515 c 0
+ 213.258 515 163.5 464.837 163.5 402 c 0
+113.5 402 m 0
+ 113.5 491.515 184.702 565 273.5 565 c 0
+ 362.298 565 433.5 491.515 433.5 402 c 0
+ 433.5 312.485 362.298 239 273.5 239 c 0
+ 184.702 239 113.5 312.485 113.5 402 c 0
+EndSplineSet
 EndChar
 
 StartChar: uniFFEF
@@ -15726,6 +15744,40 @@ SplineSet
  474.5 594 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: SF110000
+Encoding: 693 9474 697
+Width: 536
+VWidth: 0
+Flags: W
+VStem: 244 61<-195 781>
+LayerCount: 2
+Fore
+SplineSet
+244 800 m 1
+ 305 800 l 1
+ 305 -200 l 1
+ 244 -200 l 1
+ 244 800 l 1
+EndSplineSet
+EndChar
+
+StartChar: SF100000
+Encoding: 694 9472 698
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 293 61<0 535.995>
+LayerCount: 2
+Fore
+SplineSet
+0 354 m 1
+ 536 354 l 1
+ 536 293 l 1
+ 0 293 l 1
+ 0 354 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
