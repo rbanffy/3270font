@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1394856946
+ModificationTime: 1394857201
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -48,10 +48,10 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 377 29 11
+WinInfo: 493 29 7
 BeginPrivate: 0
 EndPrivate
-BeginChars: 695 699
+BeginChars: 696 700
 
 StartChar: null
 Encoding: -1 9216 0
@@ -10979,7 +10979,7 @@ StartChar: dec_intersect
 Encoding: 291 -1 295
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 293 61<0 244 305 536.002>
 VStem: 244 61<-199.998 293 354 799.999>
 LayerCount: 2
@@ -10990,21 +10990,20 @@ p%A!.J:IX8!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7s8Tn7s1eWM!!'e7
 EndImage
 Fore
 SplineSet
-244 800 m 1
- 305 800 l 1
- 305 354 l 1
- 536 354 l 1
- 536 293 l 1
- 305 293 l 1
- 305 -200 l 1
- 244 -200 l 1
- 244 293 l 1
- 0 293 l 1
- 0 354 l 1
- 244 354 l 1
- 244 800 l 1
+244 800 m 5
+ 305 800 l 5
+ 305 354 l 5
+ 536 354 l 5
+ 536 293 l 5
+ 305 293 l 5
+ 305 -200 l 5
+ 244 -200 l 5
+ 244 293 l 5
+ 0 293 l 5
+ 0 354 l 5
+ 244 354 l 5
+ 244 800 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dec_hbar1
@@ -15777,6 +15776,30 @@ SplineSet
  536 293 l 1
  0 293 l 1
  0 354 l 1
+EndSplineSet
+EndChar
+
+StartChar: SF050000
+Encoding: 695 9532 699
+Width: 536
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+244 800 m 1
+ 305 800 l 1
+ 305 354 l 1
+ 536 354 l 1
+ 536 293 l 1
+ 305 293 l 1
+ 305 -200 l 1
+ 244 -200 l 1
+ 244 293 l 1
+ 0 293 l 1
+ 0 354 l 1
+ 244 354 l 1
+ 244 800 l 1
 EndSplineSet
 EndChar
 EndChars
