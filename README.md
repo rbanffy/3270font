@@ -22,6 +22,8 @@ even `port install fontforge`. On others, you may need to grab your copy
 from http://fontforge.org/. I encourage you to drop by and read the
 tutorials.
 
+![Screenshot](https://raw.github.com/wiki/rbanffy/3270font/powerline.png)
+
 Adobe Type 1, TTF and OTF versions are available for download on
 http://s3.amazonaws.com/rbanffy/3270_fonts.zip for those who would just
 like to use them.
