@@ -46,8 +46,9 @@ Contributing
 
 I don't think GitHub's pull-request mechanism is FontForge-friendly. If
 you want to contribute (there are a lot of missing glyphs, such as the
-APL set and most non-latin alphabets which most likely never built into
-3270 terminals), get in touch and we will figure out how to do it right.
+APL set and most non-latin alphabets which most likely were never built
+into 3270 terminals), get in touch and we will figure out how to do it
+right.
 
 Preserving history
 ------------------
