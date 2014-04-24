@@ -36,12 +36,12 @@ like to use them.
 (https://raw.github.com/wiki/rbanffy/3270font/osx_terminal.png)
 
 Generating derived files
----------------------
+------------------------
 
 The script `generate_derived.pe` calls FontForge and generates
 PostScript, OTF and TTF versions of the base font, as well as a slightly
 more condensed .sfd file with the base font narrowed to 488 units, with
-no glyph rescaling and its corresponding PostScript TTF and OTF
+no glyph rescaling and its corresponding PostScript, TTF and OTF
 versions.
 
 Contributing
