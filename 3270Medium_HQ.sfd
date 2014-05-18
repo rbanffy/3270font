@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1397994258
+ModificationTime: 1400427851
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -4074,9 +4074,9 @@ Encoding: 58 96 61
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HW
-HStem: 480 178
-VStem: 179 178
+Flags: W
+HStem: 481 175
+VStem: 182 174
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -4983,9 +4983,9 @@ StartChar: Agrave
 Encoding: 93 192 96
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 49 21G<46 106.328 413 473> 232 61<110 413>
-VStem: 50 60<49 232 293 312> 413 60<49 232 293 312>
+Flags: W
+HStem: 49 21<56 116 420 480> 232 61<117 420> 577 20<263 271> 659 175
+VStem: 56 60<49 232 293 374> 113 174 420 60<49 232 293 373>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -4994,7 +4994,7 @@ p%A!.J:IV"z!5JR7huEar!!"tY!#tt=$ig:C!!2!X"7Q9q2ujF.!#uIK3!TF;!rtRc!'gJ`
 EndImage
 Fore
 Refer: 61 96 N 1 0 0 1 -69 178 2
-Refer: 160 65 N 1 0 0 1 0 0 3
+Refer: 160 65 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Egrave
@@ -7028,9 +7028,9 @@ StartChar: A
 Encoding: 157 65 160
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 49 21G<53 113.328 420 480> 232 61<117 420> 577 20G<263 271>
-VStem: 57 60<49 232 293 374> 420 60<49 232 293 373>
+Flags: W
+HStem: 49 21G<56 116 420 480> 232 61<117 420> 577 20G<263 271>
+VStem: 56 60<49 232 293 374> 420 60<49 232 293 373>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -7040,10 +7040,10 @@ EndImage
 Fore
 SplineSet
 116 232 m 1
- 113 49 l 1
- 53 49 l 1
+ 116 49 l 1
+ 56 49 l 1
  57 387 l 2
- 57 396 63 404 66 407 c 2
+ 57.0264 396 63 404 66 407 c 2
  246 588 l 2
  252 595 260 597 266 597 c 0
  276 597 284 593 289 588 c 2
