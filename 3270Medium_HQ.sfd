@@ -860,7 +860,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: quotesingle
+StartChar: apostrophe
 Encoding: 16 700 18
 Width: 1000
 VWidth: 0
@@ -11460,7 +11460,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: apostrophe
+StartChar: quotesingle
 Encoding: 308 39 312
 Width: 536
 VWidth: 0
