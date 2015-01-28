@@ -13,7 +13,7 @@ pretty. The .sfd font file contains a x3270 bitmap font that was used
 for guidance.
 
 ![Using with the Cathode terminal program]
-(https://raw.github.com/wiki/rbanffy/3270font/cathode.png)
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cathode.png)
 
 The format
 ----------
@@ -26,22 +26,22 @@ from http://fontforge.org/. I encourage you to drop by and read the
 tutorials.
 
 ![Powerline-shell compatible!]
-(https://raw.github.com/wiki/rbanffy/3270font/powerline.png)
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
 http://s3.amazonaws.com/rbanffy/3270_fonts.zip for those who would just
 like to use them.
 
 ![Using it on OSX]
-(https://raw.github.com/wiki/rbanffy/3270font/osx_terminal.png)
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
 Generating derived files
 ------------------------
 
 The script `generate_derived.pe` calls FontForge and generates
-PostScript, OTF, TTF and WOFF versions of the base font, as well as a 
-slightly more condensed .sfd file with the base font narrowed to 488 
-units, with no glyph rescaling and its corresponding PostScript, TTF, 
+PostScript, OTF, TTF and WOFF versions of the base font, as well as a
+slightly more condensed .sfd file with the base font narrowed to 488
+units, with no glyph rescaling and its corresponding PostScript, TTF,
 OTF and WOFF versions.
 
 Contributing
