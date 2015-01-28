@@ -1,7 +1,7 @@
 3270font: A font for the nostalgic
 ==================================
 
-![Screenshot](https://raw.github.com/wiki/rbanffy/3270font/emacs.png)
+![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
 A little bit of history
 -----------------------
