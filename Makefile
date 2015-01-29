@@ -16,3 +16,4 @@ zip: all
 
 clean:
 	@find . -iname '*.otf' -delete -o -iname '*.ttf' -delete -o -iname '*.afm' -delete -o -iname '*.pfm' -delete -o -iname '*.woff' -delete
+	@rm 3270_fonts.zip

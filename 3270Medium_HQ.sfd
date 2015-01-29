@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1418739295
+ModificationTime: 1422502683
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -4629,7 +4629,7 @@ StartChar: ccedilla
 Encoding: 76 231 79
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: -72 58<108 219> 51 58<213 250 313 413> 416 59<210 413>
 VStem: 48 59<213 312>
 LayerCount: 2
@@ -4641,7 +4641,6 @@ EndImage
 Fore
 Refer: 63 184 S 1 0 0 0.963497 40 -115.555 2
 Refer: 130 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: adiaeresis
@@ -5857,7 +5856,7 @@ StartChar: c
 Encoding: 127 99 130
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 51 58<220 420> 416 59<217 420>
 VStem: 55 59<213 312>
 LayerCount: 2
@@ -5875,7 +5874,7 @@ SplineSet
  114 213 l 1
  220 109 l 1
  420 109 l 1
- 420 50 l 1
+ 420 51 l 5
  208 51 l 2
  204 51 194 52 187 59 c 2
  64 180 l 2
