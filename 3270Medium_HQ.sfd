@@ -1593,7 +1593,7 @@ Encoding: 26 163 28
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HWO
+Flags: HW
 HStem: 50 125<74.1399 175.719> 52 58<271 385> 354 61<54 176 237 359> 598 61<268 326>
 VStem: 176 61<160 354 415 565>
 LayerCount: 2
@@ -1888,7 +1888,7 @@ Encoding: 28 182 30
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: 48 21G<64 120> 172 59<245 306 367 428> 362 56<120 265> 604 55<120 265>
 VStem: 64 56<48 362 418 604> 306 61<-12 172 231 292 460 560>
 LayerCount: 2
@@ -2342,7 +2342,7 @@ Encoding: 32 50 34
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: 52 54<151 488> 476 21G<64 118> 602 54<223 391>
 VStem: 64 54<476 497> 428 56<457 558>
 LayerCount: 2
@@ -5161,7 +5161,7 @@ Encoding: 101 178 104
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -7028,8 +7028,8 @@ Refer: 128 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
-StartChar: division
-Encoding: 154 -1 157
+StartChar: uni0247
+Encoding: 154 583 157
 Width: 536
 VWidth: 0
 Flags: W
