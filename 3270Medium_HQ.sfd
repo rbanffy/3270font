@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422572893
+ModificationTime: 1422627909
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -48,7 +48,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 15
+WinInfo: 148 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -789,7 +789,7 @@ StartChar: braceleft
 Encoding: 13 123 15
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 60<280 358> 293 60<97 133> 599 60<280 358>
 VStem: 175 60<90 249 396 555>
 LayerCount: 2
@@ -829,7 +829,6 @@ SplineSet
  250 654 258 659 268 659 c 2
  358 659 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
@@ -1594,7 +1593,7 @@ Encoding: 26 163 28
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: HWO
 HStem: 50 125<53.75 175.719> 52 58<271 385> 354 61<54 176 237 359> 598 61<268 326>
 VStem: 176 61<160 354 415 565>
 LayerCount: 2
@@ -1620,25 +1619,25 @@ SplineSet
  420 62 l 2
  419 61 418 60 417 59 c 0
  416 58 415 57 414 56 c 0
- 413 55 411 54 410 54 c 0
- 409 54 407 53 406 53 c 0
- 405 53 404 52 402 52 c 0
- 400 52 399 52 397 52 c 2
- 258 52 l 2
- 257 52 256 53 255 53 c 0
- 254 53 254 54 253 54 c 0
- 252 54 251 54 250 54 c 0
- 249 54 249 55 248 55 c 0
+ 413 55 411 52 410 52 c 0
+ 409 52 407 52 406 52 c 0
+ 405 52 404 50 402 50 c 0
+ 400 50 399 50 397 50 c 2
+ 258 50 l 2
+ 257 50 256 52 255 52 c 0
+ 254 52 254 52 253 52 c 0
+ 252 52 251 52 250 52 c 0
+ 249 52 249 55 248 55 c 0
  247 55 245 56 244 57 c 2
  204 79 l 1
  165 55 l 2
- 163 54 162 53 160 52 c 0x78
- 158 51 157 50 155 50 c 0
- 154 50 153 50 152 50 c 0
- 151 50 150 50 149 50 c 2
- 82 50 l 2
- 79 50 77 52 74 53 c 0
- 71 54 68 54 66 56 c 0
+ 163 54 162 51 160 50 c 0x78
+ 158 49 157 52 155 52 c 0
+ 154 52 153 52 152 52 c 0
+ 151 52 150 52 149 52 c 2
+ 82 52 l 2
+ 79 52 77 51 74 52 c 0
+ 71 53 68 54 66 56 c 0
  62 59 59 63 56 67 c 0
  55 69 54 71 53 74 c 0
  52 77 51 79 51 82 c 2
@@ -1657,9 +1656,9 @@ SplineSet
  176 354 l 1
  54 354 l 1
  54 415 l 1
- 177 415 l 1
- 177 580 l 2
- 177 583 177 585 178 588 c 0
+ 176 415 l 1
+ 176 580 l 2
+ 176 583 177 585 178 588 c 4
  179 590 180 593 181 595 c 0
  182 596 182 597 183 598 c 0
  184 599 185 601 186 602 c 2
@@ -1808,7 +1807,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: yen
@@ -14417,13 +14415,12 @@ StartChar: uniFF5B
 Encoding: 513 65371 516
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -14 60<280 358> 293 60<97 133> 599 60<280 358>
 VStem: 175 60<90 249 396 555>
 LayerCount: 2
 Fore
 Refer: 15 123 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uniFF5C
