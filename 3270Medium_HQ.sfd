@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422724448
+ModificationTime: 1422724675
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -1428,6 +1428,20 @@ p%A!.J:IV"zz!!!#g!!2ip".T>n$igA0!!<3$!rr<'!!#7Q!'frQ!rr<'!!!*$!!<3$!rr<'
 EndImage
 Fore
 SplineSet
+155 110 m 1
+ 148 112 l 1
+ 120 112 l 1
+ 120 106 l 1
+ 148 106 l 1
+ 155 110 l 1
+  Spiro
+    155 110 v
+    148 112 v
+    120 112 v
+    120 106 v
+    148 106 v
+    0 0 z
+  EndSpiro
 244 140 m 1
  252 138 l 2
  256 136 260 134 263 131 c 2
@@ -2810,7 +2824,7 @@ StartChar: section
 Encoding: 41 167 43
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -71 58<116 258> 600 59<214 357>
 VStem: 55 61<336 437> 116 57<512 556> 298 59<31 73> 357 59<150 251>
 LayerCount: 2
@@ -3664,7 +3678,7 @@ Encoding: 56 126 59
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: 478 57<340 380> 600 59<156 197>
 LayerCount: 2
 Back
@@ -11361,7 +11375,7 @@ StartChar: dec_sterling
 Encoding: 306 -1 310
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 46 60<120 148 283 383> 112 60<120 154.926 468 487> 352 62<60 184 244 364> 597 60<287 324>
 VStem: 184 60<163 352 414 556> 368 60<539 557>
 LayerCount: 2
@@ -11371,63 +11385,7 @@ p%A!.J:IV"zz!!!#g!!2ip".T>n$igA0!!<3$!rr<'!!#7Q!'frQ!rr<'!!!*$!!<3$!rr<'
 !!#4c!'c5=5Q1XFqu?]szzzzzz
 EndImage
 Fore
-SplineSet
-155 110 m 1
- 148 112 l 1
- 120 112 l 1
- 120 106 l 1
- 148 106 l 1
- 155 110 l 1
-243 140 m 1
- 254 136 l 2
- 259 134 262 132 264 130 c 2
- 283 111 l 1
- 383 110 l 1
- 435 161 l 2
- 442 168 451 170 456 170 c 2
- 487 170 l 1
- 487 110 l 1
- 468 110 l 1
- 416 59 l 2
- 413 56 405 50 395 50 c 2
- 271 51 l 2
- 267 51 257 52 250 59 c 2
- 228 81 l 1
- 227 81 l 1
- 170 50 l 2
- 165 47 160 46 156 46 c 2
- 90 46 l 2
- 69 46 60 65 60 76 c 2
- 60 142 l 2
- 60 163 79 172 90 172 c 2
- 154 172 l 2
- 159 172 163 171 165 170 c 2
- 183 163 l 1
- 184 352 l 1
- 60 352 l 1
- 60 414 l 1
- 184 414 l 1
- 184 569 l 2
- 184 574 186 584 193 591 c 2
- 254 649 l 2
- 257 652 265 657 275 657 c 2
- 336 657 l 2
- 342 657 349 655 356 649 c 2
- 418 592 l 2
- 422 588 428 580 428 570 c 2
- 428 539 l 1
- 368 539 l 1
- 368 557 l 1
- 324 597 l 1
- 287 597 l 1
- 244 556 l 1
- 244 414 l 1
- 364 414 l 1
- 364 352 l 1
- 244 352 l 1
- 243 140 l 1
-EndSplineSet
-Validated: 1
+Refer: 28 163 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dec_periodcentered
