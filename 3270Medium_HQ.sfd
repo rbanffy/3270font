@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422724216
+ModificationTime: 1422724448
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -1417,7 +1417,7 @@ Encoding: 26 163 28
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HMWO
+Flags: HMW
 HStem: 50 60<285 385> 353 61<60 184 244 366> 598 61<286 325>
 VStem: 184 60<160 353 414 555>
 LayerCount: 2
@@ -1742,7 +1742,7 @@ StartChar: currency
 Encoding: 29 164 31
 Width: 536
 VWidth: 0
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -2874,7 +2874,6 @@ SplineSet
  409 120 407 118 405 116 c 2
  357 73 l 1xc8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -3665,7 +3664,7 @@ Encoding: 56 126 59
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: WO
 HStem: 478 57<340 380> 600 59<156 197>
 LayerCount: 2
 Back
