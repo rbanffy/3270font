@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422664799
+ModificationTime: 1422664983
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -3938,7 +3938,7 @@ Encoding: 56 126 59
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: WO
+Flags: W
 HStem: 478 57<340 380> 600 59<156 197>
 LayerCount: 2
 Back
@@ -3968,7 +3968,7 @@ SplineSet
  326 478 323 477 321 478 c 0
  319 479 316 481 314 482 c 0
  312 483 310 485 308 487 c 2
- 197 600 l 5
+ 197 600 l 1
  156 600 l 1
  104 549 l 1
  64 590 l 1
@@ -4026,7 +4026,6 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: diaeresis
@@ -4288,7 +4287,6 @@ EndImage
 Fore
 Refer: 59 126 N 1 0 0 1 2 59 2
 Refer: 128 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: otilde
@@ -4307,7 +4305,6 @@ EndImage
 Fore
 Refer: 59 126 N 1 0 0 1 -36 59 2
 Refer: 142 111 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ydiaeresis
@@ -4635,9 +4632,9 @@ StartChar: ccedilla
 Encoding: 76 231 79
 Width: 536
 VWidth: 0
-Flags: W
-HStem: -183 55.8828<156 236> 51 58<220 420> 416 59<217 420>
-VStem: 55 59<213 312> 278 57<-85.6866 50.1665>
+Flags: WO
+HStem: -191.919 58<163.5 243.5> 51 58<220 420> 416 59<217 420>
+VStem: 55 59<213 312> 285.5 57<-90.9185 50.0815>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -4645,9 +4642,8 @@ p%A!.J:IV"zzzzzzz"8i-(qu@3,!#tt=2uiq4!!"\Q!&+BQ0E;)4!!!u=!"Ju/#Q+Q(qu?`T
 !!'e7&&8/UJ,fQLzzz
 EndImage
 Fore
-Refer: 63 184 N 1 0 0 0.963497 40 -115.555 2
+Refer: 63 184 N 1 0 0 1 47.5 -121.919 2
 Refer: 130 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: adiaeresis
@@ -4992,7 +4988,7 @@ StartChar: ntilde
 Encoding: 92 241 95
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 417 58<55 104 220 317> 537 57<334 374> 659 59<150 191>
 VStem: 118 60<50 373> 360 57<51 376>
 LayerCount: 2
@@ -5004,7 +5000,6 @@ EndImage
 Fore
 Refer: 59 126 N 1 0 0 1 -6 59 2
 Refer: 141 110 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Agrave
@@ -5106,7 +5101,7 @@ StartChar: Atilde
 Encoding: 98 195 101
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 49 21<56 116 420 480> 232 61<117 420> 577 20<263 271> 617 57<331 371> 739 59<147 188>
 VStem: 56 60<49 232 293 374> 420 60<49 232 293 373>
 LayerCount: 2
@@ -5118,14 +5113,13 @@ EndImage
 Fore
 Refer: 59 126 N 1 0 0 1 -9 139 2
 Refer: 160 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Otilde
 Encoding: 99 213 102
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 50 60<156 378> 538 60<157 378> 617 57<338 378> 739 59<154 195>
 VStem: 55 60<150 494> 421 60<153 493>
 LayerCount: 2
@@ -5137,7 +5131,6 @@ EndImage
 Fore
 Refer: 59 126 N 1 0 0 1 -2 139 2
 Refer: 174 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: onesuperior
@@ -5882,7 +5875,6 @@ EndImage
 Fore
 Refer: 59 126 S 1 0 0 1 -7 140 2
 Refer: 173 78 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: a
