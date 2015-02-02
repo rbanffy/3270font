@@ -12,8 +12,8 @@ from a 3270 terminal. I built it because I felt terminals deserve to be
 pretty. The .sfd font file contains a x3270 bitmap font that was used
 for guidance.
 
-![Using with the Cathode terminal program]
-(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cathode.png)
+![Using with the cool-old-tern (now cool-retro-term) terminal program]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-old-term.png)
 
 The format
 ----------
