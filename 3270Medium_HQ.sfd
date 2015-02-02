@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422727308
+ModificationTime: 1422839480
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -814,7 +814,7 @@ Encoding: 18 47 20
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -4039,7 +4039,7 @@ StartChar: eacute
 Encoding: 71 233 74
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 51 56<156 421> 231 62<114 361> 409 61<158 318> 537 182
 VStem: 54 59<152 231 293 364> 110 181 361 58<293 365>
 LayerCount: 2
@@ -4049,9 +4049,8 @@ p%A!.J:IV"z!"8i-)uosu!!$s<!8mhW^]4?7z&+BQ@p]*8n!&+f]0FRq8$iiNi!'gA]0E;),
 !!"\Q!&srY+8c*Lqu?]szzzzzz
 EndImage
 Fore
-Refer: 62 180 N 1 0 0 1 -69 60 2
+Refer: 62 180 S 1 0 0 1 61 60 2
 Refer: 132 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: onequarter
