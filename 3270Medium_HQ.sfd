@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1422839480
+ModificationTime: 1422839588
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -48,7 +48,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 15
+WinInfo: 148 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -683,6 +683,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -728,6 +729,7 @@ SplineSet
  250 668 258 673 268 673 c 2
  358 673 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: space
@@ -851,6 +853,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: backslash
@@ -1233,6 +1236,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cent
@@ -1504,6 +1508,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: yen
@@ -2842,6 +2847,7 @@ SplineSet
  409 120 407 118 405 116 c 2
  357 73 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -2940,7 +2946,7 @@ Encoding: 43 64 45
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: HMW
+Flags: HMWO
 HStem: 50 60<164 487> 293 60<246 303 363 384> 598 61<164 385>
 VStem: 63 60<151 557> 427 60<395 557>
 LayerCount: 2
@@ -2951,47 +2957,42 @@ p%A!.J:IV"zz!!!Q-!$D1?3!TF;!rt"W!&+KT0_59!o)LR&!&HP61]@A1quADN!&+BQ0E;),
 EndImage
 Fore
 SplineSet
-281.778 704 m 0
-  Spiro
-    281.778 704 {
-    0 0 z
-  EndSpiro
-487 110 m 1,0,-1
- 487 50 l 1,1,-1
- 152 50 l 0,2,-1
- 144 50 135 54 131 59 c 0,5,-1
- 72 118 l 0,6,-1
- 66 124 63 132 63 139 c 0,9,-1
- 63 569 l 0,10,-1
- 63 577 67 586 72 590 c 0,13,-1
- 131 649 l 0,14,-1
- 136 655 145 659 152 659 c 0,17,-1
- 398 659 l 0,18,-1
- 406 659 414 654 419 649 c 0,21,-1
- 478 590 l 0,22,-1
- 484 584 487 576 487 569 c 0,25,-1
- 487 383 l 0,26,-1
- 487 375 483 366 478 362 c 0,29,-1
- 418 302 l 0,30,-1
- 412 296 403 293 397 293 c 0,33,-1
- 216 293 l 0,34,-1
- 199 293 186 307 186 323 c 0,37,-1
- 186 386 l 0,38,-1
- 186 394 190 403 195 407 c 0,41,-1
- 256 470 l 0,42,-1
- 261 476 270 483 277 483 c 0,45,-1
- 333 483 l 0,46,-1
- 349 483 363 463 363 447 c 0,49,-1
- 363 353 l 1,50,-1
- 384 353 l 1,51,-1
- 427 395 l 1,52,-1
- 427 557 l 1,53,-1
- 385 598 l 1,54,-1
- 164 598 l 1,55,-1
- 123 557 l 1,56,-1
- 123 151 l 1,57,-1
- 164 110 l 1,58,-1
- 487 110 l 1,0,-1
+487 110 m 1
+ 487 50 l 1
+ 152 50 l 0
+ 144 50 135 54 131 59 c 0
+ 72 118 l 0
+ 66 124 63 132 63 139 c 0
+ 63 569 l 0
+ 63 577 67 586 72 590 c 0
+ 131 649 l 0
+ 136 655 145 659 152 659 c 0
+ 398 659 l 0
+ 406 659 414 654 419 649 c 0
+ 478 590 l 0
+ 484 584 487 576 487 569 c 0
+ 487 383 l 0
+ 487 375 483 366 478 362 c 0
+ 418 302 l 0
+ 412 296 403 293 397 293 c 0
+ 216 293 l 0
+ 199 293 186 307 186 323 c 0
+ 186 386 l 0
+ 186 394 190 403 195 407 c 0
+ 256 470 l 0
+ 261 476 270 483 277 483 c 0
+ 333 483 l 0
+ 349 483 363 463 363 447 c 0
+ 363 353 l 1
+ 384 353 l 1
+ 427 395 l 1
+ 427 557 l 1
+ 385 598 l 1
+ 164 598 l 1
+ 123 557 l 1
+ 123 151 l 1
+ 164 110 l 1
+ 487 110 l 1
   Spiro
     486.778 110 v
     486.778 50 v
@@ -3054,12 +3055,12 @@ SplineSet
     164.204 110 v
     0 0 z
   EndSpiro
-303 353 m 1,59,-1
- 303 417 l 1,60,-1
- 289 417 l 1,61,-1
- 246 374 l 1,62,-1
- 246 353 l 1,63,-1
- 303 353 l 1,59,-1
+303 353 m 1
+ 303 417 l 1
+ 289 417 l 1
+ 246 374 l 1
+ 246 353 l 1
+ 303 353 l 1
   Spiro
     302.778 353 v
     302.778 417 v
@@ -3069,6 +3070,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: percent
@@ -3194,6 +3196,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -4039,9 +4042,9 @@ StartChar: eacute
 Encoding: 71 233 74
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: W
 HStem: 51 56<156 421> 231 62<114 361> 409 61<158 318> 537 182
-VStem: 54 59<152 231 293 364> 110 181 361 58<293 365>
+VStem: 54 59<152 231 293 364> 240 181 361 58<293 365>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -4049,8 +4052,9 @@ p%A!.J:IV"z!"8i-)uosu!!$s<!8mhW^]4?7z&+BQ@p]*8n!&+f]0FRq8$iiNi!'gA]0E;),
 !!"\Q!&srY+8c*Lqu?]szzzzzz
 EndImage
 Fore
-Refer: 62 180 S 1 0 0 1 61 60 2
+Refer: 62 180 N 1 0 0 1 61 60 2
 Refer: 132 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: onequarter
@@ -11287,6 +11291,7 @@ p%A!.J:IV"zz!!!#g!!2ip".T>n$igA0!!<3$!rr<'!!#7Q!'frQ!rr<'!!!*$!!<3$!rr<'
 EndImage
 Fore
 Refer: 28 163 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: dec_periodcentered
@@ -14074,6 +14079,7 @@ VStem: 175 60<90 249 396 555>
 LayerCount: 2
 Fore
 Refer: 15 123 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF5C
