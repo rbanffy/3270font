@@ -13,7 +13,7 @@ pretty. The .sfd font file contains a x3270 bitmap font that was used
 for guidance.
 
 ![Using with the cool-old-tern (now cool-retro-term) terminal program]
-(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-old-term.png)
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-old-term.jpg)
 
 The format
 ----------
