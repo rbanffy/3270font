@@ -49,7 +49,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 15
+WinInfo: 222 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -11886,6 +11886,7 @@ SplineSet
  54 49 l 1
  54 537 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ebreve
@@ -11899,6 +11900,7 @@ LayerCount: 2
 Fore
 Refer: 132 101 N 1 0 0 1 0 0 2
 Refer: 744 728 N 1 0 0 1 0 28 2
+Validated: 1
 EndChar
 
 StartChar: Edotaccent
@@ -17103,6 +17105,7 @@ LayerCount: 2
 Fore
 Refer: 58 94 N 1 0 0 1 0 129 2
 Refer: 167 72 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: hcircumflex
@@ -17116,6 +17119,7 @@ LayerCount: 2
 Fore
 Refer: 58 94 N 1 0 0 1 0 130 2
 Refer: 135 104 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Hbar
@@ -17155,6 +17159,7 @@ SplineSet
  421 354 l 1
  421 411 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hbar
@@ -17194,6 +17199,7 @@ SplineSet
  52 48 l 1
  52 538 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Itilde
@@ -17207,6 +17213,7 @@ LayerCount: 2
 Fore
 Refer: 59 126 N 1 0 0 1 0 139 2
 Refer: 168 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: itilde
@@ -17220,6 +17227,7 @@ LayerCount: 2
 Fore
 Refer: 59 126 N 1 0 0 1 0 53 2
 Refer: 738 305 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: imacron
@@ -17233,6 +17241,7 @@ LayerCount: 2
 Fore
 Refer: 55 175 N 1 0 0 1 0 0 2
 Refer: 738 305 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ibreve
@@ -17246,6 +17255,7 @@ LayerCount: 2
 Fore
 Refer: 744 728 N 1 0 0 1 0 0 2
 Refer: 738 305 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: iogonek
@@ -17259,6 +17269,7 @@ LayerCount: 2
 Fore
 Refer: 743 731 N 1 0 0 1 122 -126 2
 Refer: 136 105 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -17277,6 +17288,7 @@ SplineSet
  237 49 l 1
  237 476 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Idotaccent
@@ -17308,6 +17320,7 @@ SplineSet
  237 659 l 1
  237 720 l 1xe8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Imacron
@@ -17321,6 +17334,7 @@ LayerCount: 2
 Fore
 Refer: 55 175 N 1 0 0 1 0 61 2
 Refer: 168 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Ibreve
@@ -17334,6 +17348,7 @@ LayerCount: 2
 Fore
 Refer: 744 728 N 1 0 0 1 0 110 2
 Refer: 168 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Iogonek
@@ -17347,6 +17362,7 @@ LayerCount: 2
 Fore
 Refer: 743 731 N 1 0 0 1 153 -126 2
 Refer: 168 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ogonek
@@ -17370,6 +17386,7 @@ SplineSet
  124 0 l 2
  123 1 118 6 118 6 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: breve
@@ -17440,6 +17457,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
