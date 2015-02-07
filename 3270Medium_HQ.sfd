@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1423342871
+ModificationTime: 1423345622
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -57,7 +57,7 @@ Grid
 -1000 470.3 m 0
  2000 470.3 l 0
 EndSplineSet
-BeginChars: 1114234 725
+BeginChars: 1114235 729
 
 StartChar: null
 Encoding: 9216 9216 0
@@ -3971,6 +3971,7 @@ p%A!.J:IV"zz!!!E]!":O]zzz0FRq8$ihsi!&+f]0FRq8$ihsi!&tAe*"2fW)up4'!!D]j!T3qY
 EndImage
 Fore
 Refer: 316 255 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Yacute
@@ -5005,6 +5006,7 @@ qu?]szzzzzz
 EndImage
 Fore
 Refer: 320 186 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -8723,6 +8725,7 @@ SplineSet
  234 375 l 1
  234 49 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: human
@@ -8767,6 +8770,7 @@ SplineSet
  299 586 285 602 268 602 c 0
  253 602 237 588 237 568 c 0xe8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underB
@@ -8824,6 +8828,7 @@ SplineSet
  -7 171 l 1
  -7 231 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: downshift
@@ -8858,6 +8863,7 @@ SplineSet
  302 598 l 1
  236 598 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: boxquestion
@@ -12364,6 +12370,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 286 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni000A
@@ -12398,6 +12405,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 285 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni000E
@@ -13000,6 +13008,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 25 33 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF02
@@ -13010,6 +13019,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 19 34 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF03
@@ -13020,6 +13030,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 44 35 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF04
@@ -13030,6 +13041,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 26 36 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF05
@@ -13040,6 +13052,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 46 37 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF06
@@ -13050,6 +13063,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 48 38 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF07
@@ -13060,6 +13074,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 312 39 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF08
@@ -13070,6 +13085,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 13 40 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF09
@@ -13080,6 +13096,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 12 41 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0A
@@ -13090,6 +13107,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 191 42 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0B
@@ -13100,6 +13118,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 53 43 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0C
@@ -13110,6 +13129,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 51 44 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0D
@@ -13120,6 +13140,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 7 45 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0E
@@ -13130,6 +13151,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 50 46 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF0F
@@ -13140,6 +13162,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 20 47 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF10
@@ -13280,6 +13303,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 52 58 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF1B
@@ -13290,6 +13314,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 190 59 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF1C
@@ -13300,6 +13325,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 9 60 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF1D
@@ -13310,6 +13336,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 17 61 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF1E
@@ -13320,6 +13347,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 8 62 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF1F
@@ -13330,6 +13358,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 24 63 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF20
@@ -13340,6 +13369,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 45 64 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF22
@@ -13676,6 +13706,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 10 91 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF3C
@@ -13686,6 +13717,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF3D
@@ -13696,6 +13728,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 11 93 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF3E
@@ -13706,6 +13739,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 58 94 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF3F
@@ -13716,6 +13750,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 47 95 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF40
@@ -13726,6 +13761,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 61 96 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF41
@@ -14281,6 +14317,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 59 126 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF5F
@@ -14292,6 +14329,7 @@ LayerCount: 2
 Fore
 Refer: 434 65288 N 1 0 0 1 69 0 2
 Refer: 434 65288 N 1 0 0 1 -84 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF60
@@ -14303,6 +14341,7 @@ LayerCount: 2
 Fore
 Refer: 12 41 N 1 0 0 1 78 0 2
 Refer: 12 41 N 1 0 0 1 -76 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF61
@@ -15765,6 +15804,7 @@ SplineSet
  158 525 163 536 172 545 c 0
  181 554 192 558 204 558 c 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: NameMe.682
@@ -15802,6 +15842,7 @@ SplineSet
  158 513 l 1
  158 558 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2B64
@@ -16684,20 +16725,26 @@ StartChar: NameMe.711
 Encoding: 8679 8679 715
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -11 60<234 299> 315 60<140 174 359 392>
+VStem: 174 60<49 315> 299 60<49 315>
 LayerCount: 2
 Fore
 Refer: 218 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni21E9
 Encoding: 8681 8681 716
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 272 60<142 176 362 394> 598 60<236 302>
+VStem: 176 60<332 598> 302 60<332 598>
 LayerCount: 2
 Fore
 Refer: 221 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: arrowleft
@@ -16708,6 +16755,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 248 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: arrowright
@@ -16718,6 +16766,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 216 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: filledbox
@@ -16728,6 +16777,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 223 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1F55C
@@ -16735,7 +16785,7 @@ Encoding: 128348 128348 720
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: MWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -16904,6 +16954,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lfblock
@@ -16914,6 +16965,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 265 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: rtblock
@@ -16924,6 +16976,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 266 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: upblock
@@ -16934,6 +16987,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 267 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: dnblock
@@ -16944,6 +16998,76 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 268 -1 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: NameMe.721
+Encoding: 1114233 -1 725
+Width: 536
+VWidth: 0
+Flags: WO
+HStem: 220 60<97 189> 345 60<97 189>
+VStem: 37 60<280 345> 189 60<187 220 405 439>
+LayerCount: 2
+Fore
+SplineSet
+37 405 m 5
+ 189 405 l 5
+ 189 561 l 5
+ 511 313 l 5
+ 189 66 l 5
+ 189 220 l 5
+ 37 220 l 5
+ 37 405 l 5
+97 345 m 5
+ 97 280 l 5
+ 249 280 l 5
+ 249 187 l 5
+ 413 313 l 5
+ 249 439 l 5
+ 249 345 l 5
+ 97 345 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni21E8
+Encoding: 8680 8680 726
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 220 60<97 189> 345 60<97 189>
+VStem: 37 60<280 345> 189 60<187 220 405 439>
+LayerCount: 2
+Fore
+Refer: 725 -1 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: NameMe.1114234
+Encoding: 1114234 -1 727
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 222 60<359 451> 347 60<359 451>
+VStem: 299 60<188 222 407 440> 451 60<282 347>
+LayerCount: 2
+Fore
+Refer: 725 -1 S -1 0 0 -1 548 627 2
+Validated: 1
+EndChar
+
+StartChar: uni21E6
+Encoding: 8678 8678 728
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 222 60<359 451> 347 60<359 451>
+VStem: 299 60<188 222 407 440> 451 60<282 347>
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
