@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1423339462
+ModificationTime: 1423340124
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -49,7 +49,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 185 37 15
+WinInfo: 0 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -12424,8 +12424,10 @@ StartChar: uni0009
 Encoding: 9 9 358
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 286 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni000A
@@ -12456,8 +12458,10 @@ StartChar: uni000D
 Encoding: 13 13 362
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 285 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni000E
@@ -13056,120 +13060,150 @@ StartChar: uniFF01
 Encoding: 65281 65281 427
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 25 33 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF02
 Encoding: 65282 65282 428
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 19 34 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF03
 Encoding: 65283 65283 429
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 44 35 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF04
 Encoding: 65284 65284 430
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 26 36 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF05
 Encoding: 65285 65285 431
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 46 37 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF06
 Encoding: 65286 65286 432
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 48 38 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF07
 Encoding: 65287 65287 433
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 312 39 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF08
 Encoding: 65288 65288 434
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 13 40 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF09
 Encoding: 65289 65289 435
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 12 41 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0A
 Encoding: 65290 65290 436
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 191 42 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0B
 Encoding: 65291 65291 437
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 53 43 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0C
 Encoding: 65292 65292 438
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 51 44 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0D
 Encoding: 65293 65293 439
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 7 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0E
 Encoding: 65294 65294 440
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 50 46 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF0F
 Encoding: 65295 65295 441
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 20 47 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF10
@@ -13306,56 +13340,70 @@ StartChar: uniFF1A
 Encoding: 65306 65306 452
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 52 58 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF1B
 Encoding: 65307 65307 453
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 190 59 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF1C
 Encoding: 65308 65308 454
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 9 60 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF1D
 Encoding: 65309 65309 455
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 17 61 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF1E
 Encoding: 65310 65310 456
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 8 62 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF1F
 Encoding: 65311 65311 457
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 24 63 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF20
 Encoding: 65312 65312 458
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 45 64 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF22
@@ -13688,48 +13736,60 @@ StartChar: uniFF3B
 Encoding: 65339 65339 484
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 10 91 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF3C
 Encoding: 65340 65340 485
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 21 92 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF3D
 Encoding: 65341 65341 486
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 11 93 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF3E
 Encoding: 65342 65342 487
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 58 94 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF3F
 Encoding: 65343 65343 488
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 47 95 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF40
 Encoding: 65344 65344 489
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 61 96 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF41
@@ -14281,24 +14341,32 @@ StartChar: uniFF5E
 Encoding: 65374 65374 519
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 59 126 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFF5F
 Encoding: 65375 65375 520
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 2
+Fore
+Refer: 434 65288 N 1 0 0 1 69 0 2
+Refer: 434 65288 N 1 0 0 1 -84 0 2
 EndChar
 
 StartChar: uniFF60
 Encoding: 65376 65376 521
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 2
+Fore
+Refer: 12 41 N 1 0 0 1 78 0 2
+Refer: 12 41 N 1 0 0 1 -76 0 2
 EndChar
 
 StartChar: uniFF61
@@ -16587,7 +16655,7 @@ EndChar
 StartChar: uniF0FF
 Encoding: 61695 61695 713
 Width: 536
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -16671,7 +16739,7 @@ EndChar
 StartChar: uniE0FF
 Encoding: 57599 57599 714
 Width: 536
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 713 61695 S 1 0 0 1 0 -47 2
