@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 37 37 15
+WinInfo: 0 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -739,7 +739,7 @@ StartChar: space
 Encoding: 32 32 16
 Width: 536
 VWidth: 0
-Flags: W
+Flags: WO
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -12388,7 +12388,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0009
+StartChar: LF
 Encoding: 9 9 358
 Width: 536
 VWidth: 0
@@ -12423,7 +12423,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni000D
+StartChar: CR
 Encoding: 13 13 362
 Width: 536
 VWidth: 0
