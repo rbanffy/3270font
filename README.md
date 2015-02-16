@@ -70,3 +70,9 @@ Known problems
 
 I have received errors when installing the OTF, TTF, and PFM fonts on
 Windows 7 and 8 (didn't try others).
+
+Not all symbols in the 3270 charset have Unicode counterparts. When
+possible, they are duplicated in the Unicode space. The 3270-only
+symbols are at the end of the font.
+
+Please refer to http://x3270.bgp.nu/Charset.html for a complete map.
