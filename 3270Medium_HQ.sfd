@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1424777115
+ModificationTime: 1424777334
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 148 37 15
+WinInfo: 0 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -17660,9 +17660,11 @@ StartChar: ellipsis
 Encoding: 8230 8230 748
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
+Refer: 50 46 N 1 0 0 1 146 0 2
+Refer: 50 46 N 1 0 0 1 -147 0 2
 Refer: 50 46 N 1 0 0 1 0 0 2
 EndChar
 EndChars
