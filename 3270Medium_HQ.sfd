@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1424777334
+ModificationTime: 1426912228
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 15
+WinInfo: 222 37 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -61,7 +61,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114235 749
+BeginChars: 1114235 750
 
 StartChar: uni2400
 Encoding: 9216 9216 0
@@ -17660,12 +17660,46 @@ StartChar: ellipsis
 Encoding: 8230 8230 748
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 50 46 N 1 0 0 1 146 0 2
 Refer: 50 46 N 1 0 0 1 -147 0 2
 Refer: 50 46 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni27F3
+Encoding: 10227 10227 749
+Width: 536
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+440 474 m 1
+ 440 594 l 2
+ 440 610 454 624 470 624 c 0
+ 486 624 500 610 500 594 c 2
+ 500 382 l 2
+ 500 366 486 352 470 352 c 2
+ 260 352 l 2
+ 244 352 230 366 230 382 c 0
+ 230 398 244 412 260 412 c 2
+ 364 412 l 2
+ 364 412 369 412 375 412 c 0
+ 388 412 407 412 407 412 c 1
+ 383 467 329 505 266 505 c 0
+ 181 505 112 436 112 351 c 0
+ 112 266 181 197 266 197 c 0
+ 331 197 387 238 409 295 c 1
+ 472 295 l 1
+ 447 204 365 137 266 137 c 0
+ 148 137 52 233 52 351 c 0
+ 52 469 148 565 266 565 c 0
+ 338 565 401 529 440 474 c 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
