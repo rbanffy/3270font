@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1429725082
+ModificationTime: 1430587291
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 15
+WinInfo: 37 37 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -12852,16 +12852,24 @@ StartChar: Aogonek
 Encoding: 260 260 414
 Width: 536
 VWidth: 0
-Flags: W
+UnlinkRmOvrlpSave: 1
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 160 65 N 1 0 0 1 0 0 2
+Refer: 742 731 S 1 0 0 1 307 -1 2
 EndChar
 
 StartChar: aogonek
 Encoding: 261 261 415
 Width: 536
 VWidth: 0
-Flags: W
+UnlinkRmOvrlpSave: 1
+Flags: HW
 LayerCount: 2
+Fore
+Refer: 128 97 N 1 0 0 1 0 0 2
+Refer: 742 731 S 1 0 0 1 247 0 2
 EndChar
 
 StartChar: Cacute
@@ -17318,14 +17326,13 @@ StartChar: iogonek
 Encoding: 303 303 736
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 49 21<237 298> 456 20<237 298> 598 61<237 298>
 VStem: 237 61<49 476 598 659>
 LayerCount: 2
 Fore
 Refer: 742 731 N 1 0 0 1 122 -126 2
 Refer: 136 105 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -17411,14 +17418,13 @@ StartChar: Iogonek
 Encoding: 302 302 741
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 48 61<176 237 298 359> 537 61<177 237 298 359>
 VStem: 176 183<49 109 537 598>
 LayerCount: 2
 Fore
 Refer: 742 731 N 1 0 0 1 153 -126 2
 Refer: 168 73 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ogonek
@@ -17434,15 +17440,14 @@ SplineSet
  116 172 l 1
  173 172 l 1
  173 31 l 1
- 215 -12 l 1
- 295 -12 l 1
- 295 -70 l 1
- 202 -70 l 2
- 192 -70 188 -67 182 -61 c 2
+ 195 8 l 1
+ 217 8 l 1
+ 217 -50 l 1
+ 182 -50 l 2
+ 172 -50 168 -47 162 -41 c 2
  124 0 l 2
  118 6 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: breve
