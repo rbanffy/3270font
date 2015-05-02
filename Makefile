@@ -15,5 +15,5 @@ zip: all
 	zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270Narrow.*
 
 clean:
-	@find . -iname '*.otf' -delete -o -iname '*.ttf' -delete -o -iname '*.afm' -delete -o -iname '*.pfm' -delete -o -iname '*.woff' -delete
-	@rm -f 3270_fonts_*.zip
+	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
+	@rm -f 3270_fonts_*.zip 3270Medium_HQ_Narrow.sfd
