@@ -12857,6 +12857,7 @@ LayerCount: 2
 Fore
 Refer: 160 65 N 1 0 0 1 0 0 2
 Refer: 742 731 S 1 0 0 1 307 -1 2
+Validated: 5
 EndChar
 
 StartChar: aogonek
@@ -12869,6 +12870,7 @@ LayerCount: 2
 Fore
 Refer: 128 97 N 1 0 0 1 0 0 2
 Refer: 742 731 S 1 0 0 1 247 0 2
+Validated: 5
 EndChar
 
 StartChar: Cacute
@@ -17332,6 +17334,7 @@ LayerCount: 2
 Fore
 Refer: 742 731 N 1 0 0 1 122 -126 2
 Refer: 136 105 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -17424,6 +17427,7 @@ LayerCount: 2
 Fore
 Refer: 742 731 N 1 0 0 1 153 -126 2
 Refer: 168 73 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ogonek
@@ -17447,6 +17451,7 @@ SplineSet
  124 0 l 2
  118 6 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: breve
@@ -17941,16 +17946,18 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 109 187 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uni27EA
 Encoding: 762 10218 766
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 108 171 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
