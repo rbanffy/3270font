@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1432756546
+ModificationTime: 1433513745
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 296 37 13
+WinInfo: 185 37 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -61,7 +61,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114239 767
+BeginChars: 1114239 769
 
 StartChar: uni2400
 Encoding: 9216 9216 0
@@ -16278,16 +16278,16 @@ StartChar: SF110000
 Encoding: 9474 9474 695
 Width: 536
 VWidth: 0
-Flags: W
-VStem: 244 61<-235 837>
+Flags: HWO
+VStem: 244 61<-200 800>
 LayerCount: 2
 Fore
 SplineSet
-244 837 m 1
- 305 837 l 1
- 305 -235 l 1
- 244 -235 l 1
- 244 837 l 1
+305 800 m 1
+ 305 467 305 133 305 -200 c 1
+ 244 -200 l 1
+ 244 133 244 467 244 800 c 1
+ 305 800 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -16296,25 +16296,24 @@ StartChar: SF100000
 Encoding: 9472 9472 696
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 293 61<0 536>
 LayerCount: 2
 Fore
 SplineSet
-0 354 m 1
- 536 354 l 1
+536 354 m 1
  536 293 l 1
  0 293 l 1
  0 354 l 1
+ 536 354 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: SF050000
 Encoding: 9532 9532 697
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HWO
 HStem: 293 61<0 244 305 536>
 VStem: 244 61<-200 293 354 800>
 LayerCount: 2
@@ -17958,6 +17957,52 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 108 171 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: SF060000
+Encoding: 9516 9516 767
+Width: 536
+VWidth: 0
+Flags: HW
+HStem: 293 61<0 244 305 536>
+VStem: 244 61<-200 293>
+LayerCount: 2
+Fore
+SplineSet
+536 354 m 1
+ 536 293 l 1
+ 305 293 l 1
+ 305 -200 l 1
+ 244 -200 l 1
+ 244 293 l 1
+ 0 293 l 1
+ 0 354 l 1
+ 536 354 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: SF070000
+Encoding: 9524 9524 768
+Width: 536
+VWidth: 0
+Flags: HW
+HStem: 293 61<0 244 305 536>
+VStem: 244 61<-200 293 354 800>
+LayerCount: 2
+Fore
+SplineSet
+0 293 m 1
+ 0 354 l 1
+ 244 354 l 1
+ 244 800 l 1
+ 305 800 l 1
+ 305 354 l 1
+ 536 354 l 1
+ 536 293 l 1
+ 0 293 l 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
