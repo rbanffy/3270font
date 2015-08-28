@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1440705080
+ModificationTime: 1440727031
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 111 37 13
+WinInfo: 0 37 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -17675,18 +17675,18 @@ LayerCount: 2
 Fore
 SplineSet
 177 171 m 1
- 268 171 l 1
- 268 49 l 1
+ 248 171 l 1
+ 248 49 l 1
  177 49 l 1
  177 171 l 1
 30 171 m 1
- 121 171 l 1
- 121 49 l 1
+ 101 171 l 1
+ 101 49 l 1
  30 49 l 1
  30 171 l 1
 323 171 m 1
- 414 171 l 1
- 414 49 l 1
+ 394 171 l 1
+ 394 49 l 1
  323 49 l 1
  323 171 l 1
 EndSplineSet
