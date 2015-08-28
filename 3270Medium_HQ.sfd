@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1440727245
+ModificationTime: 1440727383
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -18475,8 +18475,8 @@ StartChar: trademark
 Encoding: 8482 8482 784
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 638 51<50 112 162 234>
+Flags: W
+HStem: 638 51<50 112 162 225>
 VStem: 112 50<385 638> 275 50<385 603> 407 50<385 603>
 LayerCount: 2
 Fore
@@ -18495,8 +18495,8 @@ SplineSet
  275 385 l 1
  275 689 l 1
 50 689 m 1
- 234 689 l 1
- 234 638 l 1
+ 225 689 l 5
+ 225 638 l 5
  162 638 l 1
  162 385 l 1
  112 385 l 1
