@@ -32,7 +32,7 @@ Adobe Type 1, TTF, OTF and WOFF versions are available for download on
 http://s3.amazonaws.com/rbanffy/3270_fonts_fac913b.zip for those who
 would just like to use them.
 
-![Using it on OSX]
+![Using it on OSX (don't forget to turn antialiasing on)]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
 Generating derived files
