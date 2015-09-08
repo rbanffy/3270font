@@ -29,7 +29,7 @@ tutorials.
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-http://s3.amazonaws.com/rbanffy/3270_fonts_fffceb4.zip for those who
+http://s3.amazonaws.com/rbanffy/3270_fonts_fac913b.zip for those who
 would just like to use them.
 
 ![Using it on OSX]
