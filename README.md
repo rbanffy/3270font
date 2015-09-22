@@ -29,11 +29,14 @@ tutorials.
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-http://s3.amazonaws.com/rbanffy/3270_fonts_fac913b.zip for those who
+http://s3.amazonaws.com/rbanffy/3270_fonts_4eb6587.zip for those who
 would just like to use them.
 
 ![Using it on OSX (don't forget to turn antialiasing on)]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
+
+![Works on Windows]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_xp.png)
 
 Generating derived files
 ------------------------
@@ -67,14 +70,6 @@ museum for advice.
 
 Known problems
 --------------
-
-I have received errors when installing the OTF, TTF, and PFM fonts on
-Windows 7 and 8 (didn't try others). A friend managed to generate TTF
-files for both versions from the compiled TTF files and they can be
-downloaded from
-https://s3.amazonaws.com/rbanffy/3270_fonts_windows.zip. I'll continue
-investigating the issue so that we can generate Windows-compatible fonts
-directly.
 
 Not all symbols in the 3270 charset have Unicode counterparts. When
 possible, they are duplicated in the Unicode space. The 3270-only
