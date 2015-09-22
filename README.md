@@ -35,6 +35,10 @@ would just like to use them.
 ![Using it on OSX (don't forget to turn antialiasing on)]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
+If you are running Windows, you'll probably need something like
+Cygwin, but, in the end, the font works correctly (with some very
+minor hinting issues).
+
 ![Works on Windows]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_xp.png)
 
