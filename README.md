@@ -71,7 +71,7 @@ doubt, get in touch and we will figure out how to do it right.
 Preserving history
 ------------------
 
-I regard the history of electronic computing a very important part of
+I regard the evolution of electronic computing a very important part of
 our civilization's history. Consider donating to entities that help
 preserve it, such as the Computer History Museum
 (http://www.computerhistory.org/), the IT History Society
