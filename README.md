@@ -42,14 +42,18 @@ minor hinting issues).
 ![Works on Windows]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_7.png)
 
-Generating derived files
-------------------------
+Generating usable font files
+----------------------------
+
+The easiest way to generate the font files your computer can use is to
+run `make all` (if you are running Ubuntu or Debian, `make install` will
+install them too). Using `make help` will offer a handy list of options.
 
 The script `generate_derived.pe` calls FontForge and generates
 PostScript, OTF, TTF and WOFF versions of the base font, as well as a
 slightly more condensed .sfd file with the base font narrowed to 488
-units, with no glyph rescaling and its corresponding PostScript, TTF,
-OTF and WOFF versions.
+units, with no glyph rescaling (or cropping - we need to fix that) and
+its corresponding PostScript, TTF, OTF and WOFF versions.
 
 Contributing
 ------------

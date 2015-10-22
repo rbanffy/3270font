@@ -2,6 +2,14 @@ SHELL = /bin/sh
 
 .SUFFIXES:
 
+help:
+	@echo "Please use \`make <target>' where <target> is one of:"
+	@echo "  all        Generates the TrueType, OpenType, Type-1 and WebFont files."
+	@echo "  install    Copies the generated fonts into ~/.local/share/fonts"
+	@echo "  uninstall  Removes the generated files from ~/.local/share/fonts"
+	@echo "  zip        Creates the ZIP archive to be sent to S3 (the "binary build")"
+	@echo "  clean      Deletes all automatically generated files."
+
 all: 3270Medium_HQ.sfd
 	./generate_derived.pe
 
