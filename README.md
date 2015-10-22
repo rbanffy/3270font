@@ -58,11 +58,15 @@ its corresponding PostScript, TTF, OTF and WOFF versions.
 Contributing
 ------------
 
-I don't think GitHub's pull-request mechanism is FontForge-friendly. If
-you want to contribute (there are a lot of missing glyphs, such as the
-APL set and most non-latin alphabets which most likely were never built
-into 3270 terminals), get in touch and we will figure out how to do it
-right.
+I fear GitHub's pull-request mechanism may not be very
+FontForge-friendly. If you want to contribute (there are a lot of
+missing glyphs, such as the APL set and most non-latin alphabets which
+most likely were never built into 3270 terminals), the best workflow
+would be to make add the encoding slots (if needed), add/make the
+changes, reencode it in "Unicode, Full", compact it and validate
+it. Check if the `git diff` command gives out something sensible (does
+not change things you didn't intend to) and make a pull request. If, in
+doubt, get in touch and we will figure out how to do it right.
 
 Preserving history
 ------------------
