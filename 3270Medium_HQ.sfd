@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1445517530
+ModificationTime: 1446122232
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,16 +52,18 @@ NameList: Adobe Glyph List
 DisplaySize: 32
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 74 37 13
+WinInfo: 259 37 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
 Grid
+-1000 630.2 m 0
+ 2000 630.2 l 0
 -1000 470.3 m 0
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114239 793
+BeginChars: 1114239 795
 
 StartChar: uni2400
 Encoding: 9216 9216 0
@@ -17074,7 +17076,7 @@ StartChar: dnblock
 Encoding: 9604 9604 722
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 512<0 536>
 VStem: 0 536<-200 312>
 LayerCount: 2
@@ -18576,7 +18578,7 @@ StartChar: uni2583
 Encoding: 9603 9603 786
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 386<0 536>
 LayerCount: 2
 Fore
@@ -18594,7 +18596,7 @@ StartChar: uni2581
 Encoding: 9601 9601 787
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 143<0 536>
 LayerCount: 2
 Fore
@@ -18612,7 +18614,7 @@ StartChar: uni2582
 Encoding: 9602 9602 788
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 270<0 536>
 LayerCount: 2
 Fore
@@ -18630,7 +18632,7 @@ StartChar: uni2585
 Encoding: 9605 9605 789
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -200 654<0 536>
 VStem: 0 536<-200 453.8>
 LayerCount: 2
@@ -18649,7 +18651,7 @@ StartChar: uni2586
 Encoding: 9606 9606 790
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 VStem: 0 536<-200 579.8>
 LayerCount: 2
 Fore
@@ -18694,6 +18696,114 @@ SplineSet
  549 -195 l 1
  0 -195 l 1
  0 148 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni23CE
+Encoding: 9166 9166 793
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+318 575 m 1
+ 460 575 l 1
+ 460 250 l 1
+ 228 250 l 1
+ 228 140 l 1
+ 41 324 l 1
+ 228 508 l 1
+ 228 397 l 1
+ 318 397 l 1
+ 318 575 l 1
+410 525 m 1
+ 368 525 l 1
+ 368 347 l 1
+ 178 347 l 1
+ 178 388 l 1
+ 112 324 l 1
+ 178 260 l 1
+ 178 300 l 1
+ 410 300 l 1
+ 410 525 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni2318
+Encoding: 8984 8984 794
+Width: 536
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+146 301 m 5
+ 146 414 l 5
+ 48 414 l 4
+ 37 414 25 422 25 436 c 4
+ 25 560 l 4
+ 25 561 26 563 26 565 c 4
+ 29 580 43 593 58 593 c 4
+ 179 593 l 4
+ 190 593 202 584 202 570 c 4
+ 202 469 l 5
+ 310 469 l 5
+ 310 560 l 4
+ 310 561 311 563 311 565 c 4
+ 314 580 328 593 343 593 c 4
+ 465 593 l 4
+ 476 593 488 584 488 570 c 4
+ 488 446 l 4
+ 488 445 487 443 487 441 c 4
+ 484 426 470 414 455 414 c 4
+ 366 414 l 5
+ 366 301 l 5
+ 465 301 l 4
+ 476 301 488 292 488 278 c 4
+ 488 156 l 4
+ 488 155 487 153 487 151 c 4
+ 484 136 470 124 455 124 c 4
+ 333 124 l 4
+ 322 124 310 132 310 146 c 4
+ 310 246 l 5
+ 202 246 l 5
+ 202 156 l 4
+ 202 155 201 153 201 151 c 4
+ 198 136 184 124 169 124 c 4
+ 49 124 l 4
+ 38 124 26 132 26 146 c 4
+ 26 268 l 4
+ 26 269 27 271 27 273 c 4
+ 30 288 44 301 59 301 c 4
+ 146 301 l 5
+202 414 m 5
+ 202 301 l 5
+ 310 301 l 5
+ 310 414 l 5
+ 202 414 l 5
+366 469 m 5
+ 432 469 l 5
+ 432 538 l 5
+ 366 538 l 5
+ 366 469 l 5
+366 246 m 5
+ 366 179 l 5
+ 432 179 l 5
+ 432 246 l 5
+ 366 246 l 5
+146 246 m 5
+ 82 246 l 5
+ 82 179 l 5
+ 146 179 l 5
+ 146 246 l 5
+146 469 m 5
+ 146 538 l 5
+ 81 538 l 5
+ 81 469 l 5
+ 146 469 l 5
 EndSplineSet
 Validated: 1
 EndChar
