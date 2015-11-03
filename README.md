@@ -1,9 +1,9 @@
 3270font: A font for the nostalgic
 ==================================
 
-![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
-
 ![Travis-CI](https://api.travis-ci.org/rbanffy/appengine-fixture-loader.svg)
+
+![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
 A little bit of history
 -----------------------
