@@ -1,7 +1,7 @@
 3270font: A font for the nostalgic
 ==================================
 
-![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg.svg)
+![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
 
 ![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
