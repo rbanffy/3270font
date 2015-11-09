@@ -2,6 +2,5 @@ addons:
   apt:
     packages:
     - fontforge
-    - zip
 sudo: false
 script: "make test"
