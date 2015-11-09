@@ -17,7 +17,7 @@ for guidance.
 ![Using with the cool-old-tern (now cool-retro-term) terminal program]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-retro-term.png)
 
-The format
+Getting it
 ----------
 
 If you are running Debian or Ubuntu and you don't want to mess with
@@ -27,6 +27,9 @@ glyphs I add from time to time, but it's good enough for most
 purposes. For those who don't have the luxury of a proper system-managed
 package, Adobe Type 1, TTF, OTF and WOFF versions are available for
 download on http://s3.amazonaws.com/rbanffy/3270_fonts_1aeb375.zip.
+
+The format
+----------
 
 The `source` file is edited using FontForge. You'll need it if you want
 to generate fonts for your platform. On most civilized operating
