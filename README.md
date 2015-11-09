@@ -20,12 +20,20 @@ for guidance.
 The format
 ----------
 
-This font was built with FontForge. You'll need it if you want to
-generate fonts for your platform. On most civilized operating systems,
-you can simply `apt-get install fontforge`, `yum install fontforge` or
-even `port install fontforge`. On others, you may need to grab your copy
-from http://fontforge.org/. I encourage you to drop by and read the
-tutorials.
+If you are running Debian or Ubuntu and you don't want to mess with
+building your font files, you can simply `apt-get install
+fonts-3270`. It'll most likely not the latest version, with all new
+glyphs I add from time to time, but it's good enough for most
+purposes. For those who don't have the luxury of a proper system-managed
+package, Adobe Type 1, TTF, OTF and WOFF versions are available for
+download on http://s3.amazonaws.com/rbanffy/3270_fonts_1aeb375.zip.
+
+The `source` file is edited using FontForge. You'll need it if you want
+to generate fonts for your platform. On most civilized operating
+systems, you can simply `apt-get install fontforge`, `yum install
+fontforge` or even `port install fontforge`. On others, you may need to
+grab your copy from http://fontforge.org/. I encourage you to drop by
+and read the tutorials.
 
 ![Powerline-shell compatible!]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
