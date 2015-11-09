@@ -31,7 +31,7 @@ download on http://s3.amazonaws.com/rbanffy/3270_fonts_1aeb375.zip.
 The format
 ----------
 
-The `source` file is edited using FontForge. You'll need it if you want
+The "source" file is edited using FontForge. You'll need it if you want
 to generate fonts for your platform. On most civilized operating
 systems, you can simply `apt-get install fontforge`, `yum install
 fontforge` or even `port install fontforge`. On others, you may need to
