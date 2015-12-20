@@ -26,7 +26,7 @@ zip: all
 test: zip
 	@fontlint 3270Medium.otf 3270Medium.pfm 3270Medium.ttf 3270Medium.woff
 	@zip -T 3270_fonts_*.zip
-	@wget -q --spider http://s3.amazonaws.com/rbanffy/3270_fonts_$(git rev-parse --short HEAD).zip
+	@wget -q --spider http://s3.amazonaws.com/rbanffy/3270_fonts_$(shell git rev-parse --short HEAD).zip
 
 clean:
 	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
