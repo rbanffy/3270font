@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-box_single = """
-┌──┬────┐
-├──┼────┤
-│  │    │
-└──┴────┘
+boxes = """
+┌─┬┐╔═╦╗╓─╥╖
+├─┼┤╠═╬╣╟─╫╢
+│ ││║ ║║║ ║║
+└─┴┘╚═╩╝╙─╨╜
 """
 
 if __name__ == '__main__':
-    print(box_single)
+    print(boxes)
