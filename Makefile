@@ -10,8 +10,9 @@ help:
 	@echo "  all        Generates the TrueType, OpenType, Type-1 and WebFont files."
 	@echo "  install    Copies the generated fonts into ~/.local/share/fonts"
 	@echo "  uninstall  Removes the generated files from ~/.local/share/fonts"
-	@echo "  zip        Creates the ZIP archive to be sent to S3 (the "binary build")"
+	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')"
 	@echo "  test       Generates and checks font files"
+	@echo "  fulltest   Also ensures the .zip file is valid and available on S3"
 	@echo "  clean      Deletes all automatically generated files."
 
 install: all
