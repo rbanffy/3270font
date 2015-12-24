@@ -3,4 +3,4 @@ addons:
     packages:
     - fontforge
 sudo: false
-script: "make test"
+script: "make fulltest"

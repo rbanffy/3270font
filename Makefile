@@ -23,8 +23,10 @@ uninstall:
 zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270Narrow.*
 
-test: zip
+test:
 	@fontlint 3270Medium.otf 3270Medium.pfm 3270Medium.ttf 3270Medium.woff
+
+fulltest: test zip
 	@zip -T 3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/rbanffy/3270_fonts_[^/"]+' README.md)
 
