@@ -26,7 +26,7 @@ zip: all
 test:
 	@fontlint 3270Medium.otf 3270Medium.pfm 3270Medium.ttf 3270Medium.woff
 
-fulltest: test zip
+fulltest: zip test
 	@zip -T 3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/rbanffy/3270_fonts_[^/"]+' README.md)
 
