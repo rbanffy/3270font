@@ -24,8 +24,11 @@ uninstall:
 zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270Narrow.*
 
-test:
-	@fontlint 3270Medium.otf 3270Medium.pfm 3270Medium.ttf 3270Medium.woff
+test: all
+	fontlint 3270Medium.otf
+	fontlint 3270Medium.pfm
+	fontlint 3270Medium.ttf
+	fontlint 3270Medium.woff
 
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip
