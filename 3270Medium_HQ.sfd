@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1451878938
+ModificationTime: 1451879258
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -15803,7 +15803,38 @@ Encoding: 65510 65510 654
 Width: 536
 VWidth: 0
 Flags: W
+HStem: 48 21G<181 188.5 346.5 354> 231 62<54 481> 415 61<54 481> 577 20G<94 154.045 381 441>
+VStem: 95 60<150 597> 237 60<213 352> 381 60<151 598>
+DStem2: 185 121 206 57 0.514496 0.857493<0 72.5439> 297 211 266 157 0.536875 -0.843661<28.9146 104.384>
 LayerCount: 2
+Fore
+SplineSet
+266 157 m 1
+ 206 57 l 2
+ 201.134 50.0488 192 48 185 48 c 0
+ 177 48 170 51 164 57 c 2
+ 104 117 l 2
+ 98 123 95 130 95 138 c 2
+ 94 597 l 1
+ 154 597 l 1
+ 155 150 l 1
+ 185 121 l 1
+ 237 213 l 1
+ 237 352 l 1
+ 297 352 l 1
+ 297 211 l 1
+ 350 121 l 1
+ 381 151 l 1
+ 381 598 l 1
+ 441 598 l 1
+ 441 138 l 2
+ 441 129 438 122 432 116 c 2
+ 371 57 l 2
+ 365 52 358 49 350 49 c 0
+ 343 49 334.036 51.1709 329 58 c 2
+ 266 157 l 1
+EndSplineSet
+Refer: 17 61 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFFE7
@@ -20714,7 +20745,7 @@ StartChar: uni2934
 Encoding: 10548 10548 844
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 80 50<90 175>
 VStem: 212 60<166 336>
 LayerCount: 2
@@ -20822,6 +20853,7 @@ SplineSet
  390 299 l 2
  386 295 380 292 374 292 c 9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2937
@@ -20849,6 +20881,7 @@ SplineSet
  269 292 l 13
  162 292 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: NameMe.859
