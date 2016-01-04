@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1451863665
+ModificationTime: 1451878938
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -20714,7 +20714,7 @@ StartChar: uni2934
 Encoding: 10548 10548 844
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 80 50<90 175>
 VStem: 212 60<166 336>
 LayerCount: 2
@@ -20807,22 +20807,21 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-360 292 m 9
- 230 292 l 17
- 230 171 l 1
- 49 323 l 1
- 230 476 l 1
- 230 352 l 9
- 350 352 l 17
- 386 388 l 1
- 386 473 l 1
- 436 473 l 1
- 436 374 l 2
- 436 366 434 357 428 351 c 2
- 376 299 l 2
- 372 295 366 292 360 292 c 9
+374 292 m 9
+ 267 292 l 17
+ 267 171 l 1
+ 86 323 l 1
+ 267 476 l 1
+ 267 352 l 9
+ 364 352 l 17
+ 400 388 l 1
+ 400 473 l 1
+ 450 473 l 1
+ 450 374 l 2
+ 450 366 448 357 442 351 c 2
+ 390 299 l 2
+ 386 295 380 292 374 292 c 9
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2937
@@ -20843,14 +20842,13 @@ SplineSet
  136 473 l 1
  136 388 l 1
  172 352 l 9
- 354 352 l 17
- 354 476 l 1
- 535 323 l 1
- 354 171 l 1
- 354 292 l 9
+ 269 352 l 21
+ 269 476 l 5
+ 450 323 l 5
+ 269 171 l 5
+ 269 292 l 13
  162 292 l 17
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: NameMe.859
