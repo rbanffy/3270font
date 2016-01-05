@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1451960928
+ModificationTime: 1451961080
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -295,7 +295,7 @@ Encoding: 62 62 8
 Width: 536
 VWidth: 0
 InSpiro: 1
-Flags: W
+Flags: HWO
 VStem: 124 294
 DStem2: 175 598 131 549 0.704203 -0.709999<-16.4771 323.403> 132 97 176 48 0.695517 0.718509<-25.1417 321.703>
 LayerCount: 2
@@ -305,54 +305,7 @@ p%A!.J:IV"zzzz$ig8;!!!6(!!@`O!Pe[8huEar!!"tY!#tt=)uosu!!$s<!8mhX^]4Ie!!`K(
 %KHJ;zzzzzzz
 EndImage
 Fore
-SplineSet
-131 549 m 1
- 126 555 124 563 124 571 c 0
- 124 579 128 586 133 592 c 0
- 138 598 145 601 153 602 c 0
- 161 603 168 602 175 598 c 1
- 418 353 l 1
- 418 298 l 1
- 176 48 l 1
- 170 45 163 44 156 45 c 0
- 149 46 143 49 138 54 c 0
- 132 59 128 66 127 74 c 0
- 126 82 128 90 132 97 c 1
- 359 325 l 1
- 131 549 l 1
-  Spiro
-    131 549 v
-    126.966 555.585 o
-    124.702 563.082 o
-    124 571 o
-    125.22 578.659 o
-    128.448 585.673 o
-    133 592 o
-    138.623 597.033 o
-    145.378 600.299 o
-    153 602 o
-    160.696 602.297 o
-    167.97 601.035 o
-    175 598 v
-    418 353 v
-    418 298 v
-    176 48 v
-    169.71 45.6683 o
-    162.956 44.6663 o
-    156 45 o
-    146.25 48 o
-    138 54 o
-    132.708 59.6234 o
-    128.96 66.3776 o
-    127 74 o
-    126.962 81.9551 o
-    128.706 89.7113 o
-    132 97 v
-    359 325 v
-    0 0 z
-  EndSpiro
-EndSplineSet
-Validated: 1
+Refer: 9 60 S -1 0 0 1 544 0 2
 EndChar
 
 StartChar: less
@@ -450,7 +403,7 @@ Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 InSpiro: 1
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -13733,13 +13686,12 @@ StartChar: uniFF1E
 Encoding: 65310 65310 455
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 124 294
 DStem2: 175 598 131 549 0.704203 -0.709999<-16.4771 323.403> 132 97 176 48 0.695517 0.718509<-25.1417 321.703>
 LayerCount: 2
 Fore
 Refer: 8 62 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uniFF1F
