@@ -1,5 +1,6 @@
 Current
 -------
+Simplified multiple accented chars, adjusted borders
 Added Debian logo glyph (on a provisional encoding slot)
 
 v1.2.7
