@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 40 40 15
+WinInfo: 120 40 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -65,7 +65,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114243 854
+BeginChars: 1114242 854
 
 StartChar: uni2400
 Encoding: 9216 9216 0
@@ -20681,7 +20681,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.837
-Encoding: 1114241 -1 841
+Encoding: 61696 61696 841
 Width: 536
 VWidth: 0
 Flags: W
@@ -21109,7 +21109,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.848
-Encoding: 1114242 -1 852
+Encoding: 1114241 -1 852
 Width: 536
 VWidth: 0
 Flags: W
