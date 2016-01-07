@@ -1,7 +1,7 @@
-Current
+v1.2.8
 -------
+Resized various glyphs so that they have more consistent widths
 Simplified multiple accented chars, adjusted borders
-Added Debian logo glyph (on a provisional encoding slot)
 
 v1.2.7
 ------
