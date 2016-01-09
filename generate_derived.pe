@@ -1,6 +1,6 @@
 #!/usr/bin/env fontforge
 Open("3270Medium_HQ.sfd")
-Select("uniE0FF", "uniF0FF", "uniF100", "uniF8FF")
+Select("uniE0FF", "uniF0FF")
 DetachAndRemoveGlyphs()
 Generate("3270Medium.otf")
 Generate("3270Medium.ttf")
