@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1452776272
+ModificationTime: 1452865889
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 280 40 15
+WinInfo: 200 40 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -75,7 +75,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114242 857
+BeginChars: 1114242 858
 
 StartChar: uni2400
 Encoding: 9216 9216 0
@@ -21173,6 +21173,26 @@ LayerCount: 2
 Fore
 Refer: 456 65311 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: uni2B06
+Encoding: 11014 11014 857
+Width: 536
+VWidth: 0
+Flags: WO
+VStem: 212 60<129 336>
+LayerCount: 2
+Fore
+SplineSet
+272 129 m 29
+ 212 129 l 29
+ 212 336 l 21
+ 90 336 l 5
+ 242 516 l 5
+ 394 336 l 5
+ 272 336 l 13
+ 272 129 l 29
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
