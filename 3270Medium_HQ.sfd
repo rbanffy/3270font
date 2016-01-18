@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1452866225
+ModificationTime: 1453121632
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 280 40 15
+WinInfo: 0 40 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -862,7 +862,7 @@ StartChar: bar
 Encoding: 124 124 22
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 237 61<-73 720>
 LayerCount: 2
 Back
@@ -874,8 +874,8 @@ Fore
 SplineSet
 237 720 m 1
  298 720 l 1
- 298 -73 l 1
- 237 -73 l 1
+ 298 -118 l 1
+ 237 -118 l 1
  237 720 l 1
 EndSplineSet
 Validated: 1
@@ -885,7 +885,7 @@ StartChar: brokenbar
 Encoding: 166 166 23
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 639 20G<237 298>
 VStem: 237 61<-73 231 354 659>
 LayerCount: 2
@@ -896,16 +896,16 @@ p%A!.J:IV"zz!!!#7!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7zzz!5JR7^]4AM!!'e7!5JR7
 EndImage
 Fore
 SplineSet
-237 659 m 1
- 298 659 l 1
- 298 354 l 1
- 237 354 l 1
- 237 659 l 1
-237 231 m 1
- 298 231 l 1
- 298 -73 l 1
- 237 -73 l 1
- 237 231 l 1
+237 354 m 17
+ 237 720 l 1
+ 298 720 l 1
+ 298 354 l 9
+ 237 354 l 17
+298 234 m 17
+ 298 -118 l 1
+ 237 -118 l 1
+ 237 234 l 9
+ 298 234 l 17
 EndSplineSet
 Validated: 1
 EndChar
@@ -914,7 +914,7 @@ StartChar: question
 Encoding: 63 63 24
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 50 61<233 300> 477 21G<120 180> 600 60<225 384>
 VStem: 120 60<477 556> 237 60<50 111 232 312> 430 60<519 555>
 DStem2: 246 347 297 312 0.730527 0.682884<13.3559 251.873>
@@ -926,34 +926,34 @@ p%A!.J:IV"zz!!!-!!!iK'%L2tB!rr`3!"9)4!"Ju/)uosu!!$s<!8mhW^]4AM!!'e7zzz!5JR7
 EndImage
 Fore
 SplineSet
-180 477 m 1
- 120 477 l 1
- 120 569 l 0
- 120 577 124 585 129 590 c 0
- 192 652 l 0
- 198 658 207 660 213 660 c 0
- 397 660 l 0
- 405 660 413 656 418 651 c 0
- 481 588 l 0
- 487 582 490 574 490 567 c 0
- 490 506 l 0
- 490 498 485 489 480 484 c 0
- 297 312 l 1
- 297 232 l 1
- 237 232 l 1
- 237 325 l 0
- 237 332 240 341 246 347 c 0
- 430 519 l 1
- 430 555 l 1
- 384 600 l 1
- 225 600 l 1
- 180 556 l 1
- 180 477 l 1
-233 111 m 1
- 300 111 l 1
- 300 50 l 1
- 233 50 l 1
- 233 111 l 1
+169 477 m 1
+ 109 477 l 1
+ 109 569 l 0
+ 109 577 113 585 118 590 c 0
+ 181 652 l 0
+ 187 658 196 660 202 660 c 0
+ 386 660 l 0
+ 394 660 402 656 407 651 c 0
+ 470 588 l 0
+ 476 582 479 574 479 567 c 0
+ 479 506 l 0
+ 479 498 474 489 469 484 c 0
+ 286 312 l 1
+ 286 232 l 1
+ 226 232 l 1
+ 226 325 l 0
+ 226 332 229 341 235 347 c 0
+ 419 519 l 1
+ 419 555 l 1
+ 373 600 l 1
+ 214 600 l 1
+ 169 556 l 1
+ 169 477 l 1
+222 111 m 1
+ 289 111 l 1
+ 289 50 l 1
+ 222 50 l 1
+ 222 111 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -14622,7 +14622,7 @@ StartChar: uniFF5C
 Encoding: 65372 65372 516
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 VStem: 237 61<-73 720>
 LayerCount: 2
 Fore
@@ -15917,7 +15917,7 @@ StartChar: uniFFE4
 Encoding: 65508 65508 652
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 639 20<237 298>
 VStem: 237 61<-73 231 354 659>
 LayerCount: 2
@@ -21171,7 +21171,36 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 456 65311 N 1 0 0 1 0 0 2
+SplineSet
+116 477 m 1
+ 56 477 l 1
+ 56 569 l 0
+ 56 577 60 585 65 590 c 0
+ 128 652 l 0
+ 134 658 143 660 149 660 c 0
+ 386 660 l 0
+ 394 660 402 656 407 651 c 0
+ 470 588 l 0
+ 476 582 479 574 479 567 c 0
+ 479 506 l 0
+ 479 498 474 489 469 484 c 0
+ 286 312 l 1
+ 286 232 l 1
+ 226 232 l 1
+ 226 325 l 0
+ 226 332 229 341 235 347 c 0
+ 419 519 l 1
+ 419 555 l 1
+ 373 600 l 1
+ 161 600 l 1
+ 116 556 l 1
+ 116 477 l 1
+222 178 m 1
+ 289 178 l 1
+ 289 117 l 1
+ 222 117 l 1
+ 222 178 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
