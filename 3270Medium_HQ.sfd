@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1453676607
+ModificationTime: 1453676910
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -53,10 +53,8 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 40 40 15
-BeginPrivate: 3
+BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
-StdHW 0 
-StemSnapH 0 
 EndPrivate
 Grid
 -1000 659.1 m 0
