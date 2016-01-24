@@ -26,7 +26,7 @@ fonts-3270`. It'll most likely not the latest version, with all new
 glyphs I add from time to time, but it's good enough for most
 purposes. For those who don't have the luxury of a proper system-managed
 package, Adobe Type 1, TTF, OTF and WOFF versions are available for
-download on http://s3.amazonaws.com/rbanffy/3270_fonts_8641b04.zip
+download on http://s3.amazonaws.com/rbanffy/3270_fonts_dcbf745.zip
 (although this URL may not always reflect the latest version).
 
 The format
