@@ -16,7 +16,8 @@ help:
 	@echo "  clean      Deletes all automatically generated files."
 
 install: all
-	@cp 3270Narrow.otf 3270Medium.otf ~/.local/share/fonts
+	@install -d ~/.local/share/fonts
+	@install 3270Narrow.otf 3270Medium.otf ~/.local/share/fonts
 
 uninstall:
 	@$(RM) ~/.local/share/fonts/3270Narrow.otf ~/.local/share/fonts/3270Medium.otf
