@@ -1,3 +1,7 @@
+Current
+-------
+- Added a SemiNarrow variant 492 units wide
+
 v1.2.10
 -------
 - Small fixes to a and e
