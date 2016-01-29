@@ -30,6 +30,14 @@ test: all
 	fontlint 3270Medium.pfm
 	fontlint 3270Medium.ttf
 	fontlint 3270Medium.woff
+	fontlint 3270SemiNarrow.otf
+	fontlint 3270SemiNarrow.ttf
+	fontlint 3270SemiNarrow.pfm
+	fontlint 3270SemiNarrow.woff
+	fontlint 3270Narrow.otf
+	fontlint 3270Narrow.ttf
+	fontlint 3270Narrow.pfm
+	fontlint 3270Narrow.woff
 
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip
