@@ -23,7 +23,7 @@ uninstall:
 	@$(RM) ~/.local/share/fonts/3270Narrow.otf ~/.local/share/fonts/3270Medium.otf
 
 zip: all
-	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270Narrow.*
+	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
 
 test: all
 	fontlint 3270Medium.otf
