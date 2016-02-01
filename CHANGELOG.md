@@ -1,5 +1,6 @@
 Current
 -------
+- Use wider traces for ✎
 - Added a SemiNarrow variant 492 units wide
 
 v1.2.10
