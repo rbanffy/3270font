@@ -1,5 +1,7 @@
 Current
 -------
+- Add missing dotted Irish alphabet chars
+- Add shorter f and t for easier accent composition
 - Use wider traces for ✎
 - Added a SemiNarrow variant 492 units wide
 
