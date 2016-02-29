@@ -1,4 +1,4 @@
-Current
+v1.2.11
 -------
 - Add missing dotted Irish alphabet chars
 - Add shorter f and t for easier accent composition
