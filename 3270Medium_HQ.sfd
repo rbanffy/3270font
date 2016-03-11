@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1456733548
+ModificationTime: 1457664398
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 132 33 13
+WinInfo: 99 33 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -20591,18 +20591,19 @@ Encoding: 11014 11014 857
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 212 60<129 336>
+HStem: 578 20G<225.111 258.889>
+VStem: 212 60<129 418>
 LayerCount: 2
 Fore
 SplineSet
-272 129 m 29
- 212 129 l 29
- 212 336 l 21
- 90 336 l 5
- 242 516 l 5
- 394 336 l 5
- 272 336 l 13
- 272 129 l 29
+272 129 m 25
+ 212 129 l 25
+ 212 418 l 21
+ 90 418 l 5
+ 242 598 l 5
+ 394 418 l 5
+ 272 418 l 13
+ 272 129 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -20612,10 +20613,11 @@ Encoding: 11015 11015 858
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 212 60<309 516>
+HStem: 128 20<225.111 258.889>
+VStem: 212 60<308 597>
 LayerCount: 2
 Fore
-Refer: 857 11014 S -1 0 0 -1 484 645 2
+Refer: 857 11014 S -1 0 0 -1 484 726 2
 Validated: 1
 EndChar
 
@@ -20843,7 +20845,7 @@ StartChar: NameMe.879
 Encoding: 1114243 -1 871
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 49 21G<181 240> 355 61<57 181 241 362> 539 60<281 422>
 VStem: 181 59<49 355 416 498>
 LayerCount: 2
@@ -20891,7 +20893,7 @@ StartChar: Ddotaccent
 Encoding: 7690 7690 873
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 49 61<57 118 179 317> 538 60<57 118 179 317> 630.1 112<222.922 311.078>
 VStem: 118 61<110 538> 211 112<642.022 730.178> 420 60<213 433>
 DStem2: 351 588 317 537 0.701239 -0.712926<12.5171 158.889> 317 110 350 59 0.710035 0.704167<0 145.663>
@@ -20996,7 +20998,7 @@ StartChar: rdotaccent
 Encoding: 7769 7769 879
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 49 21<106.06 166> 415 60<58 97.6726 269 317> 563 112<197.922 286.078>
 VStem: 106 60<50 313> 186 112<574.922 663.078> 362 60<354 372>
 DStem2: 166 396 166 313 0.710548 0.703649<0 86.5557>
