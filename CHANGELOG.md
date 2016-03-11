@@ -1,3 +1,7 @@
+current
+-------
+- Make the powerline up arrow taller
+
 v1.2.11
 -------
 - Add missing dotted Irish alphabet chars
