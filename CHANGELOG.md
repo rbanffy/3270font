@@ -1,5 +1,7 @@
-current
+v1.2.12
 -------
+- Add a beer mug (used by Homebrew)
+- Fix regex in Makefile test target
 - Make the powerline up arrow taller
 
 v1.2.11
