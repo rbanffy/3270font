@@ -1,3 +1,7 @@
+v1.2.13
+-------
+- Corrected codepoint for single beer, added two-beer glyph
+
 v1.2.12
 -------
 - Add a beer mug (used by Homebrew)
