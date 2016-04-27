@@ -1,5 +1,12 @@
 SHELL = /bin/sh
-UNAME := $(shell uname)
+UNAME = $(shell uname)
+
+ifeq ($(UNAME),Linux)
+	DESTFOLDER=~/.local/share/fonts
+endif
+ifeq ($(UNAME),Darwin)
+	DESTFOLDER=~/Library/Fonts
+endif
 
 .SUFFIXES:
 
@@ -17,11 +24,11 @@ help:
 	@echo "  clean      Deletes all automatically generated files."
 
 install: all
-	@install -d ~/.local/share/fonts
-	@install 3270Narrow.otf 3270Medium.otf 3270SemiNarrow.otf ~/.local/share/fonts
+	@install -d $(DESTFOLDER)
+	@install 3270Narrow.otf 3270Medium.otf 3270SemiNarrow.otf $(DESTFOLDER)
 
 uninstall:
-	@$(RM) ~/.local/share/fonts/3270Narrow.otf ~/.local/share/fonts/3270Medium.otf
+	@$(RM) $(DESTFOLDER)/3270Narrow.otf $(DESTFOLDER)/3270Medium.otf $(DESTFOLDER)/3270SemiNarrow.otf
 
 zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
