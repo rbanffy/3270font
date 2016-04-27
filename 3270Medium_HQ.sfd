@@ -4,26 +4,25 @@ FullName: 3270-Medium
 FamilyName: IBM 3270
 Weight: Medium
 Copyright: Copyright (c) 2011-2012, Ricardo Banffy.\nCopyright (c) 1993-2011, Paul Mattes.\nCopyright (c) 2004-2005, Don Russell.\nCopyright (c) 2004, Dick Altenbern.\nCopyright (c) 1990, Jeff Sparkes.\nCopyright (c) 1989, Georgia Tech Research Corporation (GTRC), Atlanta, GA 30332.\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the names of Paul Mattes, Don Russell, Dick Altenbern, Jeff Sparkes, GTRC nor the names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES AND GTRC "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES OR GTRC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-UComments: "2011-5-25: Created."
+UComments: "2011-5-25: Created." 
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 55
 Ascent: 800
 Descent: 200
-InvalidEm: 0
 woffMajor: 1
 woffMinor: 0
 LayerCount: 2
-Layer: 0 0 "Back" 1
-Layer: 1 0 "Fore" 0
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
 XUID: [1021 799 1486169484 10090958]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1461100877
+ModificationTime: 1461761988
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -45,7 +44,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033
+LangName: 1033 
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -58,24 +57,24 @@ BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
 Grid
 242.5 1300 m 4
- 242.5 -700 l 1028
+ 242.5 -700 l 4
 -1000 659.1 m 0
- 2000 659.1 l 1024
+ 2000 659.1 l 0
 -1000 49 m 0
- 2000 49 l 1024
+ 2000 49 l 0
 -1000 597.3 m 0
- 2000 597.3 l 1024
+ 2000 597.3 l 0
 267 1300 m 0
- 267 -700 l 1024
+ 267 -700 l 0
 -1000 385.7 m 0
- 2000 385.7 l 1024
+ 2000 385.7 l 0
 -1000 630.2 m 0
- 2000 630.2 l 1024
+ 2000 630.2 l 0
 -1000 470.3 m 0
- 2000 470.3 l 1024
+ 2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 882 885
+BeginChars: 882 886
 
 StartChar: uni2400
 Encoding: -1 9216 0
@@ -20456,7 +20455,7 @@ SplineSet
  457 159 451 160 449 160 c 2
  228 205 l 2
  224 206 218 209 215 212 c 2
-409 266 m 1025
+409 266 m 1
 390 351 m 1
  283 245 l 1
  370 227 l 1
@@ -21147,6 +21146,25 @@ SplineSet
  385 428 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: Delta
+Encoding: 881 916 885
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+145 110 m 5
+ 390 110 l 5
+ 267 429 l 5
+ 145 110 l 5
+58 50 m 5
+ 267 597 l 5
+ 477 50 l 5
+ 58 50 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
