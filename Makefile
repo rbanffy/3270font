@@ -16,11 +16,11 @@ all: 3270Medium_HQ.sfd
 help:
 	@echo "Please use \`make <target>' where <target> is one of:"
 	@echo "  all        Generates the TrueType, OpenType, Type-1 and WebFont files."
-	@echo "  install    Copies the generated fonts into ~/.local/share/fonts"
-	@echo "  uninstall  Removes the generated files from ~/.local/share/fonts"
-	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')"
-	@echo "  test       Generates and checks font files"
-	@echo "  fulltest   Also ensures the .zip file is valid and available on S3"
+	@echo "  install    Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX)."
+	@echo "  uninstall  Uninstalls the generated OTF fonts."
+	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
+	@echo "  test       Generates and checks font files."
+	@echo "  fulltest   Also ensures the .zip file is valid and available on S3."
 	@echo "  clean      Deletes all automatically generated files."
 
 install: all
