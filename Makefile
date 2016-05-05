@@ -22,6 +22,7 @@ help:
 	@echo "  test       Generates and checks font files."
 	@echo "  fulltest   Also ensures the .zip file is valid and available on S3."
 	@echo "  clean      Deletes all automatically generated files."
+	@echo "  help       Displays this message."
 
 install: all
 	@install -d $(DESTFOLDER)
