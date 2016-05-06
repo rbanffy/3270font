@@ -1,3 +1,11 @@
+current
+-------
+- Added ✘ (used by Homebrew)
+- Add help target to help message
+- Fix the help message
+- Add upped case delta glyph
+- `make install` now installs on OSX
+
 v1.2.13
 -------
 - Corrected codepoint for single beer, added two-beer glyph
