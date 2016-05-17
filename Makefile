@@ -54,4 +54,4 @@ fulltest: zip test
 
 clean:
 	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
-	@$(RM) 3270_fonts_*.zip 3270Medium_HQ_Narrow.sfd
+	@$(RM) 3270_fonts_*.zip 3270Medium_HQ_Narrow.sfd, 3270Medium_HQ_SemiNarrow.sfd
