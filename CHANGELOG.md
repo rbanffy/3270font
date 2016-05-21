@@ -1,5 +1,6 @@
-current
+v1.2.14
 -------
+- Added ⚓ glyph
 - Added ‘ and ’ (quoteleft and quoteright)
 - Added ✘ (used by Homebrew)
 - Add help target to help message
