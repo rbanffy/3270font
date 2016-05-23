@@ -1,3 +1,7 @@
+current
+-------
+- Added ✖ glyph
+
 v1.2.14
 -------
 - Added ⚓ glyph
