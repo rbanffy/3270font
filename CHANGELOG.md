@@ -1,6 +1,5 @@
 current
 -------
-- Added Ǝ, и and ˚
 - Added ✖ glyph
 
 v1.2.14
