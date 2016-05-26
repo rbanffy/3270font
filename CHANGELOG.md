@@ -1,5 +1,6 @@
 current
 -------
+- Added some Cyrillic chars
 - Added ✓
 - Added Ǝ, и and ˚
 - Added ✖ glyph
