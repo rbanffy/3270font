@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1464251644
+ModificationTime: 1464252538
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 495 33 13
+WinInfo: 99 33 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -21505,11 +21505,19 @@ Encoding: 1043 1043 900
 Width: 536
 VWidth: 0
 Flags: W
-HStem: 49 60<118 480> 293 61<118 358> 537 61<118 480>
-VStem: 57 61<109 293 354 537>
+HStem: 49 21G<57 117> 538 60<117 480>
+VStem: 57 60<49 538>
 LayerCount: 2
 Fore
-Refer: 902 1045 N 1 0 0 1 0 0 2
+SplineSet
+117 49 m 1
+ 57 49 l 1
+ 57 598 l 1
+ 480 598 l 1
+ 480 538 l 1
+ 117 538 l 1
+ 117 49 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
