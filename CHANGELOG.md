@@ -1,5 +1,6 @@
 current
 -------
+- Added ▶
 - Added А, Б, В, Г, Д, Е, Ж, З, И and Й
 - Added ✓
 - Added Ǝ, и and ˚
