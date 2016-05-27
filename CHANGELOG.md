@@ -1,5 +1,6 @@
 current
 -------
+- Added К, Л, М, Н, О, П, Р, С, Т, У
 - Added ▶
 - Added А, Б, В, Г, Д, Е, Ж, З, И and Й
 - Added ✓
