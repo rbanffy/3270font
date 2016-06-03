@@ -8,11 +8,11 @@
 A little bit of history
 -----------------------
 
-This font is derived from the x3270 font, which, in turn, was translated
-from the one in Georgia Tech's 3270tool, which was itself hand-copied
-from a 3270 terminal. I built it because I felt terminals deserve to be
-pretty. The .sfd font file contains a x3270 bitmap font that was used
-for guidance.
+This font is derived from the x3270 font, which, in turn, was
+translated from the one in Georgia Tech's 3270tool, which was itself
+hand-copied from a 3270 series terminal. I built it because I felt
+terminals deserve to be pretty. The .sfd font file contains a x3270
+bitmap font that was used for guidance.
 
 ![Using with the cool-old-tern (now cool-retro-term) terminal program]
 (https://raw.githubusercontent.com/wiki/rbanffy/3270font/cool-retro-term.png)
