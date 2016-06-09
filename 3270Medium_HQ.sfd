@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1465510851
+ModificationTime: 1465511072
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 13
+WinInfo: 495 33 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -21536,25 +21536,19 @@ StartChar: afii10038
 Encoding: 914 1060 918
 Width: 536
 VWidth: 0
-UnlinkRmOvrlpSave: 1
-Flags: W
-HStem: 48 61<181 242 303 364> 157 57<157 380> 430 59<157 381> 537 61<182 242 303 364>
-VStem: 54 60<256 386> 181 183<49 109 537 598> 420 60<256 386>
+Flags: HWO
+HStem: 49 21G<242.5 303> 157 57<157 242.5 303 380> 430 59<157 242.5 303 381> 578 20G<242.5 303>
+VStem: 54 60<256 386> 242.5 60.5<49 157 214 430 489 598> 420 60<256 386>
 LayerCount: 2
 Fore
 SplineSet
-114 386 m 1
- 114 256 l 1
- 157 214 l 1
- 380 214 l 1
- 420 256 l 1
- 420 386 l 1
- 381 430 l 1
- 157 430 l 1
- 114 386 l 1
 64 419 m 2
  125 482 l 2
  132 489 141 489 145 489 c 2
+ 242.5 489 l 1
+ 242.5 598 l 1
+ 303 598 l 1
+ 303 489 l 1
  394 489 l 2
  404 489 412 483 416 479 c 2
  472 416 l 2
@@ -21563,14 +21557,31 @@ SplineSet
  480 234 474 226 471 223 c 2
  413 164 l 2
  406 156 397 157 392 157 c 2
+ 303 157 l 1
+ 303 49 l 1
+ 242.5 49 l 1
+ 242.5 157 l 1
  145 157 l 2
  136 157 129 161 125 164 c 2
  63 222 l 2
  55 229 54 238 54 244 c 2
  54 399 l 2
  54 409 61 416 64 419 c 2
+114 386 m 1
+ 114 256 l 1
+ 157 214 l 1
+ 242.5 214 l 1
+ 242.5 430 l 1
+ 157 430 l 1
+ 114 386 l 1
+303 214 m 1
+ 380 214 l 1
+ 420 256 l 1
+ 420 386 l 1
+ 381 430 l 1
+ 303 430 l 1
+ 303 214 l 1
 EndSplineSet
-Refer: 168 73 S 1 0 0 1 5 0 2
 EndChar
 
 StartChar: afii10039
@@ -21688,7 +21699,7 @@ StartChar: afii10048
 Encoding: 920 1070 924
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 50 60<273 377> 283 58<114 172.791> 537 60<274 377>
 VStem: 53 61<49 283 341 597.3> 172 60<150 283 341 494> 420 60<153 493>
 LayerCount: 2
