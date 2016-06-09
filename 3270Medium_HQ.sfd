@@ -4,26 +4,25 @@ FullName: 3270-Medium
 FamilyName: IBM 3270
 Weight: Medium
 Copyright: Copyright (c) 2011-2012, Ricardo Banffy.\nCopyright (c) 1993-2011, Paul Mattes.\nCopyright (c) 2004-2005, Don Russell.\nCopyright (c) 2004, Dick Altenbern.\nCopyright (c) 1990, Jeff Sparkes.\nCopyright (c) 1989, Georgia Tech Research Corporation (GTRC), Atlanta, GA 30332.\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the names of Paul Mattes, Don Russell, Dick Altenbern, Jeff Sparkes, GTRC nor the names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES AND GTRC "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES OR GTRC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-UComments: "2011-5-25: Created."
+UComments: "2011-5-25: Created." 
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 55
 Ascent: 800
 Descent: 200
-InvalidEm: 0
 woffMajor: 1
 woffMinor: 0
 LayerCount: 2
-Layer: 0 0 "Back" 1
-Layer: 1 0 "Fore" 0
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
 XUID: [1021 799 1486169484 10090958]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1464512747
+ModificationTime: 1465510851
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -45,37 +44,37 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033
+LangName: 1033 
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 495 33 13
+WinInfo: 0 33 13
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
 Grid
 -1000 -128 m 0
- 2000 -128 l 1024
-  Named: "descender"
+ 2000 -128 l 0
+  Named: "descender" 
 242.5 1300 m 4
- 242.5 -700 l 1028
+ 242.5 -700 l 4
 -1000 659.1 m 0
- 2000 659.1 l 1024
+ 2000 659.1 l 0
 -1000 49 m 0
- 2000 49 l 1024
+ 2000 49 l 0
 -1000 597.3 m 0
- 2000 597.3 l 1024
+ 2000 597.3 l 0
 267 1300 m 0
- 267 -700 l 1024
+ 267 -700 l 0
 -1000 385.7 m 0
- 2000 385.7 l 1024
+ 2000 385.7 l 0
 -1000 630.2 m 0
- 2000 630.2 l 1024
+ 2000 630.2 l 0
 -1000 470.3 m 0
- 2000 470.3 l 1024
+ 2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 923 927
@@ -5273,7 +5272,7 @@ StartChar: e
 Encoding: 100 101 132
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 51 56<159 422> 234 62<117 362> 415 61<161 319>
 VStem: 57 59<152 234 296 370> 362 58<296 371>
 LayerCount: 2
@@ -20146,7 +20145,7 @@ SplineSet
  457 159 451 160 449 160 c 2
  228 205 l 2
  224 206 218 209 215 212 c 2
-409 266 m 1025
+409 266 m 1
 390 351 m 1
  283 245 l 1
  370 227 l 1
@@ -21689,54 +21688,46 @@ StartChar: afii10048
 Encoding: 920 1070 924
 Width: 536
 VWidth: 0
-Flags: W
-HStem: 48 61<54 100 161 207 345 377> 293 61<161 244.846> 537 61<55 100 161 207 346 377>
-VStem: 54 153<49 109 537 598> 100 61<109 293 354 537> 244 60<150 293 354 494> 420 60<153 493>
+Flags: WO
+HStem: 50 60<273 377> 283 58<114 172.791> 537 60<274 377>
+VStem: 53 61<49 283 341 597.3> 172 60<150 283 341 494> 420 60<153 493>
 LayerCount: 2
 Fore
 SplineSet
-254 526 m 2xee
- 311 588 l 2
- 318 596 327 598 333 598 c 2
+182 526 m 2
+ 239 588 l 2
+ 246 596 255 598 261 598 c 2
  390 597 l 2
- 400 596.824 409 592 412 588 c 2
+ 400 596.923 409 592 412 588 c 2
  472 526 l 2
  479 519 480 510 480 505 c 2
  480 140 l 2
  480 130 475 122 471 119 c 2
  410 59 l 2
  403 52 394 50 389 50 c 2
- 333 50 l 2
- 323 50 315 55 312 58 c 2
- 253 115 l 2
- 246 122 244 132 244 137 c 2
- 244.846 293 l 1
- 161 293 l 1
- 161 109 l 1xee
- 207 109 l 1
- 207 48 l 1
- 54 49 l 1
- 54 110 l 1xf6
- 100 109 l 1
- 100 537 l 1xee
- 54 537 l 1
- 55 598 l 1
- 207 598 l 1
- 207 537 l 1xf6
- 161 537 l 1
- 161 354 l 1
- 245.176 354 l 1
- 246 506 l 2
- 246 515 250 522 254 526 c 2xee
-306 494 m 1
- 304 150 l 1
- 345 110 l 1
+ 261 50 l 2
+ 251 50 243 55 240 58 c 2
+ 181 115 l 2
+ 174 122 172 132 172 137 c 2
+ 172.791 283 l 1
+ 114 283 l 1
+ 114 49 l 1
+ 53 49 l 1
+ 53 597.3 l 1
+ 114 597.3 l 1
+ 114 341 l 1
+ 173.106 341 l 1
+ 174 506 l 2
+ 174 515 178 522 182 526 c 2
+234 494 m 1
+ 232 150 l 1
+ 273 110 l 1
  377 110 l 1
  420 153 l 1
  420 493 l 1
  377 537 l 1
- 346 538 l 1
- 306 494 l 1
+ 274 538 l 1
+ 234 494 l 1
 EndSplineSet
 EndChar
 
