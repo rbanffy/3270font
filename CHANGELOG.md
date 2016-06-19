@@ -1,6 +1,6 @@
 current
 -------
-- Added Ž, ž, Ơ, Ư, ơ, ư, Š and š
+- Added Ž, ž, Ơ, Ư, ơ, ư, Š, š, Э, э, ё, м and щ
 - Fixed u
 - Made ‘ and ’ more distinctive
 - Added 'upload' target to Makefile
