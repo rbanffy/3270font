@@ -1,5 +1,6 @@
 current
 -------
+- Added 'upload' target to Makefile
 - Added К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ш, Щ, Ь, Ю, Я, Ч, Ъ, Ы,
   а, б, в, г, д
 - Added ▶, ✱, ❯, ◼
