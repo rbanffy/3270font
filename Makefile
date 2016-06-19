@@ -21,6 +21,7 @@ help:
 	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
 	@echo "  test       Generates and checks font files."
 	@echo "  fulltest   Also ensures the .zip file is valid and available on S3."
+	@echo "  upload     Uploads the generated .zip file to S3."
 	@echo "  clean      Deletes all automatically generated files."
 	@echo "  help       Displays this message."
 
@@ -51,6 +52,9 @@ test: all
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/rbanffy/3270_fonts_[^/"]+\.zip' README.md)
+
+upload: zip
+	aws s3 cp 3270_fonts_$(shell git rev-parse --short HEAD).zip s3://rbanffy/ --acl public-read --storage-class REDUCED_REDUNDANCY
 
 clean:
 	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
