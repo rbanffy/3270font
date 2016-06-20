@@ -51,10 +51,10 @@ test: all
 
 fulltest: zip test
 	@zip -T 3270_fonts_*.zip
-	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/rbanffy/3270_fonts_[^/"]+\.zip' README.md)
+	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/3270font/3270_fonts_[^/"]+\.zip' README.md)
 
 upload: zip
-	aws s3 cp 3270_fonts_$(shell git rev-parse --short HEAD).zip s3://rbanffy/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	aws s3 cp 3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
 
 clean:
 	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
