@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1466627961
+ModificationTime: 1466628331
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -84,7 +84,7 @@ Grid
  2000 470.3 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 976 980
+BeginChars: 979 983
 
 StartChar: uni2400
 Encoding: -1 9216 0
@@ -23708,6 +23708,102 @@ SplineSet
  422 -66 l 5
  362 -66 l 5
  362 109 l 5
+EndSplineSet
+EndChar
+
+StartChar: NameMe.976
+Encoding: 976 -1 980
+Width: 536
+VWidth: 0
+Flags: HW
+HStem: 48 21G<420 480> 239 59<162 313>
+VStem: 57 60<342 666> 420 60<48 316 399 666>
+DStem2: 420 399 420 316 0.727202 0.686424<-147.139 -56.9732>
+LayerCount: 2
+Fore
+SplineSet
+114 567 m 1
+ 57 567 l 1
+ 57 629 l 1
+ 114 629 l 1
+ 114 666 l 1
+ 174 666 l 1
+ 174 629 l 1
+ 418 629 l 1
+ 418 567 l 1
+ 174 567 l 1
+ 174 398 l 1
+ 248 470 l 2
+ 254 475 261 475 269 475 c 2
+ 387 475 l 2
+ 395 475 402 472 408 467 c 2
+ 471 407 l 2
+ 477 401 480 394 480 385 c 2
+ 480 48 l 1
+ 420 48 l 1
+ 420 372 l 1
+ 375 416 l 1
+ 281 416 l 1
+ 174 315 l 1
+ 174 48 l 1
+ 114 48 l 1
+ 114 567 l 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.977
+Encoding: 977 -1 981
+Width: 536
+VWidth: 0
+Flags: HW
+HStem: 48 21G<57 117 362 422> 416 59<222 317>
+VStem: 57 60<48 315 398 666> 362 60<48 372>
+DStem2: 117 398 117 315 0.720701 0.693246<0 88.152>
+LayerCount: 2
+Fore
+SplineSet
+116 567 m 1
+ 57 567 l 1
+ 57 629 l 1
+ 116 629 l 1
+ 116 666 l 1
+ 176 666 l 1
+ 176 629 l 1
+ 418 629 l 1
+ 418 567 l 1
+ 176 567 l 1
+ 176 398 l 1
+ 248 470 l 2
+ 254 475 261 475 269 475 c 2
+ 329 475 l 2
+ 337 475 344 472 350 467 c 2
+ 413 407 l 2
+ 419 401 422 394 422 385 c 2
+ 422 48 l 1
+ 362 48 l 1
+ 362 372 l 1
+ 317 416 l 1
+ 281 416 l 1
+ 176 315 l 1
+ 176 48 l 1
+ 116 48 l 1
+ 116 567 l 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.978
+Encoding: 978 -1 982
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+57 629 m 5
+ 418 629 l 5
+ 418 567 l 5
+ 57 567 l 5
+ 57 629 l 5
 EndSplineSet
 EndChar
 EndChars
