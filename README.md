@@ -32,6 +32,9 @@ available for download on
 http://s3.amazonaws.com/3270font/3270_fonts_d004266.zip (although this
 URL may not always reflect the latest version).
 
+![ASCII is so 60's]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/cyrillic.png)
+
 The format
 ----------
 
