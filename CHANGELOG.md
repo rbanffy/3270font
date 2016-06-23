@@ -1,6 +1,7 @@
 current
 -------
 
+- Added ⏻, ⏼, ⭘, ⏽, ⏾ and ⯒
 - Added Ў, ў, Џ, џ, Ћ and ћ
 - Added Ž, ž, Ơ, Ư, ơ, ư, Š, š, Э, э, ё, м, щ and ы
 - Fixed u
