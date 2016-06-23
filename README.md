@@ -98,6 +98,7 @@ Known problems
 
 Not all symbols in the 3270 charset have Unicode counterparts. When
 possible, they are duplicated in the Unicode space. The 3270-only
-symbols are at the end of the font.
+symbols are at the end of the font, along with some glyphs useful for
+building others.
 
 Please refer to http://x3270.bgp.nu/Charset.html for a complete map.
