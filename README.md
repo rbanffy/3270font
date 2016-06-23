@@ -71,6 +71,9 @@ slightly more condensed .sfd file with the base font narrowed to 488
 units, with no glyph rescaling (or cropping - we need to fix that) and
 its corresponding PostScript, TTF, OTF and WOFF versions.
 
+![For your favorite editor]
+(https://raw.githubusercontent.com/wiki/rbanffy/3270font/symbols.png)
+
 Contributing
 ------------
 
