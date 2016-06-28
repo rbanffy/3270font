@@ -1,4 +1,4 @@
-current
+v1.2.16
 -------
 
 - Added ⧻, ␢, №, Ё and ъ
