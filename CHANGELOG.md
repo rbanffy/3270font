@@ -1,7 +1,7 @@
 current
 -------
 
-- Added ⧻ and ␢
+- Added ⧻, ␢, №, Ё and ъ
 
 v1.2.15
 -------
