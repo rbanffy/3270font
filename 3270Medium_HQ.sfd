@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1471208888
+ModificationTime: 1471209041
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -23949,7 +23949,7 @@ StartChar: NameMe.993
 Encoding: 9217 9217 997
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -23998,6 +23998,7 @@ SplineSet
  393 134 l 5
  393 192 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2402
@@ -24006,8 +24007,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2403
@@ -24016,8 +24015,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2404
@@ -24026,8 +24023,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2405
@@ -24036,8 +24031,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2406
@@ -24046,8 +24039,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2407
@@ -24056,8 +24047,6 @@ Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Refer: 1028 9216 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2408
