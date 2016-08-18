@@ -1,5 +1,6 @@
 current
 -------
+- Added glyphs for EM, NUL, SOH, STX, ETX and EOT
 - Added slots between U+2400 and U+241F and glyps for BS, HT, LF, VT,
   FF, CR, FS, GS, RS and US
 - Added ➜
