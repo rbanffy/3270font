@@ -5,6 +5,8 @@
 
 ![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
+![Sample](https://raw.githubusercontent.com/wiki/rbanffy/3270font/3270Medium_sample.png)
+
 A little bit of history
 -----------------------
 
