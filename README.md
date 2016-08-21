@@ -89,18 +89,6 @@ it. Check if the `git diff` command gives out something sensible (does
 not change things you didn't intend to) and make a pull request. If, in
 doubt, get in touch and we will figure out how to do it right.
 
-Preserving history
-------------------
-
-I regard the evolution of electronic computing a very important part of
-our civilization's history. Consider donating to entities that help
-preserve it, such as the Computer History Museum
-(http://www.computerhistory.org/), the IT History Society
-(http://ithistory.org/) and many others around the world. If you have a
-historically significant piece of technology in your closet or garage,
-consider contacting a local technology or industrial-design-oriented
-museum for advice.
-
 Known problems
 --------------
 
