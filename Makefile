@@ -19,6 +19,7 @@ help:
 	@echo "  install    Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX)."
 	@echo "  uninstall  Uninstalls the generated OTF fonts."
 	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
+	@echo "  sample     Generate a sample image."
 	@echo "  test       Generates and checks font files."
 	@echo "  fulltest   Also ensures the .zip file is valid and available on S3."
 	@echo "  upload     Uploads the generated .zip file to S3."
@@ -34,6 +35,9 @@ uninstall:
 
 zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
+
+sample: all
+	@python generate_sample_image.py
 
 test: all
 	@fontlint 3270Medium.otf
@@ -57,5 +61,5 @@ upload: zip
 	aws s3 cp 3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
 
 clean:
-	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete
+	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete -o -name '*.png' -delete
 	@$(RM) 3270_fonts_*.zip 3270Medium_HQ_Narrow.sfd, 3270Medium_HQ_SemiNarrow.sfd
