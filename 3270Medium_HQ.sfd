@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1472413114
+ModificationTime: 1473588729
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -83,7 +83,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1178 1149
+BeginChars: 1179 1150
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -26767,7 +26767,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 62 180 S 1 0 0 1 0 154 2
+Refer: 62 180 S 1 0 0 1 0 141 2
 Refer: 178 83 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26778,7 +26778,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 58 94 S 1 0 0 1 0 0 2
+Refer: 58 94 S 1 0 0 1 0 140 2
 Refer: 178 83 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26789,7 +26789,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 58 94 S 1 0 0 1 0 0 2
+Refer: 58 94 S 1 0 0 1 -21 70 2
 Refer: 146 115 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26840,7 +26840,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 852 711 S 1 0 0 1 0 0 2
+Refer: 852 711 N 1 0 0 1 8 3 2
 Refer: 179 84 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26861,6 +26861,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 7 45 S 1 0 0 1 0 0 2
 Refer: 179 84 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26871,6 +26872,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 7 45 S 1 0 0 1 0 0 2
 Refer: 147 116 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26903,7 +26905,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 742 728 S 1 0 0 1 0 0 2
+Refer: 742 728 N 1 0 0 1 5 88.2 2
 Refer: 180 85 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26927,7 +26929,7 @@ HStem: 420 50<193.797 291.314> 604 50<193.797 291.314>
 VStem: 126 50<488.261 585.954> 310 50<488.809 585.406>
 LayerCount: 2
 Fore
-Refer: 287 -1 S 1 0 0 1 0 0 2
+Refer: 287 -1 S 1 0 0 1 29 64 2
 Refer: 180 85 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26940,7 +26942,7 @@ HStem: 420 50<193.797 291.314> 604 50<193.797 291.314>
 VStem: 126 50<488.261 585.954> 310 50<488.809 585.406>
 LayerCount: 2
 Fore
-Refer: 287 -1 S 1 0 0 1 0 0 2
+Refer: 287 -1 S 1 0 0 1 0 62 2
 Refer: 148 117 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26951,7 +26953,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1074 733 S 1 0 0 1 0 0 2
+Refer: 1074 733 S 1 0 0 1 33 140 2
 Refer: 180 85 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26962,7 +26964,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1074 733 S 1 0 0 1 0 0 2
+Refer: 1074 733 S 1 0 0 1 15 62 2
 Refer: 148 117 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27199,6 +27201,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 Refer: 704 65313 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27219,6 +27222,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 Refer: 164 69 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27229,6 +27233,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 Refer: 167 72 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27239,6 +27244,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 Refer: 168 73 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27249,6 +27255,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 Refer: 174 79 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27256,7 +27263,7 @@ StartChar: Upsilontonos
 Encoding: 1117 910 1121
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 49 21G<237 298> 577 20G<55 115 421 481>
 VStem: 55 60<578 597> 237 61<49 371> 421 60<578 597>
 LayerCount: 2
@@ -27279,6 +27286,7 @@ SplineSet
  481 560 479 552 473 546 c 2
  298 371 l 1
 EndSplineSet
+Refer: 1114 900 S 1 0 0 1 -122 142 2
 EndChar
 
 StartChar: Omegatonos
@@ -27298,7 +27306,14 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 136 105 N 1 0 0 1 0 0 2
+SplineSet
+237 476 m 1
+ 298 476 l 1
+ 298 49 l 1
+ 237 49 l 1
+ 237 476 l 1
+EndSplineSet
+Refer: 863 901 N 1 0 0 1 33 0 2
 EndChar
 
 StartChar: Alpha
@@ -27328,7 +27343,15 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1127 917 N 1 0 0 1 0 0 2
+SplineSet
+118 49 m 5
+ 57 49 l 5
+ 57 598 l 5
+ 480 598 l 5
+ 480 537 l 5
+ 118 537 l 5
+ 118 49 l 5
+EndSplineSet
 EndChar
 
 StartChar: Epsilon
@@ -27368,6 +27391,13 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+162 354 m 1
+ 371 354 l 1
+ 371 293 l 1
+ 162 293 l 1
+ 162 354 l 1
+EndSplineSet
 Refer: 174 79 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27398,7 +27428,24 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 704 65313 N 1 0 0 1 0 0 2
+SplineSet
+298.5 196.3 m 29,0,0
+420 49 m 17,0,0
+ 480 49 l 1,14,-1
+ 480 385 l 2,13,-1
+ 480 390 479 399 472 406 c 2,11,12
+ 289 588 l 2,10,-1
+ 284 593 276 597 266 597 c 0,8,9
+ 260 597 252 595 246 588 c 2,6,7
+ 66 407 l 2,5,-1
+ 63 404 57 396 57 387 c 2,3,4
+ 57 49 l 1,2,-1
+ 116 49 l 9,1,-1
+ 117 374 l 17,0,0
+ 267 525 l 1,20,-1
+ 420 373 l 9,19,-1
+ 420 49 l 17,0,0
+EndSplineSet
 EndChar
 
 StartChar: Mu
@@ -27428,7 +27475,23 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 164 69 N 1 0 0 1 0 0 2
+SplineSet
+56 108 m 1
+ 476 108 l 1
+ 476 49 l 1
+ 56 49 l 1
+ 56 108 l 1
+118 353 m 1
+ 426 353 l 1
+ 426 294 l 1
+ 118 294 l 1
+ 118 353 l 1
+56 597 m 1
+ 476 597 l 1
+ 476 538 l 1
+ 56 538 l 1
+ 56 597 l 1
+EndSplineSet
 EndChar
 
 StartChar: Omicron
@@ -27448,7 +27511,17 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1135 925 N 1 0 0 1 0 0 2
+SplineSet
+113 49 m 1
+ 53 49 l 1
+ 53 599 l 1
+ 479 599 l 1
+ 479 49 l 1
+ 419 49 l 1
+ 419 539 l 1
+ 113 539 l 1
+ 113 49 l 1
+EndSplineSet
 EndChar
 
 StartChar: Rho
@@ -27468,7 +27541,21 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1136 926 N 1 0 0 1 0 0 2
+SplineSet
+476 597 m 1
+ 476 537 l 1
+ 151 537 l 1
+ 363 323 l 1
+ 152 110 l 1
+ 475 110 l 1
+ 475 50 l 1
+ 58 50 l 1
+ 58 100 l 1
+ 279 323 l 1
+ 58 546 l 1
+ 58 597 l 1
+ 476 597 l 1
+EndSplineSet
 EndChar
 
 StartChar: Tau
@@ -27537,7 +27624,37 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1147 938 N 1 0 0 1 0 0 2
+SplineSet
+56 595.4 m 1
+ 114 595.4 l 1
+ 114 357.4 l 1
+ 157 315.4 l 1
+ 237 315.4 l 1
+ 237 595 l 1
+ 298 595 l 1
+ 298 315.4 l 1
+ 379 315.4 l 1
+ 420 358.4 l 1
+ 420 595.4 l 1
+ 480 595.4 l 1
+ 480 346.4 l 2
+ 480 342.4 479 333.4 472 326.4 c 2
+ 414 265.4 l 2
+ 410 261.4 402 255.4 392 255.4 c 2
+ 298 255.4 l 1
+ 298 109 l 1
+ 359 109 l 1
+ 359 48 l 1
+ 176 48 l 1
+ 176 109 l 1
+ 237 109 l 1
+ 237 255.4 l 1
+ 144 255.4 l 2
+ 139 255.4 130 257.4 123 264.4 c 2
+ 64 323.4 l 2
+ 61 326.4 56 334.4 56 344.4 c 2
+ 56 595.4 l 1
+EndSplineSet
 EndChar
 
 StartChar: Omega
@@ -27568,6 +27685,16 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 1142 933 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: beta
+Encoding: 1151 946 1149
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 42 223 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
