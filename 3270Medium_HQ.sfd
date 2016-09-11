@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1473588729
+ModificationTime: 1473589037
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -26599,7 +26599,7 @@ HStem: -70 58<116 196> 49 21<106.94 166> 415 61<57 97.6726 269 317>
 VStem: 107 59<50 313> 238 57<31 172> 362 60<354 372>
 LayerCount: 2
 Fore
-Refer: 63 184 N 1 0 0 1 0 0 2
+Refer: 63 184 S 1 0 0 1 0 0 2
 Refer: 145 114 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -26800,6 +26800,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 63 184 S 1 0 0 1 0 0 2
 Refer: 178 83 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26810,6 +26811,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 63 184 S 1 0 0 1 0 0 2
 Refer: 146 115 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26820,6 +26822,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 63 184 S 1 0 0 1 0 0 2
 Refer: 179 84 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26830,6 +26833,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 63 184 S 1 0 0 1 0 0 2
 Refer: 147 116 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26916,7 +26920,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 742 728 S 1 0 0 1 0 0 2
+Refer: 742 728 S 1 0 0 1 -22 0 2
 Refer: 148 117 N 1 0 0 1 0 0 2
 EndChar
 
@@ -26995,7 +26999,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 58 94 S 1 0 0 1 0 0 2
+Refer: 58 94 S 1 0 0 1 0 139 2
 Refer: 182 87 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27017,7 +27021,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 58 94 S 1 0 0 1 0 0 2
+Refer: 58 94 S 1 0 0 1 0 139 2
 Refer: 184 89 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27103,8 +27107,8 @@ HStem: 420 50<193.797 291.314> 604 50<193.797 291.314>
 VStem: 126 50<488.261 585.954> 310 50<488.809 585.406>
 LayerCount: 2
 Fore
-Refer: 287 -1 S 1 0 0 1 0 0 2
-Refer: 160 65 N 1 0 0 1 0 0 2
+Refer: 851 -1 N 1 0 0 1 0 0 2
+Refer: 287 -1 N 1 0 0 1 24 144 2
 EndChar
 
 StartChar: aringacute
@@ -27116,7 +27120,7 @@ HStem: 420 50<193.797 291.314> 604 50<193.797 291.314>
 VStem: 126 50<488.261 585.954> 310 50<488.809 585.406>
 LayerCount: 2
 Fore
-Refer: 287 -1 S 1 0 0 1 0 0 2
+Refer: 287 -1 S 1 0 0 1 0 144 2
 Refer: 128 97 N 1 0 0 1 0 0 2
 EndChar
 
@@ -27149,7 +27153,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 62 180 S 1 0 0 1 0 152 2
+Refer: 62 180 S 1 0 0 1 0 141.5 2
 Refer: 187 216 N 1 0 0 1 0 0 2
 EndChar
 
