@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1473614773
+ModificationTime: 1473621053
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -56,6 +56,15 @@ BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
 Grid
+394 1300 m 0
+ 394 -700 l 0
+  Named: "center-min-right-vstem" 
+89 1300 m 0
+ 89 -700 l 0
+  Named: "center-min-left-vstem" 
+-1000 80.3 m 0
+ 2000 80.3 l 0
+  Named: "center-min-bottom" 
 406 1300 m 0
  406 -700 l 0
 152 1300 m 0
@@ -87,7 +96,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1179 1169
+BeginChars: 1179 1174
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -27862,7 +27871,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 863 901 N 1 0 0 1 23 0 2
-Refer: 1164 965 N 1 0 0 1 0 0 2
+Refer: 1168 965 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -28125,8 +28134,38 @@ Refer: 142 111 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
+StartChar: pi
+Encoding: 1163 960 1163
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+58.5 410 m 1
+ 58.5 470 l 1
+ 421.5 470 l 1
+ 421.5 410 l 1
+ 355.5 410 l 1
+ 355.5 138.426 l 1
+ 383.852 110.075 l 1
+ 421.32 110.299 l 1
+ 421.68 50.3005 l 1
+ 371.68 50.0005 l 2
+ 364.956 49.9602 356.059 53.0144 350.287 58.7868 c 2
+ 304.287 104.787 l 2
+ 299.614 109.459 295.5 117.894 295.5 126 c 2
+ 295.5 410 l 1
+ 182 410 l 1
+ 182 51 l 1
+ 122 51 l 1
+ 122 410 l 1
+ 58.5 410 l 1
+EndSplineSet
+EndChar
+
 StartChar: rho
-Encoding: 1164 961 1163
+Encoding: 1164 961 1164
 Width: 536
 VWidth: 0
 Flags: HWO
@@ -28165,8 +28204,115 @@ EndSplineSet
 Validated: 1
 EndChar
 
+StartChar: sigma1
+Encoding: 1165 962 1165
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+422 470 m 5
+ 422 410 l 5
+ 221 410 l 5
+ 119 307 l 5
+ 119 218 l 5
+ 226 110 l 5
+ 365 110 l 4
+ 374 110 383 106 388 100 c 4
+ 415 69 l 4
+ 420 64 422 56 422 49 c 4
+ 422 -15 l 4
+ 422 -23 418 -31 413 -36 c 4
+ 391 -58 l 4
+ 385 -64 377 -67 370 -67 c 4
+ 321 -67 l 5
+ 321 -7 l 5
+ 358 -7 l 5
+ 362 -3 l 5
+ 362 38 l 5
+ 351 50 l 5
+ 214 50 l 4
+ 207 50 199 53 193 59 c 4
+ 68 184 l 4
+ 63 189 59 198 59 206 c 4
+ 59 319 l 4
+ 59 325 62 334 68 340 c 4
+ 187 461 l 4
+ 192 466 200 470 208 470 c 4
+ 422 470 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: sigma
+Encoding: 1166 963 1166
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+152 470 m 0
+ 425 470 l 1
+ 425 410 l 1
+ 349 410 l 1
+ 365 394 l 0
+ 370 389 374 380 374 372 c 0
+ 374 131 l 0
+ 374 124 371 116 365 110 c 0
+ 313 58 l 0
+ 308 53 300 49 292 49 c 0
+ 152 49 l 0
+ 145 49 137 52 132 57 c 0
+ 68 113 l 0
+ 62 118 58 126 58 135 c 0
+ 58 376 l 0
+ 58 383 61 392 67 398 c 0
+ 131 461 l 0
+ 136 466 144 470 152 470 c 0
+264 410 m 1
+ 164 410 l 1
+ 118 364 l 1
+ 118 149 l 1
+ 163 109 l 1
+ 267 109 l 1
+ 314 156 l 1
+ 314 360 l 1
+ 264 410 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: tau
+Encoding: 1167 964 1167
+Width: 536
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+58 410 m 1
+ 58 470 l 1
+ 422 470 l 1
+ 422 410 l 1
+ 272 410 l 1
+ 272 145 l 1
+ 309 109 l 1
+ 372 109 l 1
+ 372 49 l 1
+ 296 49 l 2
+ 290 49 281 52 275 58 c 2
+ 221 112 l 2
+ 217 116 212 125 212 133 c 2
+ 212 410 l 1
+ 58 410 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
 StartChar: upsilon
-Encoding: 1168 965 1164
+Encoding: 1168 965 1168
 Width: 536
 VWidth: 0
 Flags: HW
@@ -28198,7 +28344,7 @@ Validated: 1
 EndChar
 
 StartChar: iotadieresis
-Encoding: 1173 970 1165
+Encoding: 1173 970 1169
 Width: 536
 VWidth: 0
 Flags: HW
@@ -28210,22 +28356,22 @@ Validated: 1
 EndChar
 
 StartChar: upsilondieresis
-Encoding: 1174 971 1166
+Encoding: 1174 971 1170
 Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 60 168 S 1 0 0 1 24 -58 2
-Refer: 1164 965 N 1 0 0 1 0 0 2
+Refer: 1168 965 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: omicrontonos
-Encoding: 1175 972 1167
+Encoding: 1175 972 1171
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 Refer: 142 111 N 1 0 0 1 0 0 2
@@ -28233,13 +28379,30 @@ Validated: 1
 EndChar
 
 StartChar: upsilontonos
-Encoding: 1176 973 1168
+Encoding: 1176 973 1172
 Width: 536
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1164 965 N 1 0 0 1 0 0 2
+Refer: 1168 965 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: NameMe.1178
+Encoding: 1178 -1 1173
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+58 470 m 1
+ 422 470 l 1
+ 422 49 l 1
+ 58 49 l 1
+ 58 470 l 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
