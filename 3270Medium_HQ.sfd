@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476477161
+ModificationTime: 1476477419
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -29717,10 +29717,32 @@ StartChar: franc
 Encoding: 1229 8355 1233
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 49 21G<117 178> 150 61<56 117 178 244> 293 61<178 420> 537 60<178 480>
+VStem: 117 61<49 150 211 293 354 537>
 LayerCount: 2
 Fore
-Refer: 1173 -1 N 1 0 0 1 0 0 2
+SplineSet
+117 597 m 1
+ 480 597 l 1
+ 480 537 l 1
+ 178 537 l 1
+ 178 354 l 1
+ 420 354 l 1
+ 420 293 l 1
+ 178 293 l 1
+ 178 211 l 1
+ 244 211 l 1
+ 244 150 l 1
+ 178 150 l 1
+ 178 49 l 1
+ 117 49 l 1
+ 117 150 l 1
+ 56 150 l 1
+ 56 211 l 1
+ 117 211 l 1
+ 117 597 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
