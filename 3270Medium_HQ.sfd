@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476477419
+ModificationTime: 1476477639
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -6032,8 +6032,9 @@ StartChar: z
 Encoding: 121 122 153
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 49 60<180 481> 415 61<57 359>
+DStem2: 57 49 180 109 0.634155 0.773206<124.393 474.508>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -7326,9 +7327,10 @@ StartChar: Z
 Encoding: 89 90 185
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 49 61<115 480> 537 60<55 419>
 VStem: 55 60<110 129> 419 60<518 537>
+DStem2: 64 162 115 129 0.706112 0.708101<12.6444 502.753>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -26563,7 +26565,7 @@ StartChar: NameMe.1068
 Encoding: 1068 -1 1072
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 300 75<267 338>
 VStem: 267 71<300 375>
 LayerCount: 2
@@ -26970,9 +26972,13 @@ StartChar: Zdotaccent
 Encoding: 1098 379 1102
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 49 61<115 480> 537 60<55 419> 659 75<233 304>
+VStem: 55 60<110 129> 233 71<659 734> 419 60<518 537>
+DStem2: 64 162 115 129 0.706112 0.708101<12.6444 502.753>
 LayerCount: 2
 Fore
+Refer: 1072 -1 N 1 0 0 1 -34 359 2
 Refer: 185 90 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -26981,9 +26987,13 @@ StartChar: zdotaccent
 Encoding: 1099 380 1103
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 49 60<180 481> 415 61<57 359> 542 75<231 302>
+VStem: 231 71<542 617>
+DStem2: 57 49 180 109 0.634155 0.773206<124.393 474.508>
 LayerCount: 2
 Fore
+Refer: 1072 -1 S 1 0 0 1 -36 242 2
 Refer: 153 122 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
