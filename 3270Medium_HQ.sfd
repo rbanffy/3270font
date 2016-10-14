@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476475210
+ModificationTime: 1476476453
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 15
+WinInfo: 64 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -5183,7 +5183,7 @@ StartChar: e
 Encoding: 100 101 132
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 51 56<159 422> 231 62<117 362> 415 61<161 319>
 VStem: 57 59<152 231 293 370> 362 58<293 371>
 LayerCount: 2
@@ -5625,7 +5625,7 @@ StartChar: p
 Encoding: 111 112 143
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 50 59<117 260> 424 54<117 257>
 VStem: 57 60<-134 50 109 424> 363 59<213 323>
 DStem2: 290 474 257 424 0.721622 -0.692288<10.8009 157.214> 260 109 293 59 0.704167 0.710035<0 146.373>
@@ -5658,6 +5658,7 @@ SplineSet
  257 424 l 1
  117 424 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: q
@@ -6522,7 +6523,7 @@ StartChar: E
 Encoding: 68 69 164
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 49 60<118 480> 293 61<118 358> 537 61<118 480>
 VStem: 57 61<109 293 354 537>
 LayerCount: 2
@@ -10941,6 +10942,7 @@ LayerCount: 2
 Fore
 Refer: 62 180 N 1 0 0 1 43 60 2
 Refer: 143 112 N 1 0 0 1 -7 0 3
+Validated: 1
 EndChar
 
 StartChar: uni1E57
@@ -10954,6 +10956,7 @@ LayerCount: 2
 Fore
 Refer: 864 729 N 1 0 0 1 -53 0 2
 Refer: 143 112 N 1 0 0 1 -7 0 3
+Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -11434,67 +11437,30 @@ StartChar: Eogonek
 Encoding: 279 280 337
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 49 60<115 481> 231 62<115 359> 476 61<115 481>
-VStem: 54 61<109 231 293 476>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: -50 58<458 480> 49 60<118 480> 293 61<118 358> 537 61<118 480>
+VStem: 57 61<109 293 354 537> 379 57<31 81>
 LayerCount: 2
 Fore
-SplineSet
-54 537 m 1
- 481 537 l 1
- 481 476 l 1
- 115 476 l 1
- 115 293 l 1
- 359 293 l 1
- 359 231 l 1
- 115 231 l 1
- 115 109 l 1
- 481 109 l 1
- 481 49 l 1
- 54 49 l 1
- 54 537 l 1
-EndSplineSet
-Validated: 1
+Refer: 164 69 N 1 0 0 1 0 0 2
+Refer: 741 731 S 1 0 0 1 263 0 2
+Validated: 5
 EndChar
 
 StartChar: eogonek
 Encoding: 280 281 338
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 51 58<156 421> 231 62<113 361> 415 59<158 318>
-VStem: 54 58<152 231 293 372> 361 58<293 373>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: -50 58<400 422> 51 56<159 422> 231 62<117 362> 415 61<161 319>
+VStem: 57 59<152 231 293 370> 321 57<31 81> 362 58<293 371>
 LayerCount: 2
 Fore
-SplineSet
-112 231 m 1
- 112 152 l 1
- 156 109 l 1
- 421 109 l 1
- 421 51 l 1
- 144 51 l 2
- 135 51 127 56 124 59 c 2
- 62 119 l 2
- 55 126 54 135 54 140 c 2
- 54 384 l 2
- 54 394 61 401 64 404 c 2
- 125 467 l 2
- 132 474 142 474 147 474 c 2
- 330 474 l 2
- 340 474 348 468 351 465 c 2
- 410 405 l 2
- 417 398 419 390 419 385 c 2
- 419 231 l 1
- 112 231 l 1
-113 293 m 1
- 361 293 l 1
- 361 373 l 1
- 318 415 l 1
- 158 415 l 1
- 113 372 l 1
- 113 293 l 1
-EndSplineSet
-Validated: 1
+Refer: 741 731 S 1 0 0 1 205 0 2
+Refer: 132 101 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Ecaron
@@ -13498,6 +13464,7 @@ VStem: 57 60<-134 50 109 413> 363 59<213 312>
 LayerCount: 2
 Fore
 Refer: 143 112 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF51
@@ -16965,16 +16932,16 @@ StartChar: ogonek
 Encoding: 332 731 741
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -50 58<195 217>
-VStem: 116 57<31 172>
+VStem: 116 57<31 81>
 LayerCount: 2
 Fore
 SplineSet
-116 6 m 1
- 115 7 116 11 116 15 c 1
- 116 172 l 1
- 173 172 l 1
+119 6 m 1
+ 118 7 116 11 116 15 c 1
+ 116 81 l 1
+ 173 81 l 1
  173 31 l 1
  195 8 l 1
  217 8 l 1
@@ -16982,7 +16949,7 @@ SplineSet
  182 -50 l 2
  172 -50 168 -47 162 -41 c 2
  124 0 l 2
- 116 6 l 1
+ 119 6 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -22371,6 +22338,7 @@ VStem: 57 60<-134 50 109 413> 363 59<213 312>
 LayerCount: 2
 Fore
 Refer: 143 112 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: afii10083
