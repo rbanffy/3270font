@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476031282
+ModificationTime: 1476475210
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 800 32 15
+WinInfo: 0 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -5625,9 +5625,10 @@ StartChar: p
 Encoding: 111 112 143
 Width: 536
 VWidth: 0
-Flags: HW
-HStem: 50 59<117 260> 413 54<117 257>
-VStem: 57 60<-134 50 109 413> 363 59<213 312>
+Flags: WO
+HStem: 50 59<117 260> 424 54<117 257>
+VStem: 57 60<-134 50 109 424> 363 59<213 323>
+DStem2: 290 474 257 424 0.721622 -0.692288<10.8009 157.214> 260 109 293 59 0.704167 0.710035<0 146.373>
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -5636,11 +5637,11 @@ p%A!.J:IV"zzzzzzz5JR7`huGHM!&-A40H:'H$ihsi!&+f]0FRq8)uqZP!&/?l5MuN+^]6%g
 EndImage
 Fore
 SplineSet
-57 467 m 1
- 277 467 l 1
- 283 467 286 467 290 463 c 1
- 413 345 l 2
- 416 342 422 334 422 324 c 2
+57 478 m 1
+ 277 478 l 1
+ 283 478 286 478 290 474 c 1
+ 413 356 l 2
+ 416 353 422 345 422 335 c 2
  422 201 l 2
  422 196 420 187 413 180 c 2
  293 59 l 2
@@ -5648,16 +5649,15 @@ SplineSet
  117 50 l 1
  117 -134 l 1
  57 -134 l 1
- 57 467 l 1
-117 413 m 1
+ 57 478 l 1
+117 424 m 1
  117 109 l 1
  260 109 l 1
  363 213 l 1
- 363 312 l 1
- 257 413 l 1
- 117 413 l 1
+ 363 323 l 1
+ 257 424 l 1
+ 117 424 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: q
@@ -10941,7 +10941,6 @@ LayerCount: 2
 Fore
 Refer: 62 180 N 1 0 0 1 43 60 2
 Refer: 143 112 N 1 0 0 1 -7 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E57
@@ -10955,7 +10954,6 @@ LayerCount: 2
 Fore
 Refer: 864 729 N 1 0 0 1 -53 0 2
 Refer: 143 112 N 1 0 0 1 -7 0 3
-Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -13500,7 +13498,6 @@ VStem: 57 60<-134 50 109 413> 363 59<213 312>
 LayerCount: 2
 Fore
 Refer: 143 112 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uniFF51
@@ -22374,7 +22371,6 @@ VStem: 57 60<-134 50 109 413> 363 59<213 312>
 LayerCount: 2
 Fore
 Refer: 143 112 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: afii10083
