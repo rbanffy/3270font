@@ -2,8 +2,6 @@ addons:
   apt:
     packages:
     - fontforge
-python:
-  - "2.7"
-install:
-  pip install pillow
+    - python2-pil
+sudo: false
 script: "make fulltest"
