@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476486634
+ModificationTime: 1476556984
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 15
+WinInfo: 800 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -29990,10 +29990,45 @@ StartChar: afii61289
 Encoding: 1233 8467 1237
 Width: 536
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 50 60<315 359> 600 60<311 333>
+VStem: 238 60<126 181 327 586> 348 60<377 585>
+DStem2: 159 186 201 144 0.703545 0.710651<0 52.0268 197.995 268.704>
 LayerCount: 2
 Fore
-Refer: 1173 -1 N 1 0 0 1 0 0 2
+SplineSet
+359 110 m 1
+ 359 50 l 1
+ 304 50 l 0
+ 297 50 289 53 284 58 c 0
+ 248 89 l 0
+ 241 95 238 104 238 112 c 0
+ 238 181 l 1
+ 201 144 l 1
+ 159 186 l 1
+ 238 266 l 1
+ 238 597 l 0
+ 238 604 240 612 245 617 c 0
+ 274 650 l 0
+ 280 657 289 660 297 660 c 0
+ 345 660 l 0
+ 353 660 361 656 366 651 c 0
+ 399 618 l 0
+ 405 612 408 604 408 597 c 0
+ 408 365 l 0
+ 408 357 404 349 399 344 c 0
+ 298 241 l 1
+ 298 126 l 1
+ 315 110 l 1
+ 359 110 l 1
+298 327 m 1
+ 348 377 l 1
+ 348 585 l 1
+ 333 600 l 1
+ 311 600 l 1
+ 298 586 l 1
+ 298 327 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
