@@ -4,5 +4,4 @@ addons:
     - fontforge
 install:
   pip install pillow
-sudo: false
 script: "make fulltest"
