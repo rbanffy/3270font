@@ -2,5 +2,6 @@ addons:
   apt:
     packages:
     - fontforge
+    - python-pil
 sudo: false
 script: "make fulltest"
