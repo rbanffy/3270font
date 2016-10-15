@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1476556984
+ModificationTime: 1476557746
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 800 32 15
+WinInfo: 832 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -107,7 +107,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1255 1259
+BeginChars: 1305 1300
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -30530,6 +30530,416 @@ SplineSet
  512 111 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uni2215
+Encoding: 1255 8725 1259
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2219
+Encoding: 1256 8729 1260
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: radical
+Encoding: 1257 8730 1261
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: infinity
+Encoding: 1258 8734 1262
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: orthogonal
+Encoding: 1259 8735 1263
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: intersection
+Encoding: 1260 8745 1264
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: integral
+Encoding: 1261 8747 1265
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: approxequal
+Encoding: 1262 8776 1266
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: notequal
+Encoding: 1263 8800 1267
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: equivalence
+Encoding: 1264 8801 1268
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: lessequal
+Encoding: 1265 8804 1269
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: greaterequal
+Encoding: 1266 8805 1270
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: house
+Encoding: 1267 8962 1271
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: revlogicalnot
+Encoding: 1268 8976 1272
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: integraltp
+Encoding: 1269 8992 1273
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: integralbt
+Encoding: 1270 8993 1274
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: H22073
+Encoding: 1271 9633 1275
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: H18543
+Encoding: 1272 9642 1276
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: H18551
+Encoding: 1273 9643 1277
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: filledrect
+Encoding: 1274 9644 1278
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: triagup
+Encoding: 1275 9650 1279
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: triagrt
+Encoding: 1276 9658 1280
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: triagdn
+Encoding: 1277 9660 1281
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: triaglf
+Encoding: 1278 9668 1282
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: lozenge
+Encoding: 1279 9674 1283
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: circle
+Encoding: 1280 9675 1284
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: invbullet
+Encoding: 1281 9688 1285
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: invcircle
+Encoding: 1282 9689 1286
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: openbullet
+Encoding: 1283 9702 1287
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: smileface
+Encoding: 1284 9786 1288
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: invsmileface
+Encoding: 1285 9787 1289
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: sun
+Encoding: 1286 9788 1290
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: female
+Encoding: 1287 9792 1291
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: male
+Encoding: 1288 9794 1292
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: spade
+Encoding: 1289 9824 1293
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: club
+Encoding: 1290 9827 1294
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: diamond
+Encoding: 1291 9830 1295
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: musicalnote
+Encoding: 1292 9834 1296
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: musicalnotedbl
+Encoding: 1293 9835 1297
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFB01
+Encoding: 1294 64257 1298
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFB02
+Encoding: 1295 64258 1299
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1173 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
