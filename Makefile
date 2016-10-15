@@ -12,10 +12,11 @@ endif
 
 all: 3270Medium_HQ.sfd
 	@./generate_derived.pe
+	@./generate_sample_image.py
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of:"
-	@echo "  all        Generates the TrueType, OpenType, Type-1 and WebFont files."
+	@echo "  all        Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
 	@echo "  install    Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX)."
 	@echo "  uninstall  Uninstalls the generated OTF fonts."
 	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
