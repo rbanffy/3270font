@@ -1,3 +1,11 @@
+v.1.2.18
+--------
+- Improved sample image generation (rendering can be now tested!)
+- Sample image is generated in CI
+- Added missing WGL4 glyphs
+- Rendering fixes for "p" and "8" for lower resolution screens
+- Numerous fixes (git log is your friend)
+
 v1.2.17
 -------
 - Added glyps for ␀, ␁, ␂, ␃, ␄, ␅, ␆, ␇, ␈, ␉, ␊, ␋, ␌, ␍, ␎, ␏, ␐, ␑,
@@ -6,12 +14,10 @@ v1.2.17
 
 v1.2.16
 -------
-
 - Added ⧻, ␢, №, Ё and ъ
 
 v1.2.15
 -------
-
 - Added ⏻, ⏼, ⭘, ⏽, ⏾ and ⯒
 - Added Ў, ў, Џ, џ, Ћ and ћ
 - Added Ž, ž, Ơ, Ư, ơ, ư, Š, š, Э, э, ё, м, щ and ы
