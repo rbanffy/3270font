@@ -1,3 +1,8 @@
+current
+-------
+
+- Replaced wide "⸨" and "⸩" with the more often used normal versions.
+
 v.1.2.18
 --------
 - Improved sample image generation (rendering can be now tested!)
