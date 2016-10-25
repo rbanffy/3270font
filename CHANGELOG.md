@@ -1,7 +1,9 @@
 current
 -------
 
-- Replaced wide "⸨" and "⸩" with the more often used normal versions.
+- Added normal "⸨" and "⸩", ❮, ♡, ♢, ♤, ♧, ♁, ⅐, ⅑, ⅒, ⅓, ⅔, ⅕, ⅖, ⅗, ⅘,
+  ⅙, ⅚
+- Fixed "⌚"
 
 v.1.2.18
 --------
