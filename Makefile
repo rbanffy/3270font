@@ -10,8 +10,12 @@ endif
 
 .SUFFIXES:
 
-all: 3270Medium_HQ.sfd
+all: derived sample
+
+derived: 3270Medium_HQ.sfd
 	@./generate_derived.pe
+
+sample: derived 
 	@./generate_sample_image.py
 
 help:
@@ -27,7 +31,7 @@ help:
 	@echo "  clean      Deletes all automatically generated files."
 	@echo "  help       Displays this message."
 
-install: all
+install: derived
 	@install -d $(DESTFOLDER)
 	@install 3270Narrow.otf 3270Medium.otf 3270SemiNarrow.otf $(DESTFOLDER)
 
@@ -36,9 +40,6 @@ uninstall:
 
 zip: all
 	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
-
-sample: all
-	@python generate_sample_image.py
 
 test: all
 	@fontlint 3270Medium.otf
