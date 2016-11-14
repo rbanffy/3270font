@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1478984675
+ModificationTime: 1479158504
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 384 32 22
+WinInfo: 480 32 22
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -117,7 +117,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114276 1331
+BeginChars: 1114276 1332
 
 StartChar: NameMe.1024
 Encoding: 1114112 -1 0
@@ -1016,11 +1016,11 @@ p%A!.J:IV"zz!!!#7!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7!5JR7^]4AM!!'e7zzz!5JR7
 EndImage
 Fore
 SplineSet
-237 110 m 1
- 299 110 l 1
- 299 49 l 1
- 237 49 l 1
- 237 110 l 1
+237 110 m 5
+ 299 110 l 5
+ 299 49 l 5
+ 237 49 l 5
+ 237 110 l 5
 237 659 m 1
  298 659 l 1
  298 231 l 1
@@ -1880,7 +1880,7 @@ StartChar: six
 Encoding: 54 54 38
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 42 60<221 321> 356 60<225 325> 639 20G<179 219>
 VStem: 57 60<207 247 332 493> 427 60<209 253>
 DStem2: 66 526 117 493 0.707107 0.707107<12.7279 188.09> 117 207 66 174 0.704215 -0.709987<0 147.787> 117 332 117 247 0.703841 0.710358<0 93.0634> 321 102 354 51 0.704261 0.709941<0 150.615> 359 407 325 356 0.70119 -0.712975<12.5212 157.479>
@@ -1924,6 +1924,7 @@ SplineSet
  225 356 l 1
  117 247 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -12885,6 +12886,7 @@ DStem2: 66 526 117 493 0.707107 0.707107<12.7279 188.09> 117 207 66 174 0.704215
 LayerCount: 2
 Fore
 Refer: 38 54 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF17
@@ -33057,6 +33059,35 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 59 126 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni22EE
+Encoding: 8942 8942 1331
+Width: 536
+VWidth: 0
+Flags: HWO
+HStem: 49 61<237 299> 319 61<237 299> 598.1 61<237 299>
+VStem: 237 62<49 110 319 380 598.1 659.1>
+LayerCount: 2
+Fore
+SplineSet
+237 380 m 1
+ 299 380 l 1
+ 299 319 l 1
+ 237 319 l 1
+ 237 380 l 1
+237 659 m 1
+ 299 659 l 1
+ 299 598 l 1
+ 237 598 l 1
+ 237 659 l 1
+237 110 m 1
+ 299 110 l 1
+ 299 49 l 1
+ 237 49 l 1
+ 237 110 l 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
