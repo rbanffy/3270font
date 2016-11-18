@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1479384898
+ModificationTime: 1479509635
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 22
+WinInfo: 672 32 22
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -1717,7 +1717,7 @@ StartChar: two
 Encoding: 49 50 34
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 49 60<160 476> 476 21G<57 117> 600 60<221 373>
 VStem: 57 60<476 496> 416 60<456 557>
 DStem2: 66 529 117 496 0.704191 0.710011<12.4834 159.56> 66 100 160 109 0.701072 0.71309<72.3186 499.235>
@@ -9264,7 +9264,7 @@ StartChar: box4
 Encoding: 1251 -1 252
 Width: 536
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -74 61<59 477> 49 21G<301 361> 171 60<177 301 361 421> 455 20G<324.5 336.5> 538 58<59 477>
 VStem: 0 59<-13 538> 117 60<231 249> 301 60<49 171 231 373> 477 59<-13 538>
 DStem2: 309 467 301 373 0.705177 0.709031<-247.652 -72.2903>
@@ -13030,7 +13030,7 @@ StartChar: uniFF12
 Encoding: 950 65298 443
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 49 60<160 476> 476 21<57 117> 600 60<221 373>
 VStem: 57 60<476 496> 416 60<456 557>
 DStem2: 66 529 117 496 0.704191 0.710011<12.4834 159.56> 66 100 160 109 0.701072 0.71309<72.3186 499.235>
@@ -33696,11 +33696,37 @@ StartChar: uniE16C
 Encoding: 912 57708 1340
 Width: 536
 VWidth: 0
-Flags: W
-HStem: -74 61<59 477> 538 58<59 477>
-VStem: 0 59<-13 538> 477 59<-13 538>
+Flags: HW
+HStem: -74 61<59 477> 50 60<222 416> 410 60<201 354> 538 58<59 477>
+VStem: 0 59<-13 538> 111 60<347 375> 364 60<333 400> 477 59<-13 538>
 LayerCount: 2
 Fore
+SplineSet
+416 110 m 1
+ 416 50 l 1
+ 148 50 l 0
+ 148 50 113 56 113 77 c 0
+ 113 83 116 92 127 102 c 0
+ 364 333 l 1
+ 364 400 l 1
+ 354 410 l 1
+ 201 410 l 1
+ 171 375 l 1
+ 171 347 l 1
+ 111 347 l 1
+ 111 386 l 0
+ 111 393 113 400 118 405 c 0
+ 164 459 l 0
+ 169 465 178 470 187 470 c 0
+ 366 470 l 0
+ 372 470 381 468 387 462 c 0
+ 415 435 l 0
+ 420 430 424 421 424 413 c 0
+ 424 320 l 0
+ 424 313 421 305 415 299 c 0
+ 222 110 l 1
+ 416 110 l 1
+EndSplineSet
 Refer: 1356 -1 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
