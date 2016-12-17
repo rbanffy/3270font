@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1481986120
+ModificationTime: 1481987024
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 32 22
+WinInfo: 672 32 22
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -116,7 +116,7 @@ Grid
  2000 470.3 l 0
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1354 1358
+BeginChars: 1355 1359
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -33185,19 +33185,6 @@ Encoding: 911 57707 1339
 Width: 536
 VWidth: 0
 Flags: W
-HStem: -74 61<59 477> 538 58<59 477>
-VStem: 0 59<-13 538> 477 59<-13 538>
-LayerCount: 2
-Fore
-Refer: 1356 -1 N 1 0 0 1 0 0 2
-Validated: 1
-EndChar
-
-StartChar: uniE16C
-Encoding: 912 57708 1340
-Width: 536
-VWidth: 0
-Flags: HW
 HStem: -74 61<59 477> 50 60<222 416> 410 60<201 354> 538 58<59 477>
 VStem: 0 59<-13 538> 111 60<347 375> 364 60<333 400> 477 59<-13 538>
 LayerCount: 2
@@ -33230,6 +33217,42 @@ SplineSet
 EndSplineSet
 Refer: 1356 -1 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: uniE16C
+Encoding: 912 57708 1340
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -74 61<59 477> 50 60<222 290> 410 60<137 358> 538 58<59 477>
+VStem: 0 59<-13 538> 341 60<160 176> 477 59<-13 538>
+DStem2: 160 172 117 130 0.707107 -0.707107<0 87.6812> 259 299 323 278 0.707107 0.707107<30.4056 140.007> 323 278 259 257 0.711431 -0.702755<0 84.4868>
+LayerCount: 2
+Fore
+SplineSet
+358 410 m 5
+ 137 410 l 5
+ 137 470 l 6
+ 418 470 l 6
+ 418 373 l 5
+ 415.199 370.199 412.775 366.775 410 364 c 6
+ 323 278 l 5
+ 349 252 375 226 401 200 c 5
+ 401 136 l 5
+ 315 50 l 5
+ 197 50 l 5
+ 170.333 76.6667 143.667 103.333 117 130 c 5
+ 160 172 l 5
+ 222 110 l 5
+ 290 110 l 5
+ 341 160 l 5
+ 341 176 l 5
+ 259 257 l 6
+ 247 269 247 287 259 299 c 6
+ 358 398 l 5
+ 358 410 l 5
+EndSplineSet
+Refer: 1356 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniE16D
@@ -33474,6 +33497,41 @@ SplineSet
  0 468 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: NameMe.1354
+Encoding: 1354 -1 1358
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 50 60<222 290> 410 60<137 358>
+VStem: 341 60<160 176>
+DStem2: 160 172 117 130 0.707107 -0.707107<0 87.6812> 259 299 323 278 0.707107 0.707107<30.4056 140.007> 323 278 259 257 0.711431 -0.702755<0 84.4868>
+LayerCount: 2
+Fore
+SplineSet
+358 410 m 1
+ 137 410 l 1
+ 137 470 l 2
+ 418 470 l 2
+ 418 373 l 1
+ 415.199 370.199 412.775 366.775 410 364 c 2
+ 323 278 l 1
+ 349 252 375 226 401 200 c 1
+ 401 136 l 1
+ 315 50 l 1
+ 197 50 l 1
+ 170.333 76.6667 143.667 103.333 117 130 c 1
+ 160 172 l 1
+ 222 110 l 1
+ 290 110 l 1
+ 341 160 l 1
+ 341 176 l 1
+ 259 257 l 2
+ 247 269 247 287 259 299 c 2
+ 358 398 l 1
+ 358 410 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
