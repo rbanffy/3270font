@@ -15,7 +15,7 @@ all: derived sample
 derived: 3270Medium_HQ.sfd
 	@./generate_derived.pe
 
-sample: derived 
+sample: derived
 	@./generate_sample_image.py
 
 help:
@@ -39,7 +39,7 @@ uninstall:
 	@$(RM) $(DESTFOLDER)/3270Narrow.otf $(DESTFOLDER)/3270Medium.otf $(DESTFOLDER)/3270SemiNarrow.otf
 
 zip: all
-	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.*
+	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.* LICENSE.txt
 
 test: derived
 	@fontlint 3270Medium.otf
