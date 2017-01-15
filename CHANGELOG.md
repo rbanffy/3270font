@@ -1,6 +1,7 @@
 current
 -------
 
+- Force extension of 4 and 6 to properly render on Linux
 - Added "￼", "�", "⋮", "⅟", U+e16c
 - Fixed "❮" and "❯"
 
