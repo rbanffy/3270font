@@ -15,7 +15,7 @@ all: derived sample
 derived: 3270Medium_HQ.sfd
 	@./generate_derived.pe
 
-sample: derived 
+sample: derived
 	@./generate_sample_image.py
 
 help:
