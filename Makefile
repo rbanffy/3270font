@@ -11,6 +11,7 @@ endif
 .SUFFIXES:
 
 all: derived sample
+
 font: derived
 
 derived: 3270Medium_HQ.sfd
