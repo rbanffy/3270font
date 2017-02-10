@@ -12,6 +12,8 @@ endif
 
 all: derived sample
 
+font: derived
+
 derived: 3270Medium_HQ.sfd
 	@./generate_derived.pe
 
@@ -21,6 +23,7 @@ sample: derived
 help:
 	@echo "Please use \`make <target>' where <target> is one of:"
 	@echo "  all        Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
+	@echo "  font       Generates the font, as with 'all', without the sample image"
 	@echo "  install    Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX)."
 	@echo "  uninstall  Uninstalls the generated OTF fonts."
 	@echo "  zip        Creates the ZIP archive to be sent to S3 (the 'binary build')."
