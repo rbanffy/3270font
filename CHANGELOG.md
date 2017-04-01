@@ -1,6 +1,7 @@
 current
 -------
 
+- Build process now uses a build folder
 - Added 💖 and 😪
 
 v.1.2.20
