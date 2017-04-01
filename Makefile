@@ -1,5 +1,7 @@
 SHELL = /bin/sh
 UNAME = $(shell uname)
+MKDIR_P = mkdir -p
+BUILD_DIR = build
 
 ifeq ($(UNAME),Linux)
 	DESTFOLDER=~/.local/share/fonts
@@ -13,6 +15,7 @@ endif
 all: derived sample
 
 derived: 3270Medium_HQ.sfd
+	@ ${MKDIR_P} ${BUILD_DIR}
 	@./generate_derived.pe
 
 sample: derived
@@ -33,35 +36,34 @@ help:
 
 install: derived
 	@install -d $(DESTFOLDER)
-	@install 3270Narrow.otf 3270Medium.otf 3270SemiNarrow.otf $(DESTFOLDER)
+	@install ${BUILD_DIR}/3270Narrow.otf ${BUILD_DIR}/3270Medium.otf ${BUILD_DIR}/3270SemiNarrow.otf $(DESTFOLDER)
 
 uninstall:
 	@$(RM) $(DESTFOLDER)/3270Narrow.otf $(DESTFOLDER)/3270Medium.otf $(DESTFOLDER)/3270SemiNarrow.otf
 
 zip: all
-	@zip 3270_fonts_$(shell git rev-parse --short HEAD).zip 3270Medium.* 3270SemiNarrow.* 3270Narrow.* LICENSE.txt
+	@zip -j ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip ${BUILD_DIR}/3270Medium.* ${BUILD_DIR}/3270SemiNarrow.* ${BUILD_DIR}/3270Narrow.* LICENSE.txt
 
 test: derived
-	@fontlint 3270Medium.otf
-	@fontlint 3270Medium.pfm
-	@fontlint 3270Medium.ttf
-	@fontlint 3270Medium.woff
-	@fontlint 3270SemiNarrow.otf
-	@fontlint 3270SemiNarrow.ttf
-	@fontlint 3270SemiNarrow.pfm
-	@fontlint 3270SemiNarrow.woff
-	@fontlint 3270Narrow.otf
-	@fontlint 3270Narrow.ttf
-	@fontlint 3270Narrow.pfm
-	@fontlint 3270Narrow.woff
+	@fontlint ${BUILD_DIR}/3270Medium.otf
+	@fontlint ${BUILD_DIR}/3270Medium.pfm
+	@fontlint ${BUILD_DIR}/3270Medium.ttf
+	@fontlint ${BUILD_DIR}/3270Medium.woff
+	@fontlint ${BUILD_DIR}/3270SemiNarrow.otf
+	@fontlint ${BUILD_DIR}/3270SemiNarrow.ttf
+	@fontlint ${BUILD_DIR}/3270SemiNarrow.pfm
+	@fontlint ${BUILD_DIR}/3270SemiNarrow.woff
+	@fontlint ${BUILD_DIR}/3270Narrow.otf
+	@fontlint ${BUILD_DIR}/3270Narrow.ttf
+	@fontlint ${BUILD_DIR}/3270Narrow.pfm
+	@fontlint ${BUILD_DIR}/3270Narrow.woff
 
 fulltest: zip test
-	@zip -T 3270_fonts_*.zip
+	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'http://s3.amazonaws.com/3270font/3270_fonts_[^/"]+\.zip' README.md)
 
 upload: zip
-	aws s3 cp 3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
 
 clean:
-	@find . -name '*.otf' -delete -o -name '*.ttf' -delete -o -name '*.afm' -delete -o -name '*.pfm' -delete -o -name '*.woff' -delete -o -name '*.g2n' -delete -o -name '*.png' -delete
-	@$(RM) 3270_fonts_*.zip 3270Medium_HQ_Narrow.sfd, 3270Medium_HQ_SemiNarrow.sfd
+	@$(RM) -rf ${BUILD_DIR}
