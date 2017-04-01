@@ -1,3 +1,11 @@
+v.1.2.21
+--------
+
+- Build process now uses a build folder
+- Added 💖, 😪, ⇤, ⇥, 𝖠-𝟿 (math symbols), ѝ, Ѝ, ∓, ∛, ∜, ∝, ∀, ∁, ∃, ∄, ∅,
+  ⏏, ↚, ↛, ∈, ∉, ∊, ∋, ∌, ∍, ∐
+- Added placeholders for Ogden
+
 v.1.2.20
 --------
 
