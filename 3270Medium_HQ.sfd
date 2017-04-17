@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1492447151
+ModificationTime: 1492466085
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 720 36 22
+WinInfo: 432 36 22
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -34091,17 +34091,11 @@ StartChar: uni1680
 Encoding: 575 5760 1372
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+Flags: W
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 695 9472 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34109,395 +34103,428 @@ StartChar: uni1681
 Encoding: 576 5761 1373
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 238 60<80 318>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+238 318 m 5
+ 298 318 l 5
+ 298 80 l 5
+ 238 80 l 5
+ 238 318 l 5
 EndSplineSet
-Validated: 1
+Refer: 1372 5760 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1682
 Encoding: 577 5762 1374
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 196 60<80 318> 282 60<80 318>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+196 318 m 5
+ 256 318 l 5
+ 256 80 l 5
+ 196 80 l 5
+ 196 318 l 5
+282 318 m 5
+ 342 318 l 5
+ 342 80 l 5
+ 282 80 l 5
+ 282 318 l 5
 EndSplineSet
-Validated: 1
+Refer: 1372 5760 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1683
 Encoding: 578 5763 1375
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 149 60<80 318> 238 60<80 318> 324 60<80 318>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+149 318 m 5
+ 209 318 l 5
+ 209 80 l 5
+ 149 80 l 5
+ 149 318 l 5
+324 318 m 5
+ 384 318 l 5
+ 384 80 l 5
+ 324 80 l 5
+ 324 318 l 5
 EndSplineSet
-Validated: 1
+Refer: 1373 5761 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1684
 Encoding: 579 5764 1376
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 112 60<80 318> 196 60<80 318> 282 60<80 318> 371 60<80 318>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+112 318 m 1
+ 172 318 l 1
+ 172 80 l 1
+ 112 80 l 1
+ 112 318 l 1
+371 318 m 5
+ 431 318 l 5
+ 431 80 l 5
+ 371 80 l 5
+ 371 318 l 5
 EndSplineSet
-Validated: 1
+Refer: 1374 5762 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1685
 Encoding: 580 5765 1377
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 60 60<80 318> 149 60<80 318> 238 60<80 318> 324 60<80 318> 414 60<80 318>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+60 318 m 5
+ 120 318 l 5
+ 120 80 l 5
+ 60 80 l 5
+ 60 318 l 5
+414 318 m 1
+ 474 318 l 1
+ 474 80 l 1
+ 414 80 l 1
+ 414 318 l 1
 EndSplineSet
-Validated: 1
+Refer: 1375 5763 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1686
 Encoding: 581 5766 1378
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 241 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1373 5761 N -1 0 0 -1 539 649 2
+Validated: 5
 EndChar
 
 StartChar: uni1687
 Encoding: 582 5767 1379
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 197 60<331 569> 283 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1374 5762 N -1 0 0 -1 539 649 2
+Validated: 5
 EndChar
 
 StartChar: uni1688
 Encoding: 583 5768 1380
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 155 60<331 569> 241 60<331 569> 330 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1375 5763 N -1 0 0 -1 539 649 2
+Validated: 5
 EndChar
 
 StartChar: uni1689
 Encoding: 584 5769 1381
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 108 60<331 569> 197 60<331 569> 283 60<331 569> 367 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1376 5764 N -1 0 0 -1 539 649 2
+Validated: 5
 EndChar
 
 StartChar: uni168A
 Encoding: 585 5770 1382
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+VStem: 65 60<331 569> 155 60<331 569> 241 60<331 569> 330 60<331 569> 419 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1377 5765 N -1 0 0 -1 539 649 2
+Validated: 5
 EndChar
 
 StartChar: uni168B
 Encoding: 586 5771 1383
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 178 87 236 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+305 604 m 5
+ 363 590 l 5
+ 236 73 l 5
+ 178 87 l 5
+ 305 604 l 5
 EndSplineSet
-Validated: 1
+Refer: 1372 5760 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni168C
 Encoding: 587 5772 1384
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 127 87 185 73 0.238556 0.971129<0.240436 532.37> 222 87 280 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+349 604 m 5
+ 407 590 l 5
+ 280 73 l 5
+ 222 87 l 5
+ 349 604 l 5
+254 604 m 1
+ 312 590 l 1
+ 185 73 l 1
+ 127 87 l 1
+ 254 604 l 1
 EndSplineSet
-Validated: 1
+Refer: 1372 5760 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni168D
 Encoding: 588 5773 1385
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 88 87 146 73 0.238556 0.971129<0.240436 532.37> 178 87 236 73 0.238556 0.971129<0.240436 532.37> 267 87 325 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+215 604 m 1
+ 273 590 l 1
+ 146 73 l 1
+ 88 87 l 1
+ 215 604 l 1
+394 604 m 1
+ 452 590 l 1
+ 325 73 l 1
+ 267 87 l 1
+ 394 604 l 1
 EndSplineSet
-Validated: 1
+Refer: 1383 5771 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni168E
 Encoding: 589 5774 1386
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 36 87 94 73 0.238556 0.971129<0.240436 532.37> 127 87 185 73 0.238556 0.971129<0.240436 532.37> 222 87 280 73 0.238556 0.971129<0.240436 532.37> 312 87 370 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+163 604 m 5
+ 221 590 l 5
+ 94 73 l 5
+ 36 87 l 5
+ 163 604 l 5
+439 604 m 1
+ 497 590 l 1
+ 370 73 l 1
+ 312 87 l 1
+ 439 604 l 1
 EndSplineSet
-Validated: 1
+Refer: 1384 5772 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni168F
 Encoding: 590 5775 1387
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 1 87 59 73 0.238556 0.971129<0.240436 532.37> 88 87 146 73 0.238556 0.971129<0.240436 532.37> 178 87 236 73 0.238556 0.971129<0.240436 532.37> 267 87 325 73 0.238556 0.971129<0.240436 532.37> 351 87 409 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+128 604 m 5
+ 186 590 l 5
+ 59 73 l 5
+ 1 87 l 5
+ 128 604 l 5
+478 604 m 1
+ 536 590 l 1
+ 409 73 l 1
+ 351 87 l 1
+ 478 604 l 1
 EndSplineSet
-Validated: 1
+Refer: 1385 5773 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1690
 Encoding: 591 5776 1388
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539 0 539>
+VStem: 238 60<80 318> 241 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1378 5766 S 1 0 0 1 0 0 2
+Refer: 1373 5761 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1691
 Encoding: 592 5777 1389
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539 0 539>
+VStem: 196 60<80 318> 197 60<331 569> 282 60<80 318> 283 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1379 5767 S 1 0 0 1 0 0 2
+Refer: 1374 5762 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1692
 Encoding: 593 5778 1390
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539 0 539>
+VStem: 149 60<80 318> 155 60<331 569> 238 60<80 318> 241 60<331 569> 324 60<80 318> 330 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1380 5768 N 1 0 0 1 0 0 2
+Refer: 1375 5763 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1693
 Encoding: 594 5779 1391
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539 0 539>
+VStem: 108 60<331 569> 112 60<80 318> 196 60<80 318> 197 60<331 569> 282 60<80 318> 283 60<331 569> 367 60<331 569> 371 60<80 318>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1381 5769 N 1 0 0 1 0 0 2
+Refer: 1376 5764 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1694
 Encoding: 595 5780 1392
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539 0 539>
+VStem: 60 60<80 318> 65 60<331 569> 149 60<80 318> 155 60<331 569> 238 60<80 318> 241 60<331 569> 324 60<80 318> 330 60<331 569> 414 60<80 318> 419 60<331 569>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
-Validated: 1
+Refer: 1382 5770 N 1 0 0 1 0 0 2
+Refer: 1377 5765 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1695
 Encoding: 596 5781 1393
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+HStem: 294 61<0 539>
+DStem2: 236 604 178 590 0.238556 -0.971129<0 532.13> 178 87 236 73 0.238556 0.971129<0.240436 532.37>
 LayerCount: 2
 Fore
 SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
+236 604 m 5
+ 363 87 l 5
+ 305 73 l 5
+ 178 590 l 5
+ 236 604 l 5
 EndSplineSet
-Validated: 1
+Refer: 1383 5771 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni1696
 Encoding: 597 5782 1394
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
-VStem: 139 260<99.9004 607.9>
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 1372 5760 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34505,17 +34532,12 @@ StartChar: uni1697
 Encoding: 598 5783 1395
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
-VStem: 139 260<99.9004 607.9>
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 1372 5760 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34523,17 +34545,12 @@ StartChar: uni1698
 Encoding: 599 5784 1396
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
-VStem: 139 260<99.9004 607.9>
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 1372 5760 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34541,17 +34558,12 @@ StartChar: uni1699
 Encoding: 600 5785 1397
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
-VStem: 139 260<99.9004 607.9>
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 1372 5760 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34559,17 +34571,12 @@ StartChar: uni169A
 Encoding: 601 5786 1398
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: HW
-VStem: 139 260<99.9004 607.9>
+HStem: 294 61<0 539>
 LayerCount: 2
 Fore
-SplineSet
-139 608 m 1
- 399 608 l 1
- 399 100 l 1
- 139 100 l 1
- 139 608 l 1
-EndSplineSet
+Refer: 1372 5760 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -34577,8 +34584,9 @@ StartChar: uni169B
 Encoding: 602 5787 1399
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+UnlinkRmOvrlpSave: 1
+Flags: W
+VStem: 139 260<100 608>
 LayerCount: 2
 Fore
 SplineSet
@@ -34595,8 +34603,8 @@ StartChar: uni169C
 Encoding: 603 5788 1400
 Width: 536
 VWidth: 0
-Flags: HW
-VStem: 139 260<99.9004 607.9>
+Flags: W
+VStem: 139 260<100 608>
 LayerCount: 2
 Fore
 SplineSet
