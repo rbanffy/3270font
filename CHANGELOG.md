@@ -1,3 +1,8 @@
+current
+-------
+
+- Added slots for APL symbols
+
 v.1.2.22
 --------
 
