@@ -1,3 +1,12 @@
+v.1.2.22
+--------
+
+- Removed unused Hangul characters
+- Added Ogham symbols
+- Add missing trademark notice
+- Added SIL Open Font License option
+- Fix line drawing discontiuities
+
 v.1.2.21
 --------
 
