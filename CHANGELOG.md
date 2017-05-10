@@ -3,6 +3,8 @@ v.1.2.23
 
 - Added ⎇ and ⎈
 - Added APL symbols (tentative set)
+- Change zip target dependency to derived instead of all (doesn't
+  require PIL)
 
 v.1.2.22
 --------
