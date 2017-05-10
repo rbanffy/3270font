@@ -1,7 +1,8 @@
-current
--------
+v.1.2.23
+--------
 
-- Added slots for APL symbols
+- Added ⎇ and ⎈
+- Added APL symbols (tentative set)
 
 v.1.2.22
 --------
