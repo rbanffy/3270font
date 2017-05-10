@@ -1,6 +1,8 @@
 current
 -------
 
+- Change zip target dependency to derived instead of all (doesn't 
+  require PIL)
 - Added slots for APL symbols
 
 v.1.2.22
