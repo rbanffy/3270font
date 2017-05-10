@@ -1,3 +1,12 @@
+v.1.2.23
+--------
+
+- Simplify tilde
+- Added ⎇ and ⎈
+- Added APL symbols (tentative set)
+- Change zip target dependency to derived instead of all (doesn't
+  require PIL)
+
 v.1.2.22
 --------
 
@@ -13,7 +22,7 @@ v.1.2.21
 - Build process now uses a build folder
 - Added 💖, 😪, ⇤, ⇥, 𝖠-𝟿 (math symbols), ѝ, Ѝ, ∓, ∛, ∜, ∝, ∀, ∁, ∃, ∄, ∅,
   ⏏, ↚, ↛, ∈, ∉, ∊, ∋, ∌, ∍, ∐
-- Added placeholders for Ogden
+- Added placeholders for Ogham
 
 v.1.2.20
 --------
