@@ -33,7 +33,7 @@ packaged version may not be the latest version, but it's good enough for
 most purposes. For those who don't have the luxury of a proper
 system-managed package, Adobe Type 1, TTF, OTF and WOFF versions are
 available for download on
-http://s3.amazonaws.com/3270font/3270_fonts_7eb079e.zip (although this
+http://s3.amazonaws.com/3270font/3270_fonts_d250fd9.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
