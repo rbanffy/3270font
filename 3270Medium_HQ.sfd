@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1497565332
+ModificationTime: 1497597520
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -117,7 +117,7 @@ Grid
  2000 470.3 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1499 1500
+BeginChars: 1509 1513
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -36719,18 +36719,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02D1
@@ -36742,18 +36731,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0370
@@ -36765,18 +36743,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02E0
@@ -36788,18 +36755,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02E1
@@ -36811,18 +36767,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02E2
@@ -36834,18 +36779,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02E3
@@ -36857,18 +36791,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02E4
@@ -36880,18 +36803,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02CD
@@ -36903,18 +36815,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02CC
@@ -36926,18 +36827,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02CE
@@ -36949,18 +36839,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02CF
@@ -36972,18 +36851,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02EC
@@ -36995,18 +36863,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni02EE
@@ -37018,18 +36875,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0371
@@ -37041,18 +36887,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0372
@@ -37064,18 +36899,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0373
@@ -37087,18 +36911,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0374
@@ -37110,18 +36923,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0376
@@ -37133,18 +36935,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0377
@@ -37156,18 +36947,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni037B
@@ -37179,18 +36959,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni037C
@@ -37202,18 +36971,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni037D
@@ -37225,18 +36983,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni037F
@@ -37248,18 +36995,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03CF
@@ -37271,18 +37007,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D0
@@ -37294,18 +37019,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: theta1
@@ -37317,18 +37031,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Upsilon1
@@ -37340,18 +37043,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D3
@@ -37363,18 +37055,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D4
@@ -37386,18 +37067,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: phi1
@@ -37409,18 +37079,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: omega1
@@ -37432,18 +37091,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D7
@@ -37455,18 +37103,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D8
@@ -37478,18 +37115,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03D9
@@ -37501,18 +37127,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03DA
@@ -37524,18 +37139,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03DB
@@ -37547,18 +37151,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03DC
@@ -37570,18 +37163,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03DD
@@ -37593,18 +37175,7 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni03DE
@@ -37616,18 +37187,163 @@ HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
 LayerCount: 2
 Fore
-SplineSet
-92 659 m 1
- 92 -13 l 1
- 446 -13 l 1
- 446 659 l 1
- 92 659 l 1
-31 720 m 1
- 507 720 l 1
- 507 -73 l 1
- 31 -73 l 1
- 31 720 l 1
-EndSplineSet
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03F7
+Encoding: 1496 1015 1500
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03F8
+Encoding: 1497 1016 1501
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03F9
+Encoding: 1498 1017 1502
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FA
+Encoding: 1499 1018 1503
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FB
+Encoding: 1500 1019 1504
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FC
+Encoding: 1501 1020 1505
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FD
+Encoding: 1502 1021 1506
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FE
+Encoding: 1503 1022 1507
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni03FF
+Encoding: 1504 1023 1508
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1505.1
+Encoding: 1505 -1 1509
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1506.1
+Encoding: 1506 -1 1510
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1507
+Encoding: 1507 -1 1511
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1508
+Encoding: 1508 -1 1512
+Width: 536
+VWidth: 0
+Flags: W
+HStem: -73 60<92 446> 659 61<92 446>
+VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
