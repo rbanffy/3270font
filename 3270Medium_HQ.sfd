@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1497597520
+ModificationTime: 1497598226
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 765 51 15
+WinInfo: 867 51 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -117,7 +117,7 @@ Grid
  2000 470.3 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1509 1513
+BeginChars: 1619 1546
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -37298,8 +37298,8 @@ Fore
 Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.1505.1
-Encoding: 1505 -1 1509
+StartChar: uni048A
+Encoding: 1505 1162 1509
 Width: 536
 VWidth: 0
 Flags: W
@@ -37310,8 +37310,8 @@ Fore
 Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.1506.1
-Encoding: 1506 -1 1510
+StartChar: uni048B
+Encoding: 1506 1163 1510
 Width: 536
 VWidth: 0
 Flags: W
@@ -37322,8 +37322,8 @@ Fore
 Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.1507
-Encoding: 1507 -1 1511
+StartChar: uni048C
+Encoding: 1507 1164 1511
 Width: 536
 VWidth: 0
 Flags: W
@@ -37334,13 +37334,343 @@ Fore
 Refer: 1447 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.1508
-Encoding: 1508 -1 1512
+StartChar: uni048D
+Encoding: 1508 1165 1512
 Width: 536
 VWidth: 0
 Flags: W
 HStem: -73 60<92 446> 659 61<92 446>
 VStem: 31 61<-13 659> 446 61<-13 659>
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni048E
+Encoding: 1509 1166 1513
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni048F
+Encoding: 1510 1167 1514
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0492
+Encoding: 1511 1170 1515
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0493
+Encoding: 1512 1171 1516
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0494
+Encoding: 1513 1172 1517
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0495
+Encoding: 1514 1173 1518
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0496
+Encoding: 1515 1174 1519
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0497
+Encoding: 1516 1175 1520
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0498
+Encoding: 1517 1176 1521
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0499
+Encoding: 1518 1177 1522
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni049A
+Encoding: 1519 1178 1523
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1520
+Encoding: 1520 1179 1524
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1521
+Encoding: 1521 1180 1525
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1522
+Encoding: 1522 1181 1526
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1523
+Encoding: 1523 1182 1527
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1524
+Encoding: 1524 1183 1528
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni04A0
+Encoding: 1525 1184 1529
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1526
+Encoding: 1526 1185 1530
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1527
+Encoding: 1527 1186 1531
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1528
+Encoding: 1528 1187 1532
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1529
+Encoding: 1529 1188 1533
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1530
+Encoding: 1530 1189 1534
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1531
+Encoding: 1531 1190 1535
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1532
+Encoding: 1532 1191 1536
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1533
+Encoding: 1533 1192 1537
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1534
+Encoding: 1534 1193 1538
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1535
+Encoding: 1535 1194 1539
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1536
+Encoding: 1536 1195 1540
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1537
+Encoding: 1537 1196 1541
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1538
+Encoding: 1538 1197 1542
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1539
+Encoding: 1539 1198 1543
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1540
+Encoding: 1540 1199 1544
+Width: 536
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1447 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.1541
+Encoding: 1541 1200 1545
+Width: 536
+VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 1447 -1 N 1 0 0 1 0 0 2
