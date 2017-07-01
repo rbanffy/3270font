@@ -23,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1498935618
+ModificationTime: 1498939115
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1152 32 15
+WinInfo: 1248 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -37146,10 +37146,33 @@ Encoding: 1479 895 1483
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 50 60<161 260> 537 60<241 302 362 424>
+VStem: 59 58<151 232> 302 60<153 537>
 LayerCount: 2
 Fore
-Refer: 269 -1 N 1 0 0 1 0 0 2
+SplineSet
+59 232 m 5
+ 117 232 l 5
+ 117 151 l 5
+ 161 110 l 5
+ 260 110 l 5
+ 302 153 l 5
+ 302 537 l 1
+ 241 537 l 1
+ 241 597 l 1
+ 424 597 l 1
+ 424 537 l 1
+ 362 537 l 1
+ 362 141 l 6
+ 362 137 361 127 354 120 c 6
+ 295 59 l 6
+ 291 55 283 50 273 50 c 6
+ 149 50 l 6
+ 145 50 135 51 128 58 c 6
+ 68 116 l 6
+ 65 119 59 127 59 137 c 6
+ 59 232 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -37158,10 +37181,34 @@ Encoding: 1480 975 1484
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21G<57 120> 577 20G<57 120 422 481>
+VStem: 57 63<49 188 274 597> 422 60<57 68 578 597>
 LayerCount: 2
 Fore
-Refer: 996 922 N 1 0 0 1 0 0 2
+SplineSet
+422 57 m 5
+ 422 68 l 5
+ 209 281 l 5
+ 120 188 l 5
+ 120 49 l 5
+ 57 49 l 5
+ 57 597 l 5
+ 120 597 l 5
+ 120 274 l 5
+ 422 578 l 5
+ 422 597 l 5
+ 481 597 l 5
+ 481 566 l 6
+ 481 558 478 551 472 545 c 6
+ 251 323 l 5
+ 473 101 l 6
+ 479 95 482 88 482 80 c 6
+ 482 45 l 6
+ 482 37 478 29 473 24 c 6
+ 382 -67 l 5
+ 340 -25 l 5
+ 422 57 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -37170,10 +37217,12 @@ Encoding: 1481 976 1485
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 53 59<278 381> 601 58<215 259>
+VStem: 55 56<49 503> 300 57<519 558> 422 57<152 251>
+DStem2: 63 536 111 503 0.727338 0.686279<12.265 155.164> 309 445 248 424 0.709142 -0.705066<0 216.916>
 LayerCount: 2
 Fore
-Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 42 223 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 

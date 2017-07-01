@@ -1,7 +1,8 @@
 current
 -------
 
-- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ and ͳ
+- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ and ϐ
+
 - Fixed some overlap and rounding issues
 - Add missing glyph slots up to uni04CF
 
