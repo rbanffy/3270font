@@ -1,7 +1,8 @@
 current
 -------
 
-- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, and ˤ, fixed some overlap issues
+- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, and ˤ
+- Fixed some overlap and rounding issues.
 - Add missing glyph slots up to uni04CF
 
 v.1.2.23
