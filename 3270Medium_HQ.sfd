@@ -7,8 +7,8 @@ Copyright: Copyright (c) 2011-2017, Ricardo Banffy.\nCopyright (c) 1993-2011, Pa
 UComments: "2011-5-25: Created."
 Version: 001.000
 ItalicAngle: 0
-UnderlinePosition: -99
-UnderlineWidth: 55
+UnderlinePosition: -60
+UnderlineWidth: 60
 Ascent: 800
 Descent: 200
 InvalidEm: 0
@@ -19,12 +19,12 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 799 1486169484 10090958]
 UseXUID: 1
-FSType: 0
+FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1498996053
+ModificationTime: 1498996486
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
