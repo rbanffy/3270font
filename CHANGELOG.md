@@ -1,8 +1,8 @@
 current
 -------
 
-- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ and ϐ
-
+- Added ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ, ϒ, ϓ, ϔ and ϖ.
+- Fixed proportions on 3x2 graphic block (not mapped yet)
 - Fixed some overlap and rounding issues
 - Add missing glyph slots up to uni04CF
 
