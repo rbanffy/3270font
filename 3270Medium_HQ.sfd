@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1504973828
+ModificationTime: 1504974433
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1312 32 15
+WinInfo: 576 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -131,7 +131,7 @@ Grid
  2000 470.3 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1782 1781
+BeginChars: 1782 1782
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -38025,7 +38025,7 @@ Encoding: 634 1174 1519
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: HWO
+Flags: HW
 HStem: -66 173<421 479> 50 21G<54 114 237 297 419 479> 577 20G<54 114 237 297 419 479>
 VStem: 54 60<50 127 520 597> 237 60<50 250 396 597> 419 60<50 127 520 597> 421 58<-66 107>
 DStem2: 114 520 63 487 0.703146 -0.711046<0 174.657 320.658 493.9> 63 160 114 127 0.703146 0.711046<12.3959 187.764 332.343 506.296>
@@ -38089,7 +38089,7 @@ Encoding: 638 1178 1523
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: HWO
+Flags: HW
 HStem: -66 145<424 482> 49 21<57 120 422 482> 577 20<57 120 422 481>
 VStem: 57 63<49 188 274 597> 422 60<49 68 578 597> 424 58<-66 79>
 DStem2: 120 274 120 188 0.702103 0.712076<0 67.4717 126.867 428.506> 251 323 209 281 0.707107 -0.707107<0 301.227>
@@ -38205,50 +38205,60 @@ Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21<57 120 422 482> 537 60<0 64> 577 20<57 120 422 481>
+VStem: 0 64<537 597> 57 63<49 188 274 597> 422 60<49 68 578 597>
+DStem2: 120 274 120 188 0.702103 0.712076<0 67.4717 126.867 428.506> 251 323 209 281 0.707107 -0.707107<0 301.227>
 LayerCount: 2
 Fore
+Refer: 1781 -1 S 1 0 0 1 -26 181 2
 Refer: 996 922 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
-StartChar: NameMe.1526
+StartChar: uni04A1
 Encoding: 645 1185 1530
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21G<57 120 359 419> 418 60<0 64> 458 20G<57 120 359 419>
+VStem: 0 64<418 478> 57 63<49 177 263 478> 359 60<49 68 455 474>
+DStem2: 120 263 120 177 0.763886 0.645352<0 61.5323 127.595 306.476> 260 295 209 253 0.61168 -0.791106<2.03078 240.137>
 LayerCount: 2
 Fore
+Refer: 1781 -1 N 1 0 0 1 -26 62 2
 Refer: 1024 954 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
-StartChar: NameMe.1527
+StartChar: uni04A2
 Encoding: 646 1186 1531
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: -66 173<451 509> 49 21<57 118 420 480> 293 61<118 420> 577 20<57 118 420 480>
+VStem: 57 61<49 293 354 597> 420 60<49 293 354 597> 451 58<-66 107>
 LayerCount: 2
 Fore
+Refer: 1777 -1 S 1 0 0 1 83 0 2
 Refer: 775 1053 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
-StartChar: NameMe.1528
+StartChar: uni04A3
 Encoding: 647 1187 1532
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: -66 173<394 452> 49 21G<57 118 362 422> 229 61<118 362> 455 20G<57 118 362 422>
+VStem: 57 61<49 229 290 475> 362 60<49 229 290 475> 394 58<-66 107>
 LayerCount: 2
 Fore
+Refer: 1777 -1 S 1 0 0 1 26 0 2
 Refer: 808 1085 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
 StartChar: NameMe.1529
@@ -43987,7 +43997,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: short_stroke
+StartChar: short_descender
 Encoding: 1774 -1 1778
 Width: 536
 VWidth: 0
@@ -44006,7 +44016,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: short_descender
+StartChar: short_stroke
 Encoding: 1775 -1 1779
 Width: 536
 VWidth: 0
@@ -44042,6 +44052,27 @@ SplineSet
  298 109 l 1
  237 109 l 1
  237 439 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: very_short_stroke
+Encoding: 1777 -1 1781
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 356 60<26 90>
+VStem: 26 64<356 416>
+LayerCount: 2
+Fore
+SplineSet
+26 386 m 1
+ 26 416 l 1
+ 90 416 l 1
+ 90 386 l 1
+ 90 356 l 1
+ 26 356 l 1
+ 26 386 l 1
 EndSplineSet
 Validated: 1
 EndChar
