@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1504974852
+ModificationTime: 1504975267
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -55,11 +55,13 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 576 32 15
+WinInfo: 512 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
 Grid
+-1000 590.5 m 0
+ 2000 590.5 l 1024
 -1000 585.5 m 0
  2000 585.5 l 1024
 -1000 595.5 m 0
@@ -38397,40 +38399,68 @@ Refer: 184 89 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: NameMe.1540
+StartChar: uni04AF
 Encoding: 659 1199 1544
 Width: 536
 VWidth: 0
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21G<207 267>
+VStem: 55 60<432 468> 207 60<49 158> 364 60<434 470>
 LayerCount: 2
 Fore
-Refer: 269 -1 N 1 0 0 1 0 0 2
+SplineSet
+85 468 m 1
+ 115 468 l 1
+ 115 432 l 1
+ 237 226 l 1
+ 364 434 l 1
+ 364 470 l 1
+ 394 470 l 1
+ 424 470 l 1
+ 424 426 l 2
+ 424 421 423 416 420 411 c 2
+ 267 158 l 1
+ 267 49 l 1
+ 237 49 l 1
+ 207 49 l 1
+ 207 158 l 1
+ 59 409 l 2
+ 56 413 55 419 55 424 c 2
+ 55 468 l 1
+ 85 468 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: NameMe.1541
+StartChar: uni04B0
 Encoding: 660 1200 1545
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21G<237 298> 215 60<113 415> 577 20G<55 115 421 481>
+VStem: 55 60<578 597> 113 302<215 275> 237 61<49 371> 421 60<578 597>
+DStem2: 115 578 64 545 0.705066 -0.709142<0 216.37> 269 426 298 371 0.707107 0.707107<0 214.96>
 LayerCount: 2
 Fore
+Refer: 1775 -1 S 1 0 0 1 87 -141 2
 Refer: 184 89 N 1 0 0 1 0 0 2
-Validated: 1
+Validated: 5
 EndChar
 
-StartChar: NameMe.1542
+StartChar: uni04B1
 Encoding: 661 1201 1546
 Width: 536
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: W
-VStem: 0 536<-195 781>
+HStem: 49 21G<207 267> 101 60<83 385>
+VStem: 55 60<432 468> 83 302<101 161> 207 60<49 158> 364 60<434 470>
 LayerCount: 2
 Fore
-Refer: 269 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 1775 -1 S 1 0 0 1 57 -255 2
+Refer: 1544 1199 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: NameMe.1543
@@ -44085,7 +44115,7 @@ StartChar: middle_hook
 Encoding: 1778 -1 1782
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -96 60<322 341.09> 295 60<88 377.815>
 VStem: 376.062 59.9375<10.1624 295>
 LayerCount: 2

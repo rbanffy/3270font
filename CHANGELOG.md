@@ -2,7 +2,7 @@ current
 -------
 
 - Added ☮, ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ, ϒ, ϓ, ϔ, ϖ, Җ, җ,
-  Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҕ, ҕ
+  Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҕ, ҕ, ү, Ұ, ұ
 - Added math alphabets and digit ranges
 - Changed default underline position
 - Fixed proportions on 3x2 graphic block (not mapped yet)
