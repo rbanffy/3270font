@@ -3,8 +3,8 @@ current
 
 - Added ☮, ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ, ϒ, ϓ, ϔ, ϖ, Җ, җ,
   Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҕ, ҕ, ү, Ұ, ұ, Ҥ, ҥ, Ҧ, ҧ, Ҳ, ҳ, Ҵ,
-  ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ
-- Added acutecomb glyph placeholder
+  ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ, Ӡ, ӏ, ※, Ԁ, ԁ
+- Added acutecomb glyph.
 - Fixed 𝗗
 - Added math alphabets and digit ranges
 - Changed default underline position
