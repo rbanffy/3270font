@@ -39263,7 +39263,7 @@ Refer: 804 1079 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: NameMe.1588
+StartChar: uni04E0
 Encoding: 707 1248 1592
 Width: 536
 VWidth: 0
@@ -39301,11 +39301,11 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: NameMe.1589
+StartChar: uni04E1
 Encoding: 708 1249 1593
 Width: 536
 VWidth: 0
-Flags: HWO
+Flags: HW
 VStem: 0 536<-195 781>
 LayerCount: 2
 Fore
