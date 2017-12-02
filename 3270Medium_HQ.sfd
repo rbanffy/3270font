@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1512216063
+ModificationTime: 1512217283
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -59,6 +59,31 @@ WinInfo: 0 32 9
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
+Grid
+-1000 133 m 0
+ 2000 133 l 1024
+  Named: "lower sextant divide"
+-1000 466 m 0
+ 2000 466 l 1024
+  Named: "upper sextant divide"
+-1000 -200 m 0
+ 2000 -200 l 1024
+  Named: "bottom"
+-1000 0 m 0
+ 2000 0 l 1024
+-1000 800 m 0
+ 2000 800 l 1024
+  Named: "top"
+268 1300 m 0
+ 268 -700 l 1024
+  Named: "middle"
+0 1300 m 0
+ 0 -700 l 1024
+  Named: "left"
+536 1300 m 0
+ 536 -700 l 1024
+  Named: "right"
+EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 1782 1785
 
