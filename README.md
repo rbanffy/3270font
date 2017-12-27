@@ -82,13 +82,15 @@ Contributing
 
 I fear GitHub's pull-request mechanism may not be very
 FontForge-friendly. If you want to contribute (there are a lot of
-missing glyphs, such as the APL set and most non-latin alphabets which
-most likely were never built into 3270 terminals), the best workflow
-would be to make add the encoding slots (if needed), add/make the
-changes, reencode it in "Unicode, Full", compact it and validate
-it. Check if the `git diff` command gives out something sensible (does
-not change things you didn't intend to) and make a pull request. If, in
-doubt, get in touch and we will figure out how to do it right.
+missing glyphs, such as most non-latin alphabets which most likely were
+never built into 3270 terminals), the best workflow would probably be to
+add the encoding slots (if needed), add/make the changes, remove the
+unchanged glyphs and save it as a different file. If, in doubt, get in
+touch and we will figure out how to do it right.
+
+In order to generate the sample image and the grids for FontForge,
+you'll need a Python 3 environment with PIL or pillow installed. The
+requirements.txt file lists everything you need to do it.
 
 Known problems
 --------------
