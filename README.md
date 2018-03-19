@@ -52,7 +52,8 @@ and read the tutorials.
 ![Powerline-shell compatible!](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
 
-![Using it on OSX (don't forget to turn antialiasing on)](https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
+![Using it on OSX (don't forget to turn antialiasing on)](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
 If you are running Windows, you'll probably need something like
 Cygwin, but, in the end, the font works correctly (with some very
@@ -101,3 +102,20 @@ symbols are at the end of the font, along with some glyphs useful for
 building others.
 
 Please refer to http://x3270.bgp.nu/Charset.html for a complete map.
+
+Future improvements
+-------------------
+
+A grid generator is provided for producing various grid sizes for the
+font. Those grids are not used yet, but they are intended to be used to
+align font features to provide better rendering at common font size
+choices. The captures below exemplify these choices:
+
+![x3270 with 32 pixel font (used as bitmap template for the font)](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/measurements_x3270_32.png)
+
+![x3270 with 20 pixel font](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/measurements_x3270_20.png)
+
+![Gnome Terminal on Ubuntu 17.10](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/measurements_gnome_terminal.png)
