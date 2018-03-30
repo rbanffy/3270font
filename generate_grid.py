@@ -20,13 +20,13 @@ if __name__ == '__main__':
     delta = (args.top - args.bottom) / args.divy
     y = args.bottom
     while y < args.top + delta:
-        print('-1000 {} m 0\n2000 {} l 1024'.format(round(y, 0), round(y, 0)))
+        print('-1000 {:.0f} m 0\n2000 {:.0f} l 1024'.format(round(y, 0), round(y, 0)))
         y += delta
 
     delta = (args.right - args.left) / args.divx
     x = args.left
     while x < args.right + delta:
-        print('{} 1300 m 0\n{} -700 l 1024'.format(round(x, 0), round(x, 0)))
+        print('{:.0f} 1300 m 0\n{:.0f} -700 l 1024'.format(round(x, 0), round(x, 0)))
         x += delta
 
     print('EndSplineSet')
