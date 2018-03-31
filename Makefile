@@ -48,16 +48,16 @@ zip: derived
 	@zip -j ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip ${BUILD_DIR}/3270Medium.* ${BUILD_DIR}/3270SemiNarrow.* ${BUILD_DIR}/3270Narrow.* LICENSE.txt
 
 test: derived
-	@fontlint ${BUILD_DIR}/3270Medium.otf
+	@fontlint -i 98 ${BUILD_DIR}/3270Medium.otf
 	@fontlint ${BUILD_DIR}/3270Medium.ttf
 	@fontlint ${BUILD_DIR}/3270Medium.woff
-	@fontlint ${BUILD_DIR}/3270SemiNarrow.otf
+	@fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.otf
 	@fontlint ${BUILD_DIR}/3270SemiNarrow.ttf
-	@fontlint ${BUILD_DIR}/3270SemiNarrow.pfm
-	@fontlint ${BUILD_DIR}/3270SemiNarrow.woff
-	@fontlint ${BUILD_DIR}/3270Narrow.otf
+	@fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.pfm
+	@fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.woff
+	@fontlint -i 98 ${BUILD_DIR}/3270Narrow.otf
 	@fontlint ${BUILD_DIR}/3270Narrow.ttf
-	@fontlint ${BUILD_DIR}/3270Narrow.woff
+	@fontlint -i 98 ${BUILD_DIR}/3270Narrow.woff
 
 fulltest: zip test
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
