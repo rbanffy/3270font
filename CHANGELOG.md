@@ -3,9 +3,13 @@ current
 
 - Added ☮, ː, ˑ, Ͱ, ͱ, ˏ, ˎ, ˬ, ˤ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ, ϒ, ϓ, ϔ, ϖ, Җ, җ,
   Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҕ, ҕ, ү, Ұ, ұ, Ҥ, ҥ, Ҧ, ҧ, Ҳ, ҳ, Ҵ,
-  ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ, Ӡ, ӏ, ※, Ԁ, ԁ, Ϟ, Ϸ, ϸ, Ӡ, ӡ
-- Added acutecomb glyph.
-- Fixed 𝗗
+  ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ, Ӡ, ӏ, ※, Ԁ, ԁ, Ϟ, Ϸ, ϸ, Ӡ, ӡ, ӓ,
+  Ә, ә, Ӛ, ӛ, Ӝ, ӝ, Ӟ, ӟ, Ӡ, ӡ, Ӣ, ӣ, Ӥ, ӥ, Ӧ, ӧ, Ө, ө, Ӫ, ӫ, Ӭ, ӭ, Ӯ,
+  ӯ, Ӱ, ӱ, Ӳ, ӳ, Ӵ, ӵ, Ӷ, ӷ, Ӹ, ӹ, Ӻ, ӻ, Ӽ, ӽ, Ӿ, ӿ, Ԁ, ԁ, Ԋ, ԋ
+- Adjust default width to 550 to better reflect underlying bitmaps
+- Generated bitmap glyphs
+- Added acutecomb glyph
+- Fixed 𝗗, Ő, —, Ò, Ÿ
 - Added math alphabets and digit ranges
 - Changed default underline position
 - Fixed proportions on 3x2 graphic block (not mapped yet)
