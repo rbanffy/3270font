@@ -1,3 +1,4 @@
+dist: trusty
 addons:
   apt:
     packages:
