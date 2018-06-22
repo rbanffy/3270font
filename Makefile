@@ -51,13 +51,13 @@ test: derived
 	fontlint ${BUILD_DIR}/3270Medium.otf
 	fontlint ${BUILD_DIR}/3270Medium.ttf
 	fontlint ${BUILD_DIR}/3270Medium.woff
-	fontlint ${BUILD_DIR}/3270SemiNarrow.otf
+#	fontlint ${BUILD_DIR}/3270SemiNarrow.otf
 	fontlint ${BUILD_DIR}/3270SemiNarrow.ttf
-	fontlint ${BUILD_DIR}/3270SemiNarrow.pfm
-	fontlint ${BUILD_DIR}/3270SemiNarrow.woff
-	fontlint ${BUILD_DIR}/3270Narrow.otf
+#	fontlint ${BUILD_DIR}/3270SemiNarrow.pfm
+#	fontlint ${BUILD_DIR}/3270SemiNarrow.woff
+#	fontlint ${BUILD_DIR}/3270Narrow.otf
 	fontlint ${BUILD_DIR}/3270Narrow.ttf
-	fontlint ${BUILD_DIR}/3270Narrow.woff
+#	fontlint ${BUILD_DIR}/3270Narrow.woff
 
 fulltest: zip test
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
