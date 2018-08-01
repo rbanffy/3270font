@@ -128,7 +128,7 @@ BeginChars: 1790 1793
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
-Width: 1000
+Width: 536
 VWidth: 0
 LayerCount: 2
 Back
@@ -302,7 +302,7 @@ EndChar
 
 StartChar: NameMe.968
 Encoding: -1 -1 5
-Width: 1000
+Width: 536
 VWidth: 0
 LayerCount: 2
 Back
@@ -2270,7 +2270,7 @@ EndChar
 
 StartChar: numbersign
 Encoding: 34 35 44
-Width: 534
+Width: 536
 VWidth: 0
 InSpiro: 1
 Flags: W
@@ -2832,7 +2832,7 @@ EndChar
 
 StartChar: minus
 Encoding: -1 8722 49
-Width: 1000
+Width: 536
 VWidth: 0
 LayerCount: 2
 Back
@@ -8601,7 +8601,7 @@ EndChar
 
 StartChar: NameMe.954
 Encoding: -1 -1 239
-Width: 1000
+Width: 536
 VWidth: 0
 LayerCount: 2
 Back
@@ -39730,7 +39730,7 @@ Encoding: 750 1291 1635
 Width: 536
 VWidth: 0
 UnlinkRmOvrlpSave: 1
-Flags: WO
+Flags: W
 HStem: 51 58<359 416> 229 61<118 299> 455 20G<57 118 299 359>
 VStem: 57 61<49 229 290 475> 299 60<109 229 290 475> 416 60<109 357>
 LayerCount: 2
@@ -39758,6 +39758,7 @@ SplineSet
  57 49 l 1
  57 475 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: NameMe.1632
@@ -44628,6 +44629,7 @@ SplineSet
  57 49 l 5
  57 475 l 5
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 BitmapFont: 14 1794 11 3 1
