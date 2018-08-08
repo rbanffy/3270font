@@ -17,15 +17,14 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-NeedsXUIDChange: 1
-XUID: [1021 799 1486169484 10090963]
+XUID: [1021 799 1486169484 10090975]
 UseXUID: 1
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1533488866
+ModificationTime: 1533712689
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -56,7 +55,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 928 32 15
+WinInfo: 736 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -125,7 +124,7 @@ Grid
  536 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114316 1795
+BeginChars: 1114316 1808
 
 StartChar: NameMe.1024
 Encoding: 1114112 -1 0
@@ -15107,6 +15106,7 @@ SplineSet
  306 359 300 370 292 377 c 0
  284 385 277 388 268 388 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniE0A0
@@ -44656,8 +44656,177 @@ Fore
 Refer: 552 11139 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
+
+StartChar: gravecomb
+Encoding: 768 768 1795
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 476 183
+VStem: 184 184
+LayerCount: 2
+Fore
+Refer: 61 96 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0302
+Encoding: 770 770 1796
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 475 187
+VStem: 111 316
+LayerCount: 2
+Fore
+Refer: 976 710 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni02CA
+Encoding: 714 714 1797
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 477 182
+VStem: 179 181
+DStem2: 308 650 231 486 0.704167 0.710035<-192.071 20.7609>
+LayerCount: 2
+Fore
+Refer: 62 180 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni02CB
+Encoding: 715 715 1798
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 476 183
+VStem: 184 184
+LayerCount: 2
+Fore
+Refer: 61 96 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: tildecomb
+Encoding: 771 771 1799
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 480 60<346 387> 598 60<163 204>
+LayerCount: 2
+Fore
+Refer: 59 126 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0304
+Encoding: 772 772 1800
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 598 61<54 481>
+LayerCount: 2
+Fore
+Refer: 55 175 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0305
+Encoding: 773 773 1801
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 738 61<61 475>
+LayerCount: 2
+Fore
+Refer: 1094 8254 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0306
+Encoding: 774 774 1802
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 511 60<204.456 320.544> 639 20G<113 173.5 351 411>
+VStem: 119 58<598.173 659> 351 60<601.476 659>
+LayerCount: 2
+Fore
+Refer: 606 728 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0307
+Encoding: 775 775 1803
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 563 112<197.922 286.078>
+VStem: 186 112<574.922 663.078>
+LayerCount: 2
+Fore
+Refer: 728 729 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni0308
+Encoding: 776 776 1804
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 598 61<114 177 298 360>
+VStem: 114 63<598 659> 298 62<598 659>
+LayerCount: 2
+Fore
+Refer: 60 168 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni030A
+Encoding: 778 778 1805
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 420 50<193.797 291.314> 604 50<193.797 291.314>
+VStem: 126 50<488.261 585.954> 310 50<488.809 585.406>
+LayerCount: 2
+Fore
+Refer: 757 730 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni030B
+Encoding: 779 779 1806
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 477 182
+VStem: 106 181 264 181
+DStem2: 235 650 158 486 0.704167 0.710035<-192.071 20.7609> 393 650 316 486 0.704167 0.710035<-192.071 20.7609>
+LayerCount: 2
+Fore
+Refer: 938 733 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: uni030C
+Encoding: 780 780 1807
+Width: 536
+VWidth: 0
+Flags: W
+HStem: 624 170
+VStem: 117 286
+DStem2: 158 794 117 754 0.709987 -0.704215<0 143.544> 260 693 280 632 0.709987 0.704215<0 144.485>
+LayerCount: 2
+Fore
+Refer: 716 711 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
 EndChars
-BitmapFont: 14 1796 11 3 1
+BitmapFont: 14 1809 11 3 1
 BDFChar: 1 1114113 8 0 0 0 0
 z
 BDFChar: 2 8364 8 1 6 0 9
@@ -48232,13 +48401,48 @@ BDFChar: 1793 57522 8 0 0 0 0
 z
 BDFChar: 1794 57523 8 0 0 0 0
 z
+BDFChar: 1795 768 8 0 0 0 0
+z
+BDFChar: 1796 770 8 0 0 0 0
+z
+BDFChar: 1797 714 8 3 4 8 9
+5_&h7
+BDFChar: 1798 715 8 0 0 0 0
+z
+BDFChar: 1799 771 8 0 0 0 0
+z
+BDFChar: 1800 772 8 0 0 0 0
+z
+BDFChar: 1801 773 8 0 0 0 0
+z
+BDFChar: 1802 774 8 0 0 0 0
+z
+BDFChar: 1803 775 8 0 0 0 0
+z
+BDFChar: 1805 778 8 0 0 0 0
+z
+BDFChar: 1806 779 8 0 0 0 0
+z
+BDFChar: 1807 780 8 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
-BitmapFont: 17 1796 14 3 1
+BitmapFont: 17 1809 14 3 1
 BDFChar: 1 1114113 9 0 0 0 0
 z
 BDFChar: 2 8364 9 1 7 1 11
@@ -51813,13 +52017,48 @@ BDFChar: 1793 57522 9 0 0 0 0
 z
 BDFChar: 1794 57523 9 0 0 0 0
 z
+BDFChar: 1795 768 9 0 0 0 0
+z
+BDFChar: 1796 770 9 0 0 0 0
+z
+BDFChar: 1797 714 9 3 5 9 11
++@(GW
+BDFChar: 1798 715 9 0 0 0 0
+z
+BDFChar: 1799 771 9 0 0 0 0
+z
+BDFChar: 1800 772 9 0 0 0 0
+z
+BDFChar: 1801 773 9 0 0 0 0
+z
+BDFChar: 1802 774 9 0 0 0 0
+z
+BDFChar: 1803 775 9 0 0 0 0
+z
+BDFChar: 1805 778 9 0 0 0 0
+z
+BDFChar: 1806 779 9 0 0 0 0
+z
+BDFChar: 1807 780 9 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
-BitmapFont: 25 1796 20 5 1
+BitmapFont: 25 1809 20 5 1
 BDFChar: 1 1114113 13 0 0 0 0
 z
 BDFChar: 2 8364 13 1 11 1 16
@@ -55396,13 +55635,48 @@ BDFChar: 1793 57522 13 0 0 0 0
 z
 BDFChar: 1794 57523 13 0 0 0 0
 z
+BDFChar: 1795 768 13 0 0 0 0
+z
+BDFChar: 1796 770 13 0 0 0 0
+z
+BDFChar: 1797 714 13 5 8 13 16
+0Q>sc
+BDFChar: 1798 715 13 0 0 0 0
+z
+BDFChar: 1799 771 13 0 0 0 0
+z
+BDFChar: 1800 772 13 0 0 0 0
+z
+BDFChar: 1801 773 13 0 0 0 0
+z
+BDFChar: 1802 774 13 0 0 0 0
+z
+BDFChar: 1803 775 13 0 0 0 0
+z
+BDFChar: 1805 778 13 0 0 0 0
+z
+BDFChar: 1806 779 13 0 0 0 0
+z
+BDFChar: 1807 780 13 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
-BitmapFont: 28 1796 22 6 1
+BitmapFont: 28 1809 22 6 1
 BDFChar: 1 1114113 15 0 0 0 0
 z
 BDFChar: 2 8364 15 2 12 1 18
@@ -58979,13 +59253,48 @@ BDFChar: 1793 57522 15 0 0 0 0
 z
 BDFChar: 1794 57523 15 0 0 0 0
 z
+BDFChar: 1795 768 15 0 0 0 0
+z
+BDFChar: 1796 770 15 0 0 0 0
+z
+BDFChar: 1797 714 15 5 9 14 18
+(cZKm^]4?7
+BDFChar: 1798 715 15 0 0 0 0
+z
+BDFChar: 1799 771 15 0 0 0 0
+z
+BDFChar: 1800 772 15 0 0 0 0
+z
+BDFChar: 1801 773 15 0 0 0 0
+z
+BDFChar: 1802 774 15 0 0 0 0
+z
+BDFChar: 1803 775 15 0 0 0 0
+z
+BDFChar: 1805 778 15 0 0 0 0
+z
+BDFChar: 1806 779 15 0 0 0 0
+z
+BDFChar: 1807 780 15 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
-BitmapFont: 33 1796 26 7 1
+BitmapFont: 33 1809 26 7 1
 BDFChar: 1 1114113 18 0 0 0 0
 z
 BDFChar: 2 8364 18 2 15 2 21
@@ -62666,13 +62975,48 @@ BDFChar: 1793 57522 18 0 0 0 0
 z
 BDFChar: 1794 57523 18 0 0 0 0
 z
+BDFChar: 1795 768 18 0 0 0 0
+z
+BDFChar: 1796 770 18 0 0 0 0
+z
+BDFChar: 1797 714 18 6 11 16 21
+$lh6Gi4o<m
+BDFChar: 1798 715 18 0 0 0 0
+z
+BDFChar: 1799 771 18 0 0 0 0
+z
+BDFChar: 1800 772 18 0 0 0 0
+z
+BDFChar: 1801 773 18 0 0 0 0
+z
+BDFChar: 1802 774 18 0 0 0 0
+z
+BDFChar: 1803 775 18 0 0 0 0
+z
+BDFChar: 1805 778 18 0 0 0 0
+z
+BDFChar: 1806 779 18 0 0 0 0
+z
+BDFChar: 1807 780 18 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
-BitmapFont: 50 1796 40 10 1
+BitmapFont: 50 1809 40 10 1
 BDFChar: 1 1114113 27 0 0 0 0
 z
 BDFChar: 2 8364 27 3 23 2 32
@@ -67769,10 +68113,45 @@ BDFChar: 1793 57522 27 0 0 0 0
 z
 BDFChar: 1794 57523 27 0 0 0 0
 z
+BDFChar: 1795 768 27 0 0 0 0
+z
+BDFChar: 1796 770 27 0 0 0 0
+z
+BDFChar: 1797 714 27 9 17 24 32
+"+UW,%tG`%4ofs1p]0d`huE`W
+BDFChar: 1798 715 27 0 0 0 0
+z
+BDFChar: 1799 771 27 0 0 0 0
+z
+BDFChar: 1800 772 27 0 0 0 0
+z
+BDFChar: 1801 773 27 0 0 0 0
+z
+BDFChar: 1802 774 27 0 0 0 0
+z
+BDFChar: 1803 775 27 0 0 0 0
+z
+BDFChar: 1805 778 27 0 0 0 0
+z
+BDFChar: 1806 779 27 0 0 0 0
+z
+BDFChar: 1807 780 27 0 0 0 0
+z
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1647 754 0 0 N
 BDFRefChar: 1649 246 0 0 N
 BDFRefChar: 1793 551 0 0 N
 BDFRefChar: 1794 552 0 0 N
+BDFRefChar: 1795 61 0 0 N
+BDFRefChar: 1796 976 0 0 N
+BDFRefChar: 1798 61 0 0 N
+BDFRefChar: 1799 59 0 0 N
+BDFRefChar: 1800 55 0 0 N
+BDFRefChar: 1801 1094 0 0 N
+BDFRefChar: 1802 606 0 0 N
+BDFRefChar: 1803 728 0 0 N
+BDFRefChar: 1805 757 0 0 N
+BDFRefChar: 1806 938 0 0 N
+BDFRefChar: 1807 716 0 0 N
 EndBitmapFont
 EndSplineFont
