@@ -5,28 +5,52 @@ import sys
 
 parser = argparse.ArgumentParser(description='Generate a grid for 3270font.')
 
+parser.add_argument('origin_x', type=float, help='Origin X')
+parser.add_argument('origin_y', type=float, help='Origin Y')
 parser.add_argument('bottom', type=float, help='Bottom Y')
 parser.add_argument('top', type=float, help='Top Y')
 parser.add_argument('left', type=float, help='Leftmost X')
 parser.add_argument('right', type=float, help='Rightmost X')
-parser.add_argument('divx', type=int, help='Horizontal divisions')
-parser.add_argument('divy', type=int, help='Vertical divisions')
+parser.add_argument('delta_x', type=float, help='Division width')
+parser.add_argument('delta_y', type=float, help='Division height')
 
 args = parser.parse_args()
 
 if __name__ == '__main__':
     print('Grid')
 
-    delta = (args.top - args.bottom) / args.divy
-    y = args.bottom
-    while y < args.top + delta:
-        print('-1000 {:.0f} m 0\n2000 {:.0f} l 1024'.format(round(y, 0), round(y, 0)))
-        y += delta
+    # Draw the origins
+    print('{:.0f} 1300 m 0\n{:.0f} -700 l 1024\n  Named: "Origin X"'.format(
+        args.origin_x, args.origin_x))
+    print('-1000 {:.0f} m 0\n2000 {:.0f} l 1024\n  Named: "Origin Y"'.format(
+        args.origin_y, args.origin_y))
 
-    delta = (args.right - args.left) / args.divx
-    x = args.left
-    while x < args.right + delta:
-        print('{:.0f} 1300 m 0\n{:.0f} -700 l 1024'.format(round(x, 0), round(x, 0)))
-        x += delta
+    # Draw horizontals above zero.
+    y = args.origin_y + args.delta_y
+    while y < args.top + args.delta_y:
+        print('-1000 {:.0f} m 0\n2000 {:.0f} l 1024'.format(
+            round(y, 0), round(y, 0)))
+        y += args.delta_y
+
+    # Draw horizontals below zero.
+    y = args.origin_y - args.delta_y
+    while y > args.bottom:
+        print('-1000 {:.0f} m 0\n2000 {:.0f} l 1024'.format(
+            round(y, 0), round(y, 0)))
+        y -= args.delta_y
+
+    # Draw verticals to the right of the origin
+    x = args.origin_x + args.delta_x
+    while x < args.right + args.delta_x:
+        print('{:.0f} 1300 m 0\n{:.0f} -700 l 1024'.format(
+            round(x, 0), round(x, 0)))
+        x += args.delta_x
+
+    # And to the left
+    x = args.origin_x - args.delta_x
+    while x > args.left:
+        print('{:.0f} 1300 m 0\n{:.0f} -700 l 1024'.format(
+            round(x, 0), round(x, 0)))
+        x -= args.delta_x
 
     print('EndSplineSet')
