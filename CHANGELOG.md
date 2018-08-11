@@ -8,7 +8,7 @@ current
   Ӯ, ӯ, Ӱ, ӱ, Ӳ, ӳ, Ӵ, ӵ, Ӷ, ӷ, Ӹ, ӹ, Ӻ, ӻ, Ӽ, ӽ, Ӿ, ӿ, Ԁ, ԁ, Ԋ, ԋ, ※,
   ☮, ✕, ❌
 - Added missing Powerline symbols at the right places
-- Adjust default width to 550 to better reflect underlying bitmaps
+- Adjust default width to 540 to better reflect underlying bitmaps
 - Generated bitmap glyphs
 - Added acutecomb glyph
 - Fixed 𝗗, Ő, —, Ò, Ÿ
