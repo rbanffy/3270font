@@ -1,7 +1,8 @@
+dist: trusty
 addons:
   apt:
     packages:
     - fontforge
 install:
   sudo pip install pillow
-script: "make fulltest"
+script: "make travistest"

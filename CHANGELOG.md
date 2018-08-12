@@ -1,3 +1,23 @@
+current
+-------
+
+- Added ˎ, ˏ, ː, ˑ, ˤ, ˬ, ̀, ̂, ̃, ̄, ̅, ̆, ̇, ̈, ̊, ̋, ̌, Ͱ, ͱ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ,
+  ϒ, ϓ, ϔ, ϖ, Ϟ, Ϸ, ϸ, Ҕ, ҕ, Җ, җ, Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҥ, ҥ,
+  Ҧ, ҧ, Ҩ, ҩ, ү, Ұ, ұ, Ҳ, ҳ, Ҵ, ҵ, Ҷ, ҷ, Ҹ, ҹ, Һ, һ, Ҽ, ҽ, Ҿ, ҿ, Ӏ, ӏ, ӓ,
+  Ә, ә, Ӛ, ӛ, Ӝ, ӝ, Ӟ, ӟ, Ӡ, ӡ, Ӣ, ӣ, Ӥ, ӥ, Ӧ, ӧ, Ө, ө, Ӫ, ӫ, Ӭ, ӭ, Ӯ, ӯ,
+  Ӱ, ӱ, Ӳ, ӳ, Ӵ, ӵ, Ӷ, ӷ, Ӹ, ӹ, Ӻ, ӻ, Ӽ, ӽ, Ӿ, ӿ, Ԁ, ԁ, Ԅ, ԅ, Ԇ, Ԇ, ԇ, Ԉ,
+  ԉ, Ԋ, ԋ, Ԍ, ԍ, Ԏ, ԏ, ※, ☮, ✕, ❌,
+- Added missing Powerline symbols at the right places
+- Adjust default width to 540 to better reflect underlying bitmaps
+- Generated bitmap glyphs
+- Added acutecomb glyph
+- Fixed 𝗗, Ő, —, Ò, Ÿ
+- Added math alphabets and digit ranges
+- Changed default underline position
+- Fixed proportions on 3x2 graphic block (not mapped yet)
+- Fixed some overlap and rounding issues
+- Add missing glyph slots up to uni04CF
+
 v.1.2.23
 --------
 
