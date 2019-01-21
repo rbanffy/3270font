@@ -17,7 +17,7 @@ all: derived sample
 font: derived
 
 derived: 3270Medium_HQ.sfd
-	@ ${MKDIR_P} ${BUILD_DIR}
+	@$(MKDIR_P) ${BUILD_DIR}
 	@./generate_derived.pe
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
