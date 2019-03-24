@@ -1,6 +1,7 @@
 current
 -------
 
+- New implementation for ℅, add ℆
 - New implementation for ‘, ’, “, and ”
 
 v.2.0.0
