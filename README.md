@@ -28,15 +28,15 @@ building your font files, you can simply `apt-get install fonts-3270`
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
 (http://packages.ubuntu.com/zesty/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-http://packages.ubuntu.com/xenial/fonts/fonts-3270, although the
+https://packages.ubuntu.com/xenial/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
-most purposes. 
+most purposes.
 
 On FreeBSD the font can be installed with `pkg install 3270font`.
 
-For those who don't have the luxury of a proper system-managed package, 
+For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-http://s3.amazonaws.com/3270font/3270_fonts_4cfe95c.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_4cfe95c.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
@@ -49,7 +49,7 @@ The "source" file is edited using FontForge. You'll need it if you want
 to generate fonts for your platform. On most civilized operating
 systems, you can simply `apt-get install fontforge`, `yum install
 fontforge` or even `port install fontforge`. On others, you may need to
-grab your copy from http://fontforge.org/. I encourage you to drop by
+grab your copy from https://fontforge.org/. I encourage you to drop by
 and read the tutorials.
 
 ![Powerline-shell compatible!](
