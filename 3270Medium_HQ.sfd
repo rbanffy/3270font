@@ -5,7 +5,7 @@ FamilyName: IBM 3270
 Weight: Medium
 Copyright: Copyright (c) 2011-2017, Ricardo Banffy.\nCopyright (c) 1993-2011, Paul Mattes.\nCopyright (c) 2004-2005, Don Russell.\nCopyright (c) 2004, Dick Altenbern.\nCopyright (c) 1990, Jeff Sparkes.\nCopyright (c) 1989, Georgia Tech Research Corporation (GTRC), Atlanta, GA 30332.\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the names of Ricardo Banffy, Paul Mattes, Don Russell, Dick Altenbern, Jeff Sparkes, GTRC nor the names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY RICARDO BANFFY, PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES AND GTRC "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL RICARDO BANFFY, PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES OR GTRC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe Debian Logo glyph is based on the Debian Open Use Logo and is Copyright (c) 1999 Software in the Public Interest, Inc., and it is incorporated here under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported License. The logo is released under the terms of the GNU Lesser General Public License, version 3 or any later version, or, at your option, of the Creative Commons Attribution-ShareAlike 3.0 Unported License.\n\nUbuntu, the Ubuntu logo and the Circle of Friends symbol are registered trademarks of Canonical Ltd.\n\nThe Fontforge SFD font description file is optionally licensed under the SIL Open Font License v1.1 with no Reserved Font Name. This license is available with a FAQ at http://scripts.sil.org/OFL.\n
 UComments: "2011-5-25: Created."
-Version: 001.000
+Version: 2.0.1
 ItalicAngle: -5
 UnderlinePosition: -99
 UnderlineWidth: 55
@@ -17,7 +17,6 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 10090981]
 UseXUID: 1
 FSType: 0
@@ -25,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1553443891
+ModificationTime: 1556972741
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +54,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1344 32 15
+WinInfo: 64 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -48850,8 +48849,6 @@ BDFChar: 1806 431 8 0 0 0 0
 z
 BDFChar: 1807 432 8 0 0 0 0
 z
-BDFChar: -1 -1 14 0 0 0 0
-z
 BDFChar: 1808 1804 8 1 6 0 9
 ^js?/&0O5o'FXsA
 BDFChar: 1809 1805 8 1 6 0 9
@@ -52479,8 +52476,6 @@ z
 BDFChar: 1806 431 9 0 0 0 0
 z
 BDFChar: 1807 432 9 0 0 0 0
-z
-BDFChar: -1 -1 17 0 0 0 0
 z
 BDFChar: 1808 1804 9 1 7 0 11
 i.0ei$lBNu5_]UM
@@ -56112,8 +56107,6 @@ BDFChar: 1806 431 13 0 0 0 0
 z
 BDFChar: 1807 432 13 0 0 0 0
 z
-BDFChar: -1 -1 25 0 0 0 0
-z
 BDFChar: 1808 1804 14 1 11 0 16
 GQ@L=^];.mG[LNe!It7P"oo&3(]Z5i?iWLN!?_Cc!T3qX
 BDFChar: 1809 1805 14 1 11 0 16
@@ -59743,8 +59736,6 @@ z
 BDFChar: 1806 431 15 0 0 0 0
 z
 BDFChar: 1807 432 15 0 0 0 0
-z
-BDFChar: -1 -1 28 0 0 0 0
 z
 BDFChar: 1808 1804 15 1 13 -1 18
 HiSNo^];.MHl+t"!+5fB!It7P"oo&3(]Z5i?uSC#!13bR!:Ttr
@@ -63477,8 +63468,6 @@ z
 BDFChar: 1806 431 18 0 0 0 0
 z
 BDFChar: 1807 432 18 0 0 0 0
-z
-BDFChar: -1 -1 33 0 0 0 0
 z
 BDFChar: 1808 1804 18 2 15 0 21
 HiX'E^];.Mr![rm!&sst!8mmn"+UUV%KIIK2ummti&JN"!6bGe!;lhA
@@ -68623,8 +68612,6 @@ z
 BDFChar: 1806 431 27 0 0 0 0
 z
 BDFChar: 1807 432 27 0 0 0 0
-z
-BDFChar: -1 -1 50 0 0 0 0
 z
 BDFChar: 1808 1804 27 3 23 -1 32
 5C```J,oV"!8mhWhuEc8!!(pW!<7R/It2c.JFEO>huEkp!!e#S%fcSN!!#+]!-eJDn,NLI!!C":

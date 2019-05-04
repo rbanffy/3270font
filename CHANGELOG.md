@@ -1,6 +1,7 @@
 current
 -------
 
+- Set version to 2.0.1 (next release)
 - New implementation for ℅, add ℆
 - New implementation for ‘, ’, “, and ”
 
