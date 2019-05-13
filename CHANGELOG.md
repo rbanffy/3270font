@@ -1,6 +1,7 @@
-current
+v.2.0.1
 -------
 
+- Added ◢, ◣, ◤, ◥, ▮, and ◆
 - Use new AWS S3 vhost-based names, add HTTPS where applicable
 - Set version to 2.0.1 (next release)
 - New implementation for ℅, add ℆

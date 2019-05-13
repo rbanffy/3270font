@@ -17,14 +17,15 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 799 1486169484 10090981]
+NeedsXUIDChange: 1
+XUID: [1021 799 1486169484 10090982]
 UseXUID: 1
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1556972741
+ModificationTime: 1557749976
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +55,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 64 32 15
+WinInfo: 1344 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -167,7 +168,7 @@ Grid
  30 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1808 1812
+BeginChars: 1816 1818
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -45249,8 +45250,94 @@ Refer: 1808 -1 S 1 0 0 1 0 0 2
 Refer: 1810 -1 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
+
+StartChar: uni25E2
+Encoding: 1808 9698 1812
+Width: 1000
+VWidth: 0
+LayerCount: 2
+Fore
+SplineSet
+0 -200 m 1
+ 549 800 l 5
+ 549 -200 l 1
+ 0 -200 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25E3
+Encoding: 1809 9699 1813
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -200 m 1
+ 0 800 l 1
+ 549 -200 l 5
+ 0 -200 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25E4
+Encoding: 1810 9700 1814
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 800 m 5
+ 549 800 l 1
+ 0 -200 l 1
+ 0 800 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni25E5
+Encoding: 1811 9701 1815
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 800 m 1
+ 549 800 l 1
+ 549 -200 l 1
+ 0 800 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni25AE
+Encoding: 1812 9646 1816
+Width: 540
+VWidth: 0
+Flags: W
+VStem: 30 476<-167 769>
+LayerCount: 2
+Fore
+Refer: 688 -1 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni25C6
+Encoding: 1813 9670 1817
+Width: 540
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+243 21 m 1
+ 70 267 l 1
+ 243 495 l 5
+ 412 269 l 1
+ 243 21 l 1
+EndSplineSet
+EndChar
 EndChars
-BitmapFont: 14 1813 11 3 1
+BitmapFont: 14 1818 11 3 1
 BDFChar: 1 1603 8 0 0 0 0
 z
 BDFChar: 2 862 8 1 6 0 9
@@ -48857,6 +48944,8 @@ BDFChar: 1810 1806 8 0 0 0 0
 z
 BDFChar: 1811 1807 8 0 0 0 0
 z
+BDFChar: 1817 1813 8 1 5 0 6
++CJ$%:`pk\
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
@@ -48878,7 +48967,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 17 1813 14 3 1
+BitmapFont: 17 1818 14 3 1
 BDFChar: 1 1603 9 0 0 0 0
 z
 BDFChar: 2 862 9 1 7 1 11
@@ -52485,6 +52574,8 @@ BDFChar: 1810 1806 9 0 0 0 0
 z
 BDFChar: 1811 1807 9 0 0 0 0
 z
+BDFChar: 1817 1813 9 1 6 1 7
+0K;UV82r:'
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
@@ -52506,7 +52597,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 25 1813 20 5 1
+BitmapFont: 25 1818 20 5 1
 BDFChar: 1 1603 13 0 0 0 0
 z
 BDFChar: 2 862 13 1 11 1 16
@@ -56115,6 +56206,8 @@ BDFChar: 1810 1806 14 0 0 0 0
 z
 BDFChar: 1811 1807 14 0 0 0 0
 z
+BDFChar: 1817 1813 13 2 9 1 11
+(`5AI_o"fQ4;\n8
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
@@ -56136,7 +56229,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 28 1813 22 6 1
+BitmapFont: 28 1818 22 6 1
 BDFChar: 1 1603 15 0 0 0 0
 z
 BDFChar: 2 862 15 2 12 1 18
@@ -59745,6 +59838,8 @@ BDFChar: 1810 1806 15 0 0 0 0
 z
 BDFChar: 1811 1807 15 0 0 0 0
 z
+BDFChar: 1817 1813 15 2 11 1 12
+$ih=K2?7du@=Z20@=Vhf2?4cu)up6E
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
@@ -59766,7 +59861,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 33 1813 26 7 1
+BitmapFont: 33 1818 26 7 1
 BDFChar: 1 1603 18 0 0 0 0
 z
 BDFChar: 2 862 18 2 15 2 21
@@ -63477,6 +63572,8 @@ BDFChar: 1810 1806 18 0 0 0 0
 z
 BDFChar: 1811 1807 18 0 0 0 0
 z
+BDFChar: 1817 1813 18 2 12 1 15
+"oni-%fd]%3P[>a?sqo#E8WFc)1WfZ%fce6"onW'
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
@@ -63498,7 +63595,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 50 1813 40 10 1
+BitmapFont: 50 1818 40 10 1
 BDFChar: 1 1603 27 0 0 0 0
 z
 BDFChar: 2 862 27 3 23 2 32
@@ -68623,6 +68720,9 @@ BDFChar: 1810 1806 27 0 0 0 0
 z
 BDFChar: 1811 1807 27 0 0 0 0
 z
+BDFChar: 1817 1813 27 4 20 2 23
+!It.P^]4Jp!!hE^&+BQ?GQ8^G!'D5$GTHkS%fkMmJFF'LGRa^u*WS;b!$4*"%X7san,N^O!!C":
+"2Fm;J,fQL
 BDFRefChar: 1618 1785 0 0 N
 BDFRefChar: 1636 166 0 0 N
 BDFRefChar: 1647 754 0 0 N
