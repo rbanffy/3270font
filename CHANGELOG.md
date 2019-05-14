@@ -1,3 +1,10 @@
+current
+-------
+
+- Update copyright notice
+- Sorted symbols in the SFD file
+- Set version to 2.0.2 (next release)
+
 v.2.0.1
 -------
 

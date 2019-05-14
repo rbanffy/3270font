@@ -9,7 +9,7 @@ boxes = """
 """
 
 misc_glyphs = """
-Other miscellaneous glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’⚓
+Other miscellaneous glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆
 """
 
 apl_set = """
