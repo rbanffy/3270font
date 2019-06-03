@@ -1,6 +1,9 @@
 current
 -------
 
+- Set ΤεΧ space to 540 (normal glyph width)
+- Set Italic Angle to 0
+- Set OS/2 Style Map to Regular
 - Update copyright notice
 - Sorted symbols in the SFD file
 - Set version to 2.0.2 (next release)

@@ -6,7 +6,7 @@ Weight: Medium
 Copyright: Copyright (c) 2011-2019, Ricardo Banffy.\nCopyright (c) 1993-2011, Paul Mattes.\nCopyright (c) 2004-2005, Don Russell.\nCopyright (c) 2004, Dick Altenbern.\nCopyright (c) 1990, Jeff Sparkes.\nCopyright (c) 1989, Georgia Tech Research Corporation (GTRC), Atlanta, GA 30332.\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the names of Ricardo Banffy, Paul Mattes, Don Russell, Dick Altenbern, Jeff Sparkes, GTRC nor the names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY RICARDO BANFFY, PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES AND GTRC "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL RICARDO BANFFY, PAUL MATTES, DON RUSSELL, DICK ALTENBERN, JEFF SPARKES OR GTRC BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe Debian Logo glyph is based on the Debian Open Use Logo and is Copyright (c) 1999 Software in the Public Interest, Inc., and it is incorporated here under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported License. The logo is released under the terms of the GNU Lesser General Public License, version 3 or any later version, or, at your option, of the Creative Commons Attribution-ShareAlike 3.0 Unported License.\n\nUbuntu, the Ubuntu logo and the Circle of Friends symbol are registered trademarks of Canonical Ltd.\n\nThe Fontforge SFD font description file is optionally licensed under the SIL Open Font License v1.1 with no Reserved Font Name. This license is available with a FAQ at http://scripts.sil.org/OFL.\n
 UComments: "2011-5-25: Created."
 Version: 2.0.2
-ItalicAngle: -5
+ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 55
 Ascent: 800
@@ -19,12 +19,13 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 799 1486169484 10090982]
 UseXUID: 1
+StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1557761314
+ModificationTime: 1559568296
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +56,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 96 32 15
+WinInfo: 0 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -167,7 +168,7 @@ Grid
 30 1300 m 0
  30 -700 l 1024
 EndSplineSet
-TeXData: 1 0 0 562036 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 1114319 1818
 
 StartChar: NameMe.1024
