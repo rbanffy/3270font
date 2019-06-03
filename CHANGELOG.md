@@ -1,6 +1,8 @@
 current
 -------
 
+- Adjusted font name, family name and derived font names
+- Force width to 540 units when building derived fonts
 - Set ΤεΧ space to 540 (normal glyph width)
 - Set Italic Angle to 0
 - Set OS/2 Style Map to Regular

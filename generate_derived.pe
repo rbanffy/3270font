@@ -1,16 +1,20 @@
 #!/usr/bin/env fontforge
 
 Open("3270Medium_HQ.sfd")
+# Force fixed width
+SelectAll()
+SetWidth(540)
 Select("uniE0FF", "uniF0FF")
 DetachAndRemoveGlyphs()
 Generate("build/3270Medium.otf")
 Generate("build/3270Medium.ttf")
 Generate("build/3270Medium.pfm")
 Generate("build/3270Medium.woff")
+Save("build/3270Medium_HQ.sfd")
 
 SelectAll()
 SetWidth(492)
-SetFontNames("3270SemiNarrow", "IBM 3270 Semi-Narrow", "3270 Semi-Narrow")
+SetFontNames("3270SemiNarrow", "IBM 3270 Semi-Narrow", "IBM 3270 Semi-Narrow")
 Generate("build/3270SemiNarrow.otf", "", 0x200180)
 Generate("build/3270SemiNarrow.ttf")
 Generate("build/3270SemiNarrow.pfm")
@@ -19,7 +23,7 @@ Save("build/3270Medium_HQ_SemiNarrow.sfd")
 
 SelectAll()
 SetWidth(488)
-SetFontNames("3270Narrow", "IBM 3270 Narrow", "3270 Narrow")
+SetFontNames("3270Narrow", "IBM 3270 Narrow", "IBM 3270 Narrow")
 Generate("build/3270Narrow.otf", "", 0x200180)
 Generate("build/3270Narrow.ttf")
 Generate("build/3270Narrow.pfm")
