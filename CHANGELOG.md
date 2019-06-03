@@ -1,6 +1,9 @@
 current
 -------
 
+- Instal .ttf files by default
+- Set grid fit and anti-alias to all sizes
+- Added SIL license to the font file
 - Adjusted font name, family name and derived font names
 - Force width to 540 units when building derived fonts
 - Set ΤεΧ space to 540 (normal glyph width)
