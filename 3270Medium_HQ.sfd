@@ -17,6 +17,7 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 10090982]
 UseXUID: 1
 StyleMap: 0x0040
@@ -25,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1559579122
+ModificationTime: 1560611546
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -57,7 +58,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 64 32 15
+WinInfo: 864 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -170,7 +171,7 @@ Grid
  30 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114319 1818
+BeginChars: 1114320 1821
 
 StartChar: NameMe.1024
 Encoding: 1114112 -1 0
@@ -45344,8 +45345,84 @@ SplineSet
 EndSplineSet
 Validated: 1
 EndChar
+
+StartChar: uni2605
+Encoding: 9733 9733 1818
+Width: 1000
+VWidth: 0
+HStem: 578 20G<251.133 265.03>
+LayerCount: 2
+Fore
+SplineSet
+258 598 m 1
+ 316 433 l 1
+ 490 429 l 1
+ 350 324 l 1
+ 401 157 l 1
+ 258 256 l 1
+ 114 157 l 1
+ 164 324 l 1
+ 26 429 l 1
+ 201 432 l 1
+ 258 598 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni271A
+Encoding: 10010 10010 1819
+Width: 540
+VWidth: 0
+Flags: W
+HStem: 263 123<30 208 328 506>
+VStem: 208 120<103 263 386 552>
+LayerCount: 2
+Fore
+SplineSet
+208 552 m 5
+ 328 552 l 5
+ 328 386 l 5
+ 506 386 l 5
+ 506 263 l 5
+ 328 263 l 5
+ 328 103 l 5
+ 208 103 l 5
+ 208 263 l 5
+ 30 263 l 5
+ 30 386 l 5
+ 208 386 l 5
+ 208 552 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni2691
+Encoding: 9873 9873 1820
+Width: 540
+VWidth: 0
+Flags: W
+HStem: 49 21G<61 122> 578 20G<61 122 123 244.5>
+VStem: 61 61<49 598>
+LayerCount: 2
+Fore
+SplineSet
+123 598 m 17
+ 366 598 244 537 488 537 c 9
+ 488 232 l 17
+ 244 232 366 293 123 293 c 9
+ 123 598 l 17
+92 598 m 1
+ 122 598 l 1
+ 122 49 l 1
+ 92 49 l 1
+ 61 49 l 1
+ 61 598 l 1
+ 92 598 l 1
+EndSplineSet
+Validated: 1
+EndChar
 EndChars
-BitmapFont: 14 1819 11 3 1
+BitmapFont: 14 1822 11 3 1
 BDFChar: 1 1114113 8 0 0 0 0
 z
 BDFChar: 2 8364 8 1 6 0 9
@@ -48975,7 +49052,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 17 1819 14 3 1
+BitmapFont: 17 1822 14 3 1
 BDFChar: 1 1114113 9 0 0 0 0
 z
 BDFChar: 2 8364 9 1 7 1 11
@@ -52605,7 +52682,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 25 1819 20 5 1
+BitmapFont: 25 1822 20 5 1
 BDFChar: 1 1114113 13 0 0 0 0
 z
 BDFChar: 2 8364 13 1 11 1 16
@@ -56237,7 +56314,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 28 1819 22 6 1
+BitmapFont: 28 1822 22 6 1
 BDFChar: 1 1114113 15 0 0 0 0
 z
 BDFChar: 2 8364 15 2 12 1 18
@@ -59869,7 +59946,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 33 1819 26 7 1
+BitmapFont: 33 1822 26 7 1
 BDFChar: 1 1114113 18 0 0 0 0
 z
 BDFChar: 2 8364 18 2 15 2 21
@@ -63603,7 +63680,7 @@ BDFRefChar: 1807 716 0 0 N
 BDFRefChar: 1810 1809 0 0 N
 BDFRefChar: 1811 1810 0 0 N
 EndBitmapFont
-BitmapFont: 50 1819 40 10 1
+BitmapFont: 50 1822 40 10 1
 BDFChar: 1 1114113 27 0 0 0 0
 z
 BDFChar: 2 8364 27 3 23 2 32

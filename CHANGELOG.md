@@ -1,6 +1,7 @@
 current
 -------
 
+- Add ★, ⚑, ✚
 - Instal .ttf files by default
 - Set grid fit and anti-alias to all sizes
 - Added SIL license to the font file
