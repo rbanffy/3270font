@@ -36,7 +36,7 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_6086dd2.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_2851f93.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
