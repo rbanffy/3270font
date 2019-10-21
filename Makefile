@@ -51,7 +51,7 @@ zip: derived
 fbchecks: derived
 	sh fontbakery_checks.sh
 
-skimpytest: derived
+skimpytest: derived fbchecks
 	fontlint ${BUILD_DIR}/3270Medium.otf
 	fontlint ${BUILD_DIR}/3270Medium.ttf
 	fontlint ${BUILD_DIR}/3270Medium.woff
