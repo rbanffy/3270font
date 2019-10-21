@@ -10,12 +10,12 @@ cp OFL.txt $OUTPUT_DIR
 
 for font in $OUTPUT_DIR/*.ttf
 do
-#  gftools fix-nonhinting $font $font
+  gftools fix-nonhinting $font $font
   gftools fix-dsig $font --autofix
 done
 
-## Cleanup gftools mess:
-#rm $OUTPUT_DIR/*-backup-fonttools-prep-gasp.ttf
+# Cleanup gftools mess:
+rm $OUTPUT_DIR/*-backup-fonttools-prep-gasp.ttf
 
 export OPTIONS="--no-progress"
 export OPTIONS="$OPTIONS --exclude-checkid /check/ftxvalidator" # We lack this on Travis.
