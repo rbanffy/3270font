@@ -7,5 +7,5 @@ addons:
     packages:
     - fontforge
 install:
-  sudo pip install -r requirements.txt
+  - pip install -r requirements.txt
 script: "make travistest"
