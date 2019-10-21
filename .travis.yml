@@ -1,3 +1,4 @@
+language: python
 dist: bionic
 python:
   - "3.7"
