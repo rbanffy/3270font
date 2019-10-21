@@ -7,12 +7,12 @@ cp OFL.txt $OUTPUT_DIR
 #cp METADATA.pb $OUTPUT_DIR
 #cp DESCRIPTION.*.html $OUTPUT_DIR
 
-#for font in $OUTPUT_DIR/*.ttf
-#do
+for font in $OUTPUT_DIR/*.ttf
+do
 #  gftools fix-nonhinting $font $font
-#  gftools fix-dsig $font --autofix
-#done
-#
+  gftools fix-dsig $font --autofix
+done
+
 ## Cleanup gftools mess:
 #rm $OUTPUT_DIR/*-backup-fonttools-prep-gasp.ttf
 
