@@ -78,3 +78,8 @@ upload: zip
 
 clean:
 	@$(RM) -rf ${BUILD_DIR}
+	@$(RM) -rf gfonts_files/*/DESCRIPTION.*.html
+	@$(RM) -rf gfonts_files/*/LICENSE.txt
+	@$(RM) -rf gfonts_files/*/3270*.ttf
+	@$(RM) -rf gfonts_files/*/3270*.ttf.xml
+	@$(RM) -rf Fontbakery-check-results.md
