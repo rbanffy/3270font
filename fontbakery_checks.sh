@@ -1,3 +1,4 @@
+#!/bin/bash
 OUTPUT_DIR=gfonts_files
 
 rm $OUTPUT_DIR -rf
