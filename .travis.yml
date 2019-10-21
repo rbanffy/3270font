@@ -1,8 +1,9 @@
-dist: trusty
+dist: bionic
+python: 3.7
 addons:
   apt:
     packages:
     - fontforge
 install:
-  sudo pip install pillow
+  sudo pip3 install -r requirements.txt
 script: "make travistest"
