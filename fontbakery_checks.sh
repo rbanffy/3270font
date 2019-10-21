@@ -1,9 +1,9 @@
 #!/bin/bash
 OUTPUT_DIR=gfonts_files
 
-cp build/3270Medium.ttf $OUTPUT_DIR/3270/3270-Regular.ttf
-cp build/3270SemiNarrow.ttf $OUTPUT_DIR/3270semicondensed/3270SemiCondensed-Regular.ttf
-cp build/3270Narrow.ttf $OUTPUT_DIR/3270condensed/3270Condensed-Regular.ttf
+cp build/3270-Regular.ttf $OUTPUT_DIR/3270/
+cp build/3270SemiCondensed-Regular.ttf $OUTPUT_DIR/3270semicondensed/
+cp build/3270Condensed-Regular.ttf $OUTPUT_DIR/3270condensed/
 
 for fontdir in 3270 3270semicondensed 3270condensed
 do

@@ -16,7 +16,7 @@ all: derived sample
 
 font: derived
 
-derived: 3270Medium_HQ.sfd
+derived: 3270_HQ.sfd
 	@$(MKDIR_P) ${BUILD_DIR}
 	@./generate_derived.pe
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
@@ -40,32 +40,32 @@ help:
 
 install: derived
 	@install -d $(DESTFOLDER)
-	@install ${BUILD_DIR}/3270Narrow.ttf ${BUILD_DIR}/3270Medium.ttf ${BUILD_DIR}/3270SemiNarrow.ttf $(DESTFOLDER)
+	@install ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.ttf $(DESTFOLDER)
 
 uninstall:
-	@$(RM) $(DESTFOLDER)/3270Narrow.ttf $(DESTFOLDER)/3270Medium.ttf $(DESTFOLDER)/3270SemiNarrow.ttf
+	@$(RM) $(DESTFOLDER)/3270Condensed-Regular.ttf $(DESTFOLDER)/3270-Regular.ttf $(DESTFOLDER)/3270SemiCondensed-Regular.ttf
 
 zip: derived
-	@zip -j ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip ${BUILD_DIR}/3270Medium.* ${BUILD_DIR}/3270SemiNarrow.* ${BUILD_DIR}/3270Narrow.* LICENSE.txt fonts-3270.metainfo.xml
+	@zip -j ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip ${BUILD_DIR}/3270-Regular.* ${BUILD_DIR}/3270SemiCondensed-Regular.* ${BUILD_DIR}/3270Condensed-Regular.* LICENSE.txt fonts-3270.metainfo.xml
 
 fbchecks: derived
 	./fontbakery_checks.sh
 
 skimpytest: derived fbchecks
-	fontlint ${BUILD_DIR}/3270Medium.otf
-	fontlint ${BUILD_DIR}/3270Medium.ttf
-	fontlint ${BUILD_DIR}/3270Medium.woff
-	fontlint ${BUILD_DIR}/3270SemiNarrow.ttf
-	fontlint ${BUILD_DIR}/3270Narrow.ttf
+	fontlint ${BUILD_DIR}/3270-Regular.otf
+	fontlint ${BUILD_DIR}/3270-Regular.ttf
+	fontlint ${BUILD_DIR}/3270-Regular.woff
+	fontlint ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
+	fontlint ${BUILD_DIR}/3270Condensed-Regular.ttf
 
 test: skimpytest fbchecks
 # These are tests that fail on Travis (because their fontlint can't ignore stuff).
 # Yes. This is "works on my computer".
-	fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.otf
-	fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.pfm
-	fontlint -i 98 ${BUILD_DIR}/3270SemiNarrow.woff
-	fontlint -i 98 ${BUILD_DIR}/3270Narrow.otf
-	fontlint -i 98 ${BUILD_DIR}/3270Narrow.woff
+	fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
+	fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.pfm
+	fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.otf
+	fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.woff
 
 travistest: zip skimpytest
 

@@ -15,11 +15,11 @@ background = Image.new("RGBA", (WIDTH, HEIGHT), (255, 255, 255))
 foreground = Image.new("RGBA", (WIDTH, HEIGHT), (255, 255, 255, 0))
 draw_b = ImageDraw.Draw(background)
 draw_f = ImageDraw.Draw(foreground)
-size_font = ImageFont.truetype('./build/3270Medium.otf', size=15)
+size_font = ImageFont.truetype('./build/3270-Regular.otf', size=15)
 y = 0
 
 for size in range(15, 55, 5):
-    sample_font = ImageFont.truetype('./build/3270Medium.otf', size=size)
+    sample_font = ImageFont.truetype('./build/3270-Regular.otf', size=size)
     offset = size * .7
     y += offset
     # Draw the background reference lines.
@@ -31,4 +31,4 @@ for size in range(15, 55, 5):
 
 img = Image.alpha_composite(background, foreground)
 
-img.save("build/3270Medium_sample.png")
+img.save("build/3270_sample.png")
