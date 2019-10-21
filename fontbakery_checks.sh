@@ -4,7 +4,7 @@ OUTPUT_DIR=gfonts_files
 rm $OUTPUT_DIR -rf
 mkdir $OUTPUT_DIR
 cp build/*.ttf $OUTPUT_DIR
-cp OFL.txt $OUTPUT_DIR
+cp LICENSE.txt $OUTPUT_DIR
 cp METADATA.pb $OUTPUT_DIR
 #cp DESCRIPTION.*.html $OUTPUT_DIR
 
