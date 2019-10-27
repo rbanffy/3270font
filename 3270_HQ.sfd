@@ -17,7 +17,8 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 799 1486169484 10090983]
+NeedsXUIDChange: 1
+XUID: [1021 799 1486169484 10090984]
 UseXUID: 1
 StyleMap: 0x0040
 FSType: 0
@@ -25,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1572213431
+ModificationTime: 1572214608
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -57,7 +58,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 0 32 15
+WinInfo: 672 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -170,7 +171,7 @@ Grid
  30 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114319 1791
+BeginChars: 1114320 1792
 
 StartChar: NameMe.1024
 Encoding: 1114112 -1 0
@@ -2880,13 +2881,14 @@ StartChar: minus
 Encoding: 8722 8722 49
 Width: 540
 VWidth: 0
+Flags: HWO
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
 p%A!.J:IV"zzzzzzzzzz&,ZD<qu?]szzzzzzzzzzzz
 EndImage
 Fore
-Validated: 1
+Refer: 7 45 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: period
@@ -9062,26 +9064,26 @@ p%A!.J:IV"zzzzs8Tn7s1lDM^q]rc^bER>E599Y^qoNU_m$qs0Yksf^s"LJchtT)r4p*%^q_Y>
 EndImage
 Fore
 SplineSet
-361 231 m 1
- 421 231 l 1
- 421 171 l 1
- 361 171 l 1
- 361 49 l 1
- 301 49 l 1
- 301 171 l 1
- 147 171 l 2
- 136 171 117 180 117 201 c 2
- 117 261 l 2
- 117 266 119 275 126 283 c 2
- 309 467 l 2
- 310 467 318 475 331 475 c 0
- 342 475 361 467 361 445 c 2
- 361 231 l 1
-301 231 m 1
- 301 373 l 1
- 177 249 l 1
- 177 231 l 1
- 301 231 l 1
+361 231 m 5
+ 421 231 l 5
+ 421 171 l 5
+ 361 171 l 5
+ 361 49 l 5
+ 301 49 l 5
+ 301 171 l 5
+ 147 171 l 6
+ 136 171 117 180 117 201 c 6
+ 117 261 l 6
+ 117 266 119 275 126 283 c 6
+ 309 467 l 6
+ 310 467 318 475 331 475 c 4
+ 342 475 361 467 361 445 c 6
+ 361 231 l 5
+301 231 m 5
+ 301 373 l 5
+ 177 249 l 5
+ 177 231 l 5
+ 301 231 l 5
 59 538 m 1
  59 -13 l 1
  477 -13 l 1
@@ -30885,7 +30887,7 @@ VStem: 167 61<420 483 543 619> 333 55<230 269> 465 55<119 159>
 DStem2: 56 591 107 557 0.703232 0.71096<11.6922 97.9657> 424 560 109 150 0.701239 0.712926<-533.701 21.2124>
 LayerCount: 2
 Fore
-Refer: 1090 -1 N 1 0 0 1 -254 370 2
+Refer: 1090 -1 S 1 0 0 1 -254 370 2
 Refer: 1087 -1 N 1 0 0 1 0 0 2
 Refer: 1064 8260 N 1 0 0 1 0 0 2
 Validated: 1
@@ -45121,8 +45123,45 @@ Fore
 Refer: 16 32 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
+
+StartChar: NameMe.1787.1
+Encoding: 8308 8308 1791
+Width: 540
+VWidth: 0
+Flags: W
+HStem: 354 60<212 306 366 394> 640 20G<330 344>
+VStem: 152 60<414 435> 306 60<262 354 414 547>
+LayerCount: 2
+Fore
+SplineSet
+366 414 m 1
+ 394 414 l 1
+ 394 384 l 1
+ 394 354 l 1
+ 366 354 l 1
+ 366 262 l 1
+ 336 262 l 1
+ 306 262 l 1
+ 306 354 l 1
+ 182 354 l 2
+ 169 354 152 366 152 384 c 2
+ 152 446 l 2
+ 152 453 154 460 159 465 c 2
+ 313 649 l 2
+ 318 655 326 659 334 660 c 0
+ 335 660 335 660 336 660 c 0
+ 352 660 366 646 366 630 c 2
+ 366 414 l 1
+306 414 m 1
+ 306 547 l 1
+ 212 435 l 1
+ 212 414 l 1
+ 306 414 l 1
+EndSplineSet
+Validated: 1
+EndChar
 EndChars
-BitmapFont: 14 1791 11 3 1
+BitmapFont: 14 1793 11 3 1
 BDFChar: 1 1114113 8 0 0 0 0
 z
 BDFChar: 2 8364 8 1 6 0 9
@@ -48671,6 +48710,8 @@ BDFChar: 1786 9670 8 1 5 0 6
 +CJ$%:`pk\
 BDFChar: 1790 13 8 0 0 0 0
 z
+BDFChar: 1791 8308 8 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -48692,8 +48733,9 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
-BitmapFont: 17 1791 14 3 1
+BitmapFont: 17 1793 14 3 1
 BDFChar: 1 1114113 9 0 0 0 0
 z
 BDFChar: 2 8364 9 1 7 1 11
@@ -52242,6 +52284,8 @@ BDFChar: 1786 9670 9 1 6 1 7
 0K;UV82r:'
 BDFChar: 1790 13 9 0 0 0 0
 z
+BDFChar: 1791 8308 9 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -52263,8 +52307,9 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
-BitmapFont: 25 1791 20 5 1
+BitmapFont: 25 1793 20 5 1
 BDFChar: 1 1114113 13 0 0 0 0
 z
 BDFChar: 2 8364 13 1 11 1 16
@@ -55815,6 +55860,8 @@ BDFChar: 1786 9670 13 2 9 1 11
 (`5AI_o"fQ4;\n8
 BDFChar: 1790 13 13 0 0 0 0
 z
+BDFChar: 1791 8308 13 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -55836,8 +55883,9 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
-BitmapFont: 28 1791 22 6 1
+BitmapFont: 28 1793 22 6 1
 BDFChar: 1 1114113 15 0 0 0 0
 z
 BDFChar: 2 8364 15 2 12 1 18
@@ -59388,6 +59436,8 @@ BDFChar: 1786 9670 15 2 11 1 12
 $ih=K2?7du@=Z20@=Vhf2?4cu)up6E
 BDFChar: 1790 13 15 0 0 0 0
 z
+BDFChar: 1791 8308 15 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -59409,8 +59459,9 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
-BitmapFont: 33 1791 26 7 1
+BitmapFont: 33 1793 26 7 1
 BDFChar: 1 1114113 18 0 0 0 0
 z
 BDFChar: 2 8364 18 2 15 2 21
@@ -63063,6 +63114,8 @@ BDFChar: 1786 9670 18 2 12 1 15
 "oni-%fd]%3P[>a?sqo#E8WFc)1WfZ%fce6"onW'
 BDFChar: 1790 13 18 0 0 0 0
 z
+BDFChar: 1791 8308 18 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -63084,8 +63137,9 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
-BitmapFont: 50 1791 40 10 1
+BitmapFont: 50 1793 40 10 1
 BDFChar: 1 1114113 27 0 0 0 0
 z
 BDFChar: 2 8364 27 3 23 2 32
@@ -68153,6 +68207,8 @@ BDFChar: 1786 9670 27 4 20 2 23
 "2Fm;J,fQL
 BDFChar: 1790 13 27 0 0 0 0
 z
+BDFChar: 1791 8308 27 0 0 0 0
+z
 BDFRefChar: 1587 1754 0 0 N
 BDFRefChar: 1605 166 0 0 N
 BDFRefChar: 1616 723 0 0 N
@@ -68174,5 +68230,6 @@ BDFRefChar: 1776 685 0 0 N
 BDFRefChar: 1779 1778 0 0 N
 BDFRefChar: 1780 1779 0 0 N
 BDFRefChar: 1790 16 0 0 N
+BDFRefChar: 1791 104 0 0 N
 EndBitmapFont
 EndSplineFont
