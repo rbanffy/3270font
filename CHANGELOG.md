@@ -1,6 +1,7 @@
 current
 -------
 
+- Renamed base font
 - Added ⁴, −
 - Removed slots below 0x1f
 - Set version to 2.0.3 (next release)

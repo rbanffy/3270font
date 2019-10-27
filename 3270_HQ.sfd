@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: 3270
+FontName: ibm3270-Regular
 FullName: 3270
-FamilyName: 3270
+FamilyName: ibm3270
 Weight: Regular
 Copyright: Copyright 2019 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
@@ -17,18 +17,16 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-NeedsXUIDChange: 1
-XUID: [1021 799 1486169484 10090984]
+XUID: [1021 799 1486169484 8980278]
 UseXUID: 1
-StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1572214608
+ModificationTime: 1572215303
 PfmFamily: 49
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
@@ -58,7 +56,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 672 32 15
+WinInfo: 0 32 15
 BeginPrivate: 1
 BlueValues 31 [49 53 475 477 598 598 659 659]
 EndPrivate
@@ -2881,7 +2879,7 @@ StartChar: minus
 Encoding: 8722 8722 49
 Width: 540
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Image: 18 32 0 3 2 0 0 781.06 30.5176 30.5176 0
@@ -2889,6 +2887,7 @@ p%A!.J:IV"zzzzzzzzzz&,ZD<qu?]szzzzzzzzzzzz
 EndImage
 Fore
 Refer: 7 45 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: period
