@@ -1,6 +1,7 @@
 current
 -------
 
+- Removed slots below 0x1f
 - Set version to 2.0.3 (next release)
 
 v.2.0.2
