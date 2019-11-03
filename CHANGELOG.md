@@ -1,6 +1,7 @@
 current
 -------
 
+- Added correct foundry identifier
 - Renamed base font
 - Added ⁴, −
 - Removed slots below 0x1f
