@@ -5,8 +5,10 @@ import sys
 
 parser = argparse.ArgumentParser(description='Generate a grid for 3270font.')
 
-parser.add_argument('origin_x', type=float, help='Origin X')
-parser.add_argument('origin_y', type=float, help='Origin Y')
+UNITS_PER_EM=1000
+
+parser.add_argument('origin_x', type=float, default=0, help='Origin X')
+parser.add_argument('origin_y', type=float, default=0, help='Origin Y')
 parser.add_argument('bottom', type=float, help='Bottom Y')
 parser.add_argument('top', type=float, help='Top Y')
 parser.add_argument('left', type=float, help='Leftmost X')

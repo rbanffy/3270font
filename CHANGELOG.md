@@ -1,7 +1,8 @@
 current
 -------
 
-- Added correct foundry identifier
+- Adjust unitsPerEm to 2000, update `generate_derived.pe`
+- Added correct foundry identifier (3270)
 - Renamed base font
 - Added ⁴, −
 - Removed slots below 0x1f
