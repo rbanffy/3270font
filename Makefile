@@ -18,7 +18,7 @@ font: derived
 
 derived: 3270_HQ.sfd
 	@$(MKDIR_P) ${BUILD_DIR}
-	@./generate_derived.pe
+	@./generate_derived.pe 2> /dev/null >&2
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
 sample: derived
