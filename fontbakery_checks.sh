@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 OUTPUT_DIR=gfonts_files
 
 cp build/3270-Regular.ttf $OUTPUT_DIR/3270/
@@ -11,10 +11,10 @@ do
   cp DESCRIPTION.*.html $OUTPUT_DIR/$fontdir
 done
 
-for font in $OUTPUT_DIR/*/*.ttf
+for font in "$OUTPUT_DIR"/*/*.ttf
 do
-  gftools fix-nonhinting $font $font
-  gftools fix-dsig $font --autofix
+  gftools fix-nonhinting "$font" "$font"
+  gftools fix-dsig "$font" --autofix
 done
 
 # Cleanup gftools mess:
@@ -26,9 +26,9 @@ export OPTIONS="$OPTIONS --exclude-checkid /check/metadata" # Comment this out a
 export OPTIONS="$OPTIONS --exclude-checkid /check/description" # Comment this out after creating a DESCRIPTION.en_us.html file.
 export OPTIONS="$OPTIONS --exclude-checkid /check/varfont" # Comment this out when making a variable font.
 export OPTIONS="$OPTIONS --loglevel INFO --ghmarkdown Fontbakery-check-results.md"
-for fontdir in $OUTPUT_DIR/*
+for fontdir in "$OUTPUT_DIR"/*
 do
   if [ -d "$fontdir" ]; then
-    fontbakery check-googlefonts $OPTIONS $fontdir/*.ttf
+    fontbakery check-googlefonts "$OPTIONS" "$fontdir"/*.ttf
   fi
 done
