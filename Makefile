@@ -51,7 +51,7 @@ zip: derived
 fbchecks: derived
 	./fontbakery_checks.sh
 
-skimpytest: derived fbchecks
+skimpytest: derived
 	fontlint ${BUILD_DIR}/3270-Regular.otf
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
 	fontlint ${BUILD_DIR}/3270-Regular.woff
@@ -67,9 +67,9 @@ test: skimpytest fbchecks
 	fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.otf
 	fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.woff
 
-travistest: zip skimpytest
+travistest: zip skimpytest fbchecks
 
-fulltest: zip test
+fulltest: zip test fbchecks
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' README.md)
 
