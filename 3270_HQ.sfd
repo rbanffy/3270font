@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1572941195
+ModificationTime: 1572941903
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 32 32 15
+WinInfo: 0 32 15
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -864,20 +864,7 @@ Image: 18 32 0 3 2 0 0 1562.12 61.0352 61.0352 0
 p%A!.J:IV"zzzzz!!"\Q!&srY)uosK!!!6(!!@`O!Pe[8huEar!!"tY!#tt=%KHJ6!!!*$zzzzzzzz
 EndImage
 Fore
-SplineSet
-842 246 m 2
- 124 978 l 2
- 112 990 108 1008 108 1024 c 0
- 108 1040 112 1054 124 1066 c 0
- 136 1078 154 1084 170 1084 c 0
- 186 1084 200 1078 212 1066 c 2
- 930 334 l 2
- 942 322 948 306 948 290 c 0
- 948 274 942 258 930 246 c 0
- 918 234 902 226 886 226 c 0
- 870 226 854 234 842 246 c 2
-EndSplineSet
-Validated: 1
+Refer: 20 47 S 0 -1 1 0 -96 1190 2
 EndChar
 
 StartChar: bar
@@ -2511,34 +2498,6 @@ p%A!.J:IV"zz!!!E-!$2+?1B7D2!!"&B!"9)4!"Ju/)uosu!!$s<!8mhX^]4Ie!!`K(%KHJK
 EndImage
 Fore
 SplineSet
-140 236 m 0
- 128 248 122 262 122 278 c 0
- 122 294 128 308 140 320 c 0
- 870 1050 l 0
- 880 1062 896 1068 912 1068 c 0
- 926 1068 942 1062 954 1050 c 0
- 966 1040 972 1024 972 1008 c 0
- 972 992 966 976 954 966 c 0
- 224 236 l 0
- 212 224 196 218 182 218 c 0
- 166 218 152 224 140 236 c 0
-  Spiro
-    139.129 235.574 o
-    123.731 262.678 o
-    123.731 293.322 o
-    139.129 320.426 o
-    869.13 1050.43 o
-    896.234 1065.82 o
-    926.878 1065.82 o
-    953.982 1050.43 o
-    969.38 1023.32 o
-    969.38 992.678 o
-    953.982 965.574 o
-    223.982 235.574 o
-    196.878 220.176 o
-    166.233 220.176 o
-    0 0 z
-  EndSpiro
 720 162 m 0
  720 122 750 90 790 90 c 0
  828 90 860 122 860 162 c 0
@@ -2620,7 +2579,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Validated: 1
+Refer: 20 47 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: underscore
@@ -12325,7 +12284,6 @@ VStem: 120 114<1062 1191> 374 110<1062 1190> 606 114<96 225> 860 110<96 224>
 LayerCount: 2
 Fore
 Refer: 46 37 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uniFF06
@@ -13021,7 +12979,6 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uniFF3D
@@ -34624,7 +34581,6 @@ LayerCount: 2
 Fore
 Refer: 650 -1 N 1 0 0 1 0 42 2
 Refer: 21 92 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uni2371
@@ -34680,7 +34636,6 @@ LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
 Refer: 270 -1 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uni235D
@@ -34908,7 +34863,6 @@ LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
 Refer: 1416 -1 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uni2343
