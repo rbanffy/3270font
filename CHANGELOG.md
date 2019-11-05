@@ -1,6 +1,8 @@
 current
 -------
 
+- Build script and Makefile fixes
+- Glyph simplification and composition improvements
 - Adjust unitsPerEm to 2000, update `generate_derived.pe`
 - Added correct foundry identifier (3270)
 - Renamed base font
