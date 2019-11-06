@@ -17,8 +17,13 @@ The APL set: ⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋�
 ⍸⍹⍺
 """
 
+BOLD = "\x1b[1m"
+ITALIC = "\x1b[3m"
+UNDERLINE = "\x1b[4m"
+RESET = "\x1b[0m"
+
 if __name__ == '__main__':
     print(boxes)
     print(misc_glyphs)
     print(apl_set)
-    print("\x1b[1mBOLD\x1b[0m \x1b[3mITALIC\x1b[0m NORMAL")
+    print(BOLD, "BOLD", ITALIC, "BOLD ITALIC", RESET, ITALIC, "ITALIC", RESET, UNDERLINE, "UNDERLINE", RESET, "NORMAL")
