@@ -17,7 +17,6 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 8980278]
 UseXUID: 1
 FSType: 0
@@ -25,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1572941903
+ModificationTime: 1573115577
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -865,6 +864,7 @@ p%A!.J:IV"zzzzz!!"\Q!&srY)uosK!!!6(!!@`O!Pe[8huEar!!"tY!#tt=%KHJ6!!!*$zzzzzzzz
 EndImage
 Fore
 Refer: 20 47 S 0 -1 1 0 -96 1190 2
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -2580,6 +2580,7 @@ SplineSet
   EndSpiro
 EndSplineSet
 Refer: 20 47 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -12284,6 +12285,7 @@ VStem: 120 114<1062 1191> 374 110<1062 1190> 606 114<96 225> 860 110<96 224>
 LayerCount: 2
 Fore
 Refer: 46 37 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF06
@@ -12979,6 +12981,7 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniFF3D
@@ -34581,6 +34584,7 @@ LayerCount: 2
 Fore
 Refer: 650 -1 N 1 0 0 1 0 42 2
 Refer: 21 92 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni2371
@@ -34636,6 +34640,7 @@ LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
 Refer: 270 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni235D
@@ -34863,6 +34868,7 @@ LayerCount: 2
 Fore
 Refer: 21 92 N 1 0 0 1 0 0 2
 Refer: 1416 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni2343
