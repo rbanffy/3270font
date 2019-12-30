@@ -1,5 +1,5 @@
 .PHONY: clean help all font test fbchecks upload
-.DEFAULT_GOAL := font
+.DEFAULT_GOAL := help
 
 SHELL = /bin/sh
 UNAME = $(shell uname)
