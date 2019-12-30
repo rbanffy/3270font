@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# The fontbakery tools must be installed to your Python environment.
+
 OUTPUT_DIR=gfonts_files
 
 cp build/3270-Regular.ttf $OUTPUT_DIR/3270/
