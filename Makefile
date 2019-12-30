@@ -60,7 +60,7 @@ skimpytest: font ## Runs the minimal tests
 	@fontlint ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	@fontlint ${BUILD_DIR}/3270Condensed-Regular.ttf
 
-test: skimpytest fbchecks ## Generates and checks font files
+test: skimpytest ## Generates and checks font files
 # These are tests that fail on Travis (because their fontlint can't ignore stuff).
 # Yes. This is "works on my computer".
 	@fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
@@ -69,7 +69,7 @@ test: skimpytest fbchecks ## Generates and checks font files
 	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.otf
 	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.woff
 
-travistest: zip skimpytest fbchecks ## Runs the same tests that Travis CI runs
+travistest: zip skimpytest ## Runs the Travis CI set of tests
 
 fulltest: zip test fbchecks ## Runs the full set of tests and verifies the ZIP file mentioned in the README is present.
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
