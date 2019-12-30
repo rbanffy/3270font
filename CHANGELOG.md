@@ -1,6 +1,8 @@
 current
 -------
 
+- Skipping FontBakery tests on TravisCI for now
+- Makefile now defaults to `help` target instead of `font`
 - Build script and Makefile fixes
 - Glyph simplification and composition improvements
 - Adjust unitsPerEm to 2000, update `generate_derived.pe`
