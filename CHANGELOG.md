@@ -1,4 +1,4 @@
-current
+v.2.0.3
 -------
 
 - Skipping FontBakery tests on TravisCI for now
