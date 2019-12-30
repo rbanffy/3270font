@@ -5,7 +5,7 @@ FamilyName: ibm3270
 Weight: Regular
 Copyright: Copyright 2019 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
-Version: 2.0.3
+Version: 2.0.4
 ItalicAngle: 0
 UnderlinePosition: -198
 UnderlineWidth: 110
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1573115577
+ModificationTime: 1577726580
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 0 32 15
+WinInfo: 32 32 15
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate

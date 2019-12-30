@@ -1,3 +1,7 @@
+current
+-------
+- Set version to 2.0.4 (next release)
+
 v.2.0.3
 -------
 
