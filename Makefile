@@ -1,4 +1,4 @@
-.PHONY: clean help all font test fbchecks upload
+.PHONY: clean help all font test fbchecks upload sample
 .DEFAULT_GOAL := help
 
 SHELL = /bin/sh
