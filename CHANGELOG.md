@@ -1,6 +1,7 @@
 current
 -------
 
+- Added sample generation using actual terminal software (on Linux)
 - Branch cleanup (back to master/develop)
 - Set version to 2.0.4 (next release)
 
