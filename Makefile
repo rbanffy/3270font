@@ -39,6 +39,11 @@ font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the S
 
 sample: font ## Generate a sample image
 	@./generate_sample_image.py
+	ifeq ($(UNAME),'Linux')
+	@gnome-terminal -- sh -c './test_font_rendering.sh gnome-terminal'
+	@konsole -e './test_font_rendering.sh konsole'
+	@terminator -e './test_font_rendering.sh terminator'
+	endif
 
 install: font ## Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX).
 	@install -d $(DESTFOLDER)
