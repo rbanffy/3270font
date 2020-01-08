@@ -34,6 +34,8 @@ most purposes.
 
 On FreeBSD the font can be installed with `pkg install 3270font`.
 
+![Even xterm can use it!](https://3270font.s3.amazonaws.com/xterm.png)
+
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
 https://3270font.s3.amazonaws.com/3270_fonts_2851f93.zip (although this
@@ -52,8 +54,8 @@ fontforge` or even `port install fontforge`. On others, you may need to
 grab your copy from https://fontforge.org/. I encourage you to drop by
 and read the tutorials.
 
-![Powerline-shell compatible!](
-https://raw.githubusercontent.com/wiki/rbanffy/3270font/powerline.png)
+![apt-get install 3270font](
+https://3270font.s3.amazonaws.com/gnome-terminal.png)
 
 ![Using it on OSX (don't forget to turn antialiasing on)](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
@@ -64,6 +66,8 @@ minor hinting issues).
 
 ![Works on Windows](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_7.png)
+
+![And with KDE](https://3270font.s3.amazonaws.com/konsole.png)
 
 Generating usable font files
 ----------------------------
