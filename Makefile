@@ -1,4 +1,4 @@
-.PHONY: clean help all font test fbchecks upload
+.PHONY: clean help all font test fbchecks upload sample
 .DEFAULT_GOAL := help
 
 SHELL = /bin/sh
@@ -37,10 +37,11 @@ font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the S
 	@./generate_derived.pe 2> /dev/null >&2
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
-sample: font ## Generate a sample image
+sample: font ## Generate sample images
 	@./generate_sample_image.py
 ifeq ($(UNAME),Linux)
-	@gnome-terminal -- sh -c './test_font_rendering.sh gnome-terminal'
+	@xterm -fa 'ibm3270' -fs 12 -e './test_font_rendering.sh xterm'
+	@gnome-terminal --profile='3270font-test' -- sh -c './test_font_rendering.sh gnome-terminal'
 	@konsole -e './test_font_rendering.sh konsole'
 	@terminator -e './test_font_rendering.sh terminator'
 endif
@@ -81,8 +82,15 @@ fulltest: zip test fbchecks ## Runs the full set of tests and verifies the ZIP f
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 	@wget --spider $(shell grep -Eo 'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' README.md)
 
-upload: zip ## Uploads the generated .zip file to S3
+upload: zip sample ## Uploads the generated .zip and sample files to S3
 	aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+ifeq ($(UNAME),Linux)
+	aws s3 cp build/gnome-terminal.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	aws s3 cp build/konsole.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	aws s3 cp build/terminator.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	aws s3 cp build/xterm.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+endif
+	aws s3 cp build/3270_sample.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
 
 clean: ## Deletes all automatically generated files
 	@$(RM) -rf ${BUILD_DIR}
