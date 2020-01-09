@@ -91,6 +91,7 @@ ifeq ($(UNAME),Linux)
 	aws s3 cp build/xterm.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
 endif
 	aws s3 cp build/3270_sample.png s3://3270font/ --acl public-read --storage-class REDUCED_REDUNDANCY
+	./clean_camo_cache.sh
 
 clean: ## Deletes all automatically generated files
 	@$(RM) -rf ${BUILD_DIR}
