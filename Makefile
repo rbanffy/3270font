@@ -41,8 +41,8 @@ sample: font ## Generate sample images
 	@./generate_sample_image.py
 ifeq ($(UNAME),Linux)
 	@xterm -fa 'ibm3270' -fs 12 -e './test_font_rendering.sh xterm'
-	@gnome-terminal --profile='3270font-test' -- sh -c './test_font_rendering.sh gnome-terminal'
 	@konsole -e './test_font_rendering.sh konsole'
+	@gnome-terminal --profile='3270font-test' -- sh -c './test_font_rendering.sh gnome-terminal'
 	@terminator -e './test_font_rendering.sh terminator'
 endif
 
