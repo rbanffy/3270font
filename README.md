@@ -3,7 +3,8 @@
 
 ![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
 
-![Screenshot](https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
+![Screenshot](
+https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
 ![Sample](https://raw.githubusercontent.com/wiki/rbanffy/3270font/3270Medium_sample.png)
 
