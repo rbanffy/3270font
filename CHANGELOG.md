@@ -1,7 +1,8 @@
 current
 -------
 
-- Added sample generation using actual terminal software (on Linux)
+- Added sample generation using actual terminal software (on Linux) so
+  that the README file shows a current version of the font.
 - Branch cleanup (back to master/develop)
 - Set version to 2.0.4 (next release)
 
