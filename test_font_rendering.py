@@ -42,7 +42,7 @@ if __name__ == "__main__":
         + " "
         + OVERLINE
         + "OVERLINE"
-        + " "
         + RESET
+        + " "
         + "NORMAL"
     )
