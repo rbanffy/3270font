@@ -22,7 +22,7 @@ apl_set = (
 )
 
 confusables = (
-    "Easily confused pairs bh 5S HX 6G AR kx gy Z2 Il 1l 1I OQ CG DO 0O\n"
+    "Easily confused pairs bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O\n"
 )
 
 BOLD = "\x1b[1m"
