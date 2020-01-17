@@ -30,7 +30,9 @@ def draw_sample():
         offset = size * 0.7
         y += offset
         # Draw the background reference lines. Upper for the alpha ascender
-        draw_b.line(((0, y + size * 0.2), (WIDTH, y + size * 0.2)), LINE_COLOR, 1)
+        draw_b.line(
+            ((0, y + size * 0.2), (WIDTH, y + size * 0.2)), LINE_COLOR, 1
+        )
         # Lower line for the baseline
         draw_b.line(((0, y + offset), (WIDTH, y + offset)), LINE_COLOR, 1)
         # Draw the point size we are using for the text.
@@ -48,10 +50,7 @@ def draw_readability_test(blur_radius):
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
     draw = ImageDraw.Draw(img)
     draw.text(
-        (25, 5),
-        CONFUSABLES,
-        TEXT_COLOR,
-        font=sample_font,
+        (25, 5), CONFUSABLES, TEXT_COLOR, font=sample_font,
     )
     img = img.filter(ImageFilter.GaussianBlur(blur_radius))
     return img
