@@ -17,7 +17,7 @@ TEXT_COLOR = ImageColor.getrgb("black")
 
 def draw_sample():
 
-    HEIGHT = 200
+    HEIGHT = 500
     WIDTH = 800
     background = Image.new("RGBA", (WIDTH, HEIGHT), ImageColor.getrgb("white"))
     foreground = Image.new("RGBA", (WIDTH, HEIGHT), (255, 255, 255, 0))
@@ -63,3 +63,5 @@ if __name__ == "__main__":
     bands = []
     for radius in range(0, 6):
         rt = draw_readability_test(radius)
+        sample.paste(rt, (0, 250 + 35 * radius))
+    sample.save("build/3270_sample.png")
