@@ -40,9 +40,6 @@ def draw_sample():
         draw_f.text((20, y), SAMPLE_TEXT, TEXT_COLOR, font=sample_font)
 
     img = Image.alpha_composite(background, foreground)
-
-    img.save("build/3270_sample.png")
-
     return img
 
 
@@ -58,7 +55,6 @@ def draw_readability_test(blur_radius):
         font=sample_font,
     )
     img = img.filter(ImageFilter.GaussianBlur(blur_radius))
-    img.save(f"build/blur_{blur_radius}.png")
     return img
 
 
