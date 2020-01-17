@@ -5,7 +5,6 @@ Generate a sample rendering of the base font.
 
 from PIL import Image, ImageDraw, ImageFont, ImageColor, ImageFilter
 
-TEXT_COLOR = ImageColor.getrgb("black")
 SAMPLE_TEXT = (
     "ABCDEFHI1234567890Oijl1IS5qt\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×÷ßø«»®␀␍␊"
     "␌▶⚓⯒✘✔✼✎␢…⌘⏎⌫⏻⏼➜●ЯЖ"
@@ -60,7 +59,6 @@ def draw_readability_test(blur_radius):
 
 if __name__ == "__main__":
     sample = draw_sample()
-    bands = []
     for radius in range(0, 6):
         rt = draw_readability_test(radius)
         sample.paste(rt, (0, 250 + 35 * radius))
