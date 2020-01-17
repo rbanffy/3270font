@@ -10,6 +10,7 @@ SAMPLE_TEXT = (
     "ABCDEFHI1234567890Oijl1IS5qt\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×÷ßø«»®␀␍␊"
     "␌▶⚓⯒✘✔✼✎␢…⌘⏎⌫⏻⏼➜●ЯЖ"
 )
+CONFUSABLES = "bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O"
 LINE_COLOR = ImageColor.getrgb("#88f")
 TEXT_COLOR = ImageColor.getrgb("black")
 
@@ -51,8 +52,8 @@ def draw_readability_test(blur_radius):
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
     draw = ImageDraw.Draw(img)
     draw.text(
-        (40, 5),
-        "bh 5S HX 6G AR kx gy Z2 Il 1l 1I OQ CG DO 0O",
+        (25, 5),
+        CONFUSABLES,
         TEXT_COLOR,
         font=sample_font,
     )
