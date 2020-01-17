@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse
-import sys
 
 parser = argparse.ArgumentParser(description="Generate a grid for 3270font.")
 
