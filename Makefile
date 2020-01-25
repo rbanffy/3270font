@@ -71,12 +71,15 @@ zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
-skimpytest: font ## Runs the minimal tests
+skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
 	@fontlint ${BUILD_DIR}/3270-Regular.otf
 	@fontlint ${BUILD_DIR}/3270-Regular.ttf
 	@fontlint ${BUILD_DIR}/3270-Regular.woff
 	@fontlint ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	@fontlint ${BUILD_DIR}/3270Condensed-Regular.ttf
+	@wget --spider $(shell grep -Eo \
+		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
+		README.md)
 
 test: skimpytest ## Generates and checks font files
 # These are tests that fail on Travis (because their fontlint can't ignore
@@ -91,9 +94,8 @@ test: skimpytest ## Generates and checks font files
 
 travistest: zip skimpytest ## Runs the Travis CI set of tests
 
-fulltest: zip test fbchecks ## Runs the full set of tests and verifies the ZIP file mentioned in the README is present.
+fulltest: zip test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
-	@wget --spider $(shell grep -Eo 'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' README.md)
 
 upload: zip sample ## Uploads the generated .zip and sample files to S3
 	@aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell \
