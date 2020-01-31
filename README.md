@@ -27,15 +27,13 @@ If you are running Debian or Ubuntu and you don't want to mess with
 building your font files, you can simply `apt-get install fonts-3270`
 (It's available from the Debian
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
-(http://packages.ubuntu.com/zesty/fonts-3270) package repos at
+(http://packages.ubuntu.com/focal/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-https://packages.ubuntu.com/xenial/fonts/fonts-3270, although the
+https://packages.ubuntu.com/focal/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
 most purposes.
 
 On FreeBSD the font can be installed with `pkg install 3270font`.
-
-![Even xterm can use it!](https://3270font.s3.amazonaws.com/xterm.png)
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
@@ -55,9 +53,6 @@ fontforge` or even `port install fontforge`. On others, you may need to
 grab your copy from https://fontforge.org/. I encourage you to drop by
 and read the tutorials.
 
-![apt-get install 3270font](
-https://3270font.s3.amazonaws.com/gnome-terminal.png)
-
 ![Using it on OSX (don't forget to turn antialiasing on)](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/osx_terminal.png)
 
@@ -67,8 +62,6 @@ minor hinting issues).
 
 ![Works on Windows](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/windows_7.png)
-
-![And with KDE](https://3270font.s3.amazonaws.com/konsole.png)
 
 Generating usable font files
 ----------------------------
@@ -100,6 +93,18 @@ touch and we will figure out how to do it right.
 In order to generate the sample image and the grids for FontForge,
 you'll need a Python 3 environment with PIL or pillow installed. The
 requirements.txt file lists everything you need to do it.
+
+Screenshots
+-----------
+
+![xterm](https://3270font.s3.amazonaws.com/xterm.png)
+
+![Gnome Terminal](
+https://3270font.s3.amazonaws.com/gnome-terminal.png)
+
+![Konsole](https://3270font.s3.amazonaws.com/konsole.png)
+
+![Terminator](https://3270font.s3.amazonaws.com/terminator.png)
 
 Known problems
 --------------
