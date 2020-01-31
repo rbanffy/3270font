@@ -72,6 +72,9 @@ fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
 skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
+	@flake8 *.py
+	@isort --check-only *.py
+	@black --check -l79 *.py
 	@fontlint ${BUILD_DIR}/3270-Regular.otf
 	@fontlint ${BUILD_DIR}/3270-Regular.ttf
 	@fontlint ${BUILD_DIR}/3270-Regular.woff
