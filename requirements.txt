@@ -1,5 +1,6 @@
 git+https://github.com/googlefonts/fontbakery
 git+https://github.com/googlefonts/gftools
+black
 flake8
 ipdb
 isort
