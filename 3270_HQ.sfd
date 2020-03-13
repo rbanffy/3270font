@@ -1,11 +1,13 @@
 SplineFontDB: 3.0
-FontName: ibm3270-Regular
+FontName: ibm3270
 FullName: 3270
-FamilyName: ibm3270
+FamilyName: IBM 3270
 Weight: Regular
 Copyright: Copyright 2019 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
+FontLog: "See the CHANGELOG.md file"
 Version: 2.0.4
+DefaultBaseFilename: 3270
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 120
