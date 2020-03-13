@@ -1,9 +1,9 @@
 SplineFontDB: 3.0
-FontName: ibm3270
-FullName: 3270
+FontName: 3270-Regular
+FullName: IBM 3270 Regular
 FamilyName: IBM 3270
 Weight: Regular
-Copyright: Copyright 2019 The 3270font Project Authors (https://github.com/rbanffy/3270font)
+Copyright: Copyright 2011-2020 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
 FontLog: "See the CHANGELOG.md file"
 Version: 2.0.4
@@ -20,7 +20,7 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
-XUID: [1021 799 1486169484 6935110]
+XUID: [1021 799 1486169484 15238415]
 UseXUID: 1
 StyleMap: 0x0040
 FSType: 0
@@ -28,7 +28,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1584125898
+ModificationTime: 1584128267
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
