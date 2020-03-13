@@ -1,8 +1,12 @@
 current
 -------
 
-- Added vertical metrics (https://fontforge.org/fontinfo.html#PS-General)
-- Changes to ⍲
+- Adjust OS/2 metrics
+- Rounded
+- Set vertical advance to 0
+- Added vertical metrics
+  (https://fontforge.org/fontinfo.html#PS-General)
+- Changes to ⍲, X
 - Sample rendering now includes blurred easily confused pairs
 - Added sample generation using actual terminal software (on Linux) so
   that the README file shows a current version of the font.
