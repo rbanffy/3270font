@@ -2,7 +2,6 @@ current
 -------
 
 - Adjust OS/2 metrics
-- Rounded
 - Set vertical advance to 0
 - Added vertical metrics
   (https://fontforge.org/fontinfo.html#PS-General)
