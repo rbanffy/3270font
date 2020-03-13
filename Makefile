@@ -122,6 +122,6 @@ endif
 
 clean: ## Deletes all automatically generated files
 	@$(RM) -rf ${BUILD_DIR}
-	@$(RM) -rf gfonts_files/3270/*
-	@$(RM) -rf gfonts_files/3270/3270condensed/*
-	@$(RM) -rf gfonts_files/3270/3270semicondensed/*
+	@$(RM) -rf gfonts_files/3270/*.ttf
+	@$(RM) -rf gfonts_files/3270condensed/*.ttf
+	@$(RM) -rf gfonts_files/3270semicondensed/*.ttf
