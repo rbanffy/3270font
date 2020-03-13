@@ -41,7 +41,7 @@ sample: font ## Generate sample images
 	@./generate_sample_image.py
 ifeq ($(UNAME),Linux)
 	@terminator -e './test_font_rendering.sh terminator'
-	@xterm -fa 'ibm3270' -fs 12 -geometry 80x25 -e \
+	@xterm -fa 'IBM3270' -fs 12 -geometry 80x25 -e \
 		'./test_font_rendering.sh xterm'
 	@konsole -geometry 820x520 -e './test_font_rendering.sh konsole'
 	@gnome-terminal --profile='3270font-test' -q --geometry=80x25 \
@@ -122,8 +122,6 @@ endif
 
 clean: ## Deletes all automatically generated files
 	@$(RM) -rf ${BUILD_DIR}
-	@$(RM) -rf gfonts_files/*/DESCRIPTION.*.html
-	@$(RM) -rf gfonts_files/*/LICENSE.txt
-	@$(RM) -rf gfonts_files/*/3270*.ttf
-	@$(RM) -rf gfonts_files/*/3270*.ttf.xml
-	@$(RM) -rf Fontbakery-check-results.md
+	@$(RM) -rf gfonts_files/3270/*
+	@$(RM) -rf gfonts_files/3270/3270condensed/*
+	@$(RM) -rf gfonts_files/3270/3270semicondensed/*
