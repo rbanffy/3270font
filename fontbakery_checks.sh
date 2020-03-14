@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -eu
+
 # The fontbakery tools must be installed to your Python environment.
 
 OUTPUT_DIR=gfonts_files
