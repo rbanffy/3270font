@@ -1,6 +1,7 @@
 current
 -------
 
+- Make APL chars look nicer
 - Adjust OS/2 metrics
 - Set vertical advance to 0
 - Added vertical metrics
