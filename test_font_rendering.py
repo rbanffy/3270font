@@ -21,8 +21,10 @@ apl_set = (
 )
 
 confusables = (
-    "Easily confused pairs bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O\n"
+    "Easily confused pairs: bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O\n"
 )
+
+ladder = "Vttest's ladder: ⎺⎻─⎼⎽\n"
 
 BOLD = "\x1b[1m"
 ITALIC = "\x1b[3m"
@@ -36,6 +38,7 @@ if __name__ == "__main__":
     print(misc_glyphs)
     print(apl_set)
     print(confusables)
+    print(ladder)
     print(
         BOLD
         + "BOLD "
