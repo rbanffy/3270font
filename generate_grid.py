@@ -7,10 +7,10 @@ parser = argparse.ArgumentParser(description="Generate a grid for 3270font.")
 
 # Character is within a rectangle (0, -400) to (1080, 1600)
 
-GUIDE_XMIN = - 200
+GUIDE_XMIN = -200
 GUIDE_XMAX = 1280
 
-GUIDE_YMIN = - 600
+GUIDE_YMIN = -600
 GUIDE_YMAX = 1800
 
 parser.add_argument("origin_x", type=float, default=122, help="Origin X")
