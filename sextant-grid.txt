@@ -1,25 +1,11 @@
+# ./generate_grid.py 0 -400 -400 1600 0 1080 540 666
 Grid
--1000 133 m 0
- 2000 133 l 1024
-  Named: "lower sextant divide"
--1000 466 m 0
- 2000 466 l 1024
-  Named: "upper sextant divide"
--1000 -200 m 0
- 2000 -200 l 1024
-  Named: "bottom"
--1000 0 m 0
- 2000 0 l 1024
--1000 800 m 0
- 2000 800 l 1024
-  Named: "top"
-268 1300 m 0
- 268 -700 l 1024
-  Named: "middle"
-0 1300 m 0
- 0 -700 l 1024
-  Named: "left"
-536 1300 m 0
- 536 -700 l 1024
-  Named: "right"
+0 -600 m 0 0 1800 l 1024 Named: "Origin X"
+-200 -400 m 0 1280 -400 l 1024 Named: "Origin Y"
+-200 266 m 0 1280 266 l 1024 Named: "266"
+-200 932 m 0 1280 932 l 1024 Named: "932"
+-200 1598 m 0 1280 1598 l 1024 Named: "1598"
+-200 2264 m 0 1280 2264 l 1024 Named: "2264"
+540 -600 m 0 540 1800 l 1024 Named: "540"
+1080 -600 m 0 1080 1800 l 1024 Named: "1080"
 EndSplineSet
