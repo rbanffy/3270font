@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1584466051
+ModificationTime: 1584467172
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -44551,7 +44551,7 @@ SplineSet
  1080 1600 l 1
  1080 932 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB03
@@ -44588,7 +44588,7 @@ SplineSet
  0 264 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB05
@@ -44612,7 +44612,7 @@ SplineSet
  540 932 l 1xa0
  540 1600 l 1x50
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB06
@@ -44633,7 +44633,7 @@ SplineSet
  0 264 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB07
@@ -44677,7 +44677,7 @@ SplineSet
  540 264 l 1x90
  540 932 l 1xa0
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB09
@@ -44695,7 +44695,7 @@ SplineSet
  540 264 l 5
  540 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0A
@@ -44716,7 +44716,7 @@ SplineSet
  0 932 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0B
@@ -44734,7 +44734,7 @@ SplineSet
  1080 932 l 5
  1080 264 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0C
@@ -44755,7 +44755,7 @@ SplineSet
  0 264 l 1
  0 1600 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0D
@@ -44776,7 +44776,7 @@ SplineSet
  540 932 l 5
  540 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0E
@@ -44795,7 +44795,7 @@ SplineSet
  0 264 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB0F
@@ -44862,7 +44862,7 @@ SplineSet
  540 932 l 1
  540 1600 l 1xd0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB12
@@ -44886,7 +44886,7 @@ SplineSet
  1080 1600 l 5
  1080 932 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB13
@@ -44904,7 +44904,7 @@ SplineSet
  0 -402 l 1
  0 932 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB14
@@ -44929,7 +44929,7 @@ SplineSet
  540 -402 l 1
  0 -402 l 1xc0
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB15
@@ -44950,7 +44950,7 @@ SplineSet
  0 -402 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB16
@@ -44974,7 +44974,7 @@ SplineSet
  540 266 l 1x90
  540 932 l 1x50
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB17
@@ -45003,7 +45003,7 @@ SplineSet
  0 266 l 1x90
  540 266 l 1x88
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB18
@@ -45027,7 +45027,7 @@ SplineSet
  540 266 l 5
  540 1600 l 5xa0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB19
@@ -45053,7 +45053,7 @@ SplineSet
  0 932 l 5
  0 1600 l 5xe0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB1A
@@ -45074,7 +45074,7 @@ SplineSet
  540 -402 l 5
  0 -402 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB1B
@@ -45097,7 +45097,7 @@ SplineSet
  0 -402 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB1C
@@ -45119,25 +45119,28 @@ SplineSet
  540 932 l 5
  540 1600 l 5x40
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB1D
 Encoding: 1819 129821 1816
 Width: -21642
 VWidth: 0
-Flags: W
-HStem: -402 668<0 1080>
+Flags: HW
+HStem: 932 668<540 1080>
+VStem: 0 540<264 932>
 LayerCount: 2
 Fore
 SplineSet
-1080 -402 m 5
- 0 -402 l 5
- 0 266 l 5
- 1080 266 l 5
- 1080 -402 l 5
+0 1600 m 1
+ 1080 1600 l 1
+ 1080 268 l 1
+ 540 268 l 1
+ 540 -400 l 1
+ 0 -400 l 1
+ 0 1600 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB1E
@@ -45180,7 +45183,7 @@ SplineSet
  0 932 l 1
  0 1600 l 1xe0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB20
@@ -45228,7 +45231,7 @@ SplineSet
  1080 1600 l 5
  1080 932 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB22
@@ -45252,7 +45255,7 @@ SplineSet
  0 264 l 1
  0 932 l 1x60
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB23
@@ -45276,7 +45279,7 @@ SplineSet
  0 264 l 5
  0 1600 l 5xc0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB24
@@ -45305,7 +45308,7 @@ SplineSet
  540 -407 l 1x88
  540 259 l 1x48
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB25
@@ -45331,7 +45334,7 @@ SplineSet
  0 264 l 5
  0 1600 l 5xe0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB26
@@ -45349,7 +45352,7 @@ SplineSet
  540 -402 l 1
  540 932 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB27
@@ -45374,7 +45377,7 @@ SplineSet
  1080 -402 l 1
  540 -402 l 1xa0
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB28
@@ -45395,30 +45398,29 @@ SplineSet
  0 932 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB29
 Encoding: 1831 129833 1828
 Width: -21642
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: W
-HStem: 264 668<0 540>
-VStem: 540 540<-402 264>
+HStem: 268 668<0 540>
+VStem: 540 540<-400 268>
 LayerCount: 2
 Fore
 SplineSet
-1080 932 m 5
- 1080 -402 l 5
- 540 -402 l 5
- 540 264 l 5
- 0 264 l 5
- 0 932 l 5
- 1080 932 l 5
-1080 266 m 5
- 1080 264 l 1029
+0 936 m 5
+ 1080 936 l 5
+ 1080 -400 l 5
+ 540 -400 l 5
+ 540 268 l 5
+ 0 268 l 5
+ 0 936 l 5
 EndSplineSet
-Validated: 8388611
+Validated: 1
 EndChar
 
 StartChar: u1FB2A
@@ -45440,7 +45442,7 @@ SplineSet
  0 264 l 1
  0 1600 l 1x80
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB2B
@@ -45463,7 +45465,7 @@ SplineSet
  540 932 l 1
  540 1600 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB2C
@@ -45483,7 +45485,7 @@ SplineSet
  0 264 l 1
  0 1600 l 1x80
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB2D
@@ -45501,7 +45503,7 @@ SplineSet
  1080 266 l 5
  1080 -402 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB2E
@@ -45525,7 +45527,7 @@ SplineSet
  1080 266 l 5
  1080 -402 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB2F
@@ -45549,7 +45551,7 @@ SplineSet
  1080 266 l 5
  1080 -402 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB30
@@ -45573,7 +45575,7 @@ SplineSet
  1080 1600 l 5
  1080 932 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB31
@@ -45594,7 +45596,7 @@ SplineSet
  0 -402 l 5
  0 932 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB32
@@ -45615,7 +45617,7 @@ SplineSet
  0 -402 l 5
  0 1600 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB33
@@ -45642,7 +45644,7 @@ SplineSet
  1080 266 l 5
  1080 -402 l 5
 EndSplineSet
-Validated: 8388613
+Validated: 5
 EndChar
 
 StartChar: u1FB34
@@ -45665,30 +45667,29 @@ SplineSet
  1080 266 l 5
  1080 -402 l 5xe0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB35
 Encoding: 1843 129845 1840
 Width: -21642
 VWidth: 0
+UnlinkRmOvrlpSave: 1
 Flags: W
-HStem: -402 668<0 540>
-VStem: 540 540<266 932>
+HStem: -400 668<0 540>
+VStem: 540 540<268 936>
 LayerCount: 2
 Fore
 SplineSet
-540 932 m 5
- 1080 932 l 5
- 1080 -402 l 5
- 0 -402 l 5
- 0 266 l 5
- 540 266 l 5
- 540 932 l 5
-1080 266 m 5
- 1080 264 l 1029
+540 936 m 1
+ 1080 936 l 1
+ 1080 -400 l 1
+ 0 -400 l 1
+ 0 268 l 1
+ 540 268 l 1
+ 540 936 l 1
 EndSplineSet
-Validated: 8388611
+Validated: 1
 EndChar
 
 StartChar: u1FB36
@@ -45702,22 +45703,16 @@ VStem: 0 540<932 1600> 540 540<266 932>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 5xe0
- 540 1600 l 5
- 540 932 l 5
- 0 932 l 5
- 0 1600 l 5xe0
-1080 -402 m 5xd0
- 0 -402 l 5
- 0 266 l 5xe0
- 540 266 l 5xd0
- 540 932 l 5xe0
- 1080 932 l 5
- 1080 -402 l 5xd0
-1080 266 m 5
- 1080 264 l 1029xd0
+540 932 m 1xe0
+ 1080 932 l 1
+ 1080 -402 l 1xd0
+ 0 -402 l 1
+ 0 266 l 1xe0
+ 540 266 l 1xd0
+ 540 932 l 1xe0
 EndSplineSet
-Validated: 8388611
+Refer: 1787 129792 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: u1FB37
@@ -45738,7 +45733,7 @@ SplineSet
  540 266 l 1
  540 1600 l 1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB38
@@ -45761,7 +45756,7 @@ SplineSet
  1080 1600 l 1
  1080 -402 l 1xe0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB39
@@ -45780,7 +45775,7 @@ SplineSet
  1080 932 l 5
  1080 -402 l 5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB3A
@@ -45800,7 +45795,7 @@ SplineSet
  0 -402 l 5x80
  0 1600 l 5x40
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB3B
@@ -45820,7 +45815,7 @@ SplineSet
  540 932 l 5
  540 1600 l 5x40
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FB3C
@@ -46173,7 +46168,7 @@ EndSplineSet
 Validated: 1
 EndChar
 EndChars
-BitmapFont: 14 1921 11 3 1
+BitmapFont: 14 1868 11 3 1
 BDFChar: 1 1579 8 0 0 0 0 0
 z
 BDFChar: 2 832 8 1 6 0 9 0
@@ -47940,8 +47935,6 @@ BDFChar: 885 299 8 1 6 0 8 0
 KZ'[nP`19KKE(uP
 BDFChar: 886 300 8 1 5 0 6 0
 n46)@84Z8O
-BDFChar: -1 -1 8 0 0 0 0 0
-z
 BDFChar: 887 301 8 1 6 0 9 0
 qu?`dLkpkCM!tBE
 BDFChar: 888 302 8 1 7 0 11 0
@@ -49850,90 +49843,6 @@ BDFChar: 1865 1868 -151 0 0 0 0 0
 z
 BDFChar: 1866 1869 -151 0 0 0 0 0
 z
-BDFChar: -1 1870 -151 0 0 0 0 0
-z
-BDFChar: -1 1871 -151 0 0 0 0 0
-z
-BDFChar: -1 1872 -151 0 0 0 0 0
-z
-BDFChar: -1 1873 -151 0 0 0 0 0
-z
-BDFChar: -1 1874 -151 0 0 0 0 0
-z
-BDFChar: -1 1875 -151 0 0 0 0 0
-z
-BDFChar: -1 1876 -151 0 0 0 0 0
-z
-BDFChar: -1 1877 -151 0 0 0 0 0
-z
-BDFChar: -1 1878 -151 0 0 0 0 0
-z
-BDFChar: -1 1879 -151 0 0 0 0 0
-z
-BDFChar: -1 1880 -151 0 0 0 0 0
-z
-BDFChar: -1 1881 -151 0 0 0 0 0
-z
-BDFChar: -1 1882 -151 0 0 0 0 0
-z
-BDFChar: -1 1883 -151 0 0 0 0 0
-z
-BDFChar: -1 1884 -151 0 0 0 0 0
-z
-BDFChar: -1 1885 -151 0 0 0 0 0
-z
-BDFChar: -1 1886 -151 0 0 0 0 0
-z
-BDFChar: -1 1887 -151 0 0 0 0 0
-z
-BDFChar: -1 1888 -151 0 0 0 0 0
-z
-BDFChar: -1 1889 -151 0 0 0 0 0
-z
-BDFChar: -1 1890 -151 0 0 0 0 0
-z
-BDFChar: -1 1891 -151 0 0 0 0 0
-z
-BDFChar: -1 1892 -151 0 0 0 0 0
-z
-BDFChar: -1 1893 -151 0 0 0 0 0
-z
-BDFChar: -1 1894 -151 0 0 0 0 0
-z
-BDFChar: -1 1895 -151 0 0 0 0 0
-z
-BDFChar: -1 1896 -151 0 0 0 0 0
-z
-BDFChar: -1 1897 -151 0 0 0 0 0
-z
-BDFChar: -1 1898 -151 0 0 0 0 0
-z
-BDFChar: -1 1899 -151 0 0 0 0 0
-z
-BDFChar: -1 1900 -151 0 0 0 0 0
-z
-BDFChar: -1 1901 -151 0 0 0 0 0
-z
-BDFChar: -1 1902 -151 0 0 0 0 0
-z
-BDFChar: -1 1903 -151 0 0 0 0 0
-z
-BDFChar: -1 1904 -151 0 0 0 0 0
-z
-BDFChar: -1 1905 -151 0 0 0 0 0
-z
-BDFChar: -1 1906 -151 0 0 0 0 0
-z
-BDFChar: -1 1907 -151 0 0 0 0 0
-z
-BDFChar: -1 1908 -151 0 0 0 0 0
-z
-BDFChar: -1 1909 -151 0 0 0 0 0
-z
-BDFChar: -1 1910 -151 0 0 0 0 0
-z
-BDFChar: -1 1911 -151 0 0 0 0 0
-z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
 BDFRefChar: 1610 720 0 0 N
@@ -49957,7 +49866,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 17 1921 14 3 1
+BitmapFont: 17 1868 14 3 1
 BDFChar: 1 1579 9 0 0 0 0 0
 z
 BDFChar: 2 832 9 1 7 1 11 0
@@ -51724,8 +51633,6 @@ BDFChar: 885 299 9 1 7 1 10 0
 K#47FMN3FCJq<t&
 BDFChar: 886 300 9 1 6 1 7 0
 pd@M<6psEC
-BDFChar: -1 -1 9 0 0 0 0 0
-z
 BDFChar: 887 301 9 1 7 1 11 0
 rVuouG_Ca'KS4RM
 BDFChar: 888 302 9 1 9 1 13 0
@@ -53634,90 +53541,6 @@ BDFChar: 1865 1868 -184 0 0 0 0 0
 z
 BDFChar: 1866 1869 -184 0 0 0 0 0
 z
-BDFChar: -1 1870 -184 0 0 0 0 0
-z
-BDFChar: -1 1871 -184 0 0 0 0 0
-z
-BDFChar: -1 1872 -184 0 0 0 0 0
-z
-BDFChar: -1 1873 -184 0 0 0 0 0
-z
-BDFChar: -1 1874 -184 0 0 0 0 0
-z
-BDFChar: -1 1875 -184 0 0 0 0 0
-z
-BDFChar: -1 1876 -184 0 0 0 0 0
-z
-BDFChar: -1 1877 -184 0 0 0 0 0
-z
-BDFChar: -1 1878 -184 0 0 0 0 0
-z
-BDFChar: -1 1879 -184 0 0 0 0 0
-z
-BDFChar: -1 1880 -184 0 0 0 0 0
-z
-BDFChar: -1 1881 -184 0 0 0 0 0
-z
-BDFChar: -1 1882 -184 0 0 0 0 0
-z
-BDFChar: -1 1883 -184 0 0 0 0 0
-z
-BDFChar: -1 1884 -184 0 0 0 0 0
-z
-BDFChar: -1 1885 -184 0 0 0 0 0
-z
-BDFChar: -1 1886 -184 0 0 0 0 0
-z
-BDFChar: -1 1887 -184 0 0 0 0 0
-z
-BDFChar: -1 1888 -184 0 0 0 0 0
-z
-BDFChar: -1 1889 -184 0 0 0 0 0
-z
-BDFChar: -1 1890 -184 0 0 0 0 0
-z
-BDFChar: -1 1891 -184 0 0 0 0 0
-z
-BDFChar: -1 1892 -184 0 0 0 0 0
-z
-BDFChar: -1 1893 -184 0 0 0 0 0
-z
-BDFChar: -1 1894 -184 0 0 0 0 0
-z
-BDFChar: -1 1895 -184 0 0 0 0 0
-z
-BDFChar: -1 1896 -184 0 0 0 0 0
-z
-BDFChar: -1 1897 -184 0 0 0 0 0
-z
-BDFChar: -1 1898 -184 0 0 0 0 0
-z
-BDFChar: -1 1899 -184 0 0 0 0 0
-z
-BDFChar: -1 1900 -184 0 0 0 0 0
-z
-BDFChar: -1 1901 -184 0 0 0 0 0
-z
-BDFChar: -1 1902 -184 0 0 0 0 0
-z
-BDFChar: -1 1903 -184 0 0 0 0 0
-z
-BDFChar: -1 1904 -184 0 0 0 0 0
-z
-BDFChar: -1 1905 -184 0 0 0 0 0
-z
-BDFChar: -1 1906 -184 0 0 0 0 0
-z
-BDFChar: -1 1907 -184 0 0 0 0 0
-z
-BDFChar: -1 1908 -184 0 0 0 0 0
-z
-BDFChar: -1 1909 -184 0 0 0 0 0
-z
-BDFChar: -1 1910 -184 0 0 0 0 0
-z
-BDFChar: -1 1911 -184 0 0 0 0 0
-z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
 BDFRefChar: 1610 720 0 0 N
@@ -53741,7 +53564,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 25 1921 20 5 1
+BitmapFont: 25 1868 20 5 1
 BDFChar: 1 1579 14 0 0 0 0 0
 z
 BDFChar: 2 832 14 1 11 1 16 0
@@ -55509,8 +55332,6 @@ BDFChar: 885 299 14 1 11 1 14 0
 ^gQ).n6jmVb[AFu_dL==^u3"9^gOrc^gOrc
 BDFChar: 886 300 14 1 10 1 11 0
 rr=d(0YegH+M],8+M],8+M],8+M[sW
-BDFChar: -1 -1 14 0 0 0 0 0
-z
 BDFChar: 887 301 14 1 11 1 16 0
 s5<q8z!!#4`@=Z//^qdb$^qdb$^qdb$@=UQB
 BDFChar: 888 302 14 1 13 1 19 0
@@ -57420,90 +57241,6 @@ BDFChar: 1865 1868 -271 0 0 0 0 0
 z
 BDFChar: 1866 1869 -271 0 0 0 0 0
 z
-BDFChar: -1 1870 -271 0 0 0 0 0
-z
-BDFChar: -1 1871 -271 0 0 0 0 0
-z
-BDFChar: -1 1872 -271 0 0 0 0 0
-z
-BDFChar: -1 1873 -271 0 0 0 0 0
-z
-BDFChar: -1 1874 -271 0 0 0 0 0
-z
-BDFChar: -1 1875 -271 0 0 0 0 0
-z
-BDFChar: -1 1876 -271 0 0 0 0 0
-z
-BDFChar: -1 1877 -271 0 0 0 0 0
-z
-BDFChar: -1 1878 -271 0 0 0 0 0
-z
-BDFChar: -1 1879 -271 0 0 0 0 0
-z
-BDFChar: -1 1880 -271 0 0 0 0 0
-z
-BDFChar: -1 1881 -271 0 0 0 0 0
-z
-BDFChar: -1 1882 -271 0 0 0 0 0
-z
-BDFChar: -1 1883 -271 0 0 0 0 0
-z
-BDFChar: -1 1884 -271 0 0 0 0 0
-z
-BDFChar: -1 1885 -271 0 0 0 0 0
-z
-BDFChar: -1 1886 -271 0 0 0 0 0
-z
-BDFChar: -1 1887 -271 0 0 0 0 0
-z
-BDFChar: -1 1888 -271 0 0 0 0 0
-z
-BDFChar: -1 1889 -271 0 0 0 0 0
-z
-BDFChar: -1 1890 -271 0 0 0 0 0
-z
-BDFChar: -1 1891 -271 0 0 0 0 0
-z
-BDFChar: -1 1892 -271 0 0 0 0 0
-z
-BDFChar: -1 1893 -271 0 0 0 0 0
-z
-BDFChar: -1 1894 -271 0 0 0 0 0
-z
-BDFChar: -1 1895 -271 0 0 0 0 0
-z
-BDFChar: -1 1896 -271 0 0 0 0 0
-z
-BDFChar: -1 1897 -271 0 0 0 0 0
-z
-BDFChar: -1 1898 -271 0 0 0 0 0
-z
-BDFChar: -1 1899 -271 0 0 0 0 0
-z
-BDFChar: -1 1900 -271 0 0 0 0 0
-z
-BDFChar: -1 1901 -271 0 0 0 0 0
-z
-BDFChar: -1 1902 -271 0 0 0 0 0
-z
-BDFChar: -1 1903 -271 0 0 0 0 0
-z
-BDFChar: -1 1904 -271 0 0 0 0 0
-z
-BDFChar: -1 1905 -271 0 0 0 0 0
-z
-BDFChar: -1 1906 -271 0 0 0 0 0
-z
-BDFChar: -1 1907 -271 0 0 0 0 0
-z
-BDFChar: -1 1908 -271 0 0 0 0 0
-z
-BDFChar: -1 1909 -271 0 0 0 0 0
-z
-BDFChar: -1 1910 -271 0 0 0 0 0
-z
-BDFChar: -1 1911 -271 0 0 0 0 0
-z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
 BDFRefChar: 1610 720 0 0 N
@@ -57527,7 +57264,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 28 1921 22 6 1
+BitmapFont: 28 1868 22 6 1
 BDFChar: 1 1579 15 0 0 0 0 0
 z
 BDFChar: 2 832 15 2 12 1 18 0
@@ -59295,8 +59032,6 @@ BDFChar: 885 299 15 2 12 1 16 0
 ^`_PXn0#4`S03b5L*2*kJY7POJ7*mMJ09@bJ09@b
 BDFChar: 886 300 15 2 11 1 12 0
 hZ3\,@)-0c@)-0c@)-0c@)-0c@)-0c
-BDFChar: -1 -1 15 0 0 0 0 0
-z
 BDFChar: 887 301 15 2 12 1 18 0
 s5<q8zzIfTM!^qbK9JA?]NJA?]NJAAt9s+#S!
 BDFChar: 888 302 15 2 15 1 21 0
@@ -61206,90 +60941,6 @@ BDFChar: 1865 1868 -303 0 0 0 0 0
 z
 BDFChar: 1866 1869 -303 0 0 0 0 0
 z
-BDFChar: -1 1870 -303 0 0 0 0 0
-z
-BDFChar: -1 1871 -303 0 0 0 0 0
-z
-BDFChar: -1 1872 -303 0 0 0 0 0
-z
-BDFChar: -1 1873 -303 0 0 0 0 0
-z
-BDFChar: -1 1874 -303 0 0 0 0 0
-z
-BDFChar: -1 1875 -303 0 0 0 0 0
-z
-BDFChar: -1 1876 -303 0 0 0 0 0
-z
-BDFChar: -1 1877 -303 0 0 0 0 0
-z
-BDFChar: -1 1878 -303 0 0 0 0 0
-z
-BDFChar: -1 1879 -303 0 0 0 0 0
-z
-BDFChar: -1 1880 -303 0 0 0 0 0
-z
-BDFChar: -1 1881 -303 0 0 0 0 0
-z
-BDFChar: -1 1882 -303 0 0 0 0 0
-z
-BDFChar: -1 1883 -303 0 0 0 0 0
-z
-BDFChar: -1 1884 -303 0 0 0 0 0
-z
-BDFChar: -1 1885 -303 0 0 0 0 0
-z
-BDFChar: -1 1886 -303 0 0 0 0 0
-z
-BDFChar: -1 1887 -303 0 0 0 0 0
-z
-BDFChar: -1 1888 -303 0 0 0 0 0
-z
-BDFChar: -1 1889 -303 0 0 0 0 0
-z
-BDFChar: -1 1890 -303 0 0 0 0 0
-z
-BDFChar: -1 1891 -303 0 0 0 0 0
-z
-BDFChar: -1 1892 -303 0 0 0 0 0
-z
-BDFChar: -1 1893 -303 0 0 0 0 0
-z
-BDFChar: -1 1894 -303 0 0 0 0 0
-z
-BDFChar: -1 1895 -303 0 0 0 0 0
-z
-BDFChar: -1 1896 -303 0 0 0 0 0
-z
-BDFChar: -1 1897 -303 0 0 0 0 0
-z
-BDFChar: -1 1898 -303 0 0 0 0 0
-z
-BDFChar: -1 1899 -303 0 0 0 0 0
-z
-BDFChar: -1 1900 -303 0 0 0 0 0
-z
-BDFChar: -1 1901 -303 0 0 0 0 0
-z
-BDFChar: -1 1902 -303 0 0 0 0 0
-z
-BDFChar: -1 1903 -303 0 0 0 0 0
-z
-BDFChar: -1 1904 -303 0 0 0 0 0
-z
-BDFChar: -1 1905 -303 0 0 0 0 0
-z
-BDFChar: -1 1906 -303 0 0 0 0 0
-z
-BDFChar: -1 1907 -303 0 0 0 0 0
-z
-BDFChar: -1 1908 -303 0 0 0 0 0
-z
-BDFChar: -1 1909 -303 0 0 0 0 0
-z
-BDFChar: -1 1910 -303 0 0 0 0 0
-z
-BDFChar: -1 1911 -303 0 0 0 0 0
-z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
 BDFRefChar: 1610 720 0 0 N
@@ -61313,7 +60964,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 33 1921 26 7 1
+BitmapFont: 33 1868 26 7 1
 BDFChar: 1 1579 18 0 0 0 0 0
 z
 BDFChar: 2 832 18 2 15 2 21 0
@@ -63141,8 +62792,6 @@ BDFChar: 885 299 18 2 15 2 19 0
 ^^T-0n-o(#g^MI:`sfkE_9B^]^jNp[^`:,u^^S!e^^S!e
 BDFChar: 886 300 18 2 13 2 15 0
 n%et]3,gQ*0JG170JG170JG170JG170JG17
-BDFChar: -1 -1 18 0 0 0 0 0
-z
 BDFChar: 887 301 18 2 15 2 21 0
 s8;opzz5JVd,i,HIc^bEPX^bEPX^bEPX^bF\cJ)EQ,
 BDFChar: 888 302 18 2 18 2 25 0
@@ -65141,90 +64790,6 @@ BDFChar: 1865 1868 -357 0 0 0 0 0
 z
 BDFChar: 1866 1869 -357 0 0 0 0 0
 z
-BDFChar: -1 1870 -357 0 0 0 0 0
-z
-BDFChar: -1 1871 -357 0 0 0 0 0
-z
-BDFChar: -1 1872 -357 0 0 0 0 0
-z
-BDFChar: -1 1873 -357 0 0 0 0 0
-z
-BDFChar: -1 1874 -357 0 0 0 0 0
-z
-BDFChar: -1 1875 -357 0 0 0 0 0
-z
-BDFChar: -1 1876 -357 0 0 0 0 0
-z
-BDFChar: -1 1877 -357 0 0 0 0 0
-z
-BDFChar: -1 1878 -357 0 0 0 0 0
-z
-BDFChar: -1 1879 -357 0 0 0 0 0
-z
-BDFChar: -1 1880 -357 0 0 0 0 0
-z
-BDFChar: -1 1881 -357 0 0 0 0 0
-z
-BDFChar: -1 1882 -357 0 0 0 0 0
-z
-BDFChar: -1 1883 -357 0 0 0 0 0
-z
-BDFChar: -1 1884 -357 0 0 0 0 0
-z
-BDFChar: -1 1885 -357 0 0 0 0 0
-z
-BDFChar: -1 1886 -357 0 0 0 0 0
-z
-BDFChar: -1 1887 -357 0 0 0 0 0
-z
-BDFChar: -1 1888 -357 0 0 0 0 0
-z
-BDFChar: -1 1889 -357 0 0 0 0 0
-z
-BDFChar: -1 1890 -357 0 0 0 0 0
-z
-BDFChar: -1 1891 -357 0 0 0 0 0
-z
-BDFChar: -1 1892 -357 0 0 0 0 0
-z
-BDFChar: -1 1893 -357 0 0 0 0 0
-z
-BDFChar: -1 1894 -357 0 0 0 0 0
-z
-BDFChar: -1 1895 -357 0 0 0 0 0
-z
-BDFChar: -1 1896 -357 0 0 0 0 0
-z
-BDFChar: -1 1897 -357 0 0 0 0 0
-z
-BDFChar: -1 1898 -357 0 0 0 0 0
-z
-BDFChar: -1 1899 -357 0 0 0 0 0
-z
-BDFChar: -1 1900 -357 0 0 0 0 0
-z
-BDFChar: -1 1901 -357 0 0 0 0 0
-z
-BDFChar: -1 1902 -357 0 0 0 0 0
-z
-BDFChar: -1 1903 -357 0 0 0 0 0
-z
-BDFChar: -1 1904 -357 0 0 0 0 0
-z
-BDFChar: -1 1905 -357 0 0 0 0 0
-z
-BDFChar: -1 1906 -357 0 0 0 0 0
-z
-BDFChar: -1 1907 -357 0 0 0 0 0
-z
-BDFChar: -1 1908 -357 0 0 0 0 0
-z
-BDFChar: -1 1909 -357 0 0 0 0 0
-z
-BDFChar: -1 1910 -357 0 0 0 0 0
-z
-BDFChar: -1 1911 -357 0 0 0 0 0
-z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
 BDFRefChar: 1610 720 0 0 N
@@ -65248,7 +64813,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 50 1921 40 10 1
+BitmapFont: 50 1868 40 10 1
 BDFChar: 1 1579 27 0 0 0 0 0
 z
 BDFChar: 2 832 27 3 23 2 32 0
@@ -67704,8 +67269,6 @@ huGap!'&m:38acrhuGap!'&m:2uipY
 BDFChar: 886 300 27 3 20 3 23 0
 oDSairrE*!J0+m/*Wa%r!PfZU^`3Bj*!*hp!PfZU^`3Bj*!*hp!PfZU^`3Bj*!*hp!PfZU^`3Bj
 *!*hT
-BDFChar: -1 -1 27 0 0 0 0 0
-z
 BDFChar: 887 301 27 3 23 3 32 0
 s8Vlos7lWop](9ozzz!!!!@rW#1_!.Y$!n,pJa!PmUo^u,7/huUXO!PmUo^u,7/huUXO!PmUo
 ^u,7/huUXO!Pn1,^jlB75Q:^*rVuou
@@ -70582,90 +70145,6 @@ z
 BDFChar: 1865 1868 -541 0 0 0 0 0
 z
 BDFChar: 1866 1869 -541 0 0 0 0 0
-z
-BDFChar: -1 1870 -541 0 0 0 0 0
-z
-BDFChar: -1 1871 -541 0 0 0 0 0
-z
-BDFChar: -1 1872 -541 0 0 0 0 0
-z
-BDFChar: -1 1873 -541 0 0 0 0 0
-z
-BDFChar: -1 1874 -541 0 0 0 0 0
-z
-BDFChar: -1 1875 -541 0 0 0 0 0
-z
-BDFChar: -1 1876 -541 0 0 0 0 0
-z
-BDFChar: -1 1877 -541 0 0 0 0 0
-z
-BDFChar: -1 1878 -541 0 0 0 0 0
-z
-BDFChar: -1 1879 -541 0 0 0 0 0
-z
-BDFChar: -1 1880 -541 0 0 0 0 0
-z
-BDFChar: -1 1881 -541 0 0 0 0 0
-z
-BDFChar: -1 1882 -541 0 0 0 0 0
-z
-BDFChar: -1 1883 -541 0 0 0 0 0
-z
-BDFChar: -1 1884 -541 0 0 0 0 0
-z
-BDFChar: -1 1885 -541 0 0 0 0 0
-z
-BDFChar: -1 1886 -541 0 0 0 0 0
-z
-BDFChar: -1 1887 -541 0 0 0 0 0
-z
-BDFChar: -1 1888 -541 0 0 0 0 0
-z
-BDFChar: -1 1889 -541 0 0 0 0 0
-z
-BDFChar: -1 1890 -541 0 0 0 0 0
-z
-BDFChar: -1 1891 -541 0 0 0 0 0
-z
-BDFChar: -1 1892 -541 0 0 0 0 0
-z
-BDFChar: -1 1893 -541 0 0 0 0 0
-z
-BDFChar: -1 1894 -541 0 0 0 0 0
-z
-BDFChar: -1 1895 -541 0 0 0 0 0
-z
-BDFChar: -1 1896 -541 0 0 0 0 0
-z
-BDFChar: -1 1897 -541 0 0 0 0 0
-z
-BDFChar: -1 1898 -541 0 0 0 0 0
-z
-BDFChar: -1 1899 -541 0 0 0 0 0
-z
-BDFChar: -1 1900 -541 0 0 0 0 0
-z
-BDFChar: -1 1901 -541 0 0 0 0 0
-z
-BDFChar: -1 1902 -541 0 0 0 0 0
-z
-BDFChar: -1 1903 -541 0 0 0 0 0
-z
-BDFChar: -1 1904 -541 0 0 0 0 0
-z
-BDFChar: -1 1905 -541 0 0 0 0 0
-z
-BDFChar: -1 1906 -541 0 0 0 0 0
-z
-BDFChar: -1 1907 -541 0 0 0 0 0
-z
-BDFChar: -1 1908 -541 0 0 0 0 0
-z
-BDFChar: -1 1909 -541 0 0 0 0 0
-z
-BDFChar: -1 1910 -541 0 0 0 0 0
-z
-BDFChar: -1 1911 -541 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
