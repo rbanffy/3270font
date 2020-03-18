@@ -26,6 +26,8 @@ confusables = (
 
 ladder = "Vttest's ladder: ⎺⎻─⎼⎽\n"
 
+mosaics = "UC13 mosaics 🬀🬁🬅🬊🬍🬒🬗🬛🬥"
+
 BOLD = "\x1b[1m"
 ITALIC = "\x1b[3m"
 UNDERLINE = "\x1b[4m"
@@ -39,6 +41,7 @@ if __name__ == "__main__":
     print(apl_set)
     print(confusables)
     print(ladder)
+    print(mosaics)
     print(
         BOLD
         + "BOLD "
@@ -49,8 +52,7 @@ if __name__ == "__main__":
         + "ITALIC "
         + RESET
         + UNDERLINE
-        + "UNDERLINE"
-        + RESET
+        + "UNDERLINE"        + RESET
         + " "
         + OVERLINE
         + "OVERLINE"
