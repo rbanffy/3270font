@@ -26,7 +26,7 @@ confusables = (
 
 ladder = "Vttest's ladder: ⎺⎻─⎼⎽\n"
 
-mosaics = "UC13 mosaics 🬀🬁🬅🬊🬍🬒🬗🬛🬥"
+mosaics = "UC13 mosaics 🬀🬁🬅🬊🬍🬒🬗🬛🬥\n"
 
 BOLD = "\x1b[1m"
 ITALIC = "\x1b[3m"
