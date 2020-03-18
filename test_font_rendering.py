@@ -52,7 +52,8 @@ if __name__ == "__main__":
         + "ITALIC "
         + RESET
         + UNDERLINE
-        + "UNDERLINE"        + RESET
+        + "UNDERLINE"
+        + RESET
         + " "
         + OVERLINE
         + "OVERLINE"
