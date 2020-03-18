@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1584533886
+ModificationTime: 1584537071
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,14 +56,13 @@ DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 GaspTable: 3 8 10 16 15 65535 15 1
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1536 32 11
+WinInfo: 1600 32 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -80,9 +79,6 @@ Grid
 -200 932 m 0
  1280 932 l 1024
   Named: "932"
--200 1598 m 0
- 1280 1598 l 1024
-  Named: "1598"
 -200 2264 m 0
  1280 2264 l 1024
   Named: "2264"
@@ -94,7 +90,7 @@ Grid
   Named: "1080"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1912 1867
+BeginChars: 1928 1883
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -44498,7 +44494,7 @@ Comment: "This was the original Ogham space, but Google Fonts demands it does no
 EndChar
 
 StartChar: u1FB00
-Encoding: 1790 129792 1787
+Encoding: 1784 129792 1787
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44513,10 +44509,11 @@ SplineSet
  0 931 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB01
-Encoding: 1791 129793 1788
+Encoding: 1785 129793 1788
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44531,10 +44528,11 @@ SplineSet
  539 931 l 1
  539 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB02
-Encoding: 1792 129794 1789
+Encoding: 1786 129794 1789
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44548,10 +44546,11 @@ SplineSet
  1080 1600 l 1
  1080 931 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB03
-Encoding: 1793 129795 1790
+Encoding: 1787 129795 1790
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44566,10 +44565,11 @@ SplineSet
  0 265 l 1
  0 933 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB04
-Encoding: 1794 129796 1791
+Encoding: 1788 129796 1791
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44583,10 +44583,11 @@ SplineSet
  0 265 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB05
-Encoding: 1795 129797 1792
+Encoding: 1789 129797 1792
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44605,10 +44606,11 @@ SplineSet
  539 933 l 1x90
  539 1600 l 1x50
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB06
-Encoding: 1796 129798 1793
+Encoding: 1790 129798 1793
 Width: -21642
 VWidth: 0
 Flags: W
@@ -44625,13 +44627,14 @@ SplineSet
  541 265 l 1
  0 265 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB07
-Encoding: 1797 129799 1794
+Encoding: 1791 129799 1794
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 264 668<540 1080>
 VStem: 540 540<264 932>
 LayerCount: 2
@@ -44643,47 +44646,49 @@ SplineSet
  540 264 l 1
  540 932 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB08
-Encoding: 1798 129800 1795
+Encoding: 1792 129800 1795
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: 264 668<540 1080> 931 669<0 541>
-VStem: 0 541<931 1600> 540 540<264 932>
+Flags: W
+HStem: 264 668<541 1080> 931 669<0 540>
+VStem: 0 541<932 1600> 540 540<264 931>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
- 541 1600 l 1
- 541 932 l 1
+0 1600 m 1x60
+ 541 1600 l 1x60
+ 541 932 l 1xa0
  1080 932 l 1
  1080 264 l 1
- 540 264 l 1
- 540 931 l 1
+ 540 264 l 1x90
+ 540 931 l 1x50
  0 931 l 1
- 0 1600 l 1
+ 0 1600 l 1x60
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB09
-Encoding: 1799 129801 1796
+Encoding: 1793 129801 1796
 Width: -21642
 VWidth: 0
 Flags: W
-HStem: 264 668<540 1080>
-VStem: 540 540<264 932>
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: u1FB0A
-Encoding: 1800 129802 1797
+Encoding: 1794 129802 1797
 Width: -21642
 VWidth: 0
 Flags: W
-HStem: 264 668<540 1080> 931 669<0 1080>
-VStem: 540 540<264 932>
+HStem: 931 669<0 540>
+VStem: 540 540<264 931>
 LayerCount: 2
 Fore
 SplineSet
@@ -44695,15 +44700,15 @@ SplineSet
  0 1600 l 1
  1080 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB0B
-Encoding: 1801 129803 1798
+Encoding: 1795 129803 1798
 Width: -21642
 VWidth: 0
 Flags: W
-HStem: 264 668<540 1080> 265 668<0 541>
-VStem: 0 541<265 933> 540 540<264 932>
+HStem: 265 668<0 1080>
 LayerCount: 2
 Fore
 SplineSet
@@ -44717,15 +44722,16 @@ SplineSet
  0 265 l 1
  0 933 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB0C
-Encoding: 1802 129804 1799
+Encoding: 1796 129804 1799
 Width: -21642
 VWidth: 0
 Flags: W
-HStem: 264 668<540 1080>
-VStem: 0 541<265 1600> 540 540<264 932>
+HStem: 264 668<541 1080>
+VStem: 0 541<932 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -44739,37 +44745,39 @@ SplineSet
  0 265 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB0D
-Encoding: 1803 129805 1800
+Encoding: 1797 129805 1800
 Width: -21642
 VWidth: 0
 Flags: W
-HStem: 264 668<540 1080> 265 668<0 539> 931 669<541 1080>
-VStem: 0 541<265 931> 539 541<933 1600> 540 540<264 932>
+HStem: 265 1335<539 1080> 265 668<0 539>
+VStem: 539 541<264 265 933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 1
+539 1600 m 1xa0
  1080 1600 l 1
  1080 264 l 1
  540 264 l 1
- 540 265 l 1
+ 540 265 l 1xa0
  0 265 l 1
  0 933 l 1
- 539 933 l 1
- 539 1600 l 1
+ 539 933 l 1x60
+ 539 1600 l 1xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB0E
-Encoding: 1804 129806 1801
+Encoding: 1798 129806 1801
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: 264 668<540 1080> 931 669<541 1080>
-VStem: 0 541<265 931> 540 540<264 932>
+Flags: W
+HStem: 265 1335<0 1080>
+VStem: 0 1080<265 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -44779,15 +44787,16 @@ SplineSet
  0 265 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB0F
-Encoding: 1805 129807 1802
+Encoding: 1799 129807 1802
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -400 666<0 541>
-VStem: 0 541<-399 266>
+Flags: W
+HStem: -400 667<0 541>
+VStem: 0 541<-400 267>
 LayerCount: 2
 Fore
 SplineSet
@@ -44797,46 +44806,57 @@ SplineSet
  0 -400 l 1
  0 267 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB10
-Encoding: 1806 129808 1803
+Encoding: 1800 129808 1803
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 541> 931 669<0 541>
+VStem: 0 541<-400 267 931 1600>
 LayerCount: 2
 Fore
 Refer: 1787 129792 S 1 0 0 1 0 0 2
 Refer: 1802 129807 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB11
-Encoding: 1807 129809 1804
+Encoding: 1801 129809 1804
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 541> 931 669<539 1080>
+VStem: 0 541<-400 267> 539 541<931 1600>
 LayerCount: 2
 Fore
 Refer: 1788 129793 S 1 0 0 1 0 0 2
 Refer: 1802 129807 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB12
-Encoding: 1808 129810 1805
+Encoding: 1802 129810 1805
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 541> 931 669<0 1080>
+VStem: 0 541<-400 267>
 LayerCount: 2
 Fore
 Refer: 1789 129794 S 1 0 0 1 0 0 2
 Refer: 1802 129807 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB13
-Encoding: 1809 129811 1806
+Encoding: 1803 129811 1806
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 0 541<-400 933>
 LayerCount: 2
 Fore
 SplineSet
@@ -44846,33 +44866,39 @@ SplineSet
  0 -400 l 1
  0 933 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB14
-Encoding: 1810 129812 1807
+Encoding: 1804 129812 1807
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 931 669<541 1080>
+VStem: 0 541<-400 931> 539 541<933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 1
+539 1600 m 1xa0
  1080 1600 l 1
- 1080 931 l 1
+ 1080 931 l 1xa0
  541 931 l 1
  541 -400 l 1
  0 -400 l 1
- 0 933 l 1
+ 0 933 l 1xc0
  539 933 l 1
- 539 1600 l 1
+ 539 1600 l 1xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB15
-Encoding: 1811 129813 1808
+Encoding: 1805 129813 1808
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 931 669<541 1080>
+VStem: 0 541<-400 931>
 LayerCount: 2
 Fore
 SplineSet
@@ -44884,99 +44910,114 @@ SplineSet
  541 -400 l 1
  0 -400 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB16
-Encoding: 1812 129814 1809
+Encoding: 1806 129814 1809
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 540> 264 668<541 1080>
+VStem: 0 541<-400 264> 540 540<267 932>
 LayerCount: 2
 Fore
 SplineSet
-540 932 m 1
+540 932 m 1x50
  1080 932 l 1
- 1080 264 l 1
- 541 264 l 1
+ 1080 264 l 1x50
+ 541 264 l 1x60
  541 -400 l 1
  0 -400 l 1
- 0 267 l 1
- 540 267 l 1
- 540 932 l 1
+ 0 267 l 1xa0
+ 540 267 l 1x90
+ 540 932 l 1x50
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB17
-Encoding: 1813 129815 1810
+Encoding: 1807 129815 1810
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 540> 264 668<541 1080> 931 669<0 540>
+VStem: 0 541<-400 264 932 1600> 540 540<267 931>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
- 541 1600 l 1
- 541 932 l 1
+0 1600 m 1xb0
+ 541 1600 l 1xb0
+ 541 932 l 1x50
  1080 932 l 1
- 1080 264 l 1
- 541 264 l 1
+ 1080 264 l 1x48
+ 541 264 l 1x50
  541 -400 l 1
  0 -400 l 1
- 0 267 l 1
+ 0 267 l 1x90
  540 267 l 1
- 540 931 l 1
+ 540 931 l 1xa8
  0 931 l 1
- 0 1600 l 1
+ 0 1600 l 1xb0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB18
-Encoding: 1814 129816 1811
+Encoding: 1808 129816 1811
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 539>
+VStem: 0 541<-400 264> 539 541<267 1600>
 LayerCount: 2
 Fore
 SplineSet
-1080 1600 m 1
- 1080 264 l 1
+1080 1600 m 1xa0
+ 1080 264 l 1xa0
  541 264 l 1
  541 -400 l 1
  0 -400 l 1
- 0 267 l 1
+ 0 267 l 1xc0
  539 267 l 1
  539 1600 l 1
- 1080 1600 l 1
+ 1080 1600 l 1xa0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB19
-Encoding: 1815 129817 1812
+Encoding: 1809 129817 1812
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -400 667<0 540> 931 669<0 540>
+VStem: 0 541<-400 264> 540 540<267 931>
 LayerCount: 2
 Fore
 SplineSet
-1080 1600 m 1
- 1080 264 l 1
+1080 1600 m 1xd0
+ 1080 264 l 1xd0
  541 264 l 1
  541 -400 l 1
  0 -400 l 1
- 0 267 l 1
+ 0 267 l 1xe0
  540 267 l 1
- 540 931 l 1
+ 540 931 l 1xd0
  0 931 l 1
- 0 1600 l 1
- 1080 1600 l 1
+ 0 1600 l 1xe0
+ 1080 1600 l 1xd0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB1A
-Encoding: 1816 129818 1813
+Encoding: 1810 129818 1813
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 264 668<541 1080>
+VStem: 0 541<-400 264 932 933>
 LayerCount: 2
 Fore
 SplineSet
@@ -44990,13 +45031,16 @@ SplineSet
  0 -400 l 1
  0 933 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB1B
-Encoding: 1817 129819 1814
+Encoding: 1811 129819 1814
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 264 668<541 1080>
+VStem: 0 541<-400 264 932 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45010,48 +45054,53 @@ SplineSet
  0 -400 l 5
  0 1600 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB1C
-Encoding: 1818 129820 1815
+Encoding: 1812 129820 1815
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 0 541<-400 264> 539 541<933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 5
+539 1600 m 5x40
  1080 1600 l 5
- 1080 264 l 5
+ 1080 264 l 5x40
  541 264 l 5
  541 -400 l 5
  0 -400 l 5
- 0 933 l 5
+ 0 933 l 5x80
  539 933 l 5
- 539 1600 l 5
+ 539 1600 l 5x40
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB1D
-Encoding: 1819 129821 1816
+Encoding: 1813 129821 1816
 Width: -21642
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 0 1080<264 1600> 0 541<-400 264>
 LayerCount: 2
 Fore
 SplineSet
-0 -400 m 1
+0 -400 m 1x40
  0 1600 l 1
  1080 1600 l 1
- 1080 264 l 1
+ 1080 264 l 1x80
  541 264 l 1
  541 -400 l 1
- 0 -400 l 1
+ 0 -400 l 1x40
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB1E
-Encoding: 1820 129822 1817
+Encoding: 1814 129822 1817
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45070,49 +45119,51 @@ Validated: 1
 EndChar
 
 StartChar: u1FB1F
-Encoding: 1821 129823 1818
+Encoding: 1815 129823 1818
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<540 1080> 931 669<0 541>
+VStem: 0 541<931 1600> 540 540<-402 266>
 LayerCount: 2
 Fore
 SplineSet
-540 266 m 1
+540 266 m 1xd0
  1080 266 l 1
  1080 -402 l 1
  540 -402 l 1
- 540 266 l 1
+ 540 266 l 1xd0
 EndSplineSet
 Refer: 1787 129792 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB20
-Encoding: 1822 129824 1819
+Encoding: 1816 129824 1819
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<540 1080> 931 669<539 1080>
+VStem: 539 541<931 1600> 540 540<-402 266>
 LayerCount: 2
 Fore
 SplineSet
-540 266 m 1
+540 266 m 1xd0
  1080 266 l 1
  1080 -402 l 1
  540 -402 l 1
- 540 266 l 1
+ 540 266 l 1xd0
 EndSplineSet
 Refer: 1788 129793 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB21
-Encoding: 1823 129825 1820
+Encoding: 1817 129825 1820
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
+Flags: W
+HStem: -402 668<540 1080> 931 669<0 1080>
 VStem: 540 540<-402 266>
 LayerCount: 2
 Fore
@@ -45124,109 +45175,113 @@ SplineSet
  540 266 l 1
 EndSplineSet
 Refer: 1789 129794 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: u1FB22
-Encoding: 1824 129826 1821
+Encoding: 1818 129826 1821
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<541 1080> 265 668<0 540>
+VStem: 0 541<266 933> 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 933 m 5
- 541 933 l 5
- 541 266 l 5
+0 933 m 5x60
+ 541 933 l 5x60
+ 541 266 l 5xa0
  1080 266 l 5
  1080 -402 l 5
- 540 -402 l 5
- 540 265 l 5
+ 540 -402 l 5x90
+ 540 265 l 5x50
  0 265 l 5
- 0 933 l 5
+ 0 933 l 5x60
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB23
-Encoding: 1825 129827 1822
+Encoding: 1819 129827 1822
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<541 1080>
+VStem: 0 541<266 1600> 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
+0 1600 m 1xc0
  541 1600 l 1
- 541 266 l 1
+ 541 266 l 1xc0
  1080 266 l 1
  1080 -402 l 1
  540 -402 l 1
- 540 265 l 1
+ 540 265 l 1xa0
  0 265 l 1
- 0 1600 l 1
+ 0 1600 l 1xc0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB24
-Encoding: 1826 129828 1823
+Encoding: 1820 129828 1823
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<541 1080> 265 668<0 539> 931 669<541 1080>
+VStem: 0 541<266 931> 540 540<-402 265 933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 1
+539 1600 m 1x30
  1080 1600 l 1
- 1080 931 l 1
+ 1080 931 l 1x28
  541 931 l 1
- 541 266 l 1
+ 541 266 l 1xb0
  1080 266 l 1
  1080 -402 l 1
- 540 -402 l 1
- 540 265 l 1
+ 540 -402 l 1xa8
+ 540 265 l 1x48
  0 265 l 1
  0 933 l 1
- 539 933 l 1
- 539 1600 l 1
+ 539 933 l 1x50
+ 539 1600 l 1x30
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB25
-Encoding: 1827 129829 1824
+Encoding: 1821 129829 1824
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<541 1080> 931 669<541 1080>
+VStem: 0 541<266 931> 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 265 m 5
- 0 1600 l 5
+0 265 m 5xe0
+ 0 1600 l 5xe0
  1080 1600 l 5
- 1080 931 l 5
+ 1080 931 l 5xd0
  541 931 l 5
- 541 266 l 5
+ 541 266 l 5xe0
  1080 266 l 5
  1080 -402 l 5
  540 -402 l 5
- 540 265 l 5
- 0 265 l 5
+ 540 265 l 5xd0
+ 0 265 l 5xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB26
-Encoding: 1828 129830 1825
+Encoding: 1822 129830 1825
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+VStem: 540 540<-402 932>
 LayerCount: 2
 Fore
 SplineSet
@@ -45236,37 +45291,39 @@ SplineSet
  540 -402 l 5
  540 932 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB27
-Encoding: 1829 129831 1826
+Encoding: 1823 129831 1826
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: 931 669<0 540>
+VStem: 0 541<932 1600> 540 540<-402 931>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 5
+0 1600 m 5xc0
  541 1600 l 5
- 541 932 l 5
+ 541 932 l 5xc0
  1080 932 l 5
  1080 -402 l 5
  540 -402 l 5
- 540 931 l 5
+ 540 931 l 5xa0
  0 931 l 5
- 0 1600 l 5
+ 0 1600 l 5xc0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB28
-Encoding: 1830 129832 1827
+Encoding: 1824 129832 1827
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: 931 669<0 540>
+VStem: 540 540<-402 931>
 LayerCount: 2
 Fore
 SplineSet
@@ -45278,65 +45335,67 @@ SplineSet
  1080 -402 l 5
  540 -402 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB29
-Encoding: 1831 129833 1828
+Encoding: 1825 129833 1828
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 1335<540 1080> 265 668<0 540>
+VStem: 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 933 m 1
+0 933 m 1x60
  541 933 l 1
  541 932 l 1
  1080 932 l 1
  1080 266 l 1
  1080 264 l 1
  1080 -402 l 1
- 540 -402 l 1
+ 540 -402 l 1xa0
  540 264 l 1
  540 265 l 1
  0 265 l 1
- 0 933 l 1
+ 0 933 l 1x60
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2A
-Encoding: 1832 129834 1829
+Encoding: 1826 129834 1829
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+VStem: 0 541<932 1600> 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
+0 1600 m 1x80
  541 1600 l 1
- 541 932 l 1
+ 541 932 l 1x80
  1080 932 l 1
  1080 266 l 1
  1080 264 l 1
  1080 -402 l 1
  540 -402 l 1
  540 264 l 1
- 540 265 l 1
+ 540 265 l 1x40
  0 265 l 1
- 0 1600 l 1
+ 0 1600 l 1x80
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2B
-Encoding: 1833 129835 1830
+Encoding: 1827 129835 1830
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: 265 668<0 539>
+VStem: 539 541<-402 265 933 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45353,37 +45412,37 @@ SplineSet
  539 933 l 1
  539 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2C
-Encoding: 1834 129836 1831
+Encoding: 1828 129836 1831
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+VStem: 0 1080<265 1600> 540 540<-402 265>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
+0 1600 m 1x80
  1080 1600 l 1
  1080 266 l 1
- 1080 265 l 1
+ 1080 265 l 1x80
  1080 -402 l 1
  540 -402 l 1
- 540 265 l 1
+ 540 265 l 1x40
  0 265 l 1
- 0 1600 l 1
+ 0 1600 l 1x80
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2D
-Encoding: 1835 129837 1832
+Encoding: 1829 129837 1832
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 1080>
 LayerCount: 2
 Fore
 SplineSet
@@ -45393,15 +45452,16 @@ SplineSet
  0 -400 l 1
  0 267 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2E
-Encoding: 1836 129838 1833
+Encoding: 1830 129838 1833
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 1080> 931 669<0 541>
+VStem: 0 541<931 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45416,15 +45476,16 @@ SplineSet
  0 931 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB2F
-Encoding: 1837 129839 1834
+Encoding: 1831 129839 1834
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 1080> 931 669<539 1080>
+VStem: 539 541<931 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45441,15 +45502,16 @@ SplineSet
  539 931 l 1
  539 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB30
-Encoding: 1838 129840 1835
+Encoding: 1832 129840 1835
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 1080> 931 669<0 1080>
+VStem: 0 1080<-400 266 931 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45466,15 +45528,16 @@ SplineSet
  1080 1600 l 1
  1080 931 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB31
-Encoding: 1839 129841 1836
+Encoding: 1833 129841 1836
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 666<541 1080>
+VStem: 0 541<266 933>
 LayerCount: 2
 Fore
 SplineSet
@@ -45486,15 +45549,16 @@ SplineSet
  0 -400 l 1
  0 933 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB32
-Encoding: 1840 129842 1837
+Encoding: 1834 129842 1837
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -402 668<541 1080>
+VStem: 0 541<266 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45508,61 +45572,64 @@ SplineSet
  0 -400 l 1
  0 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB33
-Encoding: 1841 129843 1838
+Encoding: 1835 129843 1838
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 666<541 1080> 931 669<541 1080>
+VStem: 0 541<266 931> 539 541<933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 1
+539 1600 m 1xd0
  1080 1600 l 1
- 1080 931 l 1
+ 1080 931 l 1xd0
  541 931 l 1
- 541 266 l 1
+ 541 266 l 1xe0
  1080 266 l 1
- 1080 -400 l 1
+ 1080 -400 l 1xd0
  0 -400 l 1
- 0 933 l 1
+ 0 933 l 1xe0
  539 933 l 1
- 539 1600 l 1
+ 539 1600 l 1xd0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB34
-Encoding: 1842 129844 1839
+Encoding: 1836 129844 1839
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 666<541 1080> 931 669<541 1080>
+VStem: 0 1080<-400 266 931 1600> 0 541<266 931>
 LayerCount: 2
 Fore
 SplineSet
-0 -400 m 1
+0 -400 m 1xe0
  0 1600 l 1
  1080 1600 l 1
- 1080 931 l 1
+ 1080 931 l 1xe0
  541 931 l 1
- 541 266 l 1
+ 541 266 l 1xd0
  1080 266 l 1
  1080 -400 l 1
- 0 -400 l 1
+ 0 -400 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB35
-Encoding: 1843 129845 1840
+Encoding: 1837 129845 1840
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 540>
+VStem: 540 540<267 932>
 LayerCount: 2
 Fore
 SplineSet
@@ -45574,39 +45641,41 @@ SplineSet
  540 267 l 1
  540 932 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB36
-Encoding: 1844 129846 1841
+Encoding: 1838 129846 1841
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 540> 931 669<0 540>
+VStem: 0 541<932 1600> 540 540<267 931>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
+0 1600 m 1xe0
  541 1600 l 1
- 541 932 l 1
+ 541 932 l 1xe0
  1080 932 l 1
- 1080 -400 l 1
+ 1080 -400 l 1xd0
  0 -400 l 1
- 0 267 l 1
+ 0 267 l 1xe0
  540 267 l 1
- 540 931 l 1
+ 540 931 l 1xd0
  0 931 l 1
- 0 1600 l 1
+ 0 1600 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB37
-Encoding: 1845 129847 1842
+Encoding: 1839 129847 1842
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 539>
+VStem: 539 541<267 1600>
 LayerCount: 2
 Fore
 SplineSet
@@ -45618,37 +45687,39 @@ SplineSet
  539 267 l 5
  539 1600 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB38
-Encoding: 1846 129848 1843
+Encoding: 1840 129848 1843
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 667<0 540> 931 669<0 540>
+VStem: 0 1080<-400 267 931 1600> 540 540<267 931>
 LayerCount: 2
 Fore
 SplineSet
-1080 1600 m 5
+1080 1600 m 5xe0
  1080 -400 l 5
  0 -400 l 5
- 0 267 l 5
+ 0 267 l 5xe0
  540 267 l 5
- 540 931 l 5
+ 540 931 l 5xd0
  0 931 l 5
  0 1600 l 5
- 1080 1600 l 5
+ 1080 1600 l 5xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB39
-Encoding: 1847 129849 1844
+Encoding: 1841 129849 1844
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+HStem: -400 1332<0 1080>
+VStem: 0 1080<-400 932>
 LayerCount: 2
 Fore
 SplineSet
@@ -45658,50 +45729,51 @@ SplineSet
  0 -400 l 1
  0 932 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB3A
-Encoding: 1848 129850 1845
+Encoding: 1842 129850 1845
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+VStem: 0 1080<-400 932> 0 541<932 1600>
 LayerCount: 2
 Fore
 SplineSet
-0 1600 m 1
+0 1600 m 1x40
  541 1600 l 1
- 541 932 l 1
+ 541 932 l 1x40
  1080 932 l 1
  1080 -400 l 1
- 0 -400 l 1
- 0 1600 l 1
+ 0 -400 l 1x80
+ 0 1600 l 1x40
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB3B
-Encoding: 1849 129851 1846
+Encoding: 1843 129851 1846
 Width: -21642
 VWidth: 0
-Flags: HW
-HStem: -402 668<540 1080>
-VStem: 540 540<-402 266>
+Flags: W
+VStem: 0 1080<-400 933> 539 541<933 1600>
 LayerCount: 2
 Fore
 SplineSet
-539 1600 m 5
- 1080 1600 l 5
+539 1600 m 5x40
+ 1080 1600 l 5x40
  1080 -400 l 5
  0 -400 l 5
- 0 933 l 5
+ 0 933 l 5x80
  539 933 l 5
- 539 1600 l 5
+ 539 1600 l 5x40
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u1FB3C
-Encoding: 1850 129852 1847
+Encoding: 1844 129852 1847
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45718,7 +45790,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB3D
-Encoding: 1851 129853 1848
+Encoding: 1845 129853 1848
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45734,7 +45806,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB3E
-Encoding: 1852 129854 1849
+Encoding: 1846 129854 1849
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45751,7 +45823,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB3F
-Encoding: 1853 129855 1850
+Encoding: 1847 129855 1850
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45767,7 +45839,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB40
-Encoding: 1854 129856 1851
+Encoding: 1848 129856 1851
 Width: -21642
 VWidth: 0
 Flags: W
@@ -45784,7 +45856,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB41
-Encoding: 1855 129857 1852
+Encoding: 1849 129857 1852
 Width: 2000
 VWidth: 0
 VStem: 0 1082<-400 933>
@@ -45802,7 +45874,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB42
-Encoding: 1856 129858 1853
+Encoding: 1850 129858 1853
 Width: 2000
 VWidth: 0
 VStem: 0 1082<-397 928>
@@ -45819,7 +45891,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB43
-Encoding: 1857 129859 1854
+Encoding: 1851 129859 1854
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45837,7 +45909,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB44
-Encoding: 1858 129860 1855
+Encoding: 1852 129860 1855
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45854,7 +45926,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB45
-Encoding: 1859 129861 1856
+Encoding: 1853 129861 1856
 Width: 2000
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -45872,7 +45944,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB46
-Encoding: 1860 129862 1857
+Encoding: 1854 129862 1857
 Width: 2000
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -45890,7 +45962,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB47
-Encoding: 1861 129863 1858
+Encoding: 1855 129863 1858
 Width: 2000
 VWidth: 0
 UnlinkRmOvrlpSave: 1
@@ -45907,7 +45979,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB48
-Encoding: 1862 129864 1859
+Encoding: 1856 129864 1859
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45923,7 +45995,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB49
-Encoding: 1863 129865 1860
+Encoding: 1857 129865 1860
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45940,7 +46012,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4A
-Encoding: 1864 129866 1861
+Encoding: 1858 129866 1861
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45956,7 +46028,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4B
-Encoding: 1865 129867 1862
+Encoding: 1859 129867 1862
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45973,7 +46045,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4C
-Encoding: 1866 129868 1863
+Encoding: 1860 129868 1863
 Width: 2000
 VWidth: 0
 Flags: W
@@ -45992,7 +46064,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4D
-Encoding: 1867 129869 1864
+Encoding: 1861 129869 1864
 Width: 2000
 VWidth: 0
 Flags: W
@@ -46010,7 +46082,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4E
-Encoding: 1868 129870 1865
+Encoding: 1862 129870 1865
 Width: 2000
 VWidth: 0
 Flags: W
@@ -46028,7 +46100,7 @@ Validated: 1
 EndChar
 
 StartChar: u1FB4F
-Encoding: 1869 129871 1866
+Encoding: 1863 129871 1866
 Width: 2000
 VWidth: 0
 Flags: W
@@ -46043,8 +46115,279 @@ SplineSet
 EndSplineSet
 Validated: 1
 EndChar
+
+StartChar: u1FB50
+Encoding: 1864 129872 1867
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1595 m 29
+ 535 1598 l 25
+ 1070 -400 l 25
+ 0 -400 l 25
+ 0 1595 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB51
+Encoding: 1865 129873 1868
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 -400 m 25
+ 0 940 l 1
+ 1080 266 l 25
+ 1080 -400 l 25
+ 0 -400 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB52
+Encoding: 1866 129874 1869
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1595 m 29
+ 1080 1598 l 29
+ 1080 -400 l 29
+ 540 -400 l 29
+ 0 270 l 29
+ 0 1595 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB53
+Encoding: 1867 129875 1870
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1605 m 29
+ 1080 1598 l 29
+ 1080 -400 l 29
+ 0 265 l 29
+ 0 1605 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB54
+Encoding: 1868 129876 1871
+Width: 2000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 1595 m 25
+ 1080 1598 l 25
+ 1080 -400 l 25
+ 540 -400 l 25
+ 0 940 l 29
+ 0 1595 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB55
+Encoding: 1869 129877 1872
+Width: 2000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 1605 m 25
+ 1080 1598 l 25
+ 1080 -400 l 25
+ 0 935 l 25
+ 0 1605 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB56
+Encoding: 1870 129878 1873
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+1080 -400 m 29
+ 540 -400 l 25
+ 0 1595 l 25
+ 1085 1598 l 25
+ 1080 -400 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB57
+Encoding: 1871 129879 1874
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 25
+ 540 1600 l 25
+ 0 940 l 25
+ 0 1600 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB58
+Encoding: 1872 129880 1875
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 0 930 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB59
+Encoding: 1873 129881 1876
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1595 m 25
+ 540 1595 l 25
+ 0 265 l 25
+ 0 1595 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5A
+Encoding: 1874 129882 1877
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 0 265 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5B
+Encoding: 1875 129883 1878
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 25
+ 540 1600 l 25
+ 0 -405 l 25
+ 0 1600 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5C
+Encoding: 1876 129884 1879
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 932 l 25
+ 0 265 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5D
+Encoding: 1877 129885 1880
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1605 m 29
+ 1080 1605 l 25
+ 1080 266 l 25
+ 545 -400 l 25
+ 0 -400 l 25
+ 0 1605 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5E
+Encoding: 1878 129886 1881
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 266 l 25
+ 0 -400 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB5F
+Encoding: 1879 129887 1882
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1605 m 29
+ 1080 1605 l 25
+ 1080 932 l 25
+ 535 -400 l 25
+ 0 -400 l 25
+ 0 1605 l 29
+EndSplineSet
+Validated: 1
+EndChar
 EndChars
-BitmapFont: 14 1868 11 3 1
+BitmapFont: 14 1884 11 3 1
 BDFChar: 1 1579 8 0 0 0 0 0
 z
 BDFChar: 2 832 8 1 6 0 9 0
@@ -49585,159 +49928,159 @@ BDFChar: 1785 826 8 0 0 0 0 0
 z
 BDFChar: 1786 1783 8 0 7 4 4 0
 rr<$!
-BDFChar: 1787 1790 -151 0 3 6 10 0
+BDFChar: 1787 1784 -151 0 3 6 10 0
 nF5r:n,NFg
-BDFChar: 1788 1791 -151 4 7 6 10 0
+BDFChar: 1788 1785 -151 4 7 6 10 0
 nF5r:n,NFg
-BDFChar: 1790 1793 -151 0 3 6 10 0
+BDFChar: 1790 1787 -151 0 3 6 10 0
 nF5r:n,NFg
-BDFChar: 1791 1794 -151 0 3 6 10 0
+BDFChar: 1791 1788 -151 0 3 6 10 0
 nF5r:n,NFg
-BDFChar: 1792 1795 -151 0 3 6 10 0
+BDFChar: 1792 1789 -151 0 3 6 10 0
 nF5r:n,NFg
-BDFChar: 1793 1796 -151 0 3 6 10 0
+BDFChar: 1793 1790 -151 0 3 6 10 0
 nF5r:n,NFg
-BDFChar: 1795 1798 -151 4 7 2 6 0
+BDFChar: 1795 1792 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1796 1799 -151 0 0 0 0 0
+BDFChar: 1796 1793 -151 0 0 0 0 0
 z
-BDFChar: 1797 1800 -151 4 7 2 6 0
+BDFChar: 1797 1794 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1798 1801 -151 4 7 2 6 0
+BDFChar: 1798 1795 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1799 1802 -151 4 7 2 6 0
+BDFChar: 1799 1796 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1800 1803 -151 4 7 2 6 0
+BDFChar: 1800 1797 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1801 1804 -151 4 7 2 6 0
+BDFChar: 1801 1798 -151 4 7 2 6 0
 nF5r:n,NFg
-BDFChar: 1803 1806 -151 0 0 0 0 0
+BDFChar: 1803 1800 -151 0 0 0 0 0
 z
-BDFChar: 1804 1807 -151 0 0 0 0 0
+BDFChar: 1804 1801 -151 0 0 0 0 0
 z
-BDFChar: 1805 1808 -151 0 0 0 0 0
+BDFChar: 1805 1802 -151 0 0 0 0 0
 z
-BDFChar: 1806 1809 -151 0 0 0 0 0
+BDFChar: 1806 1803 -151 0 0 0 0 0
 z
-BDFChar: 1807 1810 -151 0 0 0 0 0
+BDFChar: 1807 1804 -151 0 0 0 0 0
 z
-BDFChar: 1808 1811 -151 0 0 0 0 0
+BDFChar: 1808 1805 -151 0 0 0 0 0
 z
-BDFChar: 1809 1812 -151 0 0 0 0 0
+BDFChar: 1809 1806 -151 0 0 0 0 0
 z
-BDFChar: 1810 1813 -151 0 0 0 0 0
+BDFChar: 1810 1807 -151 0 0 0 0 0
 z
-BDFChar: 1811 1814 -151 0 0 0 0 0
+BDFChar: 1811 1808 -151 0 0 0 0 0
 z
-BDFChar: 1812 1815 -151 0 0 0 0 0
+BDFChar: 1812 1809 -151 0 0 0 0 0
 z
-BDFChar: 1813 1816 -151 0 0 0 0 0
+BDFChar: 1813 1810 -151 0 0 0 0 0
 z
-BDFChar: 1814 1817 -151 0 0 0 0 0
+BDFChar: 1814 1811 -151 0 0 0 0 0
 z
-BDFChar: 1815 1818 -151 0 0 0 0 0
+BDFChar: 1815 1812 -151 0 0 0 0 0
 z
-BDFChar: 1816 1819 -151 0 0 0 0 0
+BDFChar: 1816 1813 -151 0 0 0 0 0
 z
-BDFChar: 1817 1820 -151 0 7 -3 10 0
+BDFChar: 1817 1814 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1818 1821 -151 0 7 -3 10 0
+BDFChar: 1818 1815 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1819 1822 -151 0 7 -3 10 0
+BDFChar: 1819 1816 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1820 1823 -151 0 7 -3 10 0
+BDFChar: 1820 1817 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1821 1824 -151 0 7 -3 10 0
+BDFChar: 1821 1818 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1822 1825 -151 0 7 -3 10 0
+BDFChar: 1822 1819 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1823 1826 -151 0 7 -3 10 0
+BDFChar: 1823 1820 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1824 1827 -151 0 7 -3 10 0
+BDFChar: 1824 1821 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1825 1828 -151 0 7 -3 10 0
+BDFChar: 1825 1822 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1826 1829 -151 0 7 -3 10 0
+BDFChar: 1826 1823 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1827 1830 -151 0 7 -3 10 0
+BDFChar: 1827 1824 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1828 1831 -151 0 7 -3 10 0
+BDFChar: 1828 1825 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1829 1832 -151 0 7 -3 10 0
+BDFChar: 1829 1826 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1830 1833 -151 0 7 -3 10 0
+BDFChar: 1830 1827 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1831 1834 -151 0 7 -3 10 0
+BDFChar: 1831 1828 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1832 1835 -151 0 7 -3 10 0
+BDFChar: 1832 1829 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1833 1836 -151 0 7 -3 10 0
+BDFChar: 1833 1830 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1834 1837 -151 0 7 -3 10 0
+BDFChar: 1834 1831 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1835 1838 -151 0 7 -3 10 0
+BDFChar: 1835 1832 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1836 1839 -151 0 7 -3 10 0
+BDFChar: 1836 1833 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1837 1840 -151 0 0 0 0 0
+BDFChar: 1837 1834 -151 0 0 0 0 0
 z
-BDFChar: 1838 1841 -151 0 7 -3 10 0
+BDFChar: 1838 1835 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1839 1842 -151 0 7 -3 10 0
+BDFChar: 1839 1836 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1840 1843 -151 0 7 -3 10 0
+BDFChar: 1840 1837 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1841 1844 -151 0 7 -3 10 0
+BDFChar: 1841 1838 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1842 1845 -151 0 7 -3 10 0
+BDFChar: 1842 1839 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1843 1846 -151 0 7 -3 10 0
+BDFChar: 1843 1840 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1844 1847 -151 0 7 -3 10 0
+BDFChar: 1844 1841 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1845 1848 -151 0 7 -3 10 0
+BDFChar: 1845 1842 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1846 1849 -151 0 7 -3 10 0
+BDFChar: 1846 1843 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1847 1850 -151 0 7 -3 10 0
+BDFChar: 1847 1844 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1848 1851 -151 0 7 -3 10 0
+BDFChar: 1848 1845 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1849 1852 -151 0 7 -3 10 0
+BDFChar: 1849 1846 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1850 1853 -151 0 7 -3 10 0
+BDFChar: 1850 1847 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1851 1854 -151 0 7 -3 10 0
+BDFChar: 1851 1848 -151 0 7 -3 10 0
 s8W-!s8W-!s8W-!s8N'!
-BDFChar: 1852 1855 -151 0 0 0 0 0
+BDFChar: 1852 1849 -151 0 0 0 0 0
 z
-BDFChar: 1853 1856 -151 0 0 0 0 0
+BDFChar: 1853 1850 -151 0 0 0 0 0
 z
-BDFChar: 1854 1857 -151 0 0 0 0 0
+BDFChar: 1854 1851 -151 0 0 0 0 0
 z
-BDFChar: 1855 1858 -151 0 0 0 0 0
+BDFChar: 1855 1852 -151 0 0 0 0 0
 z
-BDFChar: 1856 1859 -151 0 0 0 0 0
+BDFChar: 1856 1853 -151 0 0 0 0 0
 z
-BDFChar: 1857 1860 -151 0 0 0 0 0
+BDFChar: 1857 1854 -151 0 0 0 0 0
 z
-BDFChar: 1858 1861 -151 0 0 0 0 0
+BDFChar: 1858 1855 -151 0 0 0 0 0
 z
-BDFChar: 1859 1862 -151 0 0 0 0 0
+BDFChar: 1859 1856 -151 0 0 0 0 0
 z
-BDFChar: 1860 1863 -151 0 0 0 0 0
+BDFChar: 1860 1857 -151 0 0 0 0 0
 z
-BDFChar: 1861 1864 -151 0 0 0 0 0
+BDFChar: 1861 1858 -151 0 0 0 0 0
 z
-BDFChar: 1862 1865 -151 0 0 0 0 0
+BDFChar: 1862 1859 -151 0 0 0 0 0
 z
-BDFChar: 1863 1866 -151 0 0 0 0 0
+BDFChar: 1863 1860 -151 0 0 0 0 0
 z
-BDFChar: 1864 1867 -151 0 0 0 0 0
+BDFChar: 1864 1861 -151 0 0 0 0 0
 z
-BDFChar: 1865 1868 -151 0 0 0 0 0
+BDFChar: 1865 1862 -151 0 0 0 0 0
 z
-BDFChar: 1866 1869 -151 0 0 0 0 0
+BDFChar: 1866 1863 -151 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
@@ -49762,7 +50105,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 17 1868 14 3 1
+BitmapFont: 17 1884 14 3 1
 BDFChar: 1 1579 9 0 0 0 0 0
 z
 BDFChar: 2 832 9 1 7 1 11 0
@@ -53303,159 +53646,159 @@ BDFChar: 1785 826 9 0 0 0 0 0
 z
 BDFChar: 1786 1783 9 0 8 5 5 0
 s*t(L
-BDFChar: 1787 1790 -184 0 4 8 13 0
+BDFChar: 1787 1784 -184 0 4 8 13 0
 q"XXZq"Ogh
-BDFChar: 1788 1791 -184 5 8 8 13 0
+BDFChar: 1788 1785 -184 5 8 8 13 0
 nF5r:nF-DX
-BDFChar: 1790 1793 -184 0 4 8 13 0
+BDFChar: 1790 1787 -184 0 4 8 13 0
 q"XXZq"Ogh
-BDFChar: 1791 1794 -184 0 4 8 13 0
+BDFChar: 1791 1788 -184 0 4 8 13 0
 q"XXZq"Ogh
-BDFChar: 1792 1795 -184 0 4 8 13 0
+BDFChar: 1792 1789 -184 0 4 8 13 0
 q"XXZq"Ogh
-BDFChar: 1793 1796 -184 0 4 8 13 0
+BDFChar: 1793 1790 -184 0 4 8 13 0
 q"XXZq"Ogh
-BDFChar: 1795 1798 -184 5 8 2 7 0
+BDFChar: 1795 1792 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1796 1799 -184 0 0 0 0 0
+BDFChar: 1796 1793 -184 0 0 0 0 0
 z
-BDFChar: 1797 1800 -184 5 8 2 7 0
+BDFChar: 1797 1794 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1798 1801 -184 5 8 2 7 0
+BDFChar: 1798 1795 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1799 1802 -184 5 8 2 7 0
+BDFChar: 1799 1796 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1800 1803 -184 5 8 2 7 0
+BDFChar: 1800 1797 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1801 1804 -184 5 8 2 7 0
+BDFChar: 1801 1798 -184 5 8 2 7 0
 nF5r:nF-DX
-BDFChar: 1803 1806 -184 0 0 0 0 0
+BDFChar: 1803 1800 -184 0 0 0 0 0
 z
-BDFChar: 1804 1807 -184 0 0 0 0 0
+BDFChar: 1804 1801 -184 0 0 0 0 0
 z
-BDFChar: 1805 1808 -184 0 0 0 0 0
+BDFChar: 1805 1802 -184 0 0 0 0 0
 z
-BDFChar: 1806 1809 -184 0 0 0 0 0
+BDFChar: 1806 1803 -184 0 0 0 0 0
 z
-BDFChar: 1807 1810 -184 0 0 0 0 0
+BDFChar: 1807 1804 -184 0 0 0 0 0
 z
-BDFChar: 1808 1811 -184 0 0 0 0 0
+BDFChar: 1808 1805 -184 0 0 0 0 0
 z
-BDFChar: 1809 1812 -184 0 0 0 0 0
+BDFChar: 1809 1806 -184 0 0 0 0 0
 z
-BDFChar: 1810 1813 -184 0 0 0 0 0
+BDFChar: 1810 1807 -184 0 0 0 0 0
 z
-BDFChar: 1811 1814 -184 0 0 0 0 0
+BDFChar: 1811 1808 -184 0 0 0 0 0
 z
-BDFChar: 1812 1815 -184 0 0 0 0 0
+BDFChar: 1812 1809 -184 0 0 0 0 0
 z
-BDFChar: 1813 1816 -184 0 0 0 0 0
+BDFChar: 1813 1810 -184 0 0 0 0 0
 z
-BDFChar: 1814 1817 -184 0 0 0 0 0
+BDFChar: 1814 1811 -184 0 0 0 0 0
 z
-BDFChar: 1815 1818 -184 0 0 0 0 0
+BDFChar: 1815 1812 -184 0 0 0 0 0
 z
-BDFChar: 1816 1819 -184 0 0 0 0 0
+BDFChar: 1816 1813 -184 0 0 0 0 0
 z
-BDFChar: 1817 1820 -184 0 8 -4 13 0
+BDFChar: 1817 1814 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1818 1821 -184 0 8 -4 13 0
+BDFChar: 1818 1815 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1819 1822 -184 0 8 -4 13 0
+BDFChar: 1819 1816 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1820 1823 -184 0 8 -4 13 0
+BDFChar: 1820 1817 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1821 1824 -184 0 8 -4 13 0
+BDFChar: 1821 1818 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1822 1825 -184 0 8 -4 13 0
+BDFChar: 1822 1819 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1823 1826 -184 0 8 -4 13 0
+BDFChar: 1823 1820 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1824 1827 -184 0 8 -4 13 0
+BDFChar: 1824 1821 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1825 1828 -184 0 8 -4 13 0
+BDFChar: 1825 1822 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1826 1829 -184 0 8 -4 13 0
+BDFChar: 1826 1823 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1827 1830 -184 0 8 -4 13 0
+BDFChar: 1827 1824 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1828 1831 -184 0 8 -4 13 0
+BDFChar: 1828 1825 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1829 1832 -184 0 8 -4 13 0
+BDFChar: 1829 1826 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1830 1833 -184 0 8 -4 13 0
+BDFChar: 1830 1827 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1831 1834 -184 0 8 -4 13 0
+BDFChar: 1831 1828 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1832 1835 -184 0 8 -4 13 0
+BDFChar: 1832 1829 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1833 1836 -184 0 8 -4 13 0
+BDFChar: 1833 1830 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1834 1837 -184 0 8 -4 13 0
+BDFChar: 1834 1831 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1835 1838 -184 0 8 -4 13 0
+BDFChar: 1835 1832 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1836 1839 -184 0 8 -4 13 0
+BDFChar: 1836 1833 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1837 1840 -184 0 0 0 0 0
+BDFChar: 1837 1834 -184 0 0 0 0 0
 z
-BDFChar: 1838 1841 -184 0 8 -4 13 0
+BDFChar: 1838 1835 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1839 1842 -184 0 8 -4 13 0
+BDFChar: 1839 1836 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1840 1843 -184 0 8 -4 13 0
+BDFChar: 1840 1837 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1841 1844 -184 0 8 -4 13 0
+BDFChar: 1841 1838 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1842 1845 -184 0 8 -4 13 0
+BDFChar: 1842 1839 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1843 1846 -184 0 8 -4 13 0
+BDFChar: 1843 1840 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1844 1847 -184 0 8 -4 13 0
+BDFChar: 1844 1841 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1845 1848 -184 0 8 -4 13 0
+BDFChar: 1845 1842 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1846 1849 -184 0 8 -4 13 0
+BDFChar: 1846 1843 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1847 1850 -184 0 8 -4 13 0
+BDFChar: 1847 1844 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1848 1851 -184 0 8 -4 13 0
+BDFChar: 1848 1845 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1849 1852 -184 0 8 -4 13 0
+BDFChar: 1849 1846 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1850 1853 -184 0 8 -4 13 0
+BDFChar: 1850 1847 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1851 1854 -184 0 8 -4 13 0
+BDFChar: 1851 1848 -184 0 8 -4 13 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"s+(-"
-BDFChar: 1852 1855 -184 0 0 0 0 0
+BDFChar: 1852 1849 -184 0 0 0 0 0
 z
-BDFChar: 1853 1856 -184 0 0 0 0 0
+BDFChar: 1853 1850 -184 0 0 0 0 0
 z
-BDFChar: 1854 1857 -184 0 0 0 0 0
+BDFChar: 1854 1851 -184 0 0 0 0 0
 z
-BDFChar: 1855 1858 -184 0 0 0 0 0
+BDFChar: 1855 1852 -184 0 0 0 0 0
 z
-BDFChar: 1856 1859 -184 0 0 0 0 0
+BDFChar: 1856 1853 -184 0 0 0 0 0
 z
-BDFChar: 1857 1860 -184 0 0 0 0 0
+BDFChar: 1857 1854 -184 0 0 0 0 0
 z
-BDFChar: 1858 1861 -184 0 0 0 0 0
+BDFChar: 1858 1855 -184 0 0 0 0 0
 z
-BDFChar: 1859 1862 -184 0 0 0 0 0
+BDFChar: 1859 1856 -184 0 0 0 0 0
 z
-BDFChar: 1860 1863 -184 0 0 0 0 0
+BDFChar: 1860 1857 -184 0 0 0 0 0
 z
-BDFChar: 1861 1864 -184 0 0 0 0 0
+BDFChar: 1861 1858 -184 0 0 0 0 0
 z
-BDFChar: 1862 1865 -184 0 0 0 0 0
+BDFChar: 1862 1859 -184 0 0 0 0 0
 z
-BDFChar: 1863 1866 -184 0 0 0 0 0
+BDFChar: 1863 1860 -184 0 0 0 0 0
 z
-BDFChar: 1864 1867 -184 0 0 0 0 0
+BDFChar: 1864 1861 -184 0 0 0 0 0
 z
-BDFChar: 1865 1868 -184 0 0 0 0 0
+BDFChar: 1865 1862 -184 0 0 0 0 0
 z
-BDFChar: 1866 1869 -184 0 0 0 0 0
+BDFChar: 1866 1863 -184 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
@@ -53480,7 +53823,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 25 1868 20 5 1
+BitmapFont: 25 1884 20 5 1
 BDFChar: 1 1579 14 0 0 0 0 0
 z
 BDFChar: 2 832 14 1 11 1 16 0
@@ -57023,159 +57366,159 @@ BDFChar: 1785 826 14 0 0 0 0 0
 z
 BDFChar: 1786 1783 14 0 12 7 8 0
 s7lWh
-BDFChar: 1787 1790 -271 0 6 12 19 0
+BDFChar: 1787 1784 -271 0 6 12 19 0
 rr2orrr2or
-BDFChar: 1788 1791 -271 7 12 12 19 0
+BDFChar: 1788 1785 -271 7 12 12 19 0
 r;?Kjr;?Kj
-BDFChar: 1790 1793 -271 0 6 12 19 0
+BDFChar: 1790 1787 -271 0 6 12 19 0
 rr2orrr2or
-BDFChar: 1791 1794 -271 0 6 12 19 0
+BDFChar: 1791 1788 -271 0 6 12 19 0
 rr2orrr2or
-BDFChar: 1792 1795 -271 0 6 12 19 0
+BDFChar: 1792 1789 -271 0 6 12 19 0
 rr2orrr2or
-BDFChar: 1793 1796 -271 0 6 12 19 0
+BDFChar: 1793 1790 -271 0 6 12 19 0
 rr2orrr2or
-BDFChar: 1795 1798 -271 7 12 3 10 0
+BDFChar: 1795 1792 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1796 1799 -271 0 0 0 0 0
+BDFChar: 1796 1793 -271 0 0 0 0 0
 z
-BDFChar: 1797 1800 -271 7 12 3 10 0
+BDFChar: 1797 1794 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1798 1801 -271 7 12 3 10 0
+BDFChar: 1798 1795 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1799 1802 -271 7 12 3 10 0
+BDFChar: 1799 1796 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1800 1803 -271 7 12 3 10 0
+BDFChar: 1800 1797 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1801 1804 -271 7 12 3 10 0
+BDFChar: 1801 1798 -271 7 12 3 10 0
 r;?Kjr;?Kj
-BDFChar: 1803 1806 -271 0 0 0 0 0
+BDFChar: 1803 1800 -271 0 0 0 0 0
 z
-BDFChar: 1804 1807 -271 0 0 0 0 0
+BDFChar: 1804 1801 -271 0 0 0 0 0
 z
-BDFChar: 1805 1808 -271 0 0 0 0 0
+BDFChar: 1805 1802 -271 0 0 0 0 0
 z
-BDFChar: 1806 1809 -271 0 0 0 0 0
+BDFChar: 1806 1803 -271 0 0 0 0 0
 z
-BDFChar: 1807 1810 -271 0 0 0 0 0
+BDFChar: 1807 1804 -271 0 0 0 0 0
 z
-BDFChar: 1808 1811 -271 0 0 0 0 0
+BDFChar: 1808 1805 -271 0 0 0 0 0
 z
-BDFChar: 1809 1812 -271 0 0 0 0 0
+BDFChar: 1809 1806 -271 0 0 0 0 0
 z
-BDFChar: 1810 1813 -271 0 0 0 0 0
+BDFChar: 1810 1807 -271 0 0 0 0 0
 z
-BDFChar: 1811 1814 -271 0 0 0 0 0
+BDFChar: 1811 1808 -271 0 0 0 0 0
 z
-BDFChar: 1812 1815 -271 0 0 0 0 0
+BDFChar: 1812 1809 -271 0 0 0 0 0
 z
-BDFChar: 1813 1816 -271 0 0 0 0 0
+BDFChar: 1813 1810 -271 0 0 0 0 0
 z
-BDFChar: 1814 1817 -271 0 0 0 0 0
+BDFChar: 1814 1811 -271 0 0 0 0 0
 z
-BDFChar: 1815 1818 -271 0 0 0 0 0
+BDFChar: 1815 1812 -271 0 0 0 0 0
 z
-BDFChar: 1816 1819 -271 0 0 0 0 0
+BDFChar: 1816 1813 -271 0 0 0 0 0
 z
-BDFChar: 1817 1820 -271 0 12 -5 19 0
+BDFChar: 1817 1814 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1818 1821 -271 0 12 -5 19 0
+BDFChar: 1818 1815 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1819 1822 -271 0 12 -5 19 0
+BDFChar: 1819 1816 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1820 1823 -271 0 12 -5 19 0
+BDFChar: 1820 1817 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1821 1824 -271 0 12 -5 19 0
+BDFChar: 1821 1818 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1822 1825 -271 0 12 -5 19 0
+BDFChar: 1822 1819 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1823 1826 -271 0 12 -5 19 0
+BDFChar: 1823 1820 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1824 1827 -271 0 12 -5 19 0
+BDFChar: 1824 1821 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1825 1828 -271 0 12 -5 19 0
+BDFChar: 1825 1822 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1826 1829 -271 0 12 -5 19 0
+BDFChar: 1826 1823 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1827 1830 -271 0 12 -5 19 0
+BDFChar: 1827 1824 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1828 1831 -271 0 12 -5 19 0
+BDFChar: 1828 1825 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1829 1832 -271 0 12 -5 19 0
+BDFChar: 1829 1826 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1830 1833 -271 0 12 -5 19 0
+BDFChar: 1830 1827 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1831 1834 -271 0 12 -5 19 0
+BDFChar: 1831 1828 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1832 1835 -271 0 12 -5 19 0
+BDFChar: 1832 1829 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1833 1836 -271 0 12 -5 19 0
+BDFChar: 1833 1830 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1834 1837 -271 0 12 -5 19 0
+BDFChar: 1834 1831 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1835 1838 -271 0 12 -5 19 0
+BDFChar: 1835 1832 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1836 1839 -271 0 12 -5 19 0
+BDFChar: 1836 1833 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1837 1840 -271 0 0 0 0 0
+BDFChar: 1837 1834 -271 0 0 0 0 0
 z
-BDFChar: 1838 1841 -271 0 12 -5 19 0
+BDFChar: 1838 1835 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1839 1842 -271 0 12 -5 19 0
+BDFChar: 1839 1836 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1840 1843 -271 0 12 -5 19 0
+BDFChar: 1840 1837 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1841 1844 -271 0 12 -5 19 0
+BDFChar: 1841 1838 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1842 1845 -271 0 12 -5 19 0
+BDFChar: 1842 1839 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1843 1846 -271 0 12 -5 19 0
+BDFChar: 1843 1840 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1844 1847 -271 0 12 -5 19 0
+BDFChar: 1844 1841 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1845 1848 -271 0 12 -5 19 0
+BDFChar: 1845 1842 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1846 1849 -271 0 12 -5 19 0
+BDFChar: 1846 1843 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1847 1850 -271 0 12 -5 19 0
+BDFChar: 1847 1844 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1848 1851 -271 0 12 -5 19 0
+BDFChar: 1848 1845 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1849 1852 -271 0 12 -5 19 0
+BDFChar: 1849 1846 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1850 1853 -271 0 12 -5 19 0
+BDFChar: 1850 1847 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1851 1854 -271 0 12 -5 19 0
+BDFChar: 1851 1848 -271 0 12 -5 19 0
 s7lWhs7lWhs7lWhs7lWh!!*&os7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1852 1855 -271 0 0 0 0 0
+BDFChar: 1852 1849 -271 0 0 0 0 0
 z
-BDFChar: 1853 1856 -271 0 0 0 0 0
+BDFChar: 1853 1850 -271 0 0 0 0 0
 z
-BDFChar: 1854 1857 -271 0 0 0 0 0
+BDFChar: 1854 1851 -271 0 0 0 0 0
 z
-BDFChar: 1855 1858 -271 0 0 0 0 0
+BDFChar: 1855 1852 -271 0 0 0 0 0
 z
-BDFChar: 1856 1859 -271 0 0 0 0 0
+BDFChar: 1856 1853 -271 0 0 0 0 0
 z
-BDFChar: 1857 1860 -271 0 0 0 0 0
+BDFChar: 1857 1854 -271 0 0 0 0 0
 z
-BDFChar: 1858 1861 -271 0 0 0 0 0
+BDFChar: 1858 1855 -271 0 0 0 0 0
 z
-BDFChar: 1859 1862 -271 0 0 0 0 0
+BDFChar: 1859 1856 -271 0 0 0 0 0
 z
-BDFChar: 1860 1863 -271 0 0 0 0 0
+BDFChar: 1860 1857 -271 0 0 0 0 0
 z
-BDFChar: 1861 1864 -271 0 0 0 0 0
+BDFChar: 1861 1858 -271 0 0 0 0 0
 z
-BDFChar: 1862 1865 -271 0 0 0 0 0
+BDFChar: 1862 1859 -271 0 0 0 0 0
 z
-BDFChar: 1863 1866 -271 0 0 0 0 0
+BDFChar: 1863 1860 -271 0 0 0 0 0
 z
-BDFChar: 1864 1867 -271 0 0 0 0 0
+BDFChar: 1864 1861 -271 0 0 0 0 0
 z
-BDFChar: 1865 1868 -271 0 0 0 0 0
+BDFChar: 1865 1862 -271 0 0 0 0 0
 z
-BDFChar: 1866 1869 -271 0 0 0 0 0
+BDFChar: 1866 1863 -271 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
@@ -57200,7 +57543,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 28 1868 22 6 1
+BitmapFont: 28 1884 22 6 1
 BDFChar: 1 1579 15 0 0 0 0 0
 z
 BDFChar: 2 832 15 2 12 1 18 0
@@ -60743,159 +61086,159 @@ BDFChar: 1785 826 15 0 0 0 0 0
 z
 BDFChar: 1786 1783 15 0 14 8 9 0
 s8N&t
-BDFChar: 1787 1790 -303 0 7 13 21 0
+BDFChar: 1787 1784 -303 0 7 13 21 0
 s8W-!s8W-!rr<$!
-BDFChar: 1788 1791 -303 8 14 13 21 0
+BDFChar: 1788 1785 -303 8 14 13 21 0
 rr2orrr2orrVuou
-BDFChar: 1790 1793 -303 0 7 13 21 0
+BDFChar: 1790 1787 -303 0 7 13 21 0
 s8W-!s8W-!rr<$!
-BDFChar: 1791 1794 -303 0 7 13 21 0
+BDFChar: 1791 1788 -303 0 7 13 21 0
 s8W-!s8W-!rr<$!
-BDFChar: 1792 1795 -303 0 7 13 21 0
+BDFChar: 1792 1789 -303 0 7 13 21 0
 s8W-!s8W-!rr<$!
-BDFChar: 1793 1796 -303 0 7 13 21 0
+BDFChar: 1793 1790 -303 0 7 13 21 0
 s8W-!s8W-!rr<$!
-BDFChar: 1795 1798 -303 8 14 4 12 0
+BDFChar: 1795 1792 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1796 1799 -303 0 0 0 0 0
+BDFChar: 1796 1793 -303 0 0 0 0 0
 z
-BDFChar: 1797 1800 -303 8 14 4 12 0
+BDFChar: 1797 1794 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1798 1801 -303 8 14 4 12 0
+BDFChar: 1798 1795 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1799 1802 -303 8 14 4 12 0
+BDFChar: 1799 1796 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1800 1803 -303 8 14 4 12 0
+BDFChar: 1800 1797 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1801 1804 -303 8 14 4 12 0
+BDFChar: 1801 1798 -303 8 14 4 12 0
 rr2orrr2orrVuou
-BDFChar: 1803 1806 -303 0 0 0 0 0
+BDFChar: 1803 1800 -303 0 0 0 0 0
 z
-BDFChar: 1804 1807 -303 0 0 0 0 0
+BDFChar: 1804 1801 -303 0 0 0 0 0
 z
-BDFChar: 1805 1808 -303 0 0 0 0 0
+BDFChar: 1805 1802 -303 0 0 0 0 0
 z
-BDFChar: 1806 1809 -303 0 0 0 0 0
+BDFChar: 1806 1803 -303 0 0 0 0 0
 z
-BDFChar: 1807 1810 -303 0 0 0 0 0
+BDFChar: 1807 1804 -303 0 0 0 0 0
 z
-BDFChar: 1808 1811 -303 0 0 0 0 0
+BDFChar: 1808 1805 -303 0 0 0 0 0
 z
-BDFChar: 1809 1812 -303 0 0 0 0 0
+BDFChar: 1809 1806 -303 0 0 0 0 0
 z
-BDFChar: 1810 1813 -303 0 0 0 0 0
+BDFChar: 1810 1807 -303 0 0 0 0 0
 z
-BDFChar: 1811 1814 -303 0 0 0 0 0
+BDFChar: 1811 1808 -303 0 0 0 0 0
 z
-BDFChar: 1812 1815 -303 0 0 0 0 0
+BDFChar: 1812 1809 -303 0 0 0 0 0
 z
-BDFChar: 1813 1816 -303 0 0 0 0 0
+BDFChar: 1813 1810 -303 0 0 0 0 0
 z
-BDFChar: 1814 1817 -303 0 0 0 0 0
+BDFChar: 1814 1811 -303 0 0 0 0 0
 z
-BDFChar: 1815 1818 -303 0 0 0 0 0
+BDFChar: 1815 1812 -303 0 0 0 0 0
 z
-BDFChar: 1816 1819 -303 0 0 0 0 0
+BDFChar: 1816 1813 -303 0 0 0 0 0
 z
-BDFChar: 1817 1820 -303 0 14 -5 21 0
+BDFChar: 1817 1814 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1818 1821 -303 0 14 -5 21 0
+BDFChar: 1818 1815 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1819 1822 -303 0 14 -5 21 0
+BDFChar: 1819 1816 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1820 1823 -303 0 14 -5 21 0
+BDFChar: 1820 1817 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1821 1824 -303 0 14 -5 21 0
+BDFChar: 1821 1818 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1822 1825 -303 0 14 -5 21 0
+BDFChar: 1822 1819 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1823 1826 -303 0 14 -5 21 0
+BDFChar: 1823 1820 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1824 1827 -303 0 14 -5 21 0
+BDFChar: 1824 1821 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1825 1828 -303 0 14 -5 21 0
+BDFChar: 1825 1822 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1826 1829 -303 0 14 -5 21 0
+BDFChar: 1826 1823 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1827 1830 -303 0 14 -5 21 0
+BDFChar: 1827 1824 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1828 1831 -303 0 14 -5 21 0
+BDFChar: 1828 1825 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1829 1832 -303 0 14 -5 21 0
+BDFChar: 1829 1826 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1830 1833 -303 0 14 -5 21 0
+BDFChar: 1830 1827 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1831 1834 -303 0 14 -5 21 0
+BDFChar: 1831 1828 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1832 1835 -303 0 14 -5 21 0
+BDFChar: 1832 1829 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1833 1836 -303 0 14 -5 21 0
+BDFChar: 1833 1830 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1834 1837 -303 0 14 -5 21 0
+BDFChar: 1834 1831 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1835 1838 -303 0 14 -5 21 0
+BDFChar: 1835 1832 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1836 1839 -303 0 14 -5 21 0
+BDFChar: 1836 1833 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1837 1840 -303 0 0 0 0 0
+BDFChar: 1837 1834 -303 0 0 0 0 0
 z
-BDFChar: 1838 1841 -303 0 14 -5 21 0
+BDFChar: 1838 1835 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1839 1842 -303 0 14 -5 21 0
+BDFChar: 1839 1836 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1840 1843 -303 0 14 -5 21 0
+BDFChar: 1840 1837 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1841 1844 -303 0 14 -5 21 0
+BDFChar: 1841 1838 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1842 1845 -303 0 14 -5 21 0
+BDFChar: 1842 1839 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1843 1846 -303 0 14 -5 21 0
+BDFChar: 1843 1840 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1844 1847 -303 0 14 -5 21 0
+BDFChar: 1844 1841 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1845 1848 -303 0 14 -5 21 0
+BDFChar: 1845 1842 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1846 1849 -303 0 14 -5 21 0
+BDFChar: 1846 1843 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1847 1850 -303 0 14 -5 21 0
+BDFChar: 1847 1844 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1848 1851 -303 0 14 -5 21 0
+BDFChar: 1848 1845 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1849 1852 -303 0 14 -5 21 0
+BDFChar: 1849 1846 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1850 1853 -303 0 14 -5 21 0
+BDFChar: 1850 1847 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1851 1854 -303 0 14 -5 21 0
+BDFChar: 1851 1848 -303 0 14 -5 21 0
 s8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8N&ts8Duu
-BDFChar: 1852 1855 -303 0 0 0 0 0
+BDFChar: 1852 1849 -303 0 0 0 0 0
 z
-BDFChar: 1853 1856 -303 0 0 0 0 0
+BDFChar: 1853 1850 -303 0 0 0 0 0
 z
-BDFChar: 1854 1857 -303 0 0 0 0 0
+BDFChar: 1854 1851 -303 0 0 0 0 0
 z
-BDFChar: 1855 1858 -303 0 0 0 0 0
+BDFChar: 1855 1852 -303 0 0 0 0 0
 z
-BDFChar: 1856 1859 -303 0 0 0 0 0
+BDFChar: 1856 1853 -303 0 0 0 0 0
 z
-BDFChar: 1857 1860 -303 0 0 0 0 0
+BDFChar: 1857 1854 -303 0 0 0 0 0
 z
-BDFChar: 1858 1861 -303 0 0 0 0 0
+BDFChar: 1858 1855 -303 0 0 0 0 0
 z
-BDFChar: 1859 1862 -303 0 0 0 0 0
+BDFChar: 1859 1856 -303 0 0 0 0 0
 z
-BDFChar: 1860 1863 -303 0 0 0 0 0
+BDFChar: 1860 1857 -303 0 0 0 0 0
 z
-BDFChar: 1861 1864 -303 0 0 0 0 0
+BDFChar: 1861 1858 -303 0 0 0 0 0
 z
-BDFChar: 1862 1865 -303 0 0 0 0 0
+BDFChar: 1862 1859 -303 0 0 0 0 0
 z
-BDFChar: 1863 1866 -303 0 0 0 0 0
+BDFChar: 1863 1860 -303 0 0 0 0 0
 z
-BDFChar: 1864 1867 -303 0 0 0 0 0
+BDFChar: 1864 1861 -303 0 0 0 0 0
 z
-BDFChar: 1865 1868 -303 0 0 0 0 0
+BDFChar: 1865 1862 -303 0 0 0 0 0
 z
-BDFChar: 1866 1869 -303 0 0 0 0 0
+BDFChar: 1866 1863 -303 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
@@ -60920,7 +61263,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 33 1868 26 7 1
+BitmapFont: 33 1884 26 7 1
 BDFChar: 1 1579 18 0 0 0 0 0
 z
 BDFChar: 2 832 18 2 15 2 21 0
@@ -64563,193 +64906,193 @@ BDFChar: 1785 826 18 0 0 0 0 0
 z
 BDFChar: 1786 1783 18 0 17 10 11 0
 s8Tn7s1eU7
-BDFChar: 1787 1790 -357 0 8 15 25 0
+BDFChar: 1787 1784 -357 0 8 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1788 1791 -357 9 17 15 25 0
+BDFChar: 1788 1785 -357 9 17 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1790 1793 -357 0 8 15 25 0
+BDFChar: 1790 1787 -357 0 8 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1791 1794 -357 0 8 15 25 0
+BDFChar: 1791 1788 -357 0 8 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1792 1795 -357 0 8 15 25 0
+BDFChar: 1792 1789 -357 0 8 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1793 1796 -357 0 8 15 25 0
+BDFChar: 1793 1790 -357 0 8 15 25 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1795 1798 -357 9 17 4 14 0
+BDFChar: 1795 1792 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1796 1799 -357 0 0 0 0 0
+BDFChar: 1796 1793 -357 0 0 0 0 0
 z
-BDFChar: 1797 1800 -357 9 17 4 14 0
+BDFChar: 1797 1794 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1798 1801 -357 9 17 4 14 0
+BDFChar: 1798 1795 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1799 1802 -357 9 17 4 14 0
+BDFChar: 1799 1796 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1800 1803 -357 9 17 4 14 0
+BDFChar: 1800 1797 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1801 1804 -357 9 17 4 14 0
+BDFChar: 1801 1798 -357 9 17 4 14 0
 s+(-"s+(-"s+(-"s+(-"s+(-"s*t(L
-BDFChar: 1803 1806 -357 0 0 0 0 0
+BDFChar: 1803 1800 -357 0 0 0 0 0
 z
-BDFChar: 1804 1807 -357 0 0 0 0 0
+BDFChar: 1804 1801 -357 0 0 0 0 0
 z
-BDFChar: 1805 1808 -357 0 0 0 0 0
+BDFChar: 1805 1802 -357 0 0 0 0 0
 z
-BDFChar: 1806 1809 -357 0 0 0 0 0
+BDFChar: 1806 1803 -357 0 0 0 0 0
 z
-BDFChar: 1807 1810 -357 0 0 0 0 0
+BDFChar: 1807 1804 -357 0 0 0 0 0
 z
-BDFChar: 1808 1811 -357 0 0 0 0 0
+BDFChar: 1808 1805 -357 0 0 0 0 0
 z
-BDFChar: 1809 1812 -357 0 0 0 0 0
+BDFChar: 1809 1806 -357 0 0 0 0 0
 z
-BDFChar: 1810 1813 -357 0 0 0 0 0
+BDFChar: 1810 1807 -357 0 0 0 0 0
 z
-BDFChar: 1811 1814 -357 0 0 0 0 0
+BDFChar: 1811 1808 -357 0 0 0 0 0
 z
-BDFChar: 1812 1815 -357 0 0 0 0 0
+BDFChar: 1812 1809 -357 0 0 0 0 0
 z
-BDFChar: 1813 1816 -357 0 0 0 0 0
+BDFChar: 1813 1810 -357 0 0 0 0 0
 z
-BDFChar: 1814 1817 -357 0 0 0 0 0
+BDFChar: 1814 1811 -357 0 0 0 0 0
 z
-BDFChar: 1815 1818 -357 0 0 0 0 0
+BDFChar: 1815 1812 -357 0 0 0 0 0
 z
-BDFChar: 1816 1819 -357 0 0 0 0 0
+BDFChar: 1816 1813 -357 0 0 0 0 0
 z
-BDFChar: 1817 1820 -357 0 17 -7 25 0
+BDFChar: 1817 1814 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1818 1821 -357 0 17 -7 25 0
+BDFChar: 1818 1815 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1819 1822 -357 0 17 -7 25 0
+BDFChar: 1819 1816 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1820 1823 -357 0 17 -7 25 0
+BDFChar: 1820 1817 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1821 1824 -357 0 17 -7 25 0
+BDFChar: 1821 1818 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1822 1825 -357 0 17 -7 25 0
+BDFChar: 1822 1819 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1823 1826 -357 0 17 -7 25 0
+BDFChar: 1823 1820 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1824 1827 -357 0 17 -7 25 0
+BDFChar: 1824 1821 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1825 1828 -357 0 17 -7 25 0
+BDFChar: 1825 1822 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1826 1829 -357 0 17 -7 25 0
+BDFChar: 1826 1823 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1827 1830 -357 0 17 -7 25 0
+BDFChar: 1827 1824 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1828 1831 -357 0 17 -7 25 0
+BDFChar: 1828 1825 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1829 1832 -357 0 17 -7 25 0
+BDFChar: 1829 1826 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1830 1833 -357 0 17 -7 25 0
+BDFChar: 1830 1827 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1831 1834 -357 0 17 -7 25 0
+BDFChar: 1831 1828 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1832 1835 -357 0 17 -7 25 0
+BDFChar: 1832 1829 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1833 1836 -357 0 17 -7 25 0
+BDFChar: 1833 1830 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1834 1837 -357 0 17 -7 25 0
+BDFChar: 1834 1831 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1835 1838 -357 0 17 -7 25 0
+BDFChar: 1835 1832 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1836 1839 -357 0 17 -7 25 0
+BDFChar: 1836 1833 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1837 1840 -357 0 0 0 0 0
+BDFChar: 1837 1834 -357 0 0 0 0 0
 z
-BDFChar: 1838 1841 -357 0 17 -7 25 0
+BDFChar: 1838 1835 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1839 1842 -357 0 17 -7 25 0
+BDFChar: 1839 1836 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1840 1843 -357 0 17 -7 25 0
+BDFChar: 1840 1837 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1841 1844 -357 0 17 -7 25 0
+BDFChar: 1841 1838 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1842 1845 -357 0 17 -7 25 0
+BDFChar: 1842 1839 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1843 1846 -357 0 17 -7 25 0
+BDFChar: 1843 1840 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1844 1847 -357 0 17 -7 25 0
+BDFChar: 1844 1841 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1845 1848 -357 0 17 -7 25 0
+BDFChar: 1845 1842 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1846 1849 -357 0 17 -7 25 0
+BDFChar: 1846 1843 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1847 1850 -357 0 17 -7 25 0
+BDFChar: 1847 1844 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1848 1851 -357 0 17 -7 25 0
+BDFChar: 1848 1845 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1849 1852 -357 0 17 -7 25 0
+BDFChar: 1849 1846 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1850 1853 -357 0 17 -7 25 0
+BDFChar: 1850 1847 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1851 1854 -357 0 17 -7 25 0
+BDFChar: 1851 1848 -357 0 17 -7 25 0
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGM
 s8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tn7s1n[7_#OGMs8Tk7
-BDFChar: 1852 1855 -357 0 0 0 0 0
+BDFChar: 1852 1849 -357 0 0 0 0 0
 z
-BDFChar: 1853 1856 -357 0 0 0 0 0
+BDFChar: 1853 1850 -357 0 0 0 0 0
 z
-BDFChar: 1854 1857 -357 0 0 0 0 0
+BDFChar: 1854 1851 -357 0 0 0 0 0
 z
-BDFChar: 1855 1858 -357 0 0 0 0 0
+BDFChar: 1855 1852 -357 0 0 0 0 0
 z
-BDFChar: 1856 1859 -357 0 0 0 0 0
+BDFChar: 1856 1853 -357 0 0 0 0 0
 z
-BDFChar: 1857 1860 -357 0 0 0 0 0
+BDFChar: 1857 1854 -357 0 0 0 0 0
 z
-BDFChar: 1858 1861 -357 0 0 0 0 0
+BDFChar: 1858 1855 -357 0 0 0 0 0
 z
-BDFChar: 1859 1862 -357 0 0 0 0 0
+BDFChar: 1859 1856 -357 0 0 0 0 0
 z
-BDFChar: 1860 1863 -357 0 0 0 0 0
+BDFChar: 1860 1857 -357 0 0 0 0 0
 z
-BDFChar: 1861 1864 -357 0 0 0 0 0
+BDFChar: 1861 1858 -357 0 0 0 0 0
 z
-BDFChar: 1862 1865 -357 0 0 0 0 0
+BDFChar: 1862 1859 -357 0 0 0 0 0
 z
-BDFChar: 1863 1866 -357 0 0 0 0 0
+BDFChar: 1863 1860 -357 0 0 0 0 0
 z
-BDFChar: 1864 1867 -357 0 0 0 0 0
+BDFChar: 1864 1861 -357 0 0 0 0 0
 z
-BDFChar: 1865 1868 -357 0 0 0 0 0
+BDFChar: 1865 1862 -357 0 0 0 0 0
 z
-BDFChar: 1866 1869 -357 0 0 0 0 0
+BDFChar: 1866 1863 -357 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
@@ -64774,7 +65117,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 50 1868 40 10 1
+BitmapFont: 50 1884 40 10 1
 BDFChar: 1 1579 27 0 0 0 0 0
 z
 BDFChar: 2 832 27 3 23 2 32 0
@@ -69826,261 +70169,261 @@ BDFChar: 1785 826 27 0 0 0 0 0
 z
 BDFChar: 1786 1783 27 0 26 15 17 0
 s8W,Ws8W,Ws8W,W
-BDFChar: 1787 1790 -541 0 12 23 39 0
+BDFChar: 1787 1784 -541 0 12 23 39 0
 s7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1788 1791 -541 13 26 23 39 0
+BDFChar: 1788 1785 -541 13 26 23 39 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1790 1793 -541 0 12 23 39 0
+BDFChar: 1790 1787 -541 0 12 23 39 0
 s7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1791 1794 -541 0 12 23 39 0
+BDFChar: 1791 1788 -541 0 12 23 39 0
 s7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1792 1795 -541 0 12 23 39 0
+BDFChar: 1792 1789 -541 0 12 23 39 0
 s7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1793 1796 -541 0 12 23 39 0
+BDFChar: 1793 1790 -541 0 12 23 39 0
 s7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7lWhs7cQo
-BDFChar: 1795 1798 -541 13 26 6 22 0
+BDFChar: 1795 1792 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1796 1799 -541 0 0 0 0 0
+BDFChar: 1796 1793 -541 0 0 0 0 0
 z
-BDFChar: 1797 1800 -541 13 26 6 22 0
+BDFChar: 1797 1794 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1798 1801 -541 13 26 6 22 0
+BDFChar: 1798 1795 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1799 1802 -541 13 26 6 22 0
+BDFChar: 1799 1796 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1800 1803 -541 13 26 6 22 0
+BDFChar: 1800 1797 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1801 1804 -541 13 26 6 22 0
+BDFChar: 1801 1798 -541 13 26 6 22 0
 s8;ops8;ops8;ops8;ops8;ops8;ops8;ops8;ops82is
-BDFChar: 1803 1806 -541 0 0 0 0 0
+BDFChar: 1803 1800 -541 0 0 0 0 0
 z
-BDFChar: 1804 1807 -541 0 0 0 0 0
+BDFChar: 1804 1801 -541 0 0 0 0 0
 z
-BDFChar: 1805 1808 -541 0 0 0 0 0
+BDFChar: 1805 1802 -541 0 0 0 0 0
 z
-BDFChar: 1806 1809 -541 0 0 0 0 0
+BDFChar: 1806 1803 -541 0 0 0 0 0
 z
-BDFChar: 1807 1810 -541 0 0 0 0 0
+BDFChar: 1807 1804 -541 0 0 0 0 0
 z
-BDFChar: 1808 1811 -541 0 0 0 0 0
+BDFChar: 1808 1805 -541 0 0 0 0 0
 z
-BDFChar: 1809 1812 -541 0 0 0 0 0
+BDFChar: 1809 1806 -541 0 0 0 0 0
 z
-BDFChar: 1810 1813 -541 0 0 0 0 0
+BDFChar: 1810 1807 -541 0 0 0 0 0
 z
-BDFChar: 1811 1814 -541 0 0 0 0 0
+BDFChar: 1811 1808 -541 0 0 0 0 0
 z
-BDFChar: 1812 1815 -541 0 0 0 0 0
+BDFChar: 1812 1809 -541 0 0 0 0 0
 z
-BDFChar: 1813 1816 -541 0 0 0 0 0
+BDFChar: 1813 1810 -541 0 0 0 0 0
 z
-BDFChar: 1814 1817 -541 0 0 0 0 0
+BDFChar: 1814 1811 -541 0 0 0 0 0
 z
-BDFChar: 1815 1818 -541 0 0 0 0 0
+BDFChar: 1815 1812 -541 0 0 0 0 0
 z
-BDFChar: 1816 1819 -541 0 0 0 0 0
+BDFChar: 1816 1813 -541 0 0 0 0 0
 z
-BDFChar: 1817 1820 -541 0 26 -10 39 0
+BDFChar: 1817 1814 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1818 1821 -541 0 26 -10 39 0
+BDFChar: 1818 1815 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1819 1822 -541 0 26 -10 39 0
+BDFChar: 1819 1816 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1820 1823 -541 0 26 -10 39 0
+BDFChar: 1820 1817 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1821 1824 -541 0 26 -10 39 0
+BDFChar: 1821 1818 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1822 1825 -541 0 26 -10 39 0
+BDFChar: 1822 1819 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1823 1826 -541 0 26 -10 39 0
+BDFChar: 1823 1820 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1824 1827 -541 0 26 -10 39 0
+BDFChar: 1824 1821 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1825 1828 -541 0 26 -10 39 0
+BDFChar: 1825 1822 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1826 1829 -541 0 26 -10 39 0
+BDFChar: 1826 1823 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1827 1830 -541 0 26 -10 39 0
+BDFChar: 1827 1824 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1828 1831 -541 0 26 -10 39 0
+BDFChar: 1828 1825 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1829 1832 -541 0 26 -10 39 0
+BDFChar: 1829 1826 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1830 1833 -541 0 26 -10 39 0
+BDFChar: 1830 1827 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1831 1834 -541 0 26 -10 39 0
+BDFChar: 1831 1828 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1832 1835 -541 0 26 -10 39 0
+BDFChar: 1832 1829 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1833 1836 -541 0 26 -10 39 0
+BDFChar: 1833 1830 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1834 1837 -541 0 26 -10 39 0
+BDFChar: 1834 1831 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1835 1838 -541 0 26 -10 39 0
+BDFChar: 1835 1832 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1836 1839 -541 0 26 -10 39 0
+BDFChar: 1836 1833 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1837 1840 -541 0 0 0 0 0
+BDFChar: 1837 1834 -541 0 0 0 0 0
 z
-BDFChar: 1838 1841 -541 0 26 -10 39 0
+BDFChar: 1838 1835 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1839 1842 -541 0 26 -10 39 0
+BDFChar: 1839 1836 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1840 1843 -541 0 26 -10 39 0
+BDFChar: 1840 1837 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1841 1844 -541 0 26 -10 39 0
+BDFChar: 1841 1838 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1842 1845 -541 0 26 -10 39 0
+BDFChar: 1842 1839 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1843 1846 -541 0 26 -10 39 0
+BDFChar: 1843 1840 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1844 1847 -541 0 26 -10 39 0
+BDFChar: 1844 1841 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1845 1848 -541 0 26 -10 39 0
+BDFChar: 1845 1842 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1846 1849 -541 0 26 -10 39 0
+BDFChar: 1846 1843 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1847 1850 -541 0 26 -10 39 0
+BDFChar: 1847 1844 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1848 1851 -541 0 26 -10 39 0
+BDFChar: 1848 1845 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1849 1852 -541 0 26 -10 39 0
+BDFChar: 1849 1846 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1850 1853 -541 0 26 -10 39 0
+BDFChar: 1850 1847 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1851 1854 -541 0 26 -10 39 0
+BDFChar: 1851 1848 -541 0 26 -10 39 0
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,Ws8W,W
 s8W,Ws8W,Ws8W,Ws8W,Ws8W,W
-BDFChar: 1852 1855 -541 0 0 0 0 0
+BDFChar: 1852 1849 -541 0 0 0 0 0
 z
-BDFChar: 1853 1856 -541 0 0 0 0 0
+BDFChar: 1853 1850 -541 0 0 0 0 0
 z
-BDFChar: 1854 1857 -541 0 0 0 0 0
+BDFChar: 1854 1851 -541 0 0 0 0 0
 z
-BDFChar: 1855 1858 -541 0 0 0 0 0
+BDFChar: 1855 1852 -541 0 0 0 0 0
 z
-BDFChar: 1856 1859 -541 0 0 0 0 0
+BDFChar: 1856 1853 -541 0 0 0 0 0
 z
-BDFChar: 1857 1860 -541 0 0 0 0 0
+BDFChar: 1857 1854 -541 0 0 0 0 0
 z
-BDFChar: 1858 1861 -541 0 0 0 0 0
+BDFChar: 1858 1855 -541 0 0 0 0 0
 z
-BDFChar: 1859 1862 -541 0 0 0 0 0
+BDFChar: 1859 1856 -541 0 0 0 0 0
 z
-BDFChar: 1860 1863 -541 0 0 0 0 0
+BDFChar: 1860 1857 -541 0 0 0 0 0
 z
-BDFChar: 1861 1864 -541 0 0 0 0 0
+BDFChar: 1861 1858 -541 0 0 0 0 0
 z
-BDFChar: 1862 1865 -541 0 0 0 0 0
+BDFChar: 1862 1859 -541 0 0 0 0 0
 z
-BDFChar: 1863 1866 -541 0 0 0 0 0
+BDFChar: 1863 1860 -541 0 0 0 0 0
 z
-BDFChar: 1864 1867 -541 0 0 0 0 0
+BDFChar: 1864 1861 -541 0 0 0 0 0
 z
-BDFChar: 1865 1868 -541 0 0 0 0 0
+BDFChar: 1865 1862 -541 0 0 0 0 0
 z
-BDFChar: 1866 1869 -541 0 0 0 0 0
+BDFChar: 1866 1863 -541 0 0 0 0 0
 z
 BDFRefChar: 1581 1748 0 0 N
 BDFRefChar: 1599 166 0 0 N
