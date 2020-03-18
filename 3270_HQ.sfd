@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1584537071
+ModificationTime: 1584537550
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -90,7 +90,7 @@ Grid
   Named: "1080"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1928 1883
+BeginChars: 1928 1891
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -46386,8 +46386,139 @@ SplineSet
 EndSplineSet
 Validated: 1
 EndChar
+
+StartChar: u1FB60
+Encoding: 1880 129888 1883
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 932 l 25
+ 0 -400 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB61
+Encoding: 1881 129889 1884
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 540 -400 l 25
+ 0 -400 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB62
+Encoding: 1882 129890 1885
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+540 1600 m 29
+ 1080 1600 l 25
+ 1080 932 l 25
+ 540 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB63
+Encoding: 1883 129891 1886
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 932 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB64
+Encoding: 1884 129892 1887
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+540 1600 m 29
+ 1080 1600 l 25
+ 1080 266 l 25
+ 540 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB65
+Encoding: 1885 129893 1888
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 266 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB66
+Encoding: 1886 129894 1889
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+540 1600 m 29
+ 1080 1600 l 25
+ 1080 -400 l 25
+ 540 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: u1FB67
+Encoding: 1887 129895 1890
+Width: 2000
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+0 1600 m 29
+ 1080 1600 l 25
+ 1080 266 l 25
+ 0 930 l 25
+ 0 1600 l 29
+EndSplineSet
+Validated: 1
+EndChar
 EndChars
-BitmapFont: 14 1884 11 3 1
+BitmapFont: 14 1899 11 3 1
 BDFChar: 1 1579 8 0 0 0 0 0
 z
 BDFChar: 2 832 8 1 6 0 9 0
@@ -50105,7 +50236,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 17 1884 14 3 1
+BitmapFont: 17 1899 14 3 1
 BDFChar: 1 1579 9 0 0 0 0 0
 z
 BDFChar: 2 832 9 1 7 1 11 0
@@ -53823,7 +53954,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 25 1884 20 5 1
+BitmapFont: 25 1899 20 5 1
 BDFChar: 1 1579 14 0 0 0 0 0
 z
 BDFChar: 2 832 14 1 11 1 16 0
@@ -57543,7 +57674,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 28 1884 22 6 1
+BitmapFont: 28 1899 22 6 1
 BDFChar: 1 1579 15 0 0 0 0 0
 z
 BDFChar: 2 832 15 2 12 1 18 0
@@ -61263,7 +61394,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 33 1884 26 7 1
+BitmapFont: 33 1899 26 7 1
 BDFChar: 1 1579 18 0 0 0 0 0
 z
 BDFChar: 2 832 18 2 15 2 21 0
@@ -65117,7 +65248,7 @@ BDFRefChar: 1774 1773 0 0 N
 BDFRefChar: 1784 16 0 0 N
 BDFRefChar: 1785 104 0 0 N
 EndBitmapFont
-BitmapFont: 50 1884 40 10 1
+BitmapFont: 50 1899 40 10 1
 BDFChar: 1 1579 27 0 0 0 0 0
 z
 BDFChar: 2 832 27 3 23 2 32 0
