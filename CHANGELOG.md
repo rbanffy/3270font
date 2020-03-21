@@ -1,7 +1,7 @@
 current
 -------
 
-- Fixes to all half, quarter and eights blocks
+- Fixes to all half, quarter and eights blocks, ▒
 - Make APL chars look nicer
 - Adjust OS/2 metrics
 - Set vertical advance to 0
