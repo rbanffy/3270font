@@ -21,7 +21,7 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
 NeedsXUIDChange: 1
-XUID: [1021 799 1486169484 15238549]
+XUID: [1021 799 1486169484 15238563]
 UseXUID: 1
 StyleMap: 0x0040
 FSType: 0
@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1584873862
+ModificationTime: 1584915794
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1632 32 11
+WinInfo: 1815 15 10
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -73,54 +73,105 @@ Grid
 -200 -400 m 0
  1280 -400 l 1024
   Named: "Origin Y"
+-200 -275 m 0
+ 1280 -275 l 1024
+  Named: "-275"
 -200 -150 m 0
  1280 -150 l 1024
   Named: "-150"
+-200 -25 m 0
+ 1280 -25 l 1024
+  Named: "-25"
 -200 100 m 0
  1280 100 l 1024
   Named: "100"
+-200 225 m 0
+ 1280 225 l 1024
+  Named: "225"
 -200 350 m 0
  1280 350 l 1024
   Named: "350"
+-200 475 m 0
+ 1280 475 l 1024
+  Named: "475"
 -200 600 m 0
  1280 600 l 1024
   Named: "600"
+-200 725 m 0
+ 1280 725 l 1024
+  Named: "725"
 -200 850 m 0
  1280 850 l 1024
   Named: "850"
+-200 975 m 0
+ 1280 975 l 1024
+  Named: "975"
 -200 1100 m 0
  1280 1100 l 1024
   Named: "1100"
+-200 1225 m 0
+ 1280 1225 l 1024
+  Named: "1225"
 -200 1350 m 0
  1280 1350 l 1024
   Named: "1350"
+-200 1475 m 0
+ 1280 1475 l 1024
+  Named: "1475"
 -200 1600 m 0
  1280 1600 l 1024
   Named: "1600"
-135 -600 m 0
- 135 1800 l 1024
-  Named: "135"
-270 -600 m 0
- 270 1800 l 1024
-  Named: "270"
-405 -600 m 0
- 405 1800 l 1024
-  Named: "405"
-540 -600 m 0
- 540 1800 l 1024
-  Named: "540"
-675 -600 m 0
- 675 1800 l 1024
-  Named: "675"
-810 -600 m 0
- 810 1800 l 1024
-  Named: "810"
-945 -600 m 0
- 945 1800 l 1024
-  Named: "945"
-1080 -600 m 0
- 1080 1800 l 1024
-  Named: "1080"
+67 -600 m 0
+ 67 1800 l 1024
+  Named: "67"
+134 -600 m 0
+ 134 1800 l 1024
+  Named: "134"
+201 -600 m 0
+ 201 1800 l 1024
+  Named: "201"
+268 -600 m 0
+ 268 1800 l 1024
+  Named: "268"
+335 -600 m 0
+ 335 1800 l 1024
+  Named: "335"
+402 -600 m 0
+ 402 1800 l 1024
+  Named: "402"
+469 -600 m 0
+ 469 1800 l 1024
+  Named: "469"
+536 -600 m 0
+ 536 1800 l 1024
+  Named: "536"
+603 -600 m 0
+ 603 1800 l 1024
+  Named: "603"
+670 -600 m 0
+ 670 1800 l 1024
+  Named: "670"
+737 -600 m 0
+ 737 1800 l 1024
+  Named: "737"
+804 -600 m 0
+ 804 1800 l 1024
+  Named: "804"
+871 -600 m 0
+ 871 1800 l 1024
+  Named: "871"
+938 -600 m 0
+ 938 1800 l 1024
+  Named: "938"
+1005 -600 m 0
+ 1005 1800 l 1024
+  Named: "1005"
+1072 -600 m 0
+ 1072 1800 l 1024
+  Named: "1072"
+1139 -600 m 0
+ 1139 1800 l 1024
+  Named: "1139"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 1960 1962
@@ -54431,6 +54482,22 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+67 600 m 25
+ 536 -275 l 25
+ 1005 600 l 25
+ 536 1475 l 25
+ 67 600 l 25
+603 1600 m 25
+ 1080 725 l 25
+ 1080 475 l 25
+ 603 -400 l 25
+ 469 -400 l 25
+ 0 475 l 25
+ 0 725 l 25
+ 469 1600 l 25
+ 603 1600 l 25
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -56973,6 +57040,14 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1049
+603 1600 m 1
+ 0 475 l 1
+ 0 725 l 1
+ 469 1600 l 1
+ 603 1600 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -56983,6 +57058,14 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1053
+603 1600 m 5
+ 1080 725 l 5
+ 1080 475 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -56993,6 +57076,14 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+0 475 m 1053
+0 725 m 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+ 0 725 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57003,6 +57094,14 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+1080 725 m 1053
+1080 475 m 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 1080 725 l 5
+ 1080 475 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57013,6 +57112,18 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1053
+0 475 m 1053
+0 475 m 5
+ 0 725 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+ 67 600 l 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57023,6 +57134,18 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1049
+1080 725 m 1049
+1080 725 m 1
+ 1080 475 l 1
+ 603 -400 l 1
+ 469 -400 l 1
+ 1012 600 l 1
+ 469 1600 l 1
+ 603 1600 l 1
+ 1080 725 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57033,6 +57156,18 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+0 475 m 1049
+1080 725 m 1049
+536 -276 m 1
+ 1080 725 l 1
+ 1080 475 l 1
+ 603 -400 l 1
+ 469 -400 l 1
+ 0 475 l 1
+ 0 725 l 1
+ 536 -276 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57043,6 +57178,18 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1053
+469 1600 m 1053
+536 1476 m 5
+ 0 475 l 5
+ 0 725 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+ 1080 725 l 5
+ 1080 475 l 5
+ 536 1476 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57053,6 +57200,20 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+1080 725 m 1053
+1080 475 m 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 1080 725 l 5
+ 1080 475 l 5
+469 1600 m 1053
+603 1600 m 5
+ 0 475 l 5
+ 0 725 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57063,6 +57224,20 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1053
+603 1600 m 5
+ 1080 725 l 5
+ 1080 475 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+0 475 m 1053
+0 725 m 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+ 0 725 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57073,6 +57248,22 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+0 475 m 1053
+469 1600 m 1053
+1080 725 m 1053
+1080 725 m 5
+ 1080 475 l 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+ 0 725 l 5
+ 536 -276 l 5
+ 1012 600 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+ 1080 725 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57083,6 +57274,22 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1053
+1080 725 m 1053
+0 475 m 1053
+0 475 m 5
+ 0 725 l 5
+ 469 1600 l 5
+ 603 1600 l 5
+ 67 600 l 5
+ 536 -276 l 5
+ 1080 725 l 5
+ 1080 475 l 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57093,6 +57300,22 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+469 1600 m 1049
+1080 725 m 1049
+469 1600 m 1049
+1012 600 m 1
+ 536 1476 l 1
+ 0 475 l 1
+ 0 725 l 1
+ 469 1600 l 1
+ 603 1600 l 1
+ 1080 725 l 1
+ 1080 475 l 1
+ 603 -400 l 1
+ 469 -400 l 1
+ 1012 600 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57103,6 +57326,22 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+0 475 m 1053
+469 1600 m 1053
+469 1600 m 1053
+469 1600 m 5
+ 603 1600 l 5
+ 1080 725 l 5
+ 1080 475 l 5
+ 536 1476 l 5
+ 67 600 l 5
+ 603 -400 l 5
+ 469 -400 l 5
+ 0 475 l 5
+ 0 725 l 5
+ 469 1600 l 5
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -57113,6 +57352,21 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+SplineSet
+0 850 m 25
+ 335 850 l 25
+ 335 1350 l 25
+ 737 1350 l 25
+ 737 850 l 25
+ 1080 850 l 25
+ 1080 600 l 25
+ 737 600 l 25
+ 737 100 l 25
+ 335 100 l 25
+ 335 600 l 25
+ 0 600 l 25
+ 0 850 l 25
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
@@ -59135,8 +59389,6 @@ BDFChar: 1011 479 8 1 5 0 5 0
 Lo@8NW6bME
 BDFChar: 1012 484 8 1 5 0 9 0
 &254,Lo@8NW6bME
-BDFChar: -1 1836 8 0 0 0 0 0
-z
 BDFChar: 1013 512 8 1 6 -1 8 0
 p`MOA,U=W\,R=AM
 BDFChar: 1014 513 8 1 6 0 10 0
@@ -60827,6 +61079,8 @@ BDFChar: 1932 1932 8 4 7 -3 10 0
 nF5r:nF5r:nF5r:nF-DX
 BDFChar: 1935 1928 8 0 7 -3 11 0
 )^\7H1M4n$2Jh'QB$?YC
+BDFChar: 1936 1958 8 0 7 -3 10 0
+(apXt6@sc>JjMjR(_?ZI
 BDFChar: 1941 1938 8 0 6 5 10 0
 rdK5W(`35Q
 BDFChar: 1943 1940 8 0 7 -3 11 0
@@ -60837,6 +61091,32 @@ BDFChar: 1945 1942 8 0 7 -3 11 0
 )^\7H1M4n$2Jh'QB$?YC
 BDFChar: 1946 1943 8 0 7 -3 11 0
 )^\7H1M4n$2Jh'QB$?YC
+BDFChar: 1948 1945 8 0 0 0 0 0
+z
+BDFChar: 1949 1946 8 0 0 0 0 0
+z
+BDFChar: 1950 1947 8 0 0 0 0 0
+z
+BDFChar: 1951 1948 8 0 0 0 0 0
+z
+BDFChar: 1952 1949 8 0 0 0 0 0
+z
+BDFChar: 1953 1950 8 0 0 0 0 0
+z
+BDFChar: 1954 1951 8 0 0 0 0 0
+z
+BDFChar: 1955 1952 8 0 0 0 0 0
+z
+BDFChar: 1956 1953 8 0 0 0 0 0
+z
+BDFChar: 1957 1954 8 0 0 0 0 0
+z
+BDFChar: 1958 1955 8 0 0 0 0 0
+z
+BDFChar: 1959 1956 8 0 0 0 0 0
+z
+BDFChar: 1960 1957 8 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -60859,6 +61139,9 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 BitmapFont: 17 1963 14 3 1
 BDFChar: 1 1691 9 0 0 0 0 0
@@ -62879,8 +63162,6 @@ BDFChar: 1011 479 9 1 6 1 8 0
 KS5SSPa&Og
 BDFChar: 1012 484 9 1 6 1 11 0
 #S8,3KTq^cPdG*(
-BDFChar: -1 1836 9 0 0 0 0 0
-z
 BDFChar: 1013 512 9 1 7 -1 9 0
 r#dOO1*Rnd+p%rK
 BDFChar: 1014 513 9 1 7 1 13 0
@@ -64571,6 +64852,8 @@ BDFChar: 1932 1932 9 5 8 -3 13 0
 nF5r:nF5r:nF5r:nF5r:n,NFg
 BDFChar: 1935 1928 9 0 8 -3 14 0
 J,gI;1B?P;b^c(20n<a6`dj"u)1XLCAcU&*R=I)DB)p-U
+BDFChar: 1936 1958 9 0 8 -3 13 0
+#QPhE'EB<W+ojn/5lcFcJ:N0#J:Koc5l`)/1&r!g)uos=
 BDFChar: 1941 1938 9 0 8 5 13 0
 s+#TLIfM\54ocQ&)up6E#QOi)
 BDFChar: 1943 1940 9 0 8 -3 14 0
@@ -64581,6 +64864,32 @@ BDFChar: 1945 1942 9 0 8 -3 14 0
 J,gI;1B?P;b^c(20n<a6`dj"u)1XLCAcU&*R=I)DB)p-U
 BDFChar: 1946 1943 9 0 8 -3 14 0
 J,gI;1B?P;b^c(20n<a6`dj"u)1XLCAcU&*R=I)DB)p-U
+BDFChar: 1948 1945 9 0 0 0 0 0
+z
+BDFChar: 1949 1946 9 0 0 0 0 0
+z
+BDFChar: 1950 1947 9 0 0 0 0 0
+z
+BDFChar: 1951 1948 9 0 0 0 0 0
+z
+BDFChar: 1952 1949 9 0 0 0 0 0
+z
+BDFChar: 1953 1950 9 0 0 0 0 0
+z
+BDFChar: 1954 1951 9 0 0 0 0 0
+z
+BDFChar: 1955 1952 9 0 0 0 0 0
+z
+BDFChar: 1956 1953 9 0 0 0 0 0
+z
+BDFChar: 1957 1954 9 0 0 0 0 0
+z
+BDFChar: 1958 1955 9 0 0 0 0 0
+z
+BDFChar: 1959 1956 9 0 0 0 0 0
+z
+BDFChar: 1960 1957 9 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -64603,6 +64912,9 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 BitmapFont: 25 1963 20 5 1
 BDFChar: 1 1691 14 0 0 0 0 0
@@ -66624,8 +66936,6 @@ BDFChar: 1011 479 14 1 10 1 11 0
 ^qdb$^qe10beVH<beVH<beS^Y1B7CT
 BDFChar: 1012 484 14 1 10 1 17 0
 !rrQ+%KHn;z^qdb$^qe10beVH<beVH<beS^Y1B7CT
-BDFChar: -1 1836 14 0 0 0 0 0
-z
 BDFChar: 1013 512 14 1 11 -1 14 0
 s1f/\#QP1H$fDM&$t'?K#[dpG#[dpG#[dpG!+5fb
 BDFChar: 1014 513 14 1 11 1 19 0
@@ -68317,6 +68627,8 @@ BDFChar: 1932 1932 14 7 12 -5 19 0
 r;?Kjr;?Kjr;?Kjr;?Kjr;?Kjr;?Kjqu?]s
 BDFChar: 1935 1928 14 0 12 -5 19 0
 LDUL\*-aI$n\F1@`s@\B*-aI4n_iHK`s@\B*-aI4ET#lu`s@\B*&oosET#lma+s]q
+BDFChar: 1936 1958 14 0 12 -5 19 0
+!rrQ+"b7#3(r-tr0OQRg?nah_^_hS-J-^Z2^_f<R?na8g0OP`*(r-Q1"b6gX!rr<$
 BDFChar: 1941 1938 14 0 12 8 19 0
 s7h*=J+,\l5N!XA+2AD;#Cm$Z!rrB&
 BDFChar: 1943 1940 14 0 12 -5 19 0
@@ -68327,6 +68639,32 @@ BDFChar: 1945 1942 14 0 12 -5 19 0
 LDUL\*-aI$n\F1@`s@\B*-aI4n_iHK`s@\B*-aI4ET#lu`s@\B*&oosET#lma+s]q
 BDFChar: 1946 1943 14 0 12 -5 19 0
 LDUL\*-aI$n\F1@`s@\B*-aI4n_iHK`s@\B*-aI4ET#lu`s@\B*&oosET#lma+s]q
+BDFChar: 1948 1945 14 0 0 0 0 0
+z
+BDFChar: 1949 1946 14 0 0 0 0 0
+z
+BDFChar: 1950 1947 14 0 0 0 0 0
+z
+BDFChar: 1951 1948 14 0 0 0 0 0
+z
+BDFChar: 1952 1949 14 0 0 0 0 0
+z
+BDFChar: 1953 1950 14 0 0 0 0 0
+z
+BDFChar: 1954 1951 14 0 0 0 0 0
+z
+BDFChar: 1955 1952 14 0 0 0 0 0
+z
+BDFChar: 1956 1953 14 0 0 0 0 0
+z
+BDFChar: 1957 1954 14 0 0 0 0 0
+z
+BDFChar: 1958 1955 14 0 0 0 0 0
+z
+BDFChar: 1959 1956 14 0 0 0 0 0
+z
+BDFChar: 1960 1957 14 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -68349,6 +68687,9 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 BitmapFont: 28 1963 22 6 1
 BDFChar: 1 1691 15 0 0 0 0 0
@@ -70370,8 +70711,6 @@ BDFChar: 1011 479 15 2 11 1 13 0
 JA?]NJA?iRN51CfN51CfN51Cfgq`r?ErZ1?
 BDFChar: 1012 484 15 2 11 1 19 0
 !rrQ+%KIIK(]XO9JA?]NJA?iRN51CfN51CfN51Cfgq`r?ErZ1?
-BDFChar: -1 1836 15 0 0 0 0 0
-z
 BDFChar: 1013 512 15 2 12 -2 16 0
 s1nZM(]YBQ)8I3L*afs1(a'Y<(a'Y<(a'Y<(a'Y<!$D:"!5JR7
 BDFChar: 1014 513 15 2 12 1 21 0
@@ -72063,6 +72402,8 @@ BDFChar: 1932 1932 15 8 14 -6 21 0
 rr2orrr2orrr2orrr2orrr2orrr2orrr2or
 BDFChar: 1935 1928 15 0 14 -6 22 0
 ",;jH*ZdF+G^/`9iPNKeNt*3P4?Rk5nF5Dr_o@Il%NZTP3-]E3iSqb0LCOe84?Rk5nF5Dr_o;ZV
+BDFChar: 1936 1958 15 0 14 -6 21 0
+"+UH'#/CXT$t'o+(bdW\0Gn1+?jsgT^]o;jJ-*Lj5Rq010GlJ\(bcd\$t'KO#/CGY"+UK(
 BDFChar: 1941 1938 15 0 14 8 21 0
 s8ING5Q!b@+7LBA&)[uV#J^S["+UK(!<<-#
 BDFChar: 1943 1940 15 0 14 -6 22 0
@@ -72073,6 +72414,32 @@ BDFChar: 1945 1942 15 0 14 -6 22 0
 ",;jH*ZdF+G^/`9iPNKeNt*3P4?Rk5nF5Dr_o@Il%NZTP3-]E3iSqb0LCOe84?Rk5nF5Dr_o;ZV
 BDFChar: 1946 1943 15 0 14 -6 22 0
 ",;jH*ZdF+G^/`9iPNKeNt*3P4?Rk5nF5Dr_o@Il%NZTP3-]E3iSqb0LCOe84?Rk5nF5Dr_o;ZV
+BDFChar: 1948 1945 15 0 0 0 0 0
+z
+BDFChar: 1949 1946 15 0 0 0 0 0
+z
+BDFChar: 1950 1947 15 0 0 0 0 0
+z
+BDFChar: 1951 1948 15 0 0 0 0 0
+z
+BDFChar: 1952 1949 15 0 0 0 0 0
+z
+BDFChar: 1953 1950 15 0 0 0 0 0
+z
+BDFChar: 1954 1951 15 0 0 0 0 0
+z
+BDFChar: 1955 1952 15 0 0 0 0 0
+z
+BDFChar: 1956 1953 15 0 0 0 0 0
+z
+BDFChar: 1957 1954 15 0 0 0 0 0
+z
+BDFChar: 1958 1955 15 0 0 0 0 0
+z
+BDFChar: 1959 1956 15 0 0 0 0 0
+z
+BDFChar: 1960 1957 15 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -72095,6 +72462,9 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 BitmapFont: 33 1963 26 7 1
 BDFChar: 1 1691 18 0 0 0 0 0
@@ -74177,8 +74547,6 @@ BDFChar: 1011 479 18 2 13 2 16 0
 ^bEPX^bEPX`\>Cd`\>Cd`\>Cd`\>Cdmr3d73PYUp
 BDFChar: 1012 484 18 2 13 2 23 0
 !5JWN"+UUV%KHn;!!'eg^bEPX^bEb^`\>Cd`\>Cd`\>Cd`\?k#J)E?&
-BDFChar: -1 1836 18 0 0 0 0 0
-z
 BDFChar: 1013 512 18 2 15 -2 19 0
 s7$'X$ig\9%.F`$&"F.=%L`aS$k*OQ$k*OQ$k*OQ$k*OQ!"8i9!'C6@
 BDFChar: 1014 513 18 2 15 2 25 0
@@ -75948,6 +76316,9 @@ s+(-"s*t(L
 BDFChar: 1935 1928 18 0 17 -7 26 0
 ^]4@eiP5\N^^gs+*ZkAE4ofhT!:]bKiS_Mh_8(hY^^g[#*Y/65*WUFI!:Y4ui:+OuiP:)`^^#XF
 %hAX]*WS;b!-i_gnF/^%i5!7H^k[QX%gRVK%fgtu!;JYVnG#9-nA##(
+BDFChar: 1936 1958 18 0 17 -7 25 0
+!Pe[9huEju!!=nT"ulSe(]Xsa!#uCI(_-O*"op=Z!,r#??ibf9!PlJN^jlF#J,mC#!5QAN^gI1n
+?itp5!rt:b!#Pn?*"2fU$igbS!!YC_"#']WDu]ps!!2!X!5JR7
 BDFChar: 1941 1938 18 0 16 10 25 0
 s8RV!s+!?6!'gJ`+8u6^rW!K,!"\u-#P\9(p](Ec!!D-Z!T3qY^]4AM!!%NL
 BDFChar: 1943 1940 18 0 17 -7 26 0
@@ -75962,6 +76333,32 @@ BDFChar: 1945 1942 18 0 17 -7 26 0
 BDFChar: 1946 1943 18 0 17 -7 26 0
 ^]4@eiP5\N^^gs+*ZkAE4ofhT!:]bKiS_Mh_8(hY^^g[#*Y/65*WUFI!:Y4ui:+OuiP:)`^^#XF
 %hAX]*WS;b!-i_gnF/^%i5!7H^k[QX%gRVK%fgtu!;JYVnG#9-nA##(
+BDFChar: 1948 1945 18 0 0 0 0 0
+z
+BDFChar: 1949 1946 18 0 0 0 0 0
+z
+BDFChar: 1950 1947 18 0 0 0 0 0
+z
+BDFChar: 1951 1948 18 0 0 0 0 0
+z
+BDFChar: 1952 1949 18 0 0 0 0 0
+z
+BDFChar: 1953 1950 18 0 0 0 0 0
+z
+BDFChar: 1954 1951 18 0 0 0 0 0
+z
+BDFChar: 1955 1952 18 0 0 0 0 0
+z
+BDFChar: 1956 1953 18 0 0 0 0 0
+z
+BDFChar: 1957 1954 18 0 0 0 0 0
+z
+BDFChar: 1958 1955 18 0 0 0 0 0
+z
+BDFChar: 1959 1956 18 0 0 0 0 0
+z
+BDFChar: 1960 1957 18 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -75984,6 +76381,9 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 BitmapFont: 50 1963 40 10 1
 BDFChar: 1 1691 27 0 0 0 0 0
@@ -78808,8 +79208,6 @@ J,b$`56)`Gz
 BDFChar: 1012 484 27 3 20 3 36 0
 !"Ju/*WQ1(!!%BH!;HNpn,NRK!!C":"+U@Oz!8mmnhuUXO!PmUo^u,7/huUXOiP=C1^u41e
 i8MK0iP=C1^u41ei8MK0iP=C1^u41ei8MK1n\Fbn^jlB75<f,h*WQ0?
-BDFChar: -1 1836 27 0 0 0 0 0
-z
 BDFChar: 1013 512 27 3 23 -3 29 0
 s8Tn7s1n[7^]D4N!Pe[9^]4DU^]Dd>!T3AIr:g<fGQI:n!T5p<^c2A13!$fS!PgYq^c2A13!$fS
 !PgYq^c2A13!$fS!PgYq^c2A13!$fS!!"tY!&srZp](?a!!2!X
@@ -81322,6 +81720,11 @@ BDFChar: 1935 1928 27 0 26 -10 40 0
 JGoZ/!W32\"8EDB#N-\S&&:C0++Se?561T]rWDoqr!2^6p^c:jn/oI(i'2eN^jcIEJGof3!Vd2@
 "7RC_#N.fH&&<Vo++a=i56LZ\rWhomr"%^.p`I:Zn3;H]i-tdc_#=GoJc#c2"7Qi:#N-\S&&<Yp
 ++X=jIf]HIrWDoqr!2^6p^c:jn/oI(
+BDFChar: 1936 1958 27 0 26 -10 39 0
+!$2+?!$;1@!'^G`!'>]2!.2K]!-,dS!:etI!8uc8!T<GI!PiXS"+YUr"+W?2#66jd%fdRL%KIOM
+*WQ]N)up3D49,V:2uj&2GQ7i]Du]pSn,NLIhuEc8huEc8^]4@B^]4@B^]4AmhuEc8n,NLIDu]pS
+GQ7i]2uj&249,V:)up3D*WQ]N%KIOM%fdRL#66jd"+W?2"+YUr!PiXS!T<GI!8uc8!:etI!-,dS
+!.2K]!'>]2!'^G`!$;1@!$2+?
 BDFChar: 1941 1938 27 0 26 15 39 0
 s8W,WJ,fPaJ,fPa5QCb65QCb6+92?@+92?@&-)V/#QO]%#QO]%"98,r"98,r!WVWh!WVWh!<:sW
 !<:sW!.Vca!.Vca!'bu6!'bu6!$;1@!"Ju/!"Ju/!!E9%!!E9%
@@ -81345,6 +81748,32 @@ BDFChar: 1946 1943 27 0 26 -10 40 0
 JGoZ/!W32\"8EDB#N-\S&&:C0++Se?561T]rWDoqr!2^6p^c:jn/oI(i'2eN^jcIEJGof3!Vd2@
 "7RC_#N.fH&&<Vo++a=i56LZ\rWhomr"%^.p`I:Zn3;H]i-tdc_#=GoJc#c2"7Qi:#N-\S&&<Yp
 ++X=jIf]HIrWDoqr!2^6p^c:jn/oI(
+BDFChar: 1948 1945 27 0 0 0 0 0
+z
+BDFChar: 1949 1946 27 0 0 0 0 0
+z
+BDFChar: 1950 1947 27 0 0 0 0 0
+z
+BDFChar: 1951 1948 27 0 0 0 0 0
+z
+BDFChar: 1952 1949 27 0 0 0 0 0
+z
+BDFChar: 1953 1950 27 0 0 0 0 0
+z
+BDFChar: 1954 1951 27 0 0 0 0 0
+z
+BDFChar: 1955 1952 27 0 0 0 0 0
+z
+BDFChar: 1956 1953 27 0 0 0 0 0
+z
+BDFChar: 1957 1954 27 0 0 0 0 0
+z
+BDFChar: 1958 1955 27 0 0 0 0 0
+z
+BDFChar: 1959 1956 27 0 0 0 0 0
+z
+BDFChar: 1960 1957 27 0 0 0 0 0
+z
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -81367,5 +81796,8 @@ BDFRefChar: 1772 1771 0 0 N
 BDFRefChar: 1773 1772 0 0 N
 BDFRefChar: 1783 16 0 0 N
 BDFRefChar: 1784 104 0 0 N
+BDFRefChar: 1948 1936 0 0 N
+BDFRefChar: 1949 1936 0 0 N
+BDFRefChar: 1950 1936 0 0 N
 EndBitmapFont
 EndSplineFont
