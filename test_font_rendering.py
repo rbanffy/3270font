@@ -26,7 +26,9 @@ confusables = (
 
 ladder = "Vttest's ladder: ⎺⎻─⎼⎽\n"
 
-mosaics = "UC13 mosaics 🬀🬁🬅🬊🬍🬒🬗🬛🬥🭄🭆🭈🭋🭍🭂🭬🭭🭮🭯🮌🮏🮒🮚🮛\n"
+mosaics = "UC13 semigraphics 🬀🬁🬅🬊🬍🬒🬗🬛🬥🭄🭆🭈🭋🭍🭂🭬🭭🭮🭯🮌🮏🮒🮚🮛🮜\n"
+
+patterns = "UC13 Patterns: 🮘🮘🮘🮘 🮙🮙🮙🮙\n"
 
 BOLD = "\x1b[1m"
 ITALIC = "\x1b[3m"
@@ -42,6 +44,7 @@ if __name__ == "__main__":
     print(confusables)
     print(ladder)
     print(mosaics)
+    print(patterns)
     print(
         BOLD
         + "BOLD "
