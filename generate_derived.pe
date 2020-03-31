@@ -4,14 +4,16 @@ Open("3270_HQ.sfd")
 # Force fixed width
 SelectAll()
 SetWidth(1080)
+# Remove IP encumbered characters
 Select("uniE0FF", "uniF0FF")
 DetachAndRemoveGlyphs()
+# Generate unencumbered version
+Save("build/3270_HQ.sfd")
 Generate("build/3270-Regular.otf")
 Generate("build/3270-Regular.ttf")
 Generate("build/3270-Regular.pfm")
 Generate("build/3270-Regular.woff")
 Generate("build/3270-Regular.svg")
-Save("build/3270_HQ.sfd")
 
 SelectAll()
 SetWidth(984)
