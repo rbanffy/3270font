@@ -62,7 +62,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1760 22 12
+WinInfo: 1782 22 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -58160,7 +58160,7 @@ SplineSet
  598 1172 570 1204 536 1204 c 0
  506 1204 474 1176 474 1136 c 0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: u1FBCA
@@ -58264,7 +58264,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: NameMe.2020
+StartChar: full_running_man
 Encoding: 2020 -1 1996
 Width: 1080
 VWidth: 0
@@ -58346,10 +58346,10 @@ SplineSet
  1063 1347 996 1279 913 1279 c 0
  830 1279 762 1347 762 1430 c 0
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 EndChars
-BitmapFont: 14 1997 11 3 1
+BitmapFont: 14 1998 11 3 1
 BDFChar: 1 1755 8 0 0 0 0 0
 z
 BDFChar: 2 832 8 1 6 0 9 0
@@ -62181,7 +62181,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 17 1997 14 3 1
+BitmapFont: 17 1998 14 3 1
 BDFChar: 1 1755 9 0 0 0 0 0
 z
 BDFChar: 2 832 9 1 7 1 11 0
@@ -66013,7 +66013,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 25 1997 20 5 1
+BitmapFont: 25 1998 20 5 1
 BDFChar: 1 1755 14 0 0 0 0 0
 z
 BDFChar: 2 832 14 1 11 1 16 0
@@ -69847,7 +69847,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 28 1997 22 6 1
+BitmapFont: 28 1998 22 6 1
 BDFChar: 1 1755 15 0 0 0 0 0
 z
 BDFChar: 2 832 15 2 12 1 18 0
@@ -73681,7 +73681,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 33 1997 26 7 1
+BitmapFont: 33 1998 26 7 1
 BDFChar: 1 1755 18 0 0 0 0 0
 z
 BDFChar: 2 832 18 2 15 2 21 0
@@ -77666,7 +77666,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 50 1997 40 10 1
+BitmapFont: 50 1998 40 10 1
 BDFChar: 1 1755 27 0 0 0 0 0
 z
 BDFChar: 2 832 27 3 23 2 32 0
