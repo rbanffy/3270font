@@ -16,4 +16,14 @@ env
 .DS_Store
 .#*
 *#
+
+# The build directory
 build
+
+# Idea's folder
+.idea
+
+# The Google Fonts files
+gfonts_files
+
+

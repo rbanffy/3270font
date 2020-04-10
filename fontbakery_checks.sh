@@ -1,8 +1,12 @@
 #!/bin/sh
 
+set -eu
+
 # The fontbakery tools must be installed to your Python environment.
 
 OUTPUT_DIR=gfonts_files
+
+mkdir -p $OUTPUT_DIR/3270/ $OUTPUT_DIR/3270semicondensed/ $OUTPUT_DIR/3270condensed/
 
 cp build/3270-Regular.ttf $OUTPUT_DIR/3270/
 cp build/3270SemiCondensed-Regular.ttf $OUTPUT_DIR/3270semicondensed/

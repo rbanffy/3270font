@@ -1,3 +1,21 @@
+current
+-------
+
+- Fixes to all half, quarter and eights blocks, ░, ▒, ▓, ⍲, X, Ò, Ó, Ô,
+  Õ, Ö, Ō, ō, Ŏ, ￩, ￪, ￫, ￬
+- Make APL chars look nicer
+- Adjust OS/2 metrics
+- Set vertical advance to 0
+- Added vertical metrics
+  (https://fontforge.org/fontinfo.html#PS-General)
+- Removed 🍺, 🍻, 💖, 💡, 😪
+- Added ➥, ➦, Unicode 13 Symbols for Legacy Computing
+- Sample rendering now includes blurred easily confused pairs
+- Added sample generation using actual terminal software (on Linux) so
+  that the README file shows a current version of the font.
+- Branch cleanup (back to master/develop)
+- Set version to 2.0.4 (next release)
+
 v.2.0.3
 -------
 

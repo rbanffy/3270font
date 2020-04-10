@@ -1,4 +1,7 @@
 git+https://github.com/googlefonts/fontbakery
 git+https://github.com/googlefonts/gftools
-pillow
+black
+flake8
 ipdb
+isort
+pillow
