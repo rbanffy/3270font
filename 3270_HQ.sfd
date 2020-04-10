@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: Copyright 2011-2020 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
 FontLog: "See the CHANGELOG.md file"
-Version: 2.0.4
+Version: 2.0.5
 DefaultBaseFilename: 3270
 ItalicAngle: 0
 UnderlinePosition: -200
@@ -20,7 +20,6 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
-NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 15238605]
 UseXUID: 1
 StyleMap: 0x0040
@@ -29,7 +28,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1586536895
+ModificationTime: 1586537639
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -59124,7 +59123,7 @@ EndSplineSet
 Validated: 1
 EndChar
 EndChars
-BitmapFont: 14 2012 11 3 1
+BitmapFont: 14 2013 11 3 1
 BDFChar: 1 1114113 8 0 0 0 0 0
 z
 BDFChar: 2 8364 8 1 6 0 9 0
@@ -62984,7 +62983,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 17 2012 14 3 1
+BitmapFont: 17 2013 14 3 1
 BDFChar: 1 1114113 9 0 0 0 0 0
 z
 BDFChar: 2 8364 9 1 7 1 11 0
@@ -66844,7 +66843,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 25 2012 20 5 1
+BitmapFont: 25 2013 20 5 1
 BDFChar: 1 1114113 14 0 0 0 0 0
 z
 BDFChar: 2 8364 14 1 11 1 16 0
@@ -70706,7 +70705,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 28 2012 22 6 1
+BitmapFont: 28 2013 22 6 1
 BDFChar: 1 1114113 15 0 0 0 0 0
 z
 BDFChar: 2 8364 15 2 12 1 18 0
@@ -74568,7 +74567,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 33 2012 26 7 1
+BitmapFont: 33 2013 26 7 1
 BDFChar: 1 1114113 18 0 0 0 0 0
 z
 BDFChar: 2 8364 18 2 15 2 21 0
@@ -78581,7 +78580,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 50 2012 40 10 1
+BitmapFont: 50 2013 40 10 1
 BDFChar: 1 1114113 27 0 0 0 0 0
 z
 BDFChar: 2 8364 27 3 23 2 32 0
