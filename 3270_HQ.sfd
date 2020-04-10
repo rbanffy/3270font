@@ -21,7 +21,7 @@ Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
 NeedsXUIDChange: 1
-XUID: [1021 799 1486169484 15238590]
+XUID: [1021 799 1486169484 15238591]
 UseXUID: 1
 StyleMap: 0x0040
 FSType: 0
@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1585589982
+ModificationTime: 1586484567
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1782 22 11
+WinInfo: 1804 22 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -123,7 +123,7 @@ Grid
   Named: "1080"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 2023 1997
+BeginChars: 2025 1999
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -58348,8 +58348,51 @@ SplineSet
 EndSplineSet
 Validated: 5
 EndChar
+
+StartChar: NameMe.2023
+Encoding: 2023 -1 1997
+Width: 2000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+945 850 m 29
+ 675 350 l 5
+ 675 600 l 5
+ 270 600 l 5
+ 135 600 135 474 135 350 c 5
+ 135 850 l 21
+ 135 982 146 1099 270 1100 c 5
+ 675 1100 l 29
+ 675 1350 l 29
+ 945 850 l 29
+EndSplineSet
+EndChar
+
+StartChar: NameMe.2024
+Encoding: 2024 -1 1998
+Width: 2000
+VWidth: 0
+Flags: HW
+HStem: 600 500<175.945 675>
+LayerCount: 2
+Fore
+SplineSet
+945 850 m 29
+ 675 350 l 29
+ 675 600 l 29
+ 270 600 l 5
+ 146 601 135 718 135 850 c 13
+ 135 1350 l 5
+ 135 1226 135 1100 270 1100 c 5
+ 675 1100 l 5
+ 675 1350 l 5
+ 945 850 l 29
+EndSplineSet
+EndChar
 EndChars
-BitmapFont: 14 1998 11 3 1
+BitmapFont: 14 1999 11 3 1
 BDFChar: 1 1755 8 0 0 0 0 0
 z
 BDFChar: 2 832 8 1 6 0 9 0
@@ -62150,6 +62193,8 @@ BDFChar: 1994 2022 8 1 6 1 8 0
 0Mini+<XL>
 BDFChar: 1996 2020 8 0 0 0 0 0
 z
+BDFChar: 1998 2024 14 1 5 3 7 0
+Gkh(/O8o7\
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -62181,7 +62226,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 17 1998 14 3 1
+BitmapFont: 17 1999 14 3 1
 BDFChar: 1 1755 9 0 0 0 0 0
 z
 BDFChar: 2 832 9 1 7 1 11 0
@@ -65982,6 +66027,8 @@ BDFChar: 1994 2022 9 1 7 1 10 0
 3%-`trX]W#Ck;We
 BDFChar: 1996 2020 9 0 0 0 0 0
 z
+BDFChar: 1998 2024 17 1 7 4 9 0
+"T88ur.G%M
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -66013,7 +66060,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 25 1998 20 5 1
+BitmapFont: 25 1999 20 5 1
 BDFChar: 1 1755 14 0 0 0 0 0
 z
 BDFChar: 2 832 14 1 11 1 16 0
@@ -69816,6 +69863,8 @@ BDFChar: 1994 2022 14 1 11 2 15 0
 %fdOK$NLY:"9AJ[s54"["98Q)%KIGu0u.1)
 BDFChar: 1996 2020 14 0 0 0 0 0
 z
+BDFChar: 1998 2024 25 2 11 5 16 0
+!WW9%!s&?$s+(-"s1nYbs+#_%JcGiP
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -69847,7 +69896,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 28 1998 22 6 1
+BitmapFont: 28 1999 22 6 1
 BDFChar: 1 1755 15 0 0 0 0 0
 z
 BDFChar: 2 832 15 2 12 1 18 0
@@ -73650,6 +73699,8 @@ BDFChar: 1994 2022 15 2 12 2 18 0
 "99MD)ZUfW*rlED"9AJ[s54"["98Q)%KIRN0nA2t^gI-B
 BDFChar: 1996 2020 15 0 0 0 0 0
 z
+BDFChar: 1998 2024 28 2 12 5 17 0
+!<<.N!J#[8s1nZms5<q8s1nZMJUi<%JH,ZM
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -73681,7 +73732,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 33 1998 26 7 1
+BitmapFont: 33 1999 26 7 1
 BDFChar: 1 1755 18 0 0 0 0 0
 z
 BDFChar: 2 832 18 2 15 2 21 0
@@ -77635,6 +77686,8 @@ BDFChar: 1994 2022 18 2 15 2 21 0
 #659b%)<:e%tFn8!rrE's8;op!rrE'!rrE'#Cm?#38eapi#"]b
 BDFChar: 1996 2020 18 0 0 0 0 0
 z
+BDFChar: 1998 2024 33 2 14 7 21 0
+!'gNL!+5e7J+3L-s7lWhs7lWhs7$'XJ7*n8J3X)7
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
@@ -77666,7 +77719,7 @@ BDFRefChar: 1964 529 0 0 N
 BDFRefChar: 1965 529 0 0 N
 BDFRefChar: 1988 219 0 0 N
 EndBitmapFont
-BitmapFont: 50 1998 40 10 1
+BitmapFont: 50 1999 40 10 1
 BDFChar: 1 1755 27 0 0 0 0 0
 z
 BDFChar: 2 832 27 3 23 2 32 0
@@ -83140,6 +83193,9 @@ BDFChar: 1994 2022 27 3 23 3 32 0
 !,qo<p](Eo!!h?\&!)5^#J`G(i:m<ADuai"!$D7A
 BDFChar: 1996 2020 27 0 0 0 0 0
 z
+BDFChar: 1998 2024 50 3 22 10 32 0
+!!3-#!WW3&!!!*$!!@`O"+Yn$^jlC"J,eI,s5<qWnGiOXs8VTgs7$'gi;`i8s8Tn7s1lDPJ:I_%
+J-,e%!W[`Pz
 BDFRefChar: 1580 1747 0 0 N
 BDFRefChar: 1598 166 0 0 N
 BDFRefChar: 1609 720 0 0 N
