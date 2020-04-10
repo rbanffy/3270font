@@ -7,10 +7,10 @@ SetWidth(1080)
 # Remove IP encumbered characters
 Select("uniE0FF", "uniF0FF")
 DetachAndRemoveGlyphs()
-# Generate unencumbered version
+# Generate unencumbered version for distribution
 Save("build/3270_HQ.sfd")
-# Remove UC 13 running man building helper that fails fontlint check
-Select("full_running_man")
+# Remove UC 13 running man and pointing finger building helpers that are too wide
+Select("full_running_man", "full_pointing_finger")
 DetachAndRemoveGlyphs()
 Generate("build/3270-Regular.otf")
 Generate("build/3270-Regular.ttf")
