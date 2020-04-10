@@ -1,4 +1,4 @@
-current
+v.2.0.4
 -------
 
 - Fixes to all half, quarter and eights blocks, ░, ▒, ▓, ⍲, X, Ò, Ó, Ô,
