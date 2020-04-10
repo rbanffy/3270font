@@ -9,7 +9,7 @@ current
 - Added vertical metrics
   (https://fontforge.org/fontinfo.html#PS-General)
 - Removed 🍺, 🍻, 💖, 💡, 😪
-- Added ➥, ➦
+- Added ➥, ➦, Unicode 13 Symbols for Legacy Computing
 - Sample rendering now includes blurred easily confused pairs
 - Added sample generation using actual terminal software (on Linux) so
   that the README file shows a current version of the font.
