@@ -108,16 +108,16 @@ upload: zip sample ## Uploads the generated .zip and sample files to S3
 		--acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 ifeq ($(UNAME),Linux)
-	@aws s3 cp build/gnome-terminal.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/gnome-terminal.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/konsole.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/konsole.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/terminator.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/terminator.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/xterm.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/xterm.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 endif
-	@aws s3 cp build/3270_sample.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/3270_sample.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 	@./clean_camo_cache.sh
 
