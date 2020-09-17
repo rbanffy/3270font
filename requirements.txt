@@ -4,4 +4,4 @@ black
 flake8
 ipdb
 isort
-pillow
+pillow==7.0.0 #Remove when googlefonts/gftools merges #249
