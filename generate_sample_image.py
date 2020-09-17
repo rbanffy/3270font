@@ -50,7 +50,10 @@ def draw_readability_test(blur_radius):
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
     draw = ImageDraw.Draw(img)
     draw.text(
-        (25, 5), CONFUSABLES, TEXT_COLOR, font=sample_font,
+        (25, 5),
+        CONFUSABLES,
+        TEXT_COLOR,
+        font=sample_font,
     )
     img = img.filter(ImageFilter.GaussianBlur(blur_radius))
     return img

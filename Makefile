@@ -1,4 +1,4 @@
-.PHONY: clean help all font test fbchecks upload sample
+.PHONY: clean help all font test fbchecks upload sample cask
 .DEFAULT_GOAL := help
 
 SHELL = /bin/sh
@@ -11,6 +11,7 @@ ifeq ($(UNAME),Linux)
 endif
 ifeq ($(UNAME),Darwin)
 	DESTFOLDER=~/Library/Fonts
+	FONTCASKER="$(shell brew --repository)/Library/Taps/homebrew/homebrew-cask-fonts/developer/bin/font_casker"
 endif
 
 .SUFFIXES:
@@ -107,16 +108,16 @@ upload: zip sample ## Uploads the generated .zip and sample files to S3
 		--acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 ifeq ($(UNAME),Linux)
-	@aws s3 cp build/gnome-terminal.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/gnome-terminal.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/konsole.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/konsole.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/terminator.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/terminator.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
-	@aws s3 cp build/xterm.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/xterm.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 endif
-	@aws s3 cp build/3270_sample.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/3270_sample.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 	@./clean_camo_cache.sh
 
@@ -125,3 +126,8 @@ clean: ## Deletes all automatically generated files
 	@$(RM) -rf gfonts_files/3270/*.ttf
 	@$(RM) -rf gfonts_files/3270condensed/*.ttf
 	@$(RM) -rf gfonts_files/3270semicondensed/*.ttf
+
+cask: zip  ## Generate the font cask file (requires Homebrew)
+ifeq ($(UNAME),Darwin)
+	@${FONTCASKER} ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip
+endif
