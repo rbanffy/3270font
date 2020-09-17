@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: Copyright 2011-2020 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
 FontLog: "See the CHANGELOG.md file"
-Version: 2.0.5
+Version: 2.1.0
 DefaultBaseFilename: 3270
 ItalicAngle: 0
 UnderlinePosition: -200
@@ -28,7 +28,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1586537639
+ModificationTime: 1600334539
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -47007,11 +47007,11 @@ VStem: 540 540<264 932>
 LayerCount: 2
 Fore
 SplineSet
-540 932 m 1
- 1080 932 l 1
- 1080 264 l 1
- 540 264 l 1
- 540 932 l 1
+540 932 m 5
+ 1080 932 l 5
+ 1080 264 l 5
+ 540 264 l 5
+ 540 932 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -47043,9 +47043,17 @@ StartChar: u1FB09
 Encoding: 129801 129801 1795
 Width: 1080
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 540 540<264 1600>
 LayerCount: 2
 Fore
+SplineSet
+540 1600 m 1
+ 1080 1600 l 1
+ 1080 264 l 1
+ 540 264 l 1
+ 540 1600 l 1
+EndSplineSet
 Validated: 1
 EndChar
 

@@ -1,7 +1,9 @@
-current
+v.2.1.0
 -------
-- Set version to 2.0.5 (next release)
-
+- Set version to 2.1.0
+- Update spline format to 3.2
+- Fixed "🬉" (U+1fb09 - BLOCK SEXTANT-24) #71
+🬉
 v.2.0.4
 -------
 
