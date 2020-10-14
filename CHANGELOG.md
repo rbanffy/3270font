@@ -2,7 +2,7 @@ current
 -------
 
 - Add combining glyphs ̉, ̍, ̎, ̏, ̐, ̑, ̒ , ̓ , ̔ , ̕ , ̖ , ̗ , ̜ , ̘ , ̙ , ̚ , ̛ , ̜ ,
-  ㄍ, ̞ , ̟
+  ㄍ, ̞ , ̟ , ̠ , ̡ ,̢  ,̣ ,̤ ,̥ ,̦ ,̧ ,̨ ,̩ ,̪ ,̫ ,̬ ,̭ ,̮ ,̯
 - Add ँ, ʻ, ꭪, ꭫
 - Set version to 2.1.1 (next release)
 
