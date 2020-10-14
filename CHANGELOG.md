@@ -4,6 +4,7 @@ current
 - Add combining glyphs ̉, ̍, ̎, ̏, ̐, ̑, ̒ , ̓ , ̔ , ̕ , ̖ , ̗ , ̜ , ̘ , ̙ , ̚ , ̛ , ̜ ,
   ㄍ, ̞ , ̟ , ̠ , ̡ ,̢  ,̣ ,̤ ,̥ ,̦ ,̧ ,̨ ,̩ ,̪ ,̫ ,̬ ,̭ ,̮ ,̯
 - Add ँ, ʻ, ꭪, ꭫
+- Simplify cedilla, fix overlap in ç and Ç
 - Set version to 2.1.1 (next release)
 
 v.2.1.0
