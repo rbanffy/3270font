@@ -2,7 +2,8 @@ current
 -------
 
 - Add combining glyphs ̉, ̍, ̎, ̏, ̐, ̑, ̒ , ̓ , ̔ , ̕ , ̖ , ̗ , ̜ , ̘ , ̙ , ̚ , ̛ , ̜ ,
-  ㄍ, ̞ , ̟ , ̠ , ̡ ,̢  ,̣ ,̤ ,̥ ,̦ ,̧ ,̨ ,̩ ,̪ ,̫ ,̬ ,̭ ,̮ ,̯
+  ㄍ, ̞ , ̟ , ̠ , ̡ , ̢ , ̣ , ̤ , ̥ , ̦ , ̧ , ̨ , ̩ , ̪ , ̫ , ̬ , ̭ , ̮ , ̯ , ̰ , ̱ , ̲ , ̳ ,
+  ̴ , ̵ , ̶ , ̷ , ̸ , ̹ , ̺ , ̻ , ̼ , ̽ , ̾ , ̿
 - Add ँ, ʻ, ꭪, ꭫
 - Adjust derived font names
 - Simplify cedilla, fix overlap in ç and Ç
