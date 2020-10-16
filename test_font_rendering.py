@@ -13,7 +13,9 @@ boxes = """
 └─┴┘╚═╩╝╙─╨╜╘═╧╛
 """
 
-misc_glyphs = "Other miscellaneous glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓\n"
+misc_glyphs = "Misc glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓"
+
+composed_glyphs = "Composed glyphs: ÀÉI͂o̓N̈́AͅB̊͆Ȍ͇U͈D̈ẢB̊A̋ĎA̍J̎Ȁ\n"
 
 apl_set = (
     "The APL set: ⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋⍌⍍⍎⍏⍐⍑⍒⍓⍔⍕⍖⍗⍘⍙⍚⍛⍜⍝⍞⍟⍠⍡⍢⍣⍤⍥⍦⍧⍨⍩⍪⍫⍬⍭⍮⍯⍰⍱"
@@ -41,7 +43,7 @@ RESET = "\x1b[0m"
 if __name__ == "__main__":
     print("ASCII:", printable)
     print(boxes)
-    print(misc_glyphs)
+    print(misc_glyphs, composed_glyphs)
     print(apl_set)
     print(confusables)
     print(ladder)
