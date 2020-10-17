@@ -12,6 +12,7 @@ Save("build/3270_HQ.sfd")
 # Remove UC 13 running man and pointing finger building helpers that are too wide
 Select("full_running_man", "full_pointing_finger")
 DetachAndRemoveGlyphs()
+Reencode("compacted")
 Generate("build/3270-Regular.otf")
 Generate("build/3270-Regular.ttf")
 Generate("build/3270-Regular.pfm")
