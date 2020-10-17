@@ -5,14 +5,12 @@ Open("3270_HQ.sfd")
 SelectAll()
 SetWidth(1080)
 # Remove IP encumbered characters
-Select("uniE0FF")
-Select("uniF0FF")
+Select("uniE0FF", "uniE0FF", "uniF0FF", "uniF0FF")
 DetachAndRemoveGlyphs()
 # Generate unencumbered version for distribution
 Save("build/3270_HQ.sfd")
 # Remove UC 13 running man and pointing finger building helpers that are too wide
-Select("full_running_man")
-Select("full_pointing_finger")
+Select("full_running_man", "full_running_man", "full_pointing_finger", "full_pointing_finger")
 DetachAndRemoveGlyphs()
 Reencode("compacted")
 Generate("build/3270-Regular.otf")
