@@ -1,7 +1,11 @@
 #!/bin/bash
 
+set -euo pipefail
+
 function lint_added_file () {
-    # This is called for every file added in the current branch.
+    # This is called for every file added in the current branch. This
+    # is the place we should feel more free to validate files more
+    # rigorously so that nothing we don't like can enter the codebase.
 
     # Get the type of the file and choose what to do.
     type=$(file --mime-type -b "$1")
@@ -20,7 +24,9 @@ function lint_added_file () {
 }
 
 function lint_modified_file () {
-    # This is called for every file added in the current branch.
+    # This is called for every file modified in the current branch. We
+    # can't be too rigorous here, as we risk failing validation for
+    # regions that were not changed.
 
     # Get the type of the file and choose what to do.
     type=$(file --mime-type -b "$1")
