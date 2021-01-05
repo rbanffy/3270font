@@ -45,13 +45,14 @@ function lint_modified_file () {
 }
 
 # Iterate over the files added on this branch
+# Sadly, it's not trivial to figure out what branch we branched from.
 for file in $(git diff --name-only --diff-filter=A develop)
 do
     lint_added_file "$file"
 done
 
 # Iterate over the files modified on this commit
-for file in $(git diff --name-only --diff-filter=M develop)
+for file in $(git diff --name-only --diff-filter=M HEAD)
 do
     lint_modified_file "$file"
 done
