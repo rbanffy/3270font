@@ -94,6 +94,13 @@ In order to generate the sample image and the grids for FontForge,
 you'll need a Python 3 environment with PIL or pillow installed. The
 requirements.txt file lists everything you need to do it.
 
+If all you want is an easier way to provide feedback, you can use
+a container runtime, Docker, Podman, and etc, and use these make targets:
+
+  - ```make image``` - builds a local image with ```fontforge``` and ```make```
+  - ```make generate``` -  uses the local container image to run ```make font```
+
+
 Screenshots
 -----------
 

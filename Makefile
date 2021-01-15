@@ -135,3 +135,9 @@ cask: zip  ## Generate the font cask file (requires Homebrew)
 ifeq ($(UNAME),Darwin)
 	@${FONTCASKER} ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip
 endif
+
+image: # Builds the container image
+	docker build -t 3270font:latest .
+
+generate: # Generates the fonts using the container image
+	docker run --rm -v ${PWD}:/opt 3270font:latest make font
