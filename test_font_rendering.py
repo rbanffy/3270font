@@ -2,9 +2,7 @@
 
 import string
 
-printable = "".join(
-    [c for c in string.printable if c not in string.whitespace]
-)
+printable = "".join(c for c in string.printable if c not in string.whitespace)
 
 boxes = """
 ┌─┬┐╔═╦╗╓─╥╖╒═╤╕
