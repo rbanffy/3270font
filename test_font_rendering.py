@@ -2,9 +2,7 @@
 
 import string
 
-printable = "".join(
-    [c for c in string.printable if c not in string.whitespace]
-)
+printable = "".join(c for c in string.printable if c not in string.whitespace)
 
 boxes = """
 ┌─┬┐╔═╦╗╓─╥╖╒═╤╕
@@ -13,11 +11,13 @@ boxes = """
 └─┴┘╚═╩╝╙─╨╜╘═╧╛
 """
 
-misc_glyphs = "Other miscellaneous glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓\n"
+misc_glyphs = "Misc glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓"
+
+composed_glyphs = "Composed glyphs: ÀÉI͂o̓N̈́AͅB̊͆Ȍ͇U͈D̈ẢB̊A̋ĎA̍J̎Ȁ\n"
 
 apl_set = (
     "The APL set: ⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋⍌⍍⍎⍏⍐⍑⍒⍓⍔⍕⍖⍗⍘⍙⍚⍛⍜⍝⍞⍟⍠⍡⍢⍣⍤⍥⍦⍧⍨⍩⍪⍫⍬⍭⍮⍯⍰⍱"
-    "⍲⍳⍴⍵⍶⍷⍸⍹⍺\n"
+    "⍲⍳⍴⍵⍶⍷⍸⍹⍺⊂⊃⊆⊇⊏⊐⊑⊒⊔⊓⊕⊖⊗⊘⊙⌾⊝⋆⌈⌉⌊⌋⁼⇐⇒⊸⟜⟨⟩⋄∧∨⊢⊣⊤⊥≢⚇⎉⎊◴◵◶◷⥊⥋∾‿↩↪≍𝕩𝕨𝕤𝕣𝕘𝕗𝕏𝕎𝕊𝔾𝔽\n"
 )
 
 confusables = (
@@ -41,7 +41,7 @@ RESET = "\x1b[0m"
 if __name__ == "__main__":
     print("ASCII:", printable)
     print(boxes)
-    print(misc_glyphs)
+    print(misc_glyphs, composed_glyphs)
     print(apl_set)
     print(confusables)
     print(ladder)

@@ -40,8 +40,7 @@ def draw_sample():
         # Draw the text itself
         draw_f.text((20, y), SAMPLE_TEXT, TEXT_COLOR, font=sample_font)
 
-    img = Image.alpha_composite(background, foreground)
-    return img
+    return Image.alpha_composite(background, foreground)
 
 
 def draw_readability_test(blur_radius):
@@ -61,7 +60,7 @@ def draw_readability_test(blur_radius):
 
 if __name__ == "__main__":
     sample = draw_sample()
-    for radius in range(0, 6):
+    for radius in range(6):
         rt = draw_readability_test(radius)
         sample.paste(rt, (0, 250 + 35 * radius))
     sample.save("build/3270_sample.png")

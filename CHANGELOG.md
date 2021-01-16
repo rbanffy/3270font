@@ -1,5 +1,26 @@
-v.2.1.0
--------
+v2.2.1
+------
+
+- Add a hooks folder with a suggested pre-commit hook
+- Add APL and BQN glyphs ⊂, ⊃, ⊆, ⊇, ⊏, ⊐, ⊑, ⊒, ⊔, ⊓, ⊕, ⊖, ⊗, ⊘, ⊙, ⌾,
+  ⊝, ⋆, ⌈, ⌉, ⌊, ⌋, ⁼, ⇐, ⇒, ⊸, ⟜, ⟨, ⟩, ⋄, ∧, ∨, ⊢, ⊣, ⊤, ⊥, ≢, ⚇, ⎉,
+  ⎊, ◴, ◵, ◶, ◷, ⥊, ⥋, ∾, ‿, ↩, ↪, ≍, 𝕩, 𝕨, 𝕤, 𝕣, 𝕘, 𝕗, 𝕏, 𝕎, 𝕊, 𝔾, 𝔽
+- Modify some glyphs to improve consistency in APL and BQN code: ¬, ⌙,
+  ⌜, ⌝, ⌞, ⌟, •, ∩, ⌐, ○, ∪, ∘, ⍷
+- Fix ●
+- Add combining glyphs ̉, ̍, ̎, ̏, ̐, ̑, ̒ , ̓ , ̔ , ̕ , ̖ , ̗ , ̜ , ̘ , ̙ , ̚ , ̛ , ̜ ,ㄍ,
+  ̞ , ̟ , ̠ , ̡ , ̢ , ̣ , ̤ , ̥ , ̦ , ̧ , ̨ , ̩ , ̪ , ̫ , ̬ , ̭ , ̮ , ̯ , ̰ , ̱ , ̲ , ̳ , ̴ ,
+  ̵ , ̶ , ̷ , ̸ , ̹ , ̺ , ̻ , ̼ , ̽ , ̾ , ̿, ̀ , ́ , ͂ , ̓ , ̈́ , ͅ , ͆ , ͇ , ͈ , ͉ , ͊ , ͋ , ͌ ,
+  ͎ , ͍ , ͐ , ͑ , ͒ , ͓ , ͔ , ͕ , ͖ , ͗ , ͘ , ͙ , ͚ , ͛ , ͜ , ͝ , ͞ , ͟ , ͠ , ͡ , ͢ , ͣ , ͤ ,
+  ͥ , ͦ , ͧ , ͨ , ͩ , ͪ , ͫ , ͬ , ͭ , ͮ , ͯ .
+- Add ँ, ʻ, ꭪, ꭫
+- Add composing glyphs to rendering test
+- Adjust derived font names
+- Simplify cedilla, fix overlap in ç and Ç
+- Set version to 2.1.1 (next release)
+
+v2.1.0
+------
 
 - Update spline format to 3.2
 - Fixed "🬉" (U+1fb09 - BLOCK SEXTANT-24) #71
@@ -8,8 +29,8 @@ v.2.1.0
 - Update Travis environment to Ubuntu Focal and Python 3.8
 - Set version to 2.1.0 (next release)
 
-v.2.0.4
--------
+v2.0.4
+------
 
 - Fixes to all half, quarter and eights blocks, ░, ▒, ▓, ⍲, X, Ò, Ó, Ô,
   Õ, Ö, Ō, ō, Ŏ, ￩, ￪, ￫, ￬
@@ -26,8 +47,8 @@ v.2.0.4
 - Branch cleanup (back to master/develop)
 - Set version to 2.0.4 (next release)
 
-v.2.0.3
--------
+v2.0.3
+------
 
 - Skipping FontBakery tests on TravisCI for now
 - Makefile now defaults to `help` target instead of `font`
@@ -40,8 +61,8 @@ v.2.0.3
 - Removed slots below 0x1f
 - Set version to 2.0.3 (next release)
 
-v.2.0.2
--------
+v2.0.2
+------
 
 - Add ★, ⚑, ✚
 - Instal .ttf files by default
@@ -56,8 +77,8 @@ v.2.0.2
 - Sorted symbols in the SFD file
 - Set version to 2.0.2 (next release)
 
-v.2.0.1
--------
+v2.0.1
+------
 
 - Added ◢, ◣, ◤, ◥, ▮, and ◆
 - Use new AWS S3 vhost-based names, add HTTPS where applicable
@@ -65,8 +86,8 @@ v.2.0.1
 - New implementation for ℅, add ℆
 - New implementation for ‘, ’, “, and ”
 
-v.2.0.0
--------
+v2.0.0
+------
 
 - Added ˎ, qqˏ, ː, ˑ, ˤ, ˬ, ̀, ̂, ̃, ̄, ̅, ̆, ̇, ̈, ̊, ̋, ̌, Ͱ, ͱ, Ͳ, ͳ, Ϳ, Ϗ, ϐ, ϑ,
   ϒ, ϓ, ϔ, ϖ, Ϟ, Ϸ, ϸ, Ҕ, ҕ, Җ, җ, Ҙ, ҙ, Қ, қ, Ҝ, ҝ, ҟ, Ҡ, ҡ, Ң, ң, Ҥ, ҥ,
@@ -85,8 +106,8 @@ v.2.0.0
 - Fixed some overlap and rounding issues
 - Add missing glyph slots up to uni04CF
 
-v.1.2.23
---------
+v1.2.23
+-------
 
 - Simplify tilde
 - Added ⎇ and ⎈
@@ -94,8 +115,8 @@ v.1.2.23
 - Change zip target dependency to derived instead of all (doesn't
   require PIL)
 
-v.1.2.22
---------
+v1.2.22
+-------
 
 - Removed unused Hangul characters
 - Added Ogham symbols
@@ -103,31 +124,31 @@ v.1.2.22
 - Added SIL Open Font License option
 - Fix line drawing discontiuities
 
-v.1.2.21
---------
+v1.2.21
+-------
 
 - Build process now uses a build folder
 - Added 💖, 😪, ⇤, ⇥, 𝖠-𝟿 (math symbols), ѝ, Ѝ, ∓, ∛, ∜, ∝, ∀, ∁, ∃, ∄, ∅,
   ⏏, ↚, ↛, ∈, ∉, ∊, ∋, ∌, ∍, ∐
 - Added placeholders for Ogham
 
-v.1.2.20
---------
+v1.2.20
+-------
 
 - Force extension of 4 and 6 to properly render on Linux
 - Added "￼", "�", "⋮", "⅟", U+e16c, "⁋", "⁎", "⁑", "Ⅰ", "Ⅴ", "Ⅹ", "Ⅼ",
   "Ⅽ", "Ⅾ", "Ⅿ", "℗", "⋎"
 - Fixed "❮" and "❯"
 
-v.1.2.19
---------
+v1.2.19
+-------
 
 - Added normal "⸨" and "⸩", full-width "｟" and "｠", ❮, ♡, ♢, ♤, ♧, ♁,
   ⅐, ⅑, ⅒, ⅓, ⅔, ⅕, ⅖, ⅗, ⅘, ⅙, ⅚
 - Fixed "⌚", "w", "4", "6"
 
-v.1.2.18
---------
+v1.2.18
+-------
 - Improved sample image generation (rendering can be now tested!)
 - Sample image is generated in CI
 - Added missing WGL4 glyphs
