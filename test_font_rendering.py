@@ -11,7 +11,7 @@ boxes = """
 └─┴┘╚═╩╝╙─╨╜╘═╧╛
 """
 
-misc_glyphs = "Misc glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓"
+misc_glyphs = "Misc glyphs: ™●⌘⏎⬇⬆✔✼✎✘‘’◢◣◤◥▮◆▒░▓  ▏▎▍▌▋▊▉█"
 
 composed_glyphs = "Composed glyphs: ÀÉI͂o̓N̈́AͅB̊͆Ȍ͇U͈D̈ẢB̊A̋ĎA̍J̎Ȁ\n"
 
