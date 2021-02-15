@@ -1,6 +1,7 @@
 current
 -------
 
+- Improve ▴, ►, ▾, ◄
 - Add missing glyph ▋
 
 v2.2.1
