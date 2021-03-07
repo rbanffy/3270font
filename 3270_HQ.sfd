@@ -63,11 +63,17 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1958 22 11
+WinInfo: 1166 22 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
 Grid
+551 2600 m 0
+ 551 -1400 l 1024
+  Named: "Center X"
+-2000 656 m 0
+ 4000 656 l 1024
+  Named: "Center Y"
 -2000 2332 m 0
  4000 2332 l 1024
 0 -600 m 0
