@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1615147624
+ModificationTime: 1615148046
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -131,7 +131,7 @@ Grid
   Named: "1080"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 2202 2205
+BeginChars: 2203 2206
 
 StartChar: NameMe.1024
 Encoding: -1 -1 0
@@ -63087,9 +63087,21 @@ SplineSet
  149 1431 l 25
  149 1497 l 25
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: dotmath
+Encoding: 2202 8901 2205
+Width: 1080
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 408 65294 N 1 0 0 1 61 499 2
+Validated: 1
 EndChar
 EndChars
-BitmapFont: 14 2205 11 3 1
+BitmapFont: 14 2206 11 3 1
 BDFChar: 1 1974 8 0 0 0 0 0
 z
 BDFChar: 2 940 8 1 6 0 9 0
@@ -67332,7 +67344,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 17 2205 14 3 1
+BitmapFont: 17 2206 14 3 1
 BDFChar: 1 1974 9 0 0 0 0 0
 z
 BDFChar: 2 940 9 1 7 1 11 0
@@ -71575,7 +71587,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 25 2205 20 5 1
+BitmapFont: 25 2206 20 5 1
 BDFChar: 1 1974 14 0 0 0 0 0
 z
 BDFChar: 2 940 14 1 11 1 16 0
@@ -75820,7 +75832,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 28 2205 22 6 1
+BitmapFont: 28 2206 22 6 1
 BDFChar: 1 1974 15 0 0 0 0 0
 z
 BDFChar: 2 940 15 2 12 1 18 0
@@ -80065,7 +80077,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 33 2205 26 7 1
+BitmapFont: 33 2206 26 7 1
 BDFChar: 1 1974 18 0 0 0 0 0
 z
 BDFChar: 2 940 18 2 15 2 21 0
@@ -84462,7 +84474,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 50 2205 40 10 1
+BitmapFont: 50 2206 40 10 1
 BDFChar: 1 1974 27 0 0 0 0 0
 z
 BDFChar: 2 940 27 3 23 2 32 0
