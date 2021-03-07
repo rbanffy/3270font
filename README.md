@@ -37,7 +37,7 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_70de9c7.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_e9113f3.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
@@ -94,6 +94,13 @@ In order to generate the sample image and the grids for FontForge,
 you'll need a Python 3 environment with PIL or pillow installed. The
 requirements.txt file lists everything you need to do it.
 
+If all you want is an easier way to provide feedback, you can use
+a container runtime, Docker, Podman, and etc, and use these make targets:
+
+  - ```make image``` - builds a local image with ```fontforge``` and ```make```
+  - ```make generate``` -  uses the local container image to run ```make font```
+
+
 Screenshots
 -----------
 
@@ -105,6 +112,8 @@ https://3270font.s3.amazonaws.com/gnome-terminal.png)
 ![Konsole](https://3270font.s3.amazonaws.com/konsole.png)
 
 ![Terminator](https://3270font.s3.amazonaws.com/terminator.png)
+
+![urxvt](https://3270font.s3.amazonaws.com/urxvt.png)
 
 Known problems
 --------------

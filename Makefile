@@ -41,6 +41,8 @@ font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the S
 sample: font ## Generate sample images
 	@./generate_sample_image.py
 ifeq ($(UNAME),Linux)
+	@urxvt -fn "xft:IBM3270:size=12" --geometry 80x25 -fg white \
+		-bg black -e ./test_font_rendering.sh urxvt
 	@terminator -e './test_font_rendering.sh terminator'
 	@xterm -fa 'IBM3270' -fs 12 -geometry 80x25 -e \
 		'./test_font_rendering.sh xterm'
@@ -116,6 +118,8 @@ ifeq ($(UNAME),Linux)
 		--storage-class REDUCED_REDUNDANCY
 	@aws s3 cp ${BUILD_DIR}/xterm.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
+	@aws s3 cp ${BUILD_DIR}/urxvt.png s3://3270font/ --acl public-read \
+		--storage-class REDUCED_REDUNDANCY
 endif
 	@aws s3 cp ${BUILD_DIR}/3270_sample.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
@@ -131,3 +135,9 @@ cask: zip  ## Generate the font cask file (requires Homebrew)
 ifeq ($(UNAME),Darwin)
 	@${FONTCASKER} ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip
 endif
+
+image: ## Builds the container image
+	docker build -t 3270font:latest .
+
+generate: ## Generates the fonts using the container image
+	docker run --rm -v ${PWD}:/opt 3270font:latest make font
