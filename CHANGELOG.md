@@ -1,6 +1,7 @@
 current
 -------
 
+- Add "╭", "╮", "╰", and "╯". Fixes #89
 - Improve ▴, ►, ▾, ◄
 - Add missing glyph ▋, ▽, △
 - Version set to 2.3.0
