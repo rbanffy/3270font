@@ -1,6 +1,11 @@
 current
 -------
 
+- Set version to 2.3.1
+
+v2.3.0
+------
+
 - Add '⋅'
 - Add "╭", "╮", "╰", and "╯". Fixes #89
 - Improve ▴, ►, ▾, ◄

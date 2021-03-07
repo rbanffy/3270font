@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: Copyright 2011-2021 The 3270font Project Authors (https://github.com/rbanffy/3270font)
 UComments: "2011-5-25: Created."
 FontLog: "See the CHANGELOG.md file"
-Version: 2.3.0
+Version: 2.3.1
 DefaultBaseFilename: 3270
 ItalicAngle: 0
 UnderlinePosition: -200
@@ -20,7 +20,6 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 HasVMetrics: 1
-NeedsXUIDChange: 1
 XUID: [1021 799 1486169484 15238762]
 UseXUID: 1
 StyleMap: 0x0040
@@ -29,7 +28,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1615148046
+ModificationTime: 1615150695
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +62,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 0 22 11
+WinInfo: 22 22 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -155,9 +154,10 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 141 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!V8OPjD#T[D_J-.;EM[ds!0Ecr#&/Kn-2'=I[`V)P8)(5JF+:J<L5R`jC"gX98[tDd'
+!/5@nS_eB)#ljr*!(fUS7'8jaJcGcN
 EndImage2
 Fore
 Validated: 1
@@ -173,10 +173,10 @@ HStem: 98 122<562 744> 524 122<108 230 352 832> 768 122<108 228 352 898> 1196 12
 VStem: 230 122<438 524 646 768 890 988>
 LayerCount: 2
 Back
-Image2: image/png 148 0 1562.12 61.0352 61.0352
+Image2: image/png 165 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!]8OPjD#T[D_5R2cU(`<9-0JKsl0X*>h0^o,)H(`gh56HO$:_(bUZL*5.@=4/?O<0Ki
-O;SHl3<B0\o,7sZZLKr/z8OZBBY!QNJ
+5j$^2!!!!n8OPjD#T[30d0[T2&4<'<oqULN?(fO^DS.SRC3l1p1_>h3bJ>806AKeQN_n7BB>Ok?
+\s8VkFt%'DfBq^iB,eF5I_d2M43gnlR2LbfKZ4$]f`2!P!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -353,10 +353,10 @@ HStem: 356 576<401.094 690.906>
 VStem: 266 560<495.131 793.757>
 LayerCount: 2
 Back
-Image2: image/png 123 0 1562.12 61.0352 61.0352
+Image2: image/png 152 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!D8OPjD#T[D_+;-@l?smCA^qdbbK7SUR%k7d?J`K(28-Ap_\-^X"8u7%<!!!!j78?7R
-6=>BF
+5j$^2!!!!a8OPjD#T[D_^^2Qb1,;,KSq6E_$j6)+/I(nj$k3&`7"NtlLd>hpTU7l=:)0]s$`Z]2
+8>GH_@*f"5@E8NN5VNW9FAutoz8OZBBY!QNJ
 EndImage2
 Fore
 SplineSet
@@ -378,9 +378,10 @@ HStem: 600 112<238 834>
 VStem: 238 596<600 712>
 LayerCount: 2
 Back
-Image2: image/png 107 0 1562.12 61.0352 61.0352
+Image2: image/png 128 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!48OPjD#T[D_+;=8E@:0(D$3:-eFoiI,DHR8G!!!!j78?7R6=>BF
+5j$^2!!!!I8OPjD#T[D_+:&[3.[Z>tf`9_'%/bU*,S2acJGAIR"r&K$(rXc$`pWumf6b77z8OZBB
+Y!QNJ
 EndImage2
 Fore
 SplineSet
@@ -768,9 +769,9 @@ HStem: 952 366<230 354 596 718>
 VStem: 230 124<952 1318> 596 122<952 1318>
 LayerCount: 2
 Back
-Image2: image/png 115 0 1562.12 61.0352 61.0352
+Image2: image/png 109 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!<8OPjD#T[D_5Qa+Q$k*DX!,")A#b\/m$5W]<kQ.Xhn?mK@!!!!j78?7R6=>BF
+5j$^2!!!!68OPjD#T[D_5Qa+Q$k1cBRPJVt!KCanBb7*B=TAF%!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -883,9 +884,10 @@ Flags: W
 VStem: 474 122<-236 468 708 1440>
 LayerCount: 2
 Back
-Image2: image/png 107 0 1562.12 61.0352 61.0352
+Image2: image/png 142 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!48OPjD#T[D_5R.OE!lSL3kQ:h#XUbGR:kYG@!!!!j78?7R6=>BF
+5j$^2!!!!W8OPjD#T[D_J-,lrMiE;H!0BO`N'P*?RM\j1*%4*T#?[);#QWO#%+6L5`DA8n"h7;M
+!rrg:&8HBi`npar!!#SZ:.26O@"J@Y
 EndImage2
 Fore
 SplineSet
@@ -1192,10 +1194,10 @@ HStem: 100 124<240 296 570 770> 224 114<240 310> 706 122<120 368 488 732> 1196 1
 VStem: 368 120<320 706 828 1110>
 LayerCount: 2
 Back
-Image2: image/png 140 0 1562.12 61.0352 61.0352
+Image2: image/png 153 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!U8OPjD#T[D_5R/AJ(`7`V0JLfR@NHWras1DCTKEK)M]oFoJK4Q1+TBEs@.OWZE""o1
-<h]k^gb6lKz8OZBBY!QNJ
+5j$^2!!!!b8OPjD#T[D_5R/AJ(`7`V0JLfR@NHY(YQJ?X+9o(g)!lhE+:R3J^r>:'bQ\LLm6EQ/
+(`7)gTGnC#)^#Li!/@BXAqe]9=9&=$!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -1333,10 +1335,10 @@ HStem: 98 21G<474 596> 342 122<108 474 596 962> 708 122<108 474 596 962>
 VStem: 474 122<98 342 464 708 830 896>
 LayerCount: 2
 Back
-Image2: image/png 144 0 1562.12 61.0352 61.0352
+Image2: image/png 174 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!Y8OPjD#T[D_5Q_57$k*p<$k+n=$k.M=$k2J<$k1?%(`4)3!#6P_@'KYA_&tWk`[)*o
-Kb".`^:Xr=DAG@fz8OZBBY!QNJ
+5j$^2!!!""8OPjD#TZX`0a`Fr$q/LH.rMhP2AV5'gLup+=5Tct"E0s.Kf\]G9L@[^TW)K3?kIF"
+;MJiuiGbg1K<jD_%uSY^^:mJ%Mp&1H'0W.W;=87p4^9d/&AZNb&u>R.!!#SZ:.26O@"J@Y
 EndImage2
 Fore
 SplineSet
@@ -1408,10 +1410,10 @@ HStem: 344 118<490 612 734 856> 724 112<240 530> 1208 110<240 530>
 VStem: 128 112<96 724 836 1208> 612 122<-24 344 462 584 920 1120>
 LayerCount: 2
 Back
-Image2: image/png 138 0 1562.12 61.0352 61.0352
+Image2: image/png 161 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!S8OPjD#T[D_5Qg]b(`;T]0JF=X!3lPC#)[um5\bgI&.DM/#KR-Y(`uAf'`uoq!<A,t
-$rt0^_NOs"!!#SZ:.26O@"J@Y
+5j$^2!!!!j8OPjD#T[D_5Qg]b(`;T]0JF=X!3lPC#)[um5\bgI&8\!J<6*3jn:q7)Fb"9Q+9o-f
+=:D-a#Da[VW^/lNM!^lm)itg9!5#$9d!+G*z!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -1536,10 +1538,10 @@ HStem: 356 96<415.647 635.306> 838 94<416.444 631.556>
 VStem: 236 96<522.957 766.312> 716 96<522.568 765.926>
 LayerCount: 2
 Back
-Image2: image/png 147 0 1562.12 61.0352 61.0352
+Image2: image/png 159 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!\8OPjD#T[D_^]=k2)&OpW)&QoZ(`<$Y(`:nT0JG21?smB+?sqpO6,as$O;pe#81d@C
-82&$m!WW4k1Bn:Wi8X)'!!!!j78?7R6=>BF
+5j$^2!!!!h8OPjD#T[D_^]=k2)&OpW)&QoZ6l>]0(`:nT0JG21?smB+?sqpO@0C$C+9o(o@a#qH
+^hQ,LAb[Bo%@@Td9F!&c!;6E$#mS:H5&%V/!!!!j78?7R6=>BF
 EndImage2
 Fore
 SplineSet
@@ -2594,9 +2596,9 @@ Flags: W
 HStem: -26 124<108 962>
 LayerCount: 2
 Back
-Image2: image/png 119 0 1562.12 61.0352 61.0352
+Image2: image/png 107 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!@8OPjD#T[D_^^E,PZFY9\&<aO&cbKOt$k1;2bQ.]VLB@U(b;\bf!!!!j78?7R6=>BF
+5j$^2!!!!48OPjD#T[D_TJ<\NcbKOt2uiqJNWOW`(A*:\!!!!j78?7R6=>BF
 EndImage2
 Fore
 SplineSet
@@ -2927,10 +2929,10 @@ HStem: -192 570
 VStem: 476 238<214 378>
 LayerCount: 2
 Back
-Image2: image/png 122 0 1562.12 61.0352 61.0352
+Image2: image/png 125 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!C8OPjD#T[D_TJlQF1_>N^JMcs#"pXc'$k3%C5R`lD!s$d@"q'@X[\!O"!!#SZ:.26O
-@"J@Y
+5j$^2!!!!F8OPjD#T[D_+:Bm`f(B%l"iZEcReZsd"8`*'#6"fL#"kQi!7T3t%JGZ2b5_MB!(fUS
+7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -3244,9 +3246,9 @@ HStem: 1196 122<228 354 596 720>
 VStem: 228 126<1196 1318> 596 124<1196 1318>
 LayerCount: 2
 Back
-Image2: image/png 109 0 1562.12 61.0352 61.0352
+Image2: image/png 113 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!68OPjD#T[D_5Q`qB$k12o9q'd@!..NC/SWS/G5qUC!(fUS7'8jaJcGcN
+5j$^2!!!!:8OPjD#T[D_J-0s;MiGQ-T)f,5V.mgI!.cR"3a5J^L&_2R!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -3304,9 +3306,10 @@ HStem: 954 364
 VStem: 358 362
 LayerCount: 2
 Back
-Image2: image/png 119 0 1562.12 61.0352 61.0352
+Image2: image/png 139 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!@8OPjD#T[D_5R.KYJH?sC^qda1J:W9^!Jl;3)?BgShu_!.Z0sOM!!!!j78?7R6=>BF
+5j$^2!!!!T8OPjD#T[D_5R.KYJH?sC^qda1J:W9^!Jl;3_>pB/)iHIETGRsh!\kWnSdS*DK@g/e
+%0Ri%;'kr:!!!!j78?7R6=>BF
 EndImage2
 Fore
 SplineSet
@@ -5298,9 +5301,10 @@ HStem: 98 21G<474 596> 932 20G<474 596> 1196 122<474 596>
 VStem: 474 122<98 952 1196 1318>
 LayerCount: 2
 Back
-Image2: image/png 114 0 1562.12 61.0352 61.0352
+Image2: image/png 141 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!;8OPjD#T[D_5R.OE![*F3%KH[R_<C$Snc9T0$itPomNMW2!!#SZ:.26O@"J@Y
+5j$^2!!!!V8OPjD#T[D_5R.OE![,]p#9j`;!0@N,-9t`OLk5,90pir:AclKfH(Y]u!6R(tjWWag
+!+mPeEZN%CVuQet!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -5431,9 +5435,10 @@ VStem: 114 120<98 744 916 950> 476 122<98 746> 840 120<98 748>
 CounterMasks: 1 38
 LayerCount: 2
 Back
-Image2: image/png 118 0 1562.12 61.0352 61.0352
+Image2: image/png 129 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!?8OPjD#T[D_+;41u0JLTJ@plNgcG3h,R!;<?GQ7h(%/MQ%6N7#c!!#SZ:.26O@"J@Y
+5j$^2!!!!J8OPjD#T[D_+;41u0JLTJ@plNgcG3h,fFE`)JJc>FNtKAf,+&WO!%%7HGR7u";?-[s
+!(fUS7'8jaJcGcN
 EndImage2
 Fore
 SplineSet
@@ -5479,9 +5484,10 @@ HStem: 100 23G<240 360 730 844> 834 116<114 212 444 644>
 VStem: 240 120<100 746> 730 114<102 752>
 LayerCount: 2
 Back
-Image2: image/png 117 0 1562.12 61.0352 61.0352
+Image2: image/png 142 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!>8OPjD#T[D_+;,Ok@:6>>a2#L.%`HT0@fjXP!;143-.ggCd/X.H!(fUS7'8jaJcGcN
+5j$^2!!!!W8OPjD#T[D_^^CR$Z;s67c=$R*S\b;t2?OIO!s9&i+`%B_@h6KZE;^1RP!Cp]0+5^;
+!!#h("Pe.IMJW=n!!#SZ:.26O@"J@Y
 EndImage2
 Fore
 SplineSet
@@ -7376,10 +7382,11 @@ HStem: 100 120<312 756> 1076 118<314 756>
 VStem: 110 124<434 988> 842 120<306 864>
 LayerCount: 2
 Back
-Image2: image/png 155 0 1562.12 61.0352 61.0352
+Image2: image/png 182 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!d8OPjD#T[D_^]F610JLTJ@plNKB4*Cn@=B>b#@_Hk/dC=U$k.lG)&S=%)&USc)&V^j
-fER-`5T$F@U_dPG!<<,<"U\46D&YG7!!!!j78?7R6=>BF
+5j$^2!!!"*8OPjD#T[D_^]F610JLTJ;dch;B4*E$=(O)D2e"J&#I:IW(^u9r)%7QB0Gkj3@k_dY
+@k_P-@'F,V@^#m](<dD!4nAV4)>O5f!)6N!@\<jV*L(.=dNAr"!WXcf$n)j3^A7g0!!#SZ:.26O
+@"J@Y
 EndImage2
 Fore
 SplineSet
@@ -7579,9 +7586,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 108 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!58OPjD#T[D_^^2Q2b"sE.JZKjl(XN.Ze>dZTz8OZBBY!QNJ
 EndImage2
 Fore
 Validated: 1
@@ -7594,9 +7601,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 112 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!98OPjD#T[D_^^CR4A6G&IpmBM),gk]R)&N?Nct$2+z8OZBBY!QNJ
 EndImage2
 Fore
 Validated: 1
@@ -7624,9 +7631,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 108 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!58OPjD#T[D_^^2Q2b"sEnJ?0ak)$g4VNRciaz8OZBBY!QNJ
 EndImage2
 Fore
 Validated: 1
@@ -8556,9 +8563,9 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 108 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!58OPjD#T[D_TIDQ[17]/:%;,_B#8mM"s/Udrz8OZBBY!QNJ
 EndImage2
 Fore
 Validated: 1
@@ -8631,9 +8638,10 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 108 0 1562.12 61.0352 61.0352
+Image2: image/png 125 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!58OPjD#T[D_TIDQ[17]GB%;,_B#=AJNC@=Soz8OZBBY!QNJ
+5j$^2!!!!F8OPjD#T[D_^^2Qb1<`#;*f/?sfGH*X$Dc)2oa/]le77\I!0t.tgq(7Lnc/Xi!(fUS
+7'8jaJcGcN
 EndImage2
 Fore
 Validated: 1
@@ -8706,9 +8714,10 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Back
-Image2: image/png 100 0 1562.12 61.0352 61.0352
+Image2: image/png 124 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!-8OPjD#T[D_(g$b<!.Y%MAiG:Hz8OZBBY!QNJ
+5j$^2!!!!E8OPjD#T[D_^^2Qb1<`#;*f.dcfGH(b!Mn-)jU'"D@$:fqPjAJ5ed>sEz8OZBB
+Y!QNJ
 EndImage2
 Fore
 Validated: 1
@@ -9032,10 +9041,10 @@ Flags: W
 HStem: 586 122<460 1070> 932 20G<436.34 460>
 LayerCount: 2
 Back
-Image2: image/png 125 0 1562.12 61.0352 61.0352
+Image2: image/png 124 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!F8OPjD#T[D_+;-@1eZf3257l!?Z2O\)?jpLs`'A>c25C6T!%cq/S^,6KnGiOh!(fUS
-7'8jaJcGcN
+5j$^2!!!!E8OPjD#T[D_+;-@1eZf3257l!?Z2O\)?jpLs`'A>c2'`5'/?K%lO,?!Qz8OZBB
+Y!QNJ
 EndImage2
 Fore
 SplineSet
@@ -9260,10 +9269,9 @@ HStem: 216 132<120 960> 464 124<120 952> 948 128<120 952>
 VStem: 0 120<348 464 588 948> 952 120<348 464 588 948>
 LayerCount: 2
 Back
-Image2: image/png 144 0 1562.12 61.0352 61.0352
+Image2: image/png 115 0 1562.12 61.0352 61.0352
 M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
-5j$^2!!!!Y8OPjD#T[D_^^8Z/1B7B(@JKm&!5ehla$:&b?_I$a0TD1/#j)'iWrEUZCQF5'TmV9m
-\PN>-"'-LPL5'I(z8OZBBY!QNJ
+5j$^2!!!!<8OPjD#T[D_+9;E@5JR99\0/@FN).5kQo"ek;]KpYXe:OO!!!!j78?7R6=>BF
 EndImage2
 Fore
 SplineSet
@@ -63102,7 +63110,7 @@ Refer: 408 65294 N 1 0 0 1 61 499 2
 Validated: 1
 EndChar
 EndChars
-BitmapFont: 14 2206 11 3 1
+BitmapFont: 14 2207 11 3 1
 BDFChar: 1 1114113 8 0 0 0 0 0
 z
 BDFChar: 2 8364 8 1 6 0 9 0
@@ -67345,7 +67353,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 17 2206 14 3 1
+BitmapFont: 17 2207 14 3 1
 BDFChar: 1 1114113 9 0 0 0 0 0
 z
 BDFChar: 2 8364 9 1 7 1 11 0
@@ -71588,7 +71596,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 25 2206 20 5 1
+BitmapFont: 25 2207 20 5 1
 BDFChar: 1 1114113 14 0 0 0 0 0
 z
 BDFChar: 2 8364 14 1 11 1 16 0
@@ -75833,7 +75841,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 28 2206 22 6 1
+BitmapFont: 28 2207 22 6 1
 BDFChar: 1 1114113 15 0 0 0 0 0
 z
 BDFChar: 2 8364 15 2 12 1 18 0
@@ -80078,7 +80086,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 33 2206 26 7 1
+BitmapFont: 33 2207 26 7 1
 BDFChar: 1 1114113 18 0 0 0 0 0
 z
 BDFChar: 2 8364 18 2 15 2 21 0
@@ -84475,7 +84483,7 @@ BDFRefChar: 2165 2057 0 0 N
 BDFRefChar: 2176 55 0 0 N
 BDFRefChar: 2204 39 0 0 N
 EndBitmapFont
-BitmapFont: 50 2206 40 10 1
+BitmapFont: 50 2207 40 10 1
 BDFChar: 1 1114113 27 0 0 0 0 0
 z
 BDFChar: 2 8364 27 3 23 2 32 0
