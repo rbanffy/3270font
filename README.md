@@ -2,7 +2,7 @@
 ==================================
 
 ![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
-![Debian package](https://img.shields.io/debian/v/3270font)
+![Debian package](https://img.shields.io/debian/v/3270font/unstable)
 ![Ubuntu package](https://img.shields.io/ubuntu/v/3270font)
 
 ![Screenshot](
