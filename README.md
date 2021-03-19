@@ -3,6 +3,8 @@
 
 ![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
 
+[![DebianBadge](https://badges.debian.net/badges/debian/unstable/fonts-3270/version.svg)](https://packages.debian.org/unstable/fonts-3270)
+
 ![Screenshot](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
