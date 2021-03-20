@@ -126,6 +126,10 @@ ifeq ($(UNAME),Linux)
 	@aws s3 cp ${BUILD_DIR}/urxvt.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 endif
+ifeq ($(UNAME),Darwin)
+	@aws s3 cp ${BUILD_DIR}/terminal-app.png s3://3270font/ --acl public-read \
+                --storage-class REDUCED_REDUNDANCY
+endif
 	@aws s3 cp ${BUILD_DIR}/3270_sample.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 	@./clean_camo_cache.sh
