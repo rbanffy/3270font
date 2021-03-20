@@ -50,6 +50,11 @@ ifeq ($(UNAME),Linux)
 	@gnome-terminal --profile='3270font-test' -q --geometry=80x25 \
 		-- sh -c './test_font_rendering.sh gnome-terminal'
 endif
+ifeq ($(UNAME),Darwin)
+#	@awk '{gsub(/%PWD%/,"$(srcdir)")}1' test_font_rendering_mac.sh > deleteme.sh
+#	@chmod +x deleteme.sh
+	@open -b com.apple.terminal test_font_rendering_mac.sh
+endif
 
 install: font ## Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX).
 	@install -d $(DESTFOLDER)
