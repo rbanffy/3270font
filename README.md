@@ -117,6 +117,8 @@ https://3270font.s3.amazonaws.com/gnome-terminal.png)
 
 ![urxvt](https://3270font.s3.amazonaws.com/urxvt.png)
 
+![Terminal.app]()https://3270font.s3.amazonaws.com/terminal-app.png)
+
 Known problems
 --------------
 
