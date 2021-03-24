@@ -1,6 +1,7 @@
 current
 -------
 
+- Use a constant to set which font file to use
 - Set version to 2.3.1
 
 v2.3.0
