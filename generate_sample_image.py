@@ -6,18 +6,17 @@ Generate a sample rendering of the base font.
 from PIL import Image, ImageColor, ImageDraw, ImageFilter, ImageFont
 
 SAMPLE_TEXT = (
-    "ABCDEFHI1234567890Oijl1IS5qt\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×÷ßø«»®␀␍␊"
-    "␌▶⚓⯒✘✔✼✎␢…⌘⏎⌫⏻⏼➜●ЯЖ"
+    "ABCDEFHIJKLMNOP1234567890abcdefghijklmnop\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×"
+    "÷ßø«»®␀␍␊␌▶⚓⯒✘✔✼✎␢…⌘⏎⌫⏻⏼➜●ЯЖ"
 )
 CONFUSABLES = "bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O"
 LINE_COLOR = ImageColor.getrgb("#88f")
 TEXT_COLOR = ImageColor.getrgb("black")
 
-FONT_FILE = "./build/3270-Regular.otf"
+FONT_FILE = "./build/3270-Regular.ttf"
 
 
 def draw_sample():
-
     HEIGHT = 500
     WIDTH = 800
     background = Image.new("RGBA", (WIDTH, HEIGHT), ImageColor.getrgb("white"))
