@@ -1,6 +1,7 @@
 current
 -------
 
+- Add ╵, ╷, ╶, and ╴
 - Use a constant to set which font file to use
 - Set version to 2.3.1
 
