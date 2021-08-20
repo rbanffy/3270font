@@ -1,6 +1,10 @@
 current
 -------
 
+- Fix ˜ (make it different from ~
+- Fix F, G, L, Ģ, ģ, €, a, Њ, њ, ª, q, r, ă, 𝔾. 𝕗, 𝕣, 𝗮, 𝗾, 𝗿, 🬭, 🬮,
+  🬼, 🬽, 🬾, 🬿, 🭀, 🭂, 🭄, 🭆, 🭍, 🭏, 🭐, 🭒, 🭓, 🭕, 🭖, 🯆, 🯇, 🯈
+- Point to SIL license using HTTPS URL
 - Add ╵, ╷, ╶, and ╴
 - Use a constant to set which font file to use
 - Set version to 2.3.1
