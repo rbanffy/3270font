@@ -29,7 +29,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1629484245
+ModificationTime: 1629484748
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1782 22 11
+WinInfo: 1034 22 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -60752,21 +60752,21 @@ StartChar: uni2293
 Encoding: 1071 8851 2109
 Width: 1080
 VWidth: 0
-Flags: HW
-HStem: 102 127<232 846>
-VStem: 110 122<229 1100> 846 122<229 1100>
+Flags: W
+HStem: 102 21G<110 232 846 968> 973 127<232 846>
+VStem: 110 122<102 973> 846 122<102 973>
 LayerCount: 2
 Fore
 SplineSet
-846 229 m 5
- 846 1100 l 1
- 968 1100 l 1
- 968 102 l 5
- 110 102 l 5
+232 973 m 1
+ 232 102 l 1
+ 110 102 l 1
  110 1100 l 1
- 232 1100 l 1
- 232 229 l 5
- 846 229 l 5
+ 968 1100 l 1
+ 968 102 l 1
+ 846 102 l 1
+ 846 973 l 1
+ 232 973 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -60775,21 +60775,21 @@ StartChar: uni2294
 Encoding: 1072 8852 2110
 Width: 1080
 VWidth: 0
-Flags: HW
-HStem: 102 21G<110 232 846 968> 973 127<232 846>
-VStem: 110 122<102 973> 846 122<102 973>
+Flags: WO
+HStem: 102 127<232 846>
+VStem: 110 122<229 1100> 846 122<229 1100>
 LayerCount: 2
 Fore
 SplineSet
-846 973 m 1
- 232 973 l 1
- 232 102 l 5
- 110 102 l 5
- 110 1100 l 1
+846 229 m 1
+ 846 1100 l 1
  968 1100 l 1
- 968 102 l 5
- 846 102 l 5
- 846 973 l 1
+ 968 102 l 1
+ 110 102 l 1
+ 110 1100 l 1
+ 232 1100 l 1
+ 232 229 l 1
+ 846 229 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -67193,8 +67193,8 @@ BDFChar: 2107 1069 8 1 6 -1 7 0
 r.'<JJ:ROtqu?]s
 BDFChar: 2108 1070 8 1 6 -1 7 0
 qud-*"9eW&qu?]s
-BDFChar: 2109 1071 8 1 6 0 6 0
-KS5#3KS97'
+BDFChar: 2109 1071 8 0 0 0 0 0
+z
 BDFChar: 2110 1072 8 1 6 0 6 0
 r.K`VKS5!Y
 BDFChar: 2111 1073 8 1 6 1 7 0
@@ -71448,8 +71448,8 @@ BDFChar: 2107 1069 9 1 7 -1 8 0
 rd]NLJ:RV!!<)ru
 BDFChar: 2108 1070 9 1 7 -1 8 0
 rW3-&!Wr?$!<)ru
-BDFChar: 2109 1071 9 1 7 0 7 0
-JqAT+JqAUR
+BDFChar: 2109 1071 9 0 0 0 0 0
+z
 BDFChar: 2110 1072 9 1 7 0 7 0
 rdo`RJqAT+
 BDFChar: 2111 1073 9 1 8 1 8 0
@@ -75705,8 +75705,8 @@ BDFChar: 2107 1069 14 1 11 -2 13 0
 s5<q8^];.M^];.M^];.M^];.Ms5<q8zs5<q8
 BDFChar: 2108 1070 14 1 11 -2 13 0
 s5<q8!+5e7!+5e7!+5e7!+5e7s5<q8zs5<q8
-BDFChar: 2109 1071 14 1 11 1 12 0
-^`^E8^`^E8^`^E8^`^E8^`^E8s5<q8
+BDFChar: 2109 1071 14 0 0 0 0 0
+z
 BDFChar: 2110 1072 14 1 11 1 13 0
 s5<q8^`^E8^`^E8^`^E8^`^E8^`^E8^`WUW
 BDFChar: 2111 1073 14 1 12 2 12 0
@@ -79962,8 +79962,8 @@ BDFChar: 2107 1069 15 1 12 -2 14 0
 s7$'X^];.M^];.M^];.M^];.Ms7$'Xz!!*&gs6p!g
 BDFChar: 2108 1070 15 1 12 -2 14 0
 s7$'X!"],A!"],A!"],A!"],As7$'Xz!!*&gs6p!g
-BDFChar: 2109 1071 15 2 13 1 14 0
-J1uL-J1uL-J1uL-J1uL-J1uL-J1uL-s7$'X
+BDFChar: 2109 1071 15 0 0 0 0 0
+z
 BDFChar: 2110 1072 15 2 13 1 14 0
 s7$'XJ1uL-J1uL-J1uL-J1uL-J1uL-J1uL-
 BDFChar: 2111 1073 15 1 13 2 14 0
@@ -84371,8 +84371,8 @@ BDFChar: 2107 1069 18 2 15 -2 17 0
 s8;op^];.M^];.M^];.M^];.M^];.Ms8;opzzs8;op
 BDFChar: 2108 1070 18 2 15 -2 17 0
 s8;op!"8i9!"8i9!"8i9!"8i9!"8i9s8;opzzs8;op
-BDFChar: 2109 1071 18 2 15 1 16 0
-^^S!e^^S!e^^S!e^^S!e^^S!e^^S!e^^S!es8;op
+BDFChar: 2109 1071 18 0 0 0 0 0
+z
 BDFChar: 2110 1072 18 2 15 1 16 0
 s8;op^^S!e^^S!e^^S!e^^S!e^^S!e^^S!e^^S!e
 BDFChar: 2111 1073 18 2 16 3 17 0
@@ -90320,9 +90320,8 @@ s8Vlos7cQozzz!<<)os8Vlos7cQo
 BDFChar: 2108 1070 27 3 23 -3 26 0
 s8Vlos7lWop](:R!!"tY!&srY2uiq<!!"tY!&srY2uiq<!!"tY!&srY2uiq<!!"tY!&srY3<0$R
 s8Vlos7cQozzz!<<)os8Vlos7cQo
-BDFChar: 2109 1071 27 3 23 2 26 0
-huGap!'&m:38acrhuGap!'&m:38acrhuGap!'&m:38acrhuGap!'&m:38acrhuGap!'&m:38acr
-huGap!'(#Yq#CBhs8Vio
+BDFChar: 2109 1071 27 0 0 0 0 0
+z
 BDFChar: 2110 1072 27 3 23 2 26 0
 s8Vlos7lWoptu-3huGap!'&m:38acrhuGap!'&m:38acrhuGap!'&m:38acrhuGap!'&m:38acr
 huGap!'&m:38acrhuG_:
