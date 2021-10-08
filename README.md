@@ -29,9 +29,9 @@ If you are running Debian or Ubuntu and you don't want to mess with
 building your font files, you can simply `apt-get install fonts-3270`
 (It's available from the Debian
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
-(http://packages.ubuntu.com/focal/fonts-3270) package repos at
+(http://packages.ubuntu.com/impish/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-https://packages.ubuntu.com/focal/fonts/fonts-3270, although the
+https://packages.ubuntu.com/impish/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
 most purposes.
 
@@ -39,7 +39,7 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_e9113f3.zip (although this
+https://3270font.s3.amazonaws.com/3270_fonts_3b8f2fb.zip (although this
 URL may not always reflect the latest version).
 
 ![ASCII is so 60's](
