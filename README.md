@@ -29,9 +29,9 @@ If you are running Debian or Ubuntu and you don't want to mess with
 building your font files, you can simply `apt-get install fonts-3270`
 (It's available from the Debian
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
-(http://packages.ubuntu.com/focal/fonts-3270) package repos at
+(http://packages.ubuntu.com/impish/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-https://packages.ubuntu.com/focal/fonts/fonts-3270, although the
+https://packages.ubuntu.com/impish/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
 most purposes.
 
