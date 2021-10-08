@@ -1,3 +1,10 @@
+current
+-------
+
+- Fix cache clear utility
+- Update requirements.txt
+- Set version to 2.3.2
+
 v2.3.1
 ------
 
