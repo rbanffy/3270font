@@ -1,5 +1,5 @@
-current
--------
+v2.3.1
+------
 
 - Swap ⊓ and ⊔
 - Fix ˜ (make it different from ~)
