@@ -31,6 +31,6 @@ jobs:
           sudo python3 -m pip install -r requirements.txt
           
       # Runs a set of commands using the runners shell
-      - name: Run the full set of tests
+      - name: Run the limited set of tests
         run: |
-          make fulltest
+          make travistest
