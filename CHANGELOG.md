@@ -1,6 +1,9 @@
 current
 -------
 
+- Added 4-dotted numbers to rendering sample
+- Moved  ⃛ and  ⃜ up away from topline
+- Add GitHub workflow for testing
 - Fix cache clear utility
 - Update requirements.txt
 - Set version to 2.3.2
