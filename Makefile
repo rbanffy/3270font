@@ -60,7 +60,7 @@ endif
 
 build/konsole.png: font
 ifeq ($(UNAME),Linux)
-	@konsole -geometry 820x520 -e './test_font_rendering.sh konsole'
+	@konsole -p font='IBM3270, 12' -e './test_font_rendering.sh konsole'
 endif
 
 build/gnome-terminal.png: font
