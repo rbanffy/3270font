@@ -39,8 +39,8 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_3b8f2fb.zip (although this
-URL may not always reflect the latest version).
+https://3270font.s3.amazonaws.com/3270_fonts_ac15716.zip (although this
+URL may not always reflect the latest build or release).
 
 ![ASCII is so 60's](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/cyrillic.png)
