@@ -121,7 +121,7 @@ travistest: zip skimpytest ## Runs the Travis CI set of tests
 fulltest: zip test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 
-upload: zip build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
+upload: zip build/3270_sample.png build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
 	@aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell \
 		git rev-parse --short HEAD).zip \
 		s3://3270font/ \
