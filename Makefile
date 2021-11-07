@@ -38,15 +38,33 @@ font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the S
 	@./generate_derived.pe 2> /dev/null >&2
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
-sample: font ## Generate sample images
+sample: build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Generate sample images
 	@./generate_sample_image.py
+
+build/urxvt.png: font
 ifeq ($(UNAME),Linux)
 	@urxvt -fn "xft:IBM3270:size=12" --geometry 80x25 -fg white \
 		-bg black -e ./test_font_rendering.sh urxvt
+endif
+
+build/terminator.png: font
+ifeq ($(UNAME),Linux)
 	@terminator -e './test_font_rendering.sh terminator'
+endif
+
+build/xterm.png: font
+ifeq ($(UNAME),Linux)
 	@xterm -fa 'IBM3270' -fs 12 -geometry 80x25 -e \
 		'./test_font_rendering.sh xterm'
+endif
+
+build/konsole.png: font
+ifeq ($(UNAME),Linux)
 	@konsole -geometry 820x520 -e './test_font_rendering.sh konsole'
+endif
+
+build/gnome-terminal.png: font
+ifeq ($(UNAME),Linux)
 	@gnome-terminal --profile='3270font-test' -q --geometry=80x25 \
 		-- sh -c './test_font_rendering.sh gnome-terminal'
 endif
