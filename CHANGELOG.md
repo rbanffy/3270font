@@ -1,6 +1,7 @@
 current
 -------
 
+- Added ⋈, ⨝, ⋉, ⋊
 - Added 4-dotted numbers to rendering sample
 - Moved  ⃛ and  ⃜ up away from topline
 - Add GitHub workflow for testing
