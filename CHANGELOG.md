@@ -1,6 +1,7 @@
 current
 -------
 
+- Added note to README on build dependencies
 - Added ⋈, ⨝, ⋉, ⋊
 - Added 4-dotted numbers to rendering sample
 - Moved  ⃛ and  ⃜ up away from topline

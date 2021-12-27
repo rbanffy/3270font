@@ -103,6 +103,15 @@ a container runtime, Docker, Podman, and etc, and use these make targets:
   - ```make generate``` -  uses the local container image to run ```make font```
 
 
+Build Requirements
+------------------
+
+On Debian derived distros, you'll need Fontforge and python3-dev. On Red
+Hat ans similar distros, you'll need Fontforge and python3-devel. Since
+some packages will need to be compiled, you'll need a build system (GNU
+Make, a C compiler, etc).
+
+
 Screenshots
 -----------
 
