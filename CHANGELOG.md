@@ -1,6 +1,7 @@
 current
 -------
 
+- Re-add Ogham bar
 - Added a social preview image
 - Added note to README on build dependencies
 - Added ⋈, ⨝, ⋉, ⋊
