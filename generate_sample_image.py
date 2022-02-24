@@ -49,7 +49,7 @@ def draw_sample(font_file):
     return Image.alpha_composite(background, foreground)
 
 
-def draw_readability_test(font_file, blur_radius):
+def draw_readability_test(font_file, factor):
     sample_font = ImageFont.truetype(font_file, size=30)
 
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
@@ -60,7 +60,9 @@ def draw_readability_test(font_file, blur_radius):
         TEXT_COLOR,
         font=sample_font,
     )
-    img = img.filter(ImageFilter.GaussianBlur(blur_radius))
+    img = img.resize((800 // factor, 35 // factor))
+    img = img.resize((800, 35), Image.NEAREST)
+
     return img
 
 
@@ -68,9 +70,9 @@ if __name__ == "__main__":
     samples = []
     for font in FONT_FILES:
         sample = draw_sample(font)
-        for radius in range(6):
-            rt = draw_readability_test(font, radius)
-            sample.paste(rt, (0, 250 + 35 * radius))
+        for factor in range(1, 6):
+            rt = draw_readability_test(font, factor)
+            sample.paste(rt, (0, 250 + 35 * factor))
         samples.append(sample)
     sample.save(
         "build/3270_sample.gif",
