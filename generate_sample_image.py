@@ -3,7 +3,7 @@
 Generate a sample rendering of the base font.
 """
 
-from PIL import Image, ImageColor, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageColor, ImageDraw, ImageFont
 
 SAMPLE_TEXT = (
     "ABCDEFHIJKLMNOP1234567890abcdefghijklmnop\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×"
