@@ -38,7 +38,9 @@ font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the S
 	@./generate_derived.pe 2> /dev/null >&2
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
-sample: build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Generate sample images
+sample: font build/3270_sample.gif
+
+build/3270_sample.gif:
 	@./generate_sample_image.py
 
 build/urxvt.png: font
@@ -121,7 +123,7 @@ travistest: zip skimpytest ## Runs the Travis CI set of tests
 fulltest: zip test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 
-upload: zip build/3270_sample.png build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
+upload: zip sample build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
 	@aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell \
 		git rev-parse --short HEAD).zip \
 		s3://3270font/ \
@@ -139,7 +141,7 @@ ifeq ($(UNAME),Linux)
 	@aws s3 cp ${BUILD_DIR}/urxvt.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 endif
-	@aws s3 cp ${BUILD_DIR}/3270_sample.png s3://3270font/ --acl public-read \
+	@aws s3 cp ${BUILD_DIR}/3270_sample.gif s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 	@./clean_camo_cache.sh
 
