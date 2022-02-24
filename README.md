@@ -8,7 +8,7 @@
 ![Screenshot](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
-![Sample](https://3270font.s3.amazonaws.com/3270_sample.png)
+![Sample](https://3270font.s3.amazonaws.com/3270_sample.gif)
 
 A little bit of history
 -----------------------
