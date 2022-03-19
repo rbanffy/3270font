@@ -147,9 +147,9 @@ endif
 
 clean: ## Deletes all automatically generated files
 	@$(RM) -rf ${BUILD_DIR}
-	@$(RM) -rf gfonts_files/3270/*.ttf
-	@$(RM) -rf gfonts_files/3270condensed/*.ttf
-	@$(RM) -rf gfonts_files/3270semicondensed/*.ttf
+	@$(RM) -rf gfonts_files/3270/*
+	@$(RM) -rf gfonts_files/3270condensed/*
+	@$(RM) -rf gfonts_files/3270semicondensed/*
 
 cask: zip  ## Generate the font cask file (requires Homebrew)
 ifeq ($(UNAME),Darwin)
