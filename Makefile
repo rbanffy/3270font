@@ -118,7 +118,7 @@ test: skimpytest ## Generates and checks font files
 	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.woff
 
-travistest: zip skimpytest ## Runs the Travis CI set of tests
+travistest: help zip skimpytest ## Runs the Travis CI set of tests
 
 fulltest: zip test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
