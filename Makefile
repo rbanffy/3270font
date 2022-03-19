@@ -29,7 +29,7 @@ export PRINT_HELP_PYSCRIPT
 
 help: ## Displays this message.
 	@echo "Please use \`make <target>' where <target> is one of:"
-	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
+	@python3 -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
 all: font sample ## Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
 
