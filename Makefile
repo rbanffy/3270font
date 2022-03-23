@@ -51,7 +51,7 @@ endif
 
 build/terminator.png: font
 ifeq ($(UNAME),Linux)
-	@terminator -e './test_font_rendering.sh terminator'
+	@terminator -p 3270font -e './test_font_rendering.sh terminator'
 endif
 
 build/xterm.png: font
