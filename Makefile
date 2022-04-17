@@ -146,10 +146,11 @@ endif
 	@./clean_camo_cache.sh
 
 clean: ## Deletes all automatically generated files
-	@$(RM) -rf ${BUILD_DIR}
-	@$(RM) -rf gfonts_files/3270/*
-	@$(RM) -rf gfonts_files/3270condensed/*
-	@$(RM) -rf gfonts_files/3270semicondensed/*
+	@$(RM) -rfv ${BUILD_DIR}
+	@$(RM) -rfv gfonts_files/3270/*.ttf gfonts_files/3270/*.html \
+		gfonts_files/3270/*.txt
+	@$(RM) -rfv gfonts_files/3270condensed/*
+	@$(RM) -rfv gfonts_files/3270semicondensed/*
 
 cask: zip  ## Generate the font cask file (requires Homebrew)
 ifeq ($(UNAME),Darwin)
