@@ -1,10 +1,11 @@
 ## current
 
+- Added building blocks for Kaypro octants
 - Fix ӗ, ⇵, ㄍ
 - Re-add Ogham bar
 - Added a social preview image
 - Added note to README on build dependencies
-- Added ⋈, ⨝, ⋉, ⋊, Ō, ŕ, ˅, ѐ, ӕ, ⇑, ⇓, ∔, ✙, ⌁ 
+- Added ⋈, ⨝, ⋉, ⋊, Ō, ŕ, ˅, ѐ, ӕ, ⇑, ⇓, ∔, ✙, ⌁
 - Added 4-dotted numbers to rendering sample
 - Moved  ⃛ and  ⃜ up away from topline
 - Add GitHub workflow for testing
