@@ -98,9 +98,9 @@ skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned i
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
-	@fontlint ${BUILD_DIR}/3270-Regular.otf
+#	@fontlint ${BUILD_DIR}/3270-Regular.otf
 	@fontlint ${BUILD_DIR}/3270-Regular.ttf
-	@fontlint ${BUILD_DIR}/3270-Regular.woff
+#	@fontlint ${BUILD_DIR}/3270-Regular.woff
 	@fontlint ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	@fontlint ${BUILD_DIR}/3270Condensed-Regular.ttf
 	@wget --spider $(shell grep -Eo \
