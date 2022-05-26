@@ -161,4 +161,4 @@ image: ## Builds the container image
 	docker build -t 3270font:latest .
 
 generate: ## Generates the fonts using the container image
-	docker run --rm -v ${PWD}:/opt 3270font:latest make font
+	docker run --rm -v ${PWD}:/opt:Z 3270font:latest make font
