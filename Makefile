@@ -100,20 +100,21 @@ test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the 
 	@black --check -l79 *.py
 # Checks we may need to ignore
 # 2 Self-intersecting glyph
+# 5 Missing points at extrema
 # 23 Overlapping hints in a glyph
 # 34 Bad 'CFF ' table
 # 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
-	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
 	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	fontlint -w 2 -w 23 -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
+	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	fontlint -w 2 -w 23 -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
-	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.otf
-	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.woff
+	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.otf
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.woff
 
 	@wget --spider $(shell grep -Eo \
 		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
