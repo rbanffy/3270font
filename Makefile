@@ -94,33 +94,30 @@ zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
-skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
+test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
 # Checks we may need to ignore
 # 2 Self-intersecting glyph
-# 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
+# 23 Overlapping hints in a glyph
 # 34 Bad 'CFF ' table
-#	fontlint ${BUILD_DIR}/3270-Regular.otf
+# 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
-#	fontlint ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.woff
 	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	@wget --spider $(shell grep -Eo \
-		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
-		README.md)
-
-test: skimpytest ## Generates and checks font files
-# These are tests that fail on Travis (because their fontlint can't ignore
-# stuff).
-# Yes. This is "works on my computer".
-	fontlint -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
+	fontlint -w 2 -w 23 -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	fontlint -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -w 2 -w 23 -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
 	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.otf
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.woff
+
+	@wget --spider $(shell grep -Eo \
+		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
+		README.md)
 
 travistest: help zip skimpytest ## Runs the Travis CI set of tests
 
