@@ -98,11 +98,15 @@ skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned i
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
-#	@fontlint ${BUILD_DIR}/3270-Regular.otf
-	@fontlint ${BUILD_DIR}/3270-Regular.ttf
-#	@fontlint ${BUILD_DIR}/3270-Regular.woff
-	fontlint -i 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	fontlint -i 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
+# Checks we may need to ignore
+# 2 Self-intersecting glyph
+# 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
+# 34 Bad 'CFF ' table
+#	fontlint ${BUILD_DIR}/3270-Regular.otf
+	fontlint ${BUILD_DIR}/3270-Regular.ttf
+#	fontlint ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	@wget --spider $(shell grep -Eo \
 		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
 		README.md)
@@ -111,12 +115,12 @@ test: skimpytest ## Generates and checks font files
 # These are tests that fail on Travis (because their fontlint can't ignore
 # stuff).
 # Yes. This is "works on my computer".
-	@fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
-	@fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	@fontlint -i 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
-	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.otf
-	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	@fontlint -i 98 ${BUILD_DIR}/3270Condensed-Regular.woff
+	fontlint -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
+	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
+	fontlint -w 34 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.otf
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.ttf
+	fontlint -w 34 -w 98 ${BUILD_DIR}/3270Condensed-Regular.woff
 
 travistest: help zip skimpytest ## Runs the Travis CI set of tests
 
