@@ -101,8 +101,8 @@ skimpytest: font ## Runs the minimal tests and verifies the ZIP file mentioned i
 #	@fontlint ${BUILD_DIR}/3270-Regular.otf
 	@fontlint ${BUILD_DIR}/3270-Regular.ttf
 #	@fontlint ${BUILD_DIR}/3270-Regular.woff
-	@fontlint ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	@fontlint ${BUILD_DIR}/3270Condensed-Regular.ttf
+	fontlint -i 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
+	fontlint -i 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	@wget --spider $(shell grep -Eo \
 		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
 		README.md)
