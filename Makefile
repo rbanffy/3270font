@@ -94,7 +94,7 @@ zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
-test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
+ttftest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
@@ -104,25 +104,34 @@ test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the 
 # 23 Overlapping hints in a glyph
 # 34 Bad 'CFF ' table
 # 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
-	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
-	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
 	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
-	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.otf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
-	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.woff
 
+# Verify if the README points to an existing ZIP file
 	@wget --spider $(shell grep -Eo \
 		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
 		README.md)
 
-travistest: help zip test ## Runs the Travis CI set of tests
+travistest: help zip ttftest ## Runs the Travis CI set of tests
 
-fulltest: zip test fbchecks ## Runs the full set of tests
+test: zip ttftest ## Runs more extensive tests
+# Checks we may need to ignore
+# 2 Self-intersecting glyph
+# 5 Missing points at extrema
+# 23 Overlapping hints in a glyph
+# 34 Bad 'CFF ' table
+# 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
+	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
+	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.otf
+	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.woff
+
+fulltest: test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 
 upload: zip build/3270_sample.gif build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
