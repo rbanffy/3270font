@@ -107,7 +107,7 @@ test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the 
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
 	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
-	fontlint -w 2 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
+	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
