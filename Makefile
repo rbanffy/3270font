@@ -119,7 +119,7 @@ test: font ## Runs the minimal tests and verifies the ZIP file mentioned in the 
 		'https://3270font.s3.amazonaws.com/3270_fonts_[^/"]+\.zip' \
 		README.md)
 
-travistest: help zip skimpytest ## Runs the Travis CI set of tests
+travistest: help zip test ## Runs the Travis CI set of tests
 
 fulltest: zip test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
