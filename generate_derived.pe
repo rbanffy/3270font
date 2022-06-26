@@ -29,6 +29,8 @@ Generate("build/3270-Regular.ttf")
 Generate("build/3270-Regular.pfm", "", 0x2)
 Generate("build/3270-Regular.woff")
 Generate("build/3270-Regular.svg")
+# Make an image with the TTF version
+FontImage("build/3270-Regular.png", [20, "Aa0123 🮘🮘 🮙🮙 🮕🮕 🮖🮖 ◢◤◢◤┌─┬┐╔═╦╗"])
 
 SelectAll()
 Scale(91, 100) # Scales the glyphs to 91% of 1080 = 984
@@ -40,6 +42,7 @@ Generate("build/3270SemiCondensed-Regular.pfm", "", 0x2)
 Generate("build/3270SemiCondensed-Regular.woff")
 Generate("build/3270SemiCondensed-Regular.svg")
 Save("build/3270_HQ_SemiCondensed.sfd")
+FontImage("build/3270-SemiCondensed.png", [20, "Aa0123 🮘🮘 🮙🮙 🮕🮕 🮖🮖 ◢◤◢◤┌─┬┐╔═╦╗"])
 
 SelectAll()
 Scale(99.187, 100) # 99.187% of 984 = 976
@@ -52,3 +55,4 @@ Generate("build/3270Condensed-Regular.pfm", "", 0x2)
 Generate("build/3270Condensed-Regular.woff")
 Generate("build/3270Condensed-Regular.svg")
 Save("build/3270_HQ_Condensed.sfd")
+FontImage("build/3270-Condensed.png", [20, "Aa0123 🮘🮘 🮙🮙 🮕🮕 🮖🮖 ◢◤◢◤┌─┬┐╔═╦╗"])
