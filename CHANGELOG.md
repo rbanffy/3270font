@@ -1,5 +1,8 @@
 ## current
 
+- Scale glyphs before making the bounding box narrower
+- Generate a ‘PfEd’ table and store glyph comments in the PS font
+- Change OTF flags - don't generate glyph map remove PS-related flag
 - Added building blocks for Kaypro octants
 - Fix ӗ, ⇵, ㄍ
 - Re-add Ogham bar
