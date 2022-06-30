@@ -1,7 +1,10 @@
-git+https://github.com/googlefonts/fontbakery
-git+https://github.com/googlefonts/gftools
+awscli
 black
+compreffor
 flake8
+fontbakery
+fontpens
+gftools
 ipdb
 isort
-pillow==7.0.0 #Remove when googlefonts/gftools merges #249
+pip-chill

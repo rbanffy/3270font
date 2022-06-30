@@ -2,11 +2,13 @@
 ==================================
 
 ![Travis-CI](https://api.travis-ci.org/rbanffy/3270font.svg)
+![Debian package](https://img.shields.io/debian/v/3270font/unstable)
+![Ubuntu package](https://img.shields.io/ubuntu/v/3270font)
 
 ![Screenshot](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png)
 
-![Sample](https://3270font.s3.amazonaws.com/3270_sample.png)
+![Sample](https://3270font.s3.amazonaws.com/3270_sample.gif)
 
 A little bit of history
 -----------------------
@@ -27,9 +29,9 @@ If you are running Debian or Ubuntu and you don't want to mess with
 building your font files, you can simply `apt-get install fonts-3270`
 (It's available from the Debian
 (https://packages.debian.org/sid/fonts/fonts-3270) and Ubuntu
-(http://packages.ubuntu.com/focal/fonts-3270) package repos at
+(http://packages.ubuntu.com/impish/fonts-3270) package repos at
 https://packages.debian.org/sid/fonts/fonts-3270 and
-https://packages.ubuntu.com/focal/fonts/fonts-3270, although the
+https://packages.ubuntu.com/impish/fonts/fonts-3270, although the
 packaged version may not be the latest version, but it's good enough for
 most purposes.
 
@@ -37,8 +39,8 @@ On FreeBSD the font can be installed with `pkg install 3270font`.
 
 For those who don't have the luxury of a proper system-managed package,
 Adobe Type 1, TTF, OTF and WOFF versions are available for download on
-https://3270font.s3.amazonaws.com/3270_fonts_fba25eb.zip (although this
-URL may not always reflect the latest version).
+https://3270font.s3.amazonaws.com/3270_fonts_49eab4b.zip (although this
+URL may not always reflect the latest build or release).
 
 ![ASCII is so 60's](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/cyrillic.png)
@@ -94,6 +96,22 @@ In order to generate the sample image and the grids for FontForge,
 you'll need a Python 3 environment with PIL or pillow installed. The
 requirements.txt file lists everything you need to do it.
 
+If all you want is an easier way to provide feedback, you can use
+a container runtime, Docker, Podman, and etc, and use these make targets:
+
+  - ```make image``` - builds a local image with ```fontforge``` and ```make```
+  - ```make generate``` -  uses the local container image to run ```make font```
+
+
+Build Requirements
+------------------
+
+On Debian derived distros, you'll need Fontforge and python3-dev. On Red
+Hat ans similar distros, you'll need Fontforge and python3-devel. Since
+some packages will need to be compiled, you'll need a build system (GNU
+Make, a C compiler, etc).
+
+
 Screenshots
 -----------
 
@@ -105,6 +123,8 @@ https://3270font.s3.amazonaws.com/gnome-terminal.png)
 ![Konsole](https://3270font.s3.amazonaws.com/konsole.png)
 
 ![Terminator](https://3270font.s3.amazonaws.com/terminator.png)
+
+![urxvt](https://3270font.s3.amazonaws.com/urxvt.png)
 
 Known problems
 --------------
