@@ -1,5 +1,8 @@
-## current
+## v3.0.0
 
+- Set version to 3.0.0 because font metrics changed
+- Fix WOFF major version
+- Remove unnecessary Adobe XUID
 - Change width for semi-condensed and condensed versions
 - Add sample images for each font variation
 - Scale glyphs before making the bounding box narrower
