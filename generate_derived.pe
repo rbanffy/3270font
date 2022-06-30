@@ -40,8 +40,8 @@ Generate(build + "3270-Regular.svg")
 FontImage(build + "3270-Regular.png", [20, type_sample])
 
 SelectAll()
-Scale(91, 100) # Scales the glyphs to 91% of 1080 = 984
-SetWidth(984)
+Scale(90, 100) # Scales the glyphs to 90% of 1080 = 972
+SetWidth(972)
 RoundToInt()
 AddExtrema()
 SetFontNames("3270SemiCondensed", "IBM 3270 Semi-Condensed", "IBM 3270 Semi-Condensed")
@@ -54,8 +54,8 @@ Save(build + "3270_HQ_SemiCondensed.sfd")
 FontImage(build + "3270-SemiCondensed.png", [20, type_sample])
 
 SelectAll()
-Scale(99.187, 100) # 99.187% of 984 = 976
-SetWidth(976)
+Scale(90, 100) # 90% of 972 = 874
+SetWidth(874)
 RoundToInt()
 AddExtrema(1) # Force extrema to be added even if close to other points
 SetFontNames("3270Condensed", "IBM 3270 Condensed", "IBM 3270 Condensed")

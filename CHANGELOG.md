@@ -1,11 +1,12 @@
 ## current
 
+- Change width for semi-condensed and condensed versions
 - Add sample images for each font variation
 - Scale glyphs before making the bounding box narrower
 - Generate a ‘PfEd’ table and store glyph comments in the PS font
 - Change OTF flags - don't generate glyph map remove PS-related flag
 - Added building blocks for Kaypro octants
-- Fix ӗ, ⇵, ㄍ, 
+- Fix ӗ, ⇵, ㄍ, , p, n
 - Re-add Ogham bar
 - Added a social preview image
 - Added note to README on build dependencies
