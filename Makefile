@@ -140,6 +140,8 @@ upload: zip build/3270_sample.gif build/urxvt.png build/terminator.png build/xte
 		s3://3270font/ \
 		--acl public-read \
 		--storage-class REDUCED_REDUNDANCY
+	@aws s3 cp ${BUILD_DIR}/3270_sample.gif s3://3270font/ --acl public-read \
+		--storage-class REDUCED_REDUNDANCY
 ifeq ($(UNAME),Linux)
 	@aws s3 cp ${BUILD_DIR}/gnome-terminal.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
@@ -152,8 +154,6 @@ ifeq ($(UNAME),Linux)
 	@aws s3 cp ${BUILD_DIR}/urxvt.png s3://3270font/ --acl public-read \
 		--storage-class REDUCED_REDUNDANCY
 endif
-	@aws s3 cp ${BUILD_DIR}/3270_sample.gif s3://3270font/ --acl public-read \
-		--storage-class REDUCED_REDUNDANCY
 	@./clean_camo_cache.sh
 
 clean: ## Deletes all automatically generated files
