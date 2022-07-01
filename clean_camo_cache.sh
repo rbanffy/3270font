@@ -7,7 +7,7 @@ curl -s https://github.com/rbanffy/3270font/blob/\
 "$(git rev-parse --abbrev-ref HEAD)"\
 /README.md \
     | grep -F 'camo.githubusercontent.com/' \
-    | sed 's/\(^<p>.*href="\)//' \
+    | sed 's/\(.*href="\)//' \
     | sed 's/\(">.*\)//' \
     | while read -r i
 do

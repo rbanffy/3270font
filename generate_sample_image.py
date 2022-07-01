@@ -3,7 +3,7 @@
 Generate a sample rendering of the base font.
 """
 
-from PIL import Image, ImageColor, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageColor, ImageDraw, ImageFont
 
 SAMPLE_TEXT = (
     "ABCDEFHIJKLMNOP1234567890abcdefghijklmnop\"'$#!@{}[]()<>çéáÁÑÃÏ¡²³¤€¼½¾¥×"
@@ -13,21 +13,25 @@ CONFUSABLES = "bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O"
 LINE_COLOR = ImageColor.getrgb("#88f")
 TEXT_COLOR = ImageColor.getrgb("black")
 
-FONT_FILE = "./build/3270-Regular.ttf"
+FONT_FILES = (
+    "./build/3270-Regular.ttf",
+    "./build/3270-Regular.otf",
+    "./build/3270-Regular.woff",
+)
 
 
-def draw_sample():
+def draw_sample(font_file):
     HEIGHT = 500
     WIDTH = 800
     background = Image.new("RGBA", (WIDTH, HEIGHT), ImageColor.getrgb("white"))
     foreground = Image.new("RGBA", (WIDTH, HEIGHT), (255, 255, 255, 0))
     draw_b = ImageDraw.Draw(background)
     draw_f = ImageDraw.Draw(foreground)
-    label_font = ImageFont.truetype(FONT_FILE, size=15)
+    label_font = ImageFont.truetype(font_file, size=15)
 
     y = 0
     for size in range(15, 55, 5):
-        sample_font = ImageFont.truetype(FONT_FILE, size=size)
+        sample_font = ImageFont.truetype(font_file, size=size)
         offset = size * 0.7
         y += offset
         # Draw the background reference lines. Upper for the alpha ascender
@@ -41,11 +45,12 @@ def draw_sample():
         # Draw the text itself
         draw_f.text((20, y), SAMPLE_TEXT, TEXT_COLOR, font=sample_font)
 
+    draw_f.text((20, 480), font_file, TEXT_COLOR, font=label_font)
     return Image.alpha_composite(background, foreground)
 
 
-def draw_readability_test(blur_radius):
-    sample_font = ImageFont.truetype(FONT_FILE, size=30)
+def draw_readability_test(font_file, factor):
+    sample_font = ImageFont.truetype(font_file, size=30)
 
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
     draw = ImageDraw.Draw(img)
@@ -55,13 +60,25 @@ def draw_readability_test(blur_radius):
         TEXT_COLOR,
         font=sample_font,
     )
-    img = img.filter(ImageFilter.GaussianBlur(blur_radius))
+    img = img.resize((800 // factor, 35 // factor))
+    img = img.resize((800, 35), Image.NEAREST)
+
     return img
 
 
 if __name__ == "__main__":
-    sample = draw_sample()
-    for radius in range(6):
-        rt = draw_readability_test(radius)
-        sample.paste(rt, (0, 250 + 35 * radius))
-    sample.save("build/3270_sample.png")
+    samples = []
+    for font in FONT_FILES:
+        sample = draw_sample(font)
+        for factor in range(1, 6):
+            rt = draw_readability_test(font, factor)
+            sample.paste(rt, (0, 250 + 35 * factor))
+        samples.append(sample)
+    sample.save(
+        "build/3270_sample.gif",
+        format="GIF",
+        append_images=samples,
+        save_all=True,
+        duration=500,
+        loop=0,
+    )
