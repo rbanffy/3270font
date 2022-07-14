@@ -1,3 +1,8 @@
+## current
+
+- Simplify /
+- Set version to 3.0.1
+
 ## v3.0.0
 
 - Set version to 3.0.0 because font metrics changed
