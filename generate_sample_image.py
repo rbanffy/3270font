@@ -17,6 +17,12 @@ FONT_FILES = (
     "./build/3270-Regular.ttf",
     "./build/3270-Regular.otf",
     "./build/3270-Regular.woff",
+    "./build/3270SemiCondensed-Regular.ttf",
+    "./build/3270SemiCondensed-Regular.otf",
+    "./build/3270SemiCondensed-Regular.woff",
+    "./build/3270Condensed-Regular.ttf",
+    "./build/3270Condensed-Regular.otf",
+    "./build/3270Condensed-Regular.woff",
 )
 
 
@@ -61,7 +67,7 @@ def draw_readability_test(font_file, factor):
         font=sample_font,
     )
     img = img.resize((800 // factor, 35 // factor))
-    img = img.resize((800, 35), Image.NEAREST)
+    img = img.resize((800, 35), Image.Dither.NONE)
 
     return img
 
