@@ -105,10 +105,8 @@ ttftest: font ## Runs the minimal tests and verifies the ZIP file mentioned in t
 # 34 Bad 'CFF ' table
 # 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
 	fontlint ${BUILD_DIR}/3270-Regular.ttf
-	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
 	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
 	fontlint -w 2 -w 5 ${BUILD_DIR}/3270SemiCondensed-Regular.ttf
-	fontlint -w 2 ${BUILD_DIR}/3270Condensed-Regular.ttf
 
 # Verify if the README points to an existing ZIP file
 	@wget --spider $(shell grep -Eo \
