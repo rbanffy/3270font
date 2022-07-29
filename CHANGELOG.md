@@ -1,4 +1,4 @@
-## current
+## v3.0.1
 
 - Remove redundant tests in Makefile
 - Replace deprecated Resampling.NEAREST with Image.Dither.NONE
