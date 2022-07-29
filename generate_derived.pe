@@ -13,8 +13,12 @@ Select("uniE0FF")
 SelectMore("uniF0FF")
 DetachAndRemoveGlyphs()
 
-# Generate unencumbered version for distribution
+# Generate unencumbered version for "source" distribution
 Save(build + "3270_HQ_unencumbered.sfd")
+
+# Unlink all references prior to generating derived fonts
+SelectAll()
+UnlinkReference()
 
 # Remove UC 13 running man and pointing finger building helpers that are too wide
 Select("full_running_man")
