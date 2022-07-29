@@ -40,7 +40,7 @@ Generate(build + "3270-Regular.svg")
 FontImage(build + "3270-Regular.png", [20, type_sample])
 
 SelectAll()
-Scale(90, 100) # Scales the glyphs to 90% of 1080 = 972
+Scale(90, 100, 0, 0) # Scales the glyphs to 90% of 1080 = 972
 SetWidth(972)
 RoundToInt()
 AddExtrema()
@@ -54,7 +54,7 @@ Save(build + "3270_HQ_SemiCondensed.sfd")
 FontImage(build + "3270-SemiCondensed.png", [20, type_sample])
 
 SelectAll()
-Scale(90, 100) # 90% of 972 = 874
+Scale(90, 100, 0, 0) # 90% of 972 = 874
 SetWidth(874)
 RoundToInt()
 AddExtrema(1) # Force extrema to be added even if close to other points
