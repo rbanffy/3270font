@@ -1,5 +1,6 @@
 ## v3.0.1
 
+- Remove vertical metrics information
 - Change OS2WinAscent from 1626 to 1600 to match Ascent in General properties
 - Remove redundant tests in Makefile
 - Replace deprecated Resampling.NEAREST with Image.Dither.NONE
