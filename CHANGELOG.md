@@ -4,7 +4,7 @@
 - Change OS2WinAscent from 1626 to 1600 to match Ascent in General properties
 - Remove redundant tests in Makefile
 - Replace deprecated Resampling.NEAREST with Image.Dither.NONE
-- Fixes to ∄, dec_vt, 𝗞, ¶, £, ¢
+- Fixes to ∄, dec_vt, 𝗞, ¶, £, ¢, ╛, ╕
 - Simplify /, 𝟠, ➥, ➦
 - Set version to 3.0.1
 
