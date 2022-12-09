@@ -85,6 +85,6 @@ if __name__ == "__main__":
         format="GIF",
         append_images=samples,
         save_all=True,
-        duration=500,
+        duration=1000,
         loop=0,
     )
