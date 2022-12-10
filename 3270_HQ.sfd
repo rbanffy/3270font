@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1306332354
-ModificationTime: 1670630263
+ModificationTime: 1670630717
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -61,7 +61,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 10
-WinInfo: 1794 23 11
+WinInfo: 1886 23 11
 BeginPrivate: 1
 BlueValues 36 [98 106 950 954 1196 1196 1318 1318]
 EndPrivate
@@ -1363,8 +1363,8 @@ Encoding: 49 49 33
 Width: 1080
 VWidth: 0
 Flags: W
-HStem: 100 21G<476 596>
-VStem: 476 120<100 1108>
+HStem: 100 21G<489 609>
+VStem: 489 120<100 1108>
 LayerCount: 2
 Back
 Image2: image/png 144 0 1562.12 61.0352 61.0352
@@ -1374,16 +1374,16 @@ M,6r;%14!\!!!!.8Ou6I!!!!3!!!!A!<W<%!%"q^Z2ak)##Ium7J6?HJ:N14=pR"d!!!%A;GL-j
 EndImage2
 Fore
 SplineSet
-498 1296 m 2
- 510 1308 524 1316 538 1316 c 0
- 546 1316 558 1316 566 1312 c 0
- 590 1302 596 1282 596 1256 c 2
- 596 100 l 1
- 476 100 l 1
- 476 1108 l 1
- 284 912 l 1
- 200 990 l 1
- 498 1296 l 2
+511 1296 m 2
+ 523 1308 537 1316 551 1316 c 0
+ 559 1316 571 1316 579 1312 c 0
+ 603 1302 609 1282 609 1256 c 2
+ 609 100 l 1
+ 489 100 l 1
+ 489 1108 l 1
+ 297 912 l 1
+ 213 990 l 1
+ 511 1296 l 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -12307,7 +12307,7 @@ StartChar: uniFF11
 Encoding: 65297 65297 411
 Width: 1080
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 100 21G<476 596>
 VStem: 476 120<100 1108>
 LayerCount: 2
@@ -20930,7 +20930,7 @@ StartChar: uni2693
 Encoding: 9875 9875 719
 Width: 1080
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: 102 21G<488 608> 184 110<398.734 488> 880 120<236 488 608 828> 1344 116<483.863 614.1>
 VStem: 365 114<1209.04 1338.63> 488 120<102 194.125 296 880 1000 1119.69> 619 110<1209.65 1338.33>
 LayerCount: 2
@@ -35513,7 +35513,7 @@ StartChar: u1D7F7
 Encoding: 120823 120823 1317
 Width: 1080
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 100 21G<476 596>
 VStem: 476 120<100 1108>
 LayerCount: 2
@@ -35644,7 +35644,7 @@ StartChar: u1D7E3
 Encoding: 120803 120803 1327
 Width: 1080
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 100 21G<476 596>
 VStem: 476 120<100 1108>
 LayerCount: 2

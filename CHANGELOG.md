@@ -1,6 +1,6 @@
 ## current
 
-- Fix ⚓
+- Fix ⚓, 1
 - Set version to 3.0.2 and update copyright year
 
 ## v3.0.1
