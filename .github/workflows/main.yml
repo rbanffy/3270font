@@ -28,7 +28,7 @@ jobs:
       - name: Setup environment
         run: | 
           sudo apt install fontforge
-          sudo python3 -m pip install -r requirements.txt
+          sudo python3 -m pip install -r ci_requirements.txt
           
       # Runs a set of commands using the runners shell
       - name: Run the limited set of tests
