@@ -25,7 +25,6 @@ parser.add_argument("delta_y", type=float, default=250, help="Division height")
 args = parser.parse_args()
 
 if __name__ == "__main__":
-
     print("#", " ".join(sys.argv))
 
     print("Grid")
