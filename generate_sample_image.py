@@ -60,12 +60,7 @@ def draw_readability_test(font_file, factor):
 
     img = Image.new("RGB", (800, 35), ImageColor.getrgb("white"))
     draw = ImageDraw.Draw(img)
-    draw.text(
-        (25, 5),
-        CONFUSABLES,
-        TEXT_COLOR,
-        font=sample_font,
-    )
+    draw.text((25, 5), CONFUSABLES, TEXT_COLOR, font=sample_font)
     img = img.resize((800 // factor, 35 // factor))
     img = img.resize((800, 35), Image.Dither.NONE)
 
