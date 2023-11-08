@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """
-Generate a sample rendering of the base font.
+Generate sample renderings of the 3270 font
+
+The sample rendering is an animated GIF with all the different
+formats and styles of the font shown in sequence.
+
+The metrics rendering shows the font compared to the original,
+with the original at the default 14 points (set in x3270) and
+the SemiCondensed TrueType font at size 17.
 """
 
 from PIL import Image, ImageColor, ImageDraw, ImageFont
@@ -12,6 +19,10 @@ SAMPLE_TEXT = (
 CONFUSABLES = "bh 5S HX 6G AR kx gy gq Z2 Il 1l 1I OQ CG DO 0O"
 LINE_COLOR = ImageColor.getrgb("#88f")
 TEXT_COLOR = ImageColor.getrgb("black")
+
+X3270_SAMPLE_TEXT = (
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+)
 
 FONT_FILES = (
     "./build/3270-Regular.ttf",
@@ -67,7 +78,16 @@ def draw_readability_test(font_file, factor):
     return img
 
 
+def metrics_sample(size):
+    img = Image.open("x3270_sample.png")
+    font = ImageFont.truetype("build/3270SemiCondensed-Regular.ttf", size=17)
+    draw = ImageDraw.Draw(img)
+    draw.text((5, 15), X3270_SAMPLE_TEXT, fill="black", font=font)
+    return img
+
+
 if __name__ == "__main__":
+    # Generate samples
     samples = []
     for font in FONT_FILES:
         sample = draw_sample(font)
@@ -83,3 +103,6 @@ if __name__ == "__main__":
         duration=1000,
         loop=0,
     )
+
+    # Generate metrics sample
+    metrics_sample(17).save("build/3270_metrics.png")
