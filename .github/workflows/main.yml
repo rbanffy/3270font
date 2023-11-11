@@ -1,36 +1,31 @@
-# This is a basic workflow to help you get started with Actions
+name: Test font
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12']
+        os: [ubuntu-latest]
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ${{ matrix.os }}
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      - name: Setup environment
-        run: | 
-          sudo apt install fontforge
-          sudo python3 -m pip install -r ci_requirements.txt
-          
-      # Runs a set of commands using the runners shell
-      - name: Run the limited set of tests
-        run: |
-          make travistest
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install FontForge
+      run: apt-get install -y fontforge
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+    - name: make travistest target
+      run: |
+        make travistest
