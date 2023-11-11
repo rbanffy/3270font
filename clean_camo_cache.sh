@@ -11,6 +11,6 @@ curl -s https://github.com/rbanffy/3270font/blob/\
     | sed 's/\(">.*\)//' \
     | while read -r i
 do
-    echo Cleaning $i
+    echo "Cleaning $i"
     curl -X PURGE "$i"
 done
