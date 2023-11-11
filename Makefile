@@ -98,6 +98,7 @@ ttftest: font ## Runs the minimal tests and verifies the ZIP file mentioned in t
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
+	@shellcheck *.sh
 # Checks we may need to ignore
 # 2 Self-intersecting glyph
 # 5 Missing points at extrema
