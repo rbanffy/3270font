@@ -124,10 +124,13 @@ test: zip ttftest ## Runs more extensive tests
 # 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
 	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff2
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
+	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff2
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.otf
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.woff
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270Condensed-Regular.woff2
 
 fulltest: test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip

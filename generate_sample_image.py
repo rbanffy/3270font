@@ -17,12 +17,15 @@ FONT_FILES = (
     "./build/3270-Regular.ttf",
     "./build/3270-Regular.otf",
     "./build/3270-Regular.woff",
+    "./build/3270-Regular.woff2",
     "./build/3270SemiCondensed-Regular.ttf",
     "./build/3270SemiCondensed-Regular.otf",
     "./build/3270SemiCondensed-Regular.woff",
+    "./build/3270SemiCondensed-Regular.woff2",
     "./build/3270Condensed-Regular.ttf",
     "./build/3270Condensed-Regular.otf",
     "./build/3270Condensed-Regular.woff",
+    "./build/3270Condensed-Regular.woff2",
 )
 
 
