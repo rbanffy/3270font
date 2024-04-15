@@ -16,6 +16,7 @@ env
 .DS_Store
 .#*
 *#
+*.xcodeproj
 
 # The build directory
 build
