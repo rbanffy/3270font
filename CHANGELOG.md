@@ -1,5 +1,6 @@
 ## current
 
+- Added building blocks for detached sextants and quads
 - Add new glyphs to terminal rendering test
 - Fine tune heights for numbers and uppercase chars
 - Fix ⚓, 1
