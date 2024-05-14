@@ -11,7 +11,10 @@ boxes_and_misc = """
 └─┴┘╚═╩╝╙─╨╜╘═╧╛╰─┴╯ █████ ▐▄█▄▌ ◄►▲▼ ←→↑↓↕↨
 """
 
-composed_glyphs = "Composed glyphs: ÀÉI͂o̓N̈́AͅB̊͆Ȍ͇U͈D̈ẢB̊A̋ĎA̍J̎Ȁ" "1⃜2⃜3⃜4⃜5⃜6⃜7⃜8⃜9⃜0⃜\n"
+composed_glyphs = (
+    "Composed glyphs: ÀÉI͂o̓N̈́AͅB̊͆Ȍ͇U͈D̈ẢB̊A̋ĎA̍J̎Ȁ"
+    + "1⃜2⃜3⃜4⃜5⃜6⃜7⃜8⃜9⃜0⃜\n"
+)
 
 apl_set = (
     "The APL set: ⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋⍌⍍⍎⍏⍐⍑⍒⍓⍔⍕⍖⍗⍘⍙⍚⍛⍜⍝⍞⍟⍠⍡⍢⍣⍤⍥⍦⍧⍨⍩⍪⍫⍬⍭⍮⍯⍰⍱"

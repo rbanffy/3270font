@@ -1,9 +1,10 @@
 ## current
 
+- Add outlined capital latin letters, digits from 1ccd6 to 1ccf9
 - Added building blocks for detached sextants and quads
 - Add new glyphs to terminal rendering test
 - Fine tune heights for numbers and uppercase chars
-- Fix ⚓, 1
+- Fix ⚓, 1, ⍝, various sextants
 - Set version to 3.0.2 and update copyright year
 
 ## v3.0.1
