@@ -1,5 +1,6 @@
 ## current
 
+- Add separated sextants
 - Add outlined capital latin letters, digits from 1ccd6 to 1ccf9
 - Added building blocks for detached sextants and quads
 - Add new glyphs to terminal rendering test
