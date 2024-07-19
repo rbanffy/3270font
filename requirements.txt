@@ -8,3 +8,4 @@ gftools
 ipdb
 isort
 pip-chill
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
