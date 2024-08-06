@@ -33,45 +33,47 @@ help: ## Displays this message.
 
 all: font sample ## Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
 
-font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the SFD
+${BUILD_DIR}/3270_HQ_unencumbered.sfd ${BUILD_DIR}/3270-Regular.otf ${BUILD_DIR}/3270-Regular.g2n ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270-Regular.pfm ${BUILD_DIR}/3270-Regular.woff ${BUILD_DIR}/3270-Regular.woff2 ${BUILD_DIR}/3270-Regular.svg ${BUILD_DIR}/3270SemiCondensed-Regular.otf ${BUILD_DIR}/3270SemiCondensed-Regular.g2n ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.pfm ${BUILD_DIR}/3270SemiCondensed-Regular.woff ${BUILD_DIR}/3270SemiCondensed-Regular.woff2 ${BUILD_DIR}/3270SemiCondensed-Regular.svg ${BUILD_DIR}/3270_HQ_SemiCondensed.sfd ${BUILD_DIR}/3270Condensed-Regular.otf ${BUILD_DIR}/3270Condensed-Regular.g2n ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270Condensed-Regular.pfm ${BUILD_DIR}/3270Condensed-Regular.woff ${BUILD_DIR}/3270Condensed-Regular.woff2 ${BUILD_DIR}/3270Condensed-Regular.svg ${BUILD_DIR}/3270_HQ_Condensed.sfd: 3270_HQ.sfd
 	@$(MKDIR_P) ${BUILD_DIR}
 	@./generate_derived.pe 2> /dev/null >&2
+
+font: ${BUILD_DIR}/3270_HQ_unencumbered.sfd ${BUILD_DIR}/3270-Regular.otf ${BUILD_DIR}/3270-Regular.g2n ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270-Regular.pfm ${BUILD_DIR}/3270-Regular.woff ${BUILD_DIR}/3270-Regular.woff2 ${BUILD_DIR}/3270-Regular.svg ${BUILD_DIR}/3270SemiCondensed-Regular.otf ${BUILD_DIR}/3270SemiCondensed-Regular.g2n ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.pfm ${BUILD_DIR}/3270SemiCondensed-Regular.woff ${BUILD_DIR}/3270SemiCondensed-Regular.woff2 ${BUILD_DIR}/3270SemiCondensed-Regular.svg ${BUILD_DIR}/3270_HQ_SemiCondensed.sfd ${BUILD_DIR}/3270Condensed-Regular.otf ${BUILD_DIR}/3270Condensed-Regular.g2n ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270Condensed-Regular.pfm ${BUILD_DIR}/3270Condensed-Regular.woff ${BUILD_DIR}/3270Condensed-Regular.woff2 ${BUILD_DIR}/3270Condensed-Regular.svg ${BUILD_DIR}/3270_HQ_Condensed.sfd ## Generates the font files from the SFD
 	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
 
-sample: font build/3270_sample.gif
-
-build/3270_sample.gif:
+${BUILD_DIR}/3270_sample.gif: ${BUILD_DIR}/3270_HQ_unencumbered.sfd ${BUILD_DIR}/3270-Regular.otf ${BUILD_DIR}/3270-Regular.g2n ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270-Regular.pfm ${BUILD_DIR}/3270-Regular.woff ${BUILD_DIR}/3270-Regular.woff2 ${BUILD_DIR}/3270-Regular.svg ${BUILD_DIR}/3270SemiCondensed-Regular.otf ${BUILD_DIR}/3270SemiCondensed-Regular.g2n ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.pfm ${BUILD_DIR}/3270SemiCondensed-Regular.woff ${BUILD_DIR}/3270SemiCondensed-Regular.woff2 ${BUILD_DIR}/3270SemiCondensed-Regular.svg ${BUILD_DIR}/3270_HQ_SemiCondensed.sfd ${BUILD_DIR}/3270Condensed-Regular.otf ${BUILD_DIR}/3270Condensed-Regular.g2n ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270Condensed-Regular.pfm ${BUILD_DIR}/3270Condensed-Regular.woff ${BUILD_DIR}/3270Condensed-Regular.woff2 ${BUILD_DIR}/3270Condensed-Regular.svg
 	@./generate_sample_image.py
 
-build/urxvt.png: font
+sample: font ${BUILD_DIR}/3270_sample.gif
+
+${BUILD_DIR}/urxvt.png: ${BUILD_DIR}/3270-Regular.ttf
 ifeq ($(UNAME),Linux)
 	@urxvt -fn "xft:IBM3270:size=12" --geometry 80x25 -fg white \
 		-bg black -e ./test_font_rendering.sh urxvt
 endif
 
-build/terminator.png: font
+${BUILD_DIR}/terminator.png: ${BUILD_DIR}/3270-Regular.ttf
 ifeq ($(UNAME),Linux)
 	@terminator -p 3270font -e './test_font_rendering.sh terminator'
 endif
 
-build/xterm.png: font
+${BUILD_DIR}/xterm.png: ${BUILD_DIR}/3270-Regular.ttf
 ifeq ($(UNAME),Linux)
 	@xterm -fa 'IBM3270' -fs 12 -geometry 80x25 -e \
 		'./test_font_rendering.sh xterm'
 endif
 
-build/konsole.png: font
+${BUILD_DIR}/konsole.png: ${BUILD_DIR}/3270-Regular.ttf
 ifeq ($(UNAME),Linux)
 	@konsole -p font='IBM3270, 12' -e './test_font_rendering.sh konsole'
 endif
 
-build/gnome-terminal.png: font
+${BUILD_DIR}/gnome-terminal.png: ${BUILD_DIR}/3270-Regular.ttf
 ifeq ($(UNAME),Linux)
 	@gnome-terminal --profile='3270font-test' -q --geometry=80x25 \
 		-- sh -c './test_font_rendering.sh gnome-terminal'
 endif
 
-install: font ## Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX).
+install: ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ## Copies the generated OTF fonts into the system-appropriate folder (Ubuntu, Fedora, OSX).
 	@install -d $(DESTFOLDER)
 	@install ${BUILD_DIR}/3270Condensed-Regular.ttf \
 		${BUILD_DIR}/3270-Regular.ttf \
@@ -82,7 +84,7 @@ uninstall: ## Uninstalls the generated fonts
 		$(DESTFOLDER)/3270-Regular.ttf \
 		$(DESTFOLDER)/3270SemiCondensed-Regular.ttf
 
-zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
+zip: ${BUILD_DIR}/3270_HQ_unencumbered.sfd ${BUILD_DIR}/3270-Regular.otf ${BUILD_DIR}/3270-Regular.g2n ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270-Regular.pfm ${BUILD_DIR}/3270-Regular.woff ${BUILD_DIR}/3270-Regular.woff2 ${BUILD_DIR}/3270-Regular.svg ${BUILD_DIR}/3270SemiCondensed-Regular.otf ${BUILD_DIR}/3270SemiCondensed-Regular.g2n ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.pfm ${BUILD_DIR}/3270SemiCondensed-Regular.woff ${BUILD_DIR}/3270SemiCondensed-Regular.woff2 ${BUILD_DIR}/3270SemiCondensed-Regular.svg ${BUILD_DIR}/3270_HQ_SemiCondensed.sfd ${BUILD_DIR}/3270Condensed-Regular.otf ${BUILD_DIR}/3270Condensed-Regular.g2n ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270Condensed-Regular.pfm ${BUILD_DIR}/3270Condensed-Regular.woff ${BUILD_DIR}/3270Condensed-Regular.woff2 ${BUILD_DIR}/3270Condensed-Regular.svg ${BUILD_DIR}/3270_HQ_Condensed.sfd ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 	@zip -j ${BUILD_DIR}/3270_fonts_$(shell \
 		git rev-parse --short HEAD).zip \
 		${BUILD_DIR}/3270-Regular.* \
@@ -94,7 +96,7 @@ zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
-ttftest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
+ttftest: ${BUILD_DIR}/3270-Regular.ttf ${BUILD_DIR}/3270Condensed-Regular.ttf ${BUILD_DIR}/3270SemiCondensed-Regular.ttf ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py
@@ -124,8 +126,8 @@ test: zip ttftest ## Runs more extensive tests
 # 34 Bad 'CFF ' table
 # 98 Self-intersecting glyph (issue #2) when FontForge is able to correct this
 	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.otf
-	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff
-	fontlint -w 2 -w 98  ${BUILD_DIR}/3270-Regular.woff2
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.woff
+	fontlint -w 2 -w 98 ${BUILD_DIR}/3270-Regular.woff2
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.otf
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff
 	fontlint -w 2 -w 5 -w 98 ${BUILD_DIR}/3270SemiCondensed-Regular.woff2
@@ -136,7 +138,7 @@ test: zip ttftest ## Runs more extensive tests
 fulltest: test fbchecks ## Runs the full set of tests
 	@zip -T ${BUILD_DIR}/3270_fonts_*.zip
 
-upload: zip build/3270_sample.gif build/urxvt.png build/terminator.png build/xterm.png build/konsole.png build/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
+upload: zip ${BUILD_DIR}/3270_sample.gif ${BUILD_DIR}/urxvt.png ${BUILD_DIR}/terminator.png ${BUILD_DIR}/xterm.png ${BUILD_DIR}/konsole.png ${BUILD_DIR}/gnome-terminal.png ## Uploads the generated .zip and sample files to S3
 	@aws s3 cp ${BUILD_DIR}/3270_fonts_$(shell \
 		git rev-parse --short HEAD).zip \
 		s3://3270font/ \
@@ -165,7 +167,7 @@ clean: ## Deletes all automatically generated files
 	@$(RM) -rfv gfonts_files/3270condensed/*
 	@$(RM) -rfv gfonts_files/3270semicondensed/*
 
-cask: zip  ## Generate the font cask file (requires Homebrew)
+cask: zip ## Generate the font cask file (requires Homebrew)
 ifeq ($(UNAME),Darwin)
 	@${FONTCASKER} ${BUILD_DIR}/3270_fonts_$(shell git rev-parse --short HEAD).zip
 endif
