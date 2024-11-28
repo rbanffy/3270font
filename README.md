@@ -112,8 +112,8 @@ some packages will need to be compiled, you'll need a build system (GNU
 Make, a C compiler, etc).
 
 
-Screenshots
------------
+Type Specimen
+-------------
 
 ![xterm](https://3270font.s3.amazonaws.com/xterm.png)
 
@@ -125,6 +125,8 @@ https://3270font.s3.amazonaws.com/gnome-terminal.png)
 ![Terminator](https://3270font.s3.amazonaws.com/terminator.png)
 
 ![urxvt](https://3270font.s3.amazonaws.com/urxvt.png)
+
+![tatoo](https://3270font.s3.amazonaws.com/3270font-tatoo.jpg)
 
 Known problems
 --------------
