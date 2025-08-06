@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt install fontforge
+          sudo apt install -y fontforge
           python -m pip install --upgrade pip
           python -m pip install -r ci_requirements.txt
           
