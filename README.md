@@ -154,3 +154,8 @@ https://raw.githubusercontent.com/wiki/rbanffy/3270font/measurements_x3270_20.pn
 
 ![Gnome Terminal on Ubuntu 17.10](
 https://raw.githubusercontent.com/wiki/rbanffy/3270font/measurements_gnome_terminal.png)
+
+Stargazers over time
+--------------------
+
+[![Stargazers over time](https://starchart.cc/rbanffy/3270font.svg?variant=adaptive)](https://starchart.cc/rbanffy/3270font)
