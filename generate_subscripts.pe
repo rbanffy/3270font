@@ -1,0 +1,61 @@
+#!/usr/bin/env fontforge -lang=py -script
+#
+# Adds Unicode subscript digits U+2080..U+2089 to 3270_HQ.sfd by copying each
+# ASCII digit glyph, scaling it down, and dropping it to the subscript baseline.
+#
+# The digit outlines span ~y=98..1320 (height ~1222) on a 2000 unit/em body with
+# a 1080 unit monospace advance. Subscripts are scaled to ~60% and translated so
+# they sit slightly below the baseline, matching Unicode subscript conventions.
+#
+# Usage: fontforge -lang=py -script generate_subscripts.pe [input.sfd] [output.sfd]
+
+import sys
+import fontforge
+import psMat
+
+INPUT = sys.argv[1] if len(sys.argv) > 1 else "3270_HQ.sfd"
+OUTPUT = sys.argv[2] if len(sys.argv) > 2 else "3270_HQ.sfd"
+
+SCALE = 0.60
+# Vertical drop applied AFTER scaling about the origin (see design notes above).
+# Scaled digit bottom = 98*0.60 = ~59; we want it near y=-250 so the subscript
+# hangs just under the baseline: dy = -250 - 59 = ~-309.
+DY = -309
+
+DIGIT_NAMES = [
+    "zero", "one", "two", "three", "four",
+    "five", "six", "seven", "eight", "nine",
+]
+SUBSCRIPT_BASE = 0x2080  # U+2080 SUBSCRIPT ZERO
+
+f = fontforge.open(INPUT)
+advance = f["zero"].width  # monospace advance shared by all glyphs
+
+for i, digit in enumerate(DIGIT_NAMES):
+    codepoint = SUBSCRIPT_BASE + i
+    glyphname = "uni%04X" % codepoint
+
+    # Create (or reuse) the destination glyph slot.
+    dst = f.createChar(codepoint, glyphname)
+    dst.clear()
+
+    # Copy the digit outline in, then scale about origin and drop to baseline.
+    f.selection.select(digit)
+    f.copy()
+    f.selection.select(glyphname)
+    f.paste()
+
+    dst.transform(psMat.scale(SCALE, SCALE))
+    dst.transform(psMat.translate(0, DY))
+
+    # Re-center horizontally within the monospace advance.
+    xmin, _, xmax, _ = dst.boundingBox()
+    cur_center = (xmin + xmax) / 2.0
+    target_center = advance / 2.0
+    dst.transform(psMat.translate(target_center - cur_center, 0))
+
+    dst.width = advance
+    print("added %s (%s) bbox=%s width=%d" % (glyphname, digit, dst.boundingBox(), dst.width))
+
+f.save(OUTPUT)
+print("saved %s" % OUTPUT)
