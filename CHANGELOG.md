@@ -1,3 +1,8 @@
+## Unreleased
+
+- Added subscript digits ₀₁₂₃₄₅₆₇₈₉ (U+2080–U+2089), derived from the ASCII
+  digits scaled to ~60% and dropped to the subscript baseline
+
 ## v3.0.1
 
 - Remove redundant tests in Makefile
