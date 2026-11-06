@@ -63692,8 +63692,8 @@ Width: 2160
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 61 N 1 0 0 1 0 0 2
-Refer: 17 61 N 1 0 0 1 1080 0 2
+Refer: 17 61 N 1 0 0 1 120 0 2
+Refer: 17 61 N 1 0 0 1 960 0 2
 Validated: 1
 EndChar
 
@@ -63703,9 +63703,7 @@ Width: 3240
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 61 N 1 0 0 1 0 0 2
-Refer: 17 61 N 1 0 0 1 1080 0 2
-Refer: 17 61 N 1 0 0 1 2160 0 2
+Refer: 1096 8801 N 3 0 0 1 15 0 2
 Validated: 1
 EndChar
 

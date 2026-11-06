@@ -12,7 +12,9 @@ feature liga {
     sub equal greater by lig_implies;
     sub less less by lig_shiftleft;
     sub greater greater by lig_shiftright;
-    sub equal equal equal by lig_equiv;
+    lookup triple_equal {
+        sub equal equal equal by lig_equiv;
+    } triple_equal;
     sub equal equal by lig_equal;
     sub period period period by lig_ellipsis;
     sub period period by lig_range;

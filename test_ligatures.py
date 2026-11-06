@@ -2,6 +2,7 @@
 
 import unittest
 
+import uharfbuzz as hb
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib import TTFont
 
@@ -56,6 +57,10 @@ FONT_FILES = tuple(
     for family in ("3270", "3270SemiCondensed", "3270Condensed")
     for extension in ("otf", "ttf", "woff")
 )
+SHAPING_FONT_FILES = tuple(
+    f"build/{family}-Regular.ttf"
+    for family in ("3270", "3270SemiCondensed", "3270Condensed")
+)
 
 
 def ligature_substitutions(font):
@@ -88,6 +93,62 @@ def ligature_substitutions(font):
 
 
 class LigatureFontTest(unittest.TestCase):
+    def test_equal_ligatures_shape_as_complete_text_runs(self):
+        for filename in SHAPING_FONT_FILES:
+            with self.subTest(font=filename):
+                font = TTFont(filename)
+                glyph_order = font.getGlyphOrder()
+                with open(filename, "rb") as font_file:
+                    face = hb.Face(font_file.read())
+                hb_font = hb.Font(face)
+                hb_font.scale = (face.upem, face.upem)
+
+                for text, expected in (
+                    ("==", "lig_equal"),
+                    ("===", "lig_equiv"),
+                ):
+                    buffer = hb.Buffer()
+                    buffer.add_str(text)
+                    buffer.guess_segment_properties()
+                    hb.shape(hb_font, buffer, {"liga": True})
+                    shaped_glyphs = [
+                        glyph_order[info.codepoint]
+                        for info in buffer.glyph_infos
+                    ]
+                    self.assertEqual(
+                        shaped_glyphs,
+                        [expected],
+                        f"{text!r} must shape as {expected}",
+                    )
+                font.close()
+
+    def test_equal_ligature_art_is_compacted(self):
+        for filename in SHAPING_FONT_FILES:
+            with self.subTest(font=filename):
+                font = TTFont(filename)
+                glyph_set = font.getGlyphSet()
+                equal_pen = BoundsPen(glyph_set)
+                glyph_set["equal"].draw(equal_pen)
+                equal_width = equal_pen.bounds[2] - equal_pen.bounds[0]
+                cell_width = font["hmtx"].metrics["equal"][0]
+
+                for glyph, count in (("lig_equal", 2), ("lig_equiv", 3)):
+                    pen = BoundsPen(glyph_set)
+                    glyph_set[glyph].draw(pen)
+                    ligature_width = pen.bounds[2] - pen.bounds[0]
+                    unligated_width = equal_width + cell_width * (count - 1)
+                    self.assertLess(ligature_width, unligated_width)
+                font.close()
+
+    def test_triple_equal_has_three_horizontal_bars(self):
+        for filename in SHAPING_FONT_FILES:
+            with self.subTest(font=filename):
+                font = TTFont(filename)
+                self.assertEqual(
+                    font["glyf"]["lig_equiv"].numberOfContours, 3
+                )
+                font.close()
+
     def test_generated_fonts_have_expected_ligatures(self):
         for filename in FONT_FILES:
             with self.subTest(font=filename):
