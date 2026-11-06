@@ -95,6 +95,7 @@ fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
 
 ttftest: font ## Runs the minimal tests and verifies the ZIP file mentioned in the README is present.
+	@python3 ./test_ligatures.py
 	@flake8 *.py
 	@isort --check-only *.py
 	@black --check -l79 *.py

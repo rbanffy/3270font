@@ -130,7 +130,7 @@ Grid
   Named: "1080"
 EndSplineSet
 TeXData: 1 0 0 566231 281018 187345 492831 1048576 187345 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114343 2230
+BeginChars: 1114370 2257
 
 StartChar: NameMe.1024
 Encoding: 1114112 -1 0
@@ -63578,6 +63578,298 @@ SplineSet
  539 800 l 5
  539 1200 l 5
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: lig_arrowright
+Encoding: 1114343 -1 2230
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 550 8594 N 1 0 0 1 540 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_arrowleft
+Encoding: 1114344 -1 2231
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 549 8592 N 1 0 0 1 540 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_implies
+Encoding: 1114345 -1 2232
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2125 8658 N 1 0 0 1 540 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_arrowboth
+Encoding: 1114346 -1 2233
+Width: 3240
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1074 8596 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_iff
+Encoding: 1114347 -1 2234
+Width: 3240
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2124 8656 N 1 0 0 1 1080 0 2
+Refer: 2125 8658 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_shiftright
+Encoding: 1114348 -1 2235
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 62 N 1 0 0 1 0 0 2
+Refer: 8 62 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_shiftleft
+Encoding: 1114349 -1 2236
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 60 N 1 0 0 1 0 0 2
+Refer: 9 60 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_equal
+Encoding: 1114350 -1 2237
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 61 N 1 0 0 1 0 0 2
+Refer: 17 61 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_equiv
+Encoding: 1114351 -1 2238
+Width: 3240
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 61 N 1 0 0 1 0 0 2
+Refer: 17 61 N 1 0 0 1 1080 0 2
+Refer: 17 61 N 1 0 0 1 2160 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_ellipsis
+Encoding: 1114352 -1 2239
+Width: 3240
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 46 N 1 0 0 1 0 0 2
+Refer: 50 46 N 1 0 0 1 1080 0 2
+Refer: 50 46 N 1 0 0 1 2160 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_range
+Encoding: 1114353 -1 2240
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 50 46 N 1 0 0 1 0 0 2
+Refer: 50 46 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_nullish
+Encoding: 1114354 -1 2241
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 63 N 1 0 0 1 0 0 2
+Refer: 24 63 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_optional
+Encoding: 1114355 -1 2242
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 63 N 1 0 0 1 0 0 2
+Refer: 50 46 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_ternary
+Encoding: 1114356 -1 2243
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 63 N 1 0 0 1 0 0 2
+Refer: 52 58 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_power
+Encoding: 1114357 -1 2244
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 191 42 N 1 0 0 1 0 0 2
+Refer: 191 42 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_assign
+Encoding: 1114358 -1 2245
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 52 58 N 1 0 0 1 0 0 2
+Refer: 17 61 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_or
+Encoding: 1114359 -1 2246
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 22 124 N 1 0 0 1 0 0 2
+Refer: 22 124 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_scope
+Encoding: 1114360 -1 2247
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 52 58 N 1 0 0 1 0 0 2
+Refer: 52 58 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_linecomment
+Encoding: 1114361 -1 2248
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 47 N 1 0 0 1 0 0 2
+Refer: 20 47 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_commentstart
+Encoding: 1114362 -1 2249
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 47 N 1 0 0 1 0 0 2
+Refer: 191 42 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_commentend
+Encoding: 1114363 -1 2250
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 191 42 N 1 0 0 1 0 0 2
+Refer: 20 47 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_increment
+Encoding: 1114364 -1 2251
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 53 43 N 1 0 0 1 0 0 2
+Refer: 53 43 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_decrement
+Encoding: 1114365 -1 2252
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 45 N 1 0 0 1 0 0 2
+Refer: 7 45 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_doubleexclamation
+Encoding: 1114366 -1 2253
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 25 33 N 1 0 0 1 0 0 2
+Refer: 25 33 N 1 0 0 1 1080 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_notequal
+Encoding: 1114367 -1 2254
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1095 8800 N 1 0 0 1 540 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_lessequal
+Encoding: 1114368 -1 2255
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1097 8804 N 1 0 0 1 540 0 2
+Validated: 1
+EndChar
+
+StartChar: lig_greaterequal
+Encoding: 1114369 -1 2256
+Width: 2160
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1098 8805 N 1 0 0 1 540 0 2
 Validated: 1
 EndChar
 EndChars

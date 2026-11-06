@@ -1,0 +1,32 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature liga {
+    sub less equal greater by lig_iff;
+    sub less hyphen greater by lig_arrowboth;
+    sub exclam equal by lig_notequal;
+    sub less equal by lig_lessequal;
+    sub greater equal by lig_greaterequal;
+    sub hyphen greater by lig_arrowright;
+    sub less hyphen by lig_arrowleft;
+    sub equal greater by lig_implies;
+    sub less less by lig_shiftleft;
+    sub greater greater by lig_shiftright;
+    sub equal equal equal by lig_equiv;
+    sub equal equal by lig_equal;
+    sub period period period by lig_ellipsis;
+    sub period period by lig_range;
+    sub question question by lig_nullish;
+    sub question period by lig_optional;
+    sub question colon by lig_ternary;
+    sub asterisk asterisk by lig_power;
+    sub colon equal by lig_assign;
+    sub bar bar by lig_or;
+    sub colon colon by lig_scope;
+    sub slash slash by lig_linecomment;
+    sub slash asterisk by lig_commentstart;
+    sub asterisk slash by lig_commentend;
+    sub plus plus by lig_increment;
+    sub hyphen hyphen by lig_decrement;
+    sub exclam exclam by lig_doubleexclamation;
+} liga;
