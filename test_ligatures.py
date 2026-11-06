@@ -2,6 +2,7 @@
 
 import unittest
 
+from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib import TTFont
 
 EXPECTED_LIGATURES = {
@@ -107,6 +108,21 @@ class LigatureFontTest(unittest.TestCase):
                     self.assertIn(glyph, glyph_order)
                 self.assertNotIn("lig_and", glyph_order)
                 self.assertNotIn(("ampersand", "ampersand"), substitutions)
+                glyph_set = font.getGlyphSet()
+                reference_pen = BoundsPen(glyph_set)
+                glyph_set["lig_implies"].draw(reference_pen)
+                reference_width = (
+                    reference_pen.bounds[2] - reference_pen.bounds[0]
+                )
+                for glyph in ("lig_arrowboth", "lig_iff"):
+                    pen = BoundsPen(glyph_set)
+                    glyph_set[glyph].draw(pen)
+                    glyph_width = pen.bounds[2] - pen.bounds[0]
+                    self.assertLessEqual(
+                        abs(glyph_width - reference_width),
+                        reference_width * 0.05,
+                        f"{glyph} width should match lig_implies",
+                    )
                 font.close()
 
 

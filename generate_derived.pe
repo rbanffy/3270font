@@ -7,6 +7,7 @@ Open("3270_HQ.sfd")
 MergeFeature("ligatures.fea")
 Select("lig_iff")
 SelectMore("lig_equiv")
+SelectMore("lig_arrowboth")
 UnlinkReference()
 RemoveOverlap()
 # Force fixed width
