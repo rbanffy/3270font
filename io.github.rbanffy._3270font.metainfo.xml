@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 The 3270font Project Authors (https://github.com/rbanffy/3270font) -->
+<component type="font">
+  <id>io.github.rbanffy._3270font</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>OFL-1.1</project_license>
+  <name>IBM 3270</name>
+  <summary>Monospaced font based on IBM 3270 terminals</summary>
+  <summary xml:lang="de">Monospace-Schriftart basierend auf IBM-3270-Terminals</summary>
+  <summary xml:lang="fr">Police monospace basée sur les terminaux IBM 3270</summary>
+  <summary xml:lang="es">Fuente monospace basada en terminales IBM 3270</summary>
+  <summary xml:lang="pt">Fonte monoespaçada baseada em terminais IBM 3270</summary>
+  <summary xml:lang="it">Carattere monospaziato basato sui terminali IBM 3270</summary>
+  <summary xml:lang="nl">Monospace-lettertype gebaseerd op IBM 3270-terminals</summary>
+  <summary xml:lang="ru">Моноширинный шрифт на основе терминалов IBM 3270</summary>
+  <summary xml:lang="uk">Моноширинний шрифт на основі терміналів IBM 3270</summary>
+  <summary xml:lang="pl">Czcionka monospace oparta na terminalach IBM 3270</summary>
+  <summary xml:lang="tr">IBM 3270 terminallerine dayalı monospace yazı tipi</summary>
+  <summary xml:lang="el">Γραμματοσειρά σταθερού πλάτους βασισμένη σε τερματικά IBM 3270</summary>
+  <summary xml:lang="sv">Monospace-teckensnitt baserat på IBM 3270-terminaler</summary>
+  <summary xml:lang="zh-CN">基于 IBM 3270 终端的等宽字体</summary>
+  <summary xml:lang="zh-TW">基於 IBM 3270 終端的等寬字型</summary>
+  <summary xml:lang="ja">IBM 3270 端末に基づく等幅フォント</summary>
+  <summary xml:lang="ko">IBM 3270 터미널 기반 고정폭 글꼴</summary>
+  <description>
+    <p>
+      This font is derived from the x3270 font, which, in turn, was translated
+      from the one in Georgia Tech's 3270tool, which was itself hand-copied
+      from a 3270 terminal.
+    </p>
+    <p xml:lang="de">
+      Diese Schriftart stammt von der x3270-Schriftart ab, die wiederum aus der
+      in Georgia Techs 3270tool enthaltenen übersetzt wurde, die ihrerseits von
+      einem 3270-Terminal per Hand kopiert wurde.
+    </p>
+    <p xml:lang="fr">
+      Cette police est dérivée de la police x3270, qui a elle-même été traduite
+      à partir de celle du 3270tool de Georgia Tech, copiée à la main depuis un
+      terminal 3270.
+    </p>
+    <p xml:lang="es">
+      Esta fuente se deriva de la fuente x3270, que a su vez se tradujo de la
+      contenida en el 3270tool de Georgia Tech, la cual fue copiada a mano de un
+      terminal 3270.
+    </p>
+    <p xml:lang="pt">
+      Esta fonte é derivada da fonte x3270, que por sua vez foi traduzida da
+      contida no 3270tool do Georgia Tech, a qual foi copiada à mão de um
+      terminal 3270.
+    </p>
+    <p xml:lang="it">
+      Questo carattere è derivato dal carattere x3270, che a sua volta è stato
+      tradotto da quello contenuto nel 3270tool del Georgia Tech, copiato a mano
+      da un terminale 3270.
+    </p>
+    <p xml:lang="nl">
+      Dit lettertype is afgeleid van het x3270-lettertype, dat op zijn beurt is
+      vertaald uit dat in Georgia Techs 3270tool, dat zelf met de hand is
+      gekopieerd van een 3270-terminal.
+    </p>
+    <p xml:lang="ru">
+      Этот шрифт происходит от шрифта x3270, который, в свою очередь, был
+      переведён из шрифта в 3270tool от Georgia Tech, а тот был скопирован вручную
+      с терминала 3270.
+    </p>
+    <p xml:lang="uk">
+      Цей шрифт походить від шрифту x3270, який, у свою чергу, був перекладений
+      зі шрифту у 3270tool від Georgia Tech, а той був скопійований вручну з
+      термінала 3270.
+    </p>
+    <p xml:lang="pl">
+      Ta czcionka pochodzi z czcionki x3270, która z kolei została przetłumaczona
+      z tej zawartej w 3270tool Georgia Tech, a ta z kolei została ręcznie
+      skopiowana z terminala 3270.
+    </p>
+    <p xml:lang="tr">
+      Bu yazı tipi, Georgia Tech'in 3270tool aracındaki yazı tipinden çevrilen
+      x3270 yazı tipinden türetilmiştir; o yazı tipi de bir 3270 terminalinden
+      elle kopyalanmıştır.
+    </p>
+    <p xml:lang="el">
+      Αυτή η γραμματοσειρά προέρχεται από τη γραμματοσειρά x3270, η οποία με τη
+      σειρά της μεταφράστηκε από αυτή που περιέχεται στο 3270tool του Georgia
+      Tech, η ίδια με τη σειρά της αντιγράφηκε χειροκίνητα από ένα τερματικό 3270.
+    </p>
+    <p xml:lang="sv">
+      Detta teckensnitt är härlett från teckensnittet x3270, som i sin tur
+      översattes från det som ingick i Georgia Techs 3270tool, som självt
+      kopierades för hand från en 3270-terminal.
+    </p>
+    <p xml:lang="zh-CN">
+      这款字体衍生自 x3270 字体，而 x3270 又译自佐治亚理工学院 3270tool 中的字体，后者本身是从一台 3270 终端上手工复制而来的。
+    </p>
+    <p xml:lang="zh-TW">
+      這款字型衍生自 x3270 字型，而 x3270 又譯自喬治亞理工學院 3270tool 中的字型，後者本身是從一台 3270 終端上手工複製而來的。
+    </p>
+    <p xml:lang="ja">
+      このフォントは x3270 フォントから派生しており、x3270 はジョージア工科大学の 3270tool に含まれていたフォントを元にしたもので、それ自体は 3270 端末から手作業で書き写されたものです。
+    </p>
+    <p xml:lang="ko">
+      이 글꼴은 x3270 글꼴에서 파생되었으며, x3270은 다시 조지아 공과대학교 3270tool의 글꼴을 옮긴 것으로, 그 글꼴 자체는 3270 터미널에서 수작업으로 복사된 것입니다.
+    </p>
+    <p>
+      While looking reasonably close to its bitmap ancestors, this is a vector
+      font that looks good at any size. Its recommended use is, obviously, a
+      text terminal, same as nearly half a century ago.
+    </p>
+    <p xml:lang="de">
+      Obwohl sie ihren Bitmap-Vorfahren recht ähnlich sieht, ist dies eine
+      Vektorschrift, die in jeder Größe gut aussieht. Ihre empfohlene
+      Verwendung ist natürlich ein Textterminal, genau wie vor fast einem halben
+      Jahrhundert.
+    </p>
+    <p xml:lang="fr">
+      Bien qu'elle ressemble raisonnablement à ses ancêtres bitmap, il s'agit
+      d'une police vectorielle qui s'affiche bien à toutes les tailles. Son
+      utilisation recommandée est évidemment un terminal texte, comme il y a
+      près d'un demi-siècle.
+    </p>
+    <p xml:lang="es">
+      Aunque se parece razonablemente a sus antecesores bitmap, se trata de una
+      fuente vectorial que se ve bien en cualquier tamaño. Su uso recomendado es,
+      obviamente, una terminal de texto, igual que hace casi medio siglo.
+    </p>
+    <p xml:lang="pt">
+      Embora se pareça razoavelmente com seus ancestrais bitmap, esta é uma fonte
+      vetorial que fica bem em qualquer tamanho. Seu uso recomendado é,
+      obviamente, um terminal de texto, como há quase meio século.
+    </p>
+    <p xml:lang="it">
+      Sebbene assomigli ragionevolmente ai suoi antenati bitmap, si tratta di un
+      carattere vettoriale che si vede bene a qualsiasi dimensione. Il suo uso
+      consigliato è ovviamente un terminale di testo, come quasi mezzo secolo fa.
+    </p>
+    <p xml:lang="nl">
+      Hoewel het redelijk veel lijkt op zijn bitmap-voorouders, is dit een
+      vectorlettertype dat er in elke maat goed uitziet. Het aanbevolen gebruik
+      is natuurlijk een tekstterminal, net als bijna een halve eeuw geleden.
+    </p>
+    <p xml:lang="ru">
+      Хотя он выглядит достаточно похоже на свои растровые предки, это векторный
+      шрифт, который хорошо смотрится в любом размере. Его рекомендуемое
+      применение — очевидно, текстовый терминал, так же, как и почти полвека
+      назад.
+    </p>
+    <p xml:lang="uk">
+      Хоча він виглядає досить схоже на свої растрові предки, це векторний шрифт,
+      який добре виглядає у будь-якому розмірі. Його рекомендоване застосування —
+      очевидно, текстовий термінал, так само, як і майже півстоліття тому.
+    </p>
+    <p xml:lang="pl">
+      Chociaż wygląda rozsądnie podobnie do swoich bitmapowych przodków, jest to
+      czcionka wektorowa, która dobrze wygląda w każdym rozmiarze. Jej zalecane
+      zastosowanie to oczywiście terminal tekstowy, tak jak prawie pół wieku temu.
+    </p>
+    <p xml:lang="tr">
+      Bitmap atalarına makul ölçüde benzer görünse de, bu, her boyutta iyi
+      görünen bir vektör yazı tipidir. Önerilen kullanımı, bariz şekilde, neredeyse
+      yarım yüzyıl önce olduğu gibi bir metin terminalidir.
+    </p>
+    <p xml:lang="el">
+      Αν και μοιάζει αρκετά με τους bitmap προγόνους της, πρόκειται για μια
+      διανυσματική γραμματοσειρά που φαίνεται καλά σε οποιοδήποτε μέγεθος. Η
+      προτεινόμενη χρήση της είναι προφανώς ένα τερματικό κειμένου, όπως πριν από
+      σχεδόν μισό αιώνα.
+    </p>
+    <p xml:lang="sv">
+      Även om det ser rimligt likt sina bitmap-förfäder ut, är detta ett
+      vektorteckensnitt som ser bra ut i alla storlekar. Dess rekommenderade
+      användning är självklart en textterminal, precis som för nästan ett halvt
+      sekel sedan.
+    </p>
+    <p xml:lang="zh-CN">
+      尽管在外观上与其位图前身相当接近，但这是一款矢量字体，在任何字号下都显示良好。其推荐用途显然是文本终端，与近半个世纪前一样。
+    </p>
+    <p xml:lang="zh-TW">
+      儘管在外觀上與其點陣前身相當接近，但這是一款向量字型，在任何字級下都顯示良好。其建議用途顯然是文字終端，與近半個世紀前一樣。
+    </p>
+    <p xml:lang="ja">
+      ビットマップの祖先にかなり近い外観を保ちつつも、これはどのサイズでもきれいに表示されるベクターフォントです。推奨される用途は、当然ながら約半世紀前と同じくテキスト端末です。
+    </p>
+    <p xml:lang="ko">
+      비트맵 조상과 상당히 비슷하게 보이지만, 이것은 어떤 크기에서도 잘 보이는 벡터 글꼴입니다. 권장 용도는 분명히 거의 반세기 전과 마찬가지로 텍스트 터미널입니다.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The IBM 3270 font used in GNU Emacs</caption>
+      <image type="source">https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in xterm</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/xterm.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in GNOME Terminal</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/gnome-terminal.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in Konsole</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/konsole.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in Terminator</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/terminator.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in urxvt</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/urxvt.png</image>
+    </screenshot>
+  </screenshots>
+  <provides>
+    <font>IBM 3270</font>
+    <font>IBM 3270 Condensed</font>
+    <font>IBM 3270 Semi-Condensed</font>
+  </provides>
+  <languages>
+    <lang>en</lang>
+    <lang>de</lang>
+    <lang>fr</lang>
+    <lang>es</lang>
+    <lang>pt</lang>
+    <lang>it</lang>
+    <lang>nl</lang>
+    <lang>ru</lang>
+    <lang>uk</lang>
+    <lang>pl</lang>
+    <lang>tr</lang>
+    <lang>el</lang>
+    <lang>sv</lang>
+  </languages>
+  <developer id="io.github.rbanffy">
+    <name>Ricardo Banffy</name>
+  </developer>
+  <url type="homepage">https://github.com/rbanffy/3270font</url>
+  <url type="bugtracker">https://github.com/rbanffy/3270font/issues</url>
+  <url type="vcs-browser">https://github.com/rbanffy/3270font</url>
+  <releases>
+    <release version="3.0.0" date="2022-07-01"/>
+    <release version="2.3.1" date="2021-10-08"/>
+    <release version="2.3.0" date="2021-03-07"/>
+  </releases>
+</component>

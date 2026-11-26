@@ -33,10 +33,10 @@ help: ## Displays this message.
 
 all: font sample ## Generates the TrueType, OpenType, Type-1, WebFont files and sample image."
 
-font: 3270_HQ.sfd fonts-3270.metainfo.xml ## Generates the font files from the SFD
+font: 3270_HQ.sfd io.github.rbanffy._3270font.metainfo.xml ## Generates the font files from the SFD
 	@$(MKDIR_P) ${BUILD_DIR}
 	@./generate_derived.pe 2> /dev/null >&2
-	@cp fonts-3270.metainfo.xml ${BUILD_DIR}
+	@cp io.github.rbanffy._3270font.metainfo.xml ${BUILD_DIR}
 
 sample: font build/3270_sample.gif
 
@@ -89,7 +89,7 @@ zip: font ## Creates the ZIP archive to be sent to S3 (the 'binary build')
 		${BUILD_DIR}/3270SemiCondensed-Regular.* \
 		${BUILD_DIR}/3270Condensed-Regular.* \
 		LICENSE.txt \
-		fonts-3270.metainfo.xml
+		io.github.rbanffy._3270font.metainfo.xml
 
 fbchecks: font ## Runs the Font Bakery set of tests required by Google Fonts
 	@./fontbakery_checks.sh
