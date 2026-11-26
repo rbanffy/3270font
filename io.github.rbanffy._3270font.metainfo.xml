@@ -183,6 +183,32 @@
       비트맵 조상과 상당히 비슷하게 보이지만, 이것은 어떤 크기에서도 잘 보이는 벡터 글꼴입니다. 권장 용도는 분명히 거의 반세기 전과 마찬가지로 텍스트 터미널입니다.
     </p>
   </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The IBM 3270 font used in GNU Emacs</caption>
+      <image type="source">https://raw.githubusercontent.com/wiki/rbanffy/3270font/emacs.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in xterm</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/xterm.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in GNOME Terminal</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/gnome-terminal.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in Konsole</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/konsole.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in Terminator</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/terminator.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The IBM 3270 font in urxvt</caption>
+      <image type="source">https://3270font.s3.amazonaws.com/urxvt.png</image>
+    </screenshot>
+  </screenshots>
   <provides>
     <font>IBM 3270</font>
     <font>IBM 3270 Condensed</font>
